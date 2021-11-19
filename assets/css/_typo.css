@@ -5,6 +5,8 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 1;	
 	margin-top: 0;
 	margin-bottom: 20px;
+	font-weight: 600;
+	color: #2b2b2b;
 }
 h1,.fl-h1{
 	font-size: 47px;
