@@ -277,7 +277,9 @@ ul.ab-top-menu li:before,
 	background: #7a92d0;
 	border-color: #7a92d0;
 }
-
+.fl-blue-btn:hover{
+	color: #7a92d0;
+}
 
 
 
