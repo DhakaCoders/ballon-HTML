@@ -53,15 +53,20 @@ u{
 	font-weight: 700;
 	line-height: 1.1;
 	text-align: center;
-	padding: 15px 13px 16px;
+	padding: 15.3px 13px 16.3px;
 	border: 2px solid #fa5252;
 	text-transform: capitalize;
 	border-radius: 6px;
 	text-decoration: none;
 }
+.fl-transparent-btn,
 .fl-btn:hover{
 	background: transparent;
 	color: #fa5252;
+}
+.fl-transparent-btn:hover{
+	color: #FFFFFF;
+	background: #fa5252;
 }
 
 input[type=text],
