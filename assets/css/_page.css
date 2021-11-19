@@ -55,3 +55,28 @@
 .sec-entry-hdr-title{
 	text-align: center;
 }
+
+
+/*page intro sec*/
+.page-intro-sec{
+	padding-bottom: 55px;
+}
+.page-intro-sec-cntlr{
+	text-align: center;
+	max-width: 830px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.page-intro-sec-title{
+	margin-bottom: 25px;
+	font-size: ;
+}
+.page-intro-sec-desc p{
+	font-size: 30px;
+	line-height: 1.2;
+	color: #828282;
+}
+.page-intro-sec-desc p:last-child{
+	margin-bottom: 0;
+}
