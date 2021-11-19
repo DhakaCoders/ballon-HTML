@@ -43,31 +43,7 @@ i,em{
 u{
 	text-decoration: underline;
 }
-.fl-btn{
-	display: inline-block;
-	vertical-align: baseline;
-	min-width: 246px;
-	color: #FFFFFF;
-	background: #fa5252;
-	font-size: 21px;
-	font-weight: 700;
-	line-height: 1.1;
-	text-align: center;
-	padding: 15.3px 13px 16.3px;
-	border: 2px solid #fa5252;
-	text-transform: capitalize;
-	border-radius: 6px;
-	text-decoration: none;
-}
-.fl-transparent-btn,
-.fl-btn:hover{
-	background: transparent;
-	color: #fa5252;
-}
-.fl-transparent-btn:hover{
-	color: #FFFFFF;
-	background: #fa5252;
-}
+
 
 input[type=text],
 input[type=email],
@@ -271,6 +247,36 @@ ul.ab-top-menu li:before,
 	content: none!important;
 }
 
+
+.fl-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	min-width: 246px;
+	color: #FFFFFF;
+	background: #fa5252;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1.1;
+	text-align: center;
+	padding: 15.3px 13px 16.3px;
+	border: 2px solid #fa5252;
+	text-transform: capitalize;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.fl-transparent-btn,
+.fl-btn:hover{
+	background: transparent;
+	color: #fa5252;
+}
+.fl-transparent-btn:hover{
+	color: #FFFFFF;
+	background: #fa5252;
+}
+.fl-blue-btn{
+	background: #7a92d0;
+	border-color: #7a92d0;
+}
 
 
 
