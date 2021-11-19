@@ -70,13 +70,12 @@
 }
 .page-intro-sec-title{
 	margin-bottom: 25px;
-	font-size: ;
 }
 .page-intro-sec-desc p{
 	font-size: 30px;
 	line-height: 1.2;
 	color: #828282;
 }
-.page-intro-sec-desc p:last-child{
+.page-intro-sec-desc p:last-of-type{
 	margin-bottom: 0;
 }

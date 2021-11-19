@@ -1,0 +1,32 @@
+.how-it-works-cat-grid-item-sec{
+	background: #fff0f0;
+	position: relative;
+	padding-top: 42px;
+	padding-bottom: 35px;
+}
+.how-it-works-top-cloud{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+	/* width: 1920px; */
+	height: 100%;
+	background-repeat: no-repeat;
+}
+.how-it-works-cat-grids-cntlr{
+	display: flex;
+}
+.how-it-works-cat-grids-cntlr{
+	margin: 0 -31px;
+}
+.how-it-works-cat-grid-item{
+	padding: 0 31px;
+	width: 33%;
+}
+.how-it-works-cat-grid-item-cntlr{
+	background: #fff;
+	padding: 20px;
+	position: relative;
+	z-index: 99;
+}
