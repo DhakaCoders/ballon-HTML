@@ -45,3 +45,13 @@
 .sitemap ol li a:focus{
 	text-decoration: underline;
 }
+
+
+/* sec entry hdr */
+
+.sec-entry-hdr{
+	padding-bottom: 30px;
+}
+.sec-entry-hdr-title{
+	text-align: center;
+}
