@@ -29,9 +29,44 @@ body {
     line-height: 24px;
     font-family: 'Inter', sans-serif;
 }
+/*font-family: 'MyriadPro-Regular';*/
 p{
 	line-height: 1.3;
 	margin-bottom: 15px;
+}
+strong,b{
+	font-weight: 700;
+}
+i,em{
+	font-style: italic;
+}
+u{
+	text-decoration: underline;
+}
+.fl-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	min-width: 246px;
+	color: #FFFFFF;
+	background: #fa5252;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1.1;
+	text-align: center;
+	padding: 15.3px 13px 16.3px;
+	border: 2px solid #fa5252;
+	text-transform: capitalize;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.fl-transparent-btn,
+.fl-btn:hover{
+	background: transparent;
+	color: #fa5252;
+}
+.fl-transparent-btn:hover{
+	color: #FFFFFF;
+	background: #fa5252;
 }
 
 input[type=text],
@@ -126,7 +161,7 @@ Containers
 
 
 .page-body-cntlr{
-	max-width: 1920px; 
+	max-width: 1600px; 
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
