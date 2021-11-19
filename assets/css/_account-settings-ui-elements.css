@@ -86,3 +86,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.full-width-btn{
+	width: 100%;
+	margin-left:0!important;
+	margin-right:0!important;
+}
+.myaccount-setting-form .submint-btn{
+	margin:0 -10px;
+}
