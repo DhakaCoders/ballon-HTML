@@ -53,7 +53,7 @@
 
 /* -------------- form css ------------ */
 
-.input-fields-row .input-field-col textarea,
+/*.input-fields-row .input-field-col textarea,
 .input-fields-row .input-field-col input[type="text"],
 .input-fields-row .input-field-col input[type="number"],
 .input-fields-row .input-field-col input[type="email"]{
@@ -66,7 +66,7 @@
 .input-fields-row .input-field-col textarea{
 	height:189px;
 	display: block;
-}
+}*/
 .form-title{
     font-weight: 700;
     color:#000000;
