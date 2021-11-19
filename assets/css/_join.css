@@ -64,6 +64,7 @@
 	height: 189px!important;
 	resize: none;
 }
+.input-field-col textarea:focus,
 .input-field-col input:focus{
 	border-color: #2b2b2b;
 }
