@@ -247,7 +247,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 /*start of Noyon*/
-
+  $('.bln-accordion-hdr').on('click', function(){
+    $(this).toggleClass('active');
+    $(this).parents('.bln-accordion-menu').siblings().find('.bln-accordion-hdr').removeClass('active');
+    $(this).parents('.bln-accordion-menu').find('.bln-accordion-des').slideToggle(300);
+    $(this).parents('.bln-accordion-menu').siblings().find('.bln-accordion-des').slideUp(300);
+  });
 
 
 
