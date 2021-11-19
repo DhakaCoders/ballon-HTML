@@ -4,7 +4,7 @@
 	<title>Home</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme-color" content="#EE3E15">
+  <meta name="theme-color" content="#fa5252">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
@@ -38,6 +38,7 @@
 </head>
 <body>
 <div class="page-body-cntlr">
+  <div class="bdoverlay"></div>
   <header class="header">
     <div class="container">
       <div class="row">
@@ -51,21 +52,74 @@
             <div class="hdr-rgt">
               <nav class="main-nav">
                 <ul class="clearfix reset-list">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li class="current-menu-item"><a href="#">Explore</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Hire</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">submenu 1</a></li>
+                      <li><a href="#">submenu 2</a></li>
+                      <li><a href="#">submenu 3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Login</a></li>
+                  <li class="join"><a href="#">Join</a></li>
                 </ul>
               </nav>
+            </div>
+            <div class="hamburgar-cntlr show-md">
+              <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </header>
+
+  <div class="xs-mobile-menu d-none">
+    <div class="xs-menu">
+      <nav class="main-nav">
+        <ul class="clearfix reset-list">
+          <li class="current-menu-item"><a href="#">Explore</a></li>
+          <li><a href="#">Hire</a></li>
+          <li><a href="#">Login</a></li>
+          <li class="join"><a href="#">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- end of header -->
+
+
+  <section class="hm-page-banner" style="background-image: url('assets/images/hm-page-bnr.png');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="hm-page-bnr-des-ctlr">
+            <div class="hm-page-bnr-des">
+              <h1 class="hm-page-bnr-title fl-h1">Looking for professionals?</h1>
+              <h2 class="hm-page-bnr-subtitle fl-h3">Find or post a job listing for your project.</h2>
+              <form>
+                <div class="hm-page-bnr-input-row input-row-1">
+                  <input type="text" name="">
+                </div>
+                <div class="hm-page-bnr-input-row input-row-2">
+                  <input type="text" name="">
+                </div>
+                <div class="hm-page-bnr-btn">
+                  <input type="submit" name="" value="Search">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="main-content">
     <div class="container">
@@ -80,9 +134,7 @@
     </div>    
   </section>
 
-  <ol>
-    <li class="facebook"><a href="#"></a></li>
-  </ol>
+ 
 
   <footer class="footer-wrp">
     <div class="container">
