@@ -34,6 +34,27 @@ p{
 	margin-bottom: 15px;
 }
 
+.fl-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	min-width: 246px;
+	color: #FFFFFF;
+	background: #FB5E24;
+	font-size: 12px;
+	font-family: 'Museo-Sans-700';
+	line-height: 1.1;
+	text-align: center;
+	padding: 13px 13px 12px;
+	border: 1px solid #FB5E24;
+	text-transform: uppercase;
+	border-radius: 18px;
+	text-decoration: none;
+}
+.fl-btn:hover{
+	background: transparent;
+	color: #FB5E24;
+}
+
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -126,7 +147,7 @@ Containers
 
 
 .page-body-cntlr{
-	max-width: 1920px; 
+	max-width: 1600px; 
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
