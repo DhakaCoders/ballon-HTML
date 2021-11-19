@@ -1,0 +1,88 @@
+.my-account-sec-cntlr{
+	display: flex;
+}
+.myaccount-navigation {
+    width: 25.64%;
+    padding-left: 30px;
+}
+.myaccount-content {
+    width: 74.35%;
+    border-bottom: 18px solid #7a92d0;
+    box-shadow: 0 0 36px -21px #000;
+    -moz-box-shadow: 0 0 36px -21px #000;
+    -webkit-box-shadow: 0 0 36px -21px #000;
+    border-radius: 11px;
+    padding:30px 34px;
+}
+.my-account-title{
+    font-family: 'Inter', sans-serif;
+	font-weight:700;
+	text-transform: capitalize;
+}
+.myaccount-title-cntlr{
+    margin-bottom: 40px;
+}
+.myaccount-menu{
+    margin-bottom: 25px;
+}
+.myaccount-menu ul{
+
+}
+.myaccount-menu ul li{
+
+}
+.myaccount-menu ul li a,
+.logout-link a{
+    display: inline-block;
+    font-weight: 500;
+    color: #2b2b2b;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size:18px;
+    text-transform: capitalize;
+}
+.myaccount-menu ul li a.active{
+	color:#fa5252;
+	font-weight:600;
+}
+.logout-link a{
+	color:#fa5252;
+	font-weight:700;
+}
+
+
+/* -------------- form css ------------ */
+
+.input-fields-row .input-field-col textarea,
+.input-fields-row .input-field-col input[type="text"],
+.input-fields-row .input-field-col input[type="number"],
+.input-fields-row .input-field-col input[type="email"]{
+	width: 100%;
+	padding: 15px 16px;
+	border:none;
+	border:2px solid #c6c6c6;
+	border-radius:8px;
+}
+.input-fields-row .input-field-col textarea{
+	height:189px;
+	display: block;
+}
+.form-title{
+    font-weight: 700;
+    color:#000000;
+    text-transform: capitalize;
+}
+.subtitle{
+	color:#959595;
+	font-size:24px;
+	font-weight:600;
+	text-transform: capitalize;
+	margin-bottom:26px;
+	display:inline-block;
+}
+.input-field-wrapper {
+    
+    max-width: 518px;
+    margin-left: auto;
+    margin-right: auto;
+}
