@@ -60,6 +60,10 @@
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
+.input-field-col textarea{
+	height: 189px!important;
+	resize: none;
+}
 .input-field-col input:focus{
 	border-color: #2b2b2b;
 }
