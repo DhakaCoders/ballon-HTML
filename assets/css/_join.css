@@ -12,13 +12,13 @@
 	text-align: center;
 	margin-bottom: 24px;
 }
-form.join-form {
+.join-form {
     max-width: 518px;
     width: 100%;
     margin: 0 auto;
 }
 
-.submint-btn {
+.join-form .submint-btn {
     margin: 0 -7px;
 }
 
@@ -87,7 +87,7 @@ form.join-form {
     color: #2b2b2b!important;
     opacity:1;
 }
-.submint-btn button{
+.join-form .submint-btn button{
 	display: inline-block;
 	vertical-align: baseline;
 	min-width: 242px;
