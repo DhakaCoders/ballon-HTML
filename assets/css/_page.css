@@ -1,0 +1,47 @@
+.slick-slider ul.slick-dots{
+	position: static;
+	line-height: 0;
+	padding: 0 20px!important;
+}
+.slick-slider .slick-dots li{
+	width: 16px!important;
+	height: 16px!important;
+	position: static;
+	background: #E1E1E1!important;
+	border-radius: 100% 100%!important;
+	margin: 0 8px;
+	padding: 0!important;
+}
+.slick-slider .slick-dots li.slick-active,
+.slick-slider .slick-dots li:hover{
+	background: #F3BA4B!important;
+}
+.slick-slider .slick-dots li:before,
+.slick-slider .slick-dots li button:before{
+	content: none!important;
+}
+.slick-slider .slick-dots li button{
+	padding: 0;
+	width: 16px;
+	height: 16px;
+}
+
+.slick-dots li:only-child{ 
+	display: none; 
+}
+
+
+.sitemap{
+	padding: 50px 0 70px;
+}
+
+.sitemap ol li a{
+	color: #FF674D;
+}
+.sitemap ol li{
+	padding-left: 25px;
+}
+
+.sitemap ol li a:focus{
+	text-decoration: underline;
+}
