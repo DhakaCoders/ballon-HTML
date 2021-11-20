@@ -57,8 +57,18 @@
 .logout-link a{
 	color:#fa5252;
 	font-weight:700;
+	position: relative;
+	padding-right:23px;
 }
-
+.logout-link a:after {
+    content: '\f2f5';
+    position: absolute;
+    font-family: 'Font Awesome 5 Free';
+    right: 0;
+    font-size: 18px;
+    top: -1px;
+    color: #fa5252;
+}
 
 /* -------------- form css ------------ */
 
@@ -109,4 +119,40 @@
 }
 .submit-btn-50 button{
 	width:50%;
+}
+.input-field-col input[type="file"] {
+    opacity: 0;
+    z-index: 1;
+    position: relative;
+}
+.input-field-col label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    background: #fff;
+    border: 2px solid #cecece;
+    box-sizing: border-box;
+    padding: 17px 19px 20px 44px;
+    padding-right: 20px;
+    color: #2b2b2b;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 6px!important;
+    line-height: 1;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    cursor: pointer;
+    z-index: 22;
+}
+.input-field-wrapper-pd-50{
+	padding-bottom:50px;
+}
+.cursor-pointer input{
+	cursor:pointer;
 }
