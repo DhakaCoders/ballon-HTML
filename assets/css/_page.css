@@ -79,3 +79,36 @@
 .page-intro-sec-desc p:last-of-type{
 	margin-bottom: 0;
 }
+.how-it-works-cat-grid-item-cntlr i{
+	display: inline-block;
+	display: flex;
+    align-items: flex-end;
+    height: 66px;
+    margin: 25px;
+}
+.how-it-works-cat-grid-item-cntlr h6{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/*ul li*/
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+ul li{
+	padding-bottom: 20px;
+	padding-left: 23px;
+	position: relative;
+}
+ul li:after{
+	content: '';
+	background-image: url('../images/default-icn.png');
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	left: 0;
+	top: 0;
+	margin-top: 3.5px;
+}
