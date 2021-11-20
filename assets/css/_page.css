@@ -90,6 +90,7 @@ ul li{
 	padding-bottom: 20px;
 	padding-left: 23px;
 	position: relative;
+	line-height: 1.2;
 }
 ul li:before{
 	content: '';

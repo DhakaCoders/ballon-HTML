@@ -75,9 +75,9 @@
 }
 .prising-mnthly-cntlr,
 .prising-yearly-cntlr{
-	box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
-	-webkit-box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 27px -16px rgba(0,0,0,0.81);
+-webkit-box-shadow: 1px 2px 27px -16px rgba(0,0,0,0.81);
+-moz-box-shadow: 1px 2px 27px -16px rgba(0,0,0,0.81);
 	border-bottom: 18px solid #7a92d0;
 	border-radius: 10px;
 	padding: 25px 40px 19px 23px;
@@ -99,4 +99,13 @@
 	font-weight: 900;
 	padding-bottom: 22px;
 	
+}
+.prising-list {
+    min-height: 259px;
+     padding-bottom: 25px; 
+    display: flex;
+    /* align-items: center; */
+}
+.prising-list li:last-of-type{
+	padding-bottom: 0;
 }
