@@ -1,5 +1,11 @@
 header.header{
-	padding: 60px 0;
+	padding: 15px 0;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+body.home header.header{
+    border-bottom: none;
+    padding: 60px 0;
 }
 
 .header-inr{
@@ -7,6 +13,8 @@ header.header{
 	align-items: center;
 }
 .hdr-rgt{
+    display: flex;
+    align-items: center;
 	margin-left: auto;
 }
 
@@ -16,25 +24,16 @@ header.header{
 }
 
 
-nav.main-nav > ul > li.join a{
-	padding: 7px 20px;
-	background: #fa5252;
-	color: #fff;
-	border-radius: 10px;
-}
-nav.main-nav > ul > li.join a:hover{
-	background: #4f4f4f;
-	color: #fff;
-}
+
 nav.main-nav > ul{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-right: -17px;
-	margin-left: -17px;
+	margin-right: -2px;
+	margin-left: -2px;
 }
 nav.main-nav > ul > li{
-	padding: 0 17px;
+	padding: 0 2px;
 	position: relative;
 }
 nav.main-nav > ul > li > a{
@@ -44,7 +43,28 @@ nav.main-nav > ul > li > a{
 	font-weight: 500;
 	color: #4f4f4f;
 	text-decoration: none;
-	/*padding-bottom: 20px;*/
+    padding: 7px 15px;
+    text-transform: capitalize;
+}
+nav.main-nav > ul > li.menu-btn > a{
+    background: #fa5252;
+    border-radius: 10px;
+    color: #fff;
+    padding: 7px 35px;
+    position: relative;
+}
+nav.main-nav > ul > li.menu-btn > a i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+nav.main-nav > ul > li.menu-btn > a:hover{
+    background: #4f4f4f;
+    color: #fff;
 }
 
 nav.main-nav > ul > li.current-menu-item > a,
@@ -118,4 +138,30 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
     height: 100%;
+}
+
+
+
+.profile-ctlr{
+    margin-left: 18px;
+}
+.profile{
+    height: 58px;
+    width: 58px;
+    background: #ffd8d8;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile a img{
+    max-height: 45px;
+    width: auto;
 }
