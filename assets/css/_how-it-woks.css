@@ -17,6 +17,7 @@
 .how-it-works-cat-grids-cntlr{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .how-it-works-cat-grids-cntlr{
 	margin: 0 -28px;
