@@ -14,7 +14,7 @@
 .join-contant-title{
 	text-align: center;
 	margin-bottom: 24px;
-	font-weight: 700;
+	font-weight: 600;
 }
 .join-form {
     max-width: 518px;
@@ -46,15 +46,24 @@
 
 
 
-
+.input-fields-row {
+    display: flex;
+    flex-wrap: wrap;
+	margin: 0 -15px;
+}
 .input-field-col {
 	position: relative;
 	margin-bottom: 15px;
+	padding: 0 15px;
+	width: 100%;
+}
+.input-field-col.d2{
+	width: 50%;
 }
 .input-field-col span{
 	position: absolute;	
 	top: 50%;	
-	left: 16px;
+	left: 31px;
 	color: #2b2b2b;
 	font-size: 22px;
 	transform: translateY(-50%);
