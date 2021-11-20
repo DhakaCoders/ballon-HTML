@@ -28,6 +28,7 @@
     position: relative;
     padding: 0 0 0 30px;
     font-size:  16px;
+    display: inline-block;
 }
 .login-check-cntlr input[type="checkbox"]{
   position: absolute;
