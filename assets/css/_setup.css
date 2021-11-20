@@ -48,22 +48,17 @@
 	text-decoration: none;
 	color: #fa5252;
 }
-.setup-mgs span a:after{
-	position: absolute;
-	content: "\f1ea"!important;
-	color: #716A6A;
-	top: 5px;
-	right: 0;
-	font-family: "Font Awesome 5 Free";
-	font-size: 16px;
-	line-height: 16px;
-	display: inline-block;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
 .setup-mgs span a:hover{
 	color: #7a92d0;
+}
+.setup-mgs span a i{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	margin-top: 1px;
 }
 .setup-contant-sec .join-contant-cntlr{
 	padding-bottom: 19px;
