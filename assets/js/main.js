@@ -278,9 +278,25 @@ if( $('#sidebar').length ){
 
 
 /*start of Niaz*/
-
-
-
+if($('.tol-tip').length){
+  $('.tol-tip').mouseover(function(){
+    $('.tol-tip-des').css({
+      // "display":"block",
+      "z-index":"1",
+      "opacity":"1",
+      "transform":"translateY(0px)",
+      "transition":".2s"
+    })
+  })
+  $('.tol-tip').mouseout(function(){
+    $('.tol-tip-des').css({
+      "z-index":"-1111",
+      "opacity":"0",
+      // "display":"none",
+      "transform":"translateY(-10px)"
+    })
+  })
+}
 
 /*start of Zahir*/
 if($('.fancybox').length){

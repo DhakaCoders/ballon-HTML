@@ -3,6 +3,8 @@
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 11px;
+    position: relative;
+    padding-right: 34px;
 }
 .create-a-job-form .input-field-col input,
 .create-a-job-form .input-field-col textarea{
