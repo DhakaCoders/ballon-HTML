@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>how it works</title>
+   <title>how it works</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#fa5252">
@@ -51,15 +51,26 @@
             <div class="hdr-rgt">
               <nav class="main-nav">
                 <ul class="clearfix reset-list">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li class="current-menu-item"><a href="#">Explore</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Hire</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">submenu 1</a></li>
+                      <li><a href="#">submenu 2</a></li>
+                      <li><a href="#">submenu 3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Login</a></li>
+                  <li class="join"><a href="#">Join</a></li>
                 </ul>
               </nav>
+            </div>
+            <div class="hamburgar-cntlr show-md">
+              <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
           </div>
         </div>
@@ -72,17 +83,20 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="page-intro-sec-cntlr">
-                    <h2 class="fl-h2 page-intro-sec-tittle">How It Works For Professionals</h2>
-                    <p>
-                        Highlight your skills and experience, show your portfolio, 
-                        apply for jobs and access opportunities that come to you.
-                    </p>
+                    <h1 class="fl-h2 page-intro-sec-title">How It Works For Professionals</h1>
+                    <div class="page-intro-sec-desc">
+                        <p>
+                            Highlight your skills and experience, show your portfolio, 
+                            apply for jobs and access opportunities that come to you.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
   </section>
-  <section class="how-it-works-cat-grid-item-sec" style="background-image: url('assets/images/how-it-works-cat-bg.png');">
+  <section class="how-it-works-cat-grid-item-sec">
+    <span class="how-it-works-top-cloud" style="background-image: url('assets/images/how-it-works-cat-bg.png');"></span>
       <div class="container">
           <div class="row">
               <div class="col-md-12">
@@ -102,22 +116,22 @@
                           <div class="how-it-works-cat-grid-item">
                               <div class="how-it-works-cat-grid-item-cntlr">
                                   <i><img src="assets/images/how-cat-icon2.png"></i>
-                                  <h6 class="fl-h6">Review Leads</h6>
-                                  <ul class="">
-                                    <li>Create a profile for customers to view</li>
-                                    <li>View leads in your set local area</li>
-                                    <li>Get notified about new leads</li>
+                                  <h6 class="fl-h6">Pick The Best Jobs</h6>
+                                  <ul class="how-it-works-cat-item-list">
+                                    <li>Only see for best fitted jobs for you</li>
+                                    <li>View the customers job breif</li>
+                                    <li>Message your rate to get the job</li>
                                   </ul>
                               </div>
                           </div>
                           <div class="how-it-works-cat-grid-item">
                               <div class="how-it-works-cat-grid-item-cntlr">
                                   <i><img src="assets/images/how-cat-icon3.png"></i>
-                                  <h6 class="fl-h6">Review Leads</h6>
-                                  <ul class="">
-                                    <li>Create a profile for customers to view</li>
-                                    <li>View leads in your set local area</li>
-                                    <li>Get notified about new leads</li>
+                                  <h6 class="fl-h6">Get Hired & Grow</h6>
+                                  <ul class="how-it-works-cat-item-list">
+                                    <li>Get hired and arrange dates</li>
+                                    <li>No hidden fees - Keep 100%</li>
+                                    <li>Get reviews to display on your profile</li>
                                   </ul>
                               </div>
                           </div>
@@ -131,13 +145,18 @@
       <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <div class=" sec-entry-hdr pricing-plans-sec-entry-hdr">
+                    <h2 class="fl-h2 sec-entry-hdr-title">Pricing Plans</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
                 <div class="pricing-plans-sec-innr">
-                    <h2 class="fl-h2 pricing-plans-sec-title">Pricing Plans</h2>
+                    <!-- <h2 class="fl-h2 pricing-plans-sec-title">Pricing Plans</h2> -->
                     <div class="prising-mnthly-yearly">
-                        <div class="prising-mnthly">
+                        <div class="prising-mnthly-col-1 prising-col">
                             <div class="prising-mnthly-cntlr">
-                                <h5 class="fl-h5">Monthly</h5>
-                                <span>&pound;19.99</span>
+                                <h5 class="fl-h5 prising-title">Monthly</h5>
+                                <span class="price">&pound;19.99</span>
                                 <div class="prising-list">
                                     <ul>
                                         <li>Receive A Regular Flow Of Leads</li>
@@ -152,10 +171,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="prising-yearly">
+                        <div class="prising-yearly-col-1 prising-col">
                             <div class="prising-yearly-cntlr">
-                                <h5 class="fl-h5">Yearly</h5>
-                                <span>&pound;219.99</span>
+                                <h5 class="fl-h5 prising-title">Yearly</h5>
+                                <span class="price">&pound;219.99</span>
                                 <div class="prising-list">
                                     <ul>
                                         <li>Receive A Regular Flow Of Leads</li>
@@ -163,6 +182,7 @@
                                         <li>Showcase Reviews & Photos</li>
                                         <li>No Commission Fees</li>
                                         <li>24/7 Customer Service</li>
+                                        <li>Yearly Discount</li>
                                     </ul>
                                 </div>
                                 <div class="try-free-for-1-month-btn">
@@ -177,11 +197,70 @@
     </div>
   </section>
   <footer class="footer-wrp">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="ftr-col">
-            <div></div>
+    <div class="ftr-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="ftr-top-cntlr clearfix">
+              <div class="ftr-col ftr-col-01">
+                <h6 class="ftr-col-title fl-h6">Customers</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">How to use</a></li>
+                    <li><a href="#">Search professionals</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Hire</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ftr-col ftr-col-02">
+                <h6 class="ftr-col-title fl-h6">Professionals</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">Sign up as a Pro</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Resources</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ftr-col ftr-col-03">
+                <h6 class="ftr-col-title fl-h6">Support</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">Help Hub</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Satisfaction Guarantee</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ftr-col ftr-col-04">
+                <h6 class="ftr-col-title fl-h6">Contact Us</h6>
+                <div class="ftr-mail">
+                  <a href="mailto:hello@balloonn.com">hello@balloonn.com</a>
+                </div>
+                <div class="ftr-socials">
+                  <ul class="reset-list">
+                    <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ftr-btm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="ftr-btm-cntlr">
+              <div class="ftr-copyright">
+                <p>&copy; 2021 Balloonn. All Rights Reserved</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

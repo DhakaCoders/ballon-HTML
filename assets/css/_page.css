@@ -55,3 +55,52 @@
 .sec-entry-hdr-title{
 	text-align: center;
 }
+
+
+/*page intro sec*/
+.page-intro-sec{
+	padding-bottom: 55px;
+}
+.page-intro-sec-cntlr{
+	text-align: center;
+	max-width: 830px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.page-intro-sec-title{
+	margin-bottom: 25px;
+}
+.page-intro-sec-desc p{
+	font-size: 30px;
+	line-height: 1.2;
+	color: #828282;
+}
+.page-intro-sec-desc p:last-of-type{
+	margin-bottom: 0;
+}
+
+/*ul li*/
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+ul li{
+	padding-bottom: 20px;
+	padding-left: 23px;
+	position: relative;
+	line-height: 1.2;
+}
+ul li:before{
+	content: '';
+	background-image: url('../images/default-icn.png');
+	position: absolute;
+	height: 17px;
+	width: 17px;
+	left: 0;
+	top: 0;
+	margin-top: 3px;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+}

@@ -23,7 +23,7 @@
 
 /*start of Niaz*/
 @import url('_account-settings-ui-elements.css');
-
+@import url('_account-settings.css');
 
 
 /*start of Zahir*/
@@ -36,4 +36,5 @@
 @import url('_join.css');
 
 /*start of Momin*/
-
+@import url('_how-it-woks.css');
+@import url('_setup-pricing.css');
