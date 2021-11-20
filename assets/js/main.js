@@ -282,7 +282,8 @@ $('.service-lft-img').css('margin-right', rgtOffSet);
 
 
 /*start of Keshob*/
-
+$('.create-a-job-form select').select2();
+$('.select-2-cntlr').select2();
 
 /*start of Momin*/
 
