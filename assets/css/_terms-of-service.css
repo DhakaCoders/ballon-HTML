@@ -59,4 +59,12 @@
 	vertical-align: baseline;
 	margin-bottom: 30px;
 	font-size: 18px;
+	font-weight: 500;
+	color: #76787c;
+}
+.ts-page-content-inr p{
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 25px;
+	color: #000000;
 }
