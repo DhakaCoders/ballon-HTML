@@ -1,8 +1,8 @@
-.setup-pricing-created-account-sec{
+.setup-pricing-account-sec{
 	padding-top: 35px;
 	padding-bottom: 75px;
 }
-.setup-pricing-created-account-sec-cntlr{
+.setup-pricing-account-sec-cntlr{
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -14,17 +14,19 @@
 	border-radius: 10px;
 	padding: 50px 70px 38px;
 }
-.setup-pricing-created-account-sec .bl-pkg-grids-cntlr{
+.setup-pricing-account-sec .bl-pkg-grids-cntlr{
 	text-align: initial;
 	padding-bottom: 25px;
 }
-.setup-pricing-created-account-sec .try-free-for-1-month-btn{
+.setup-pricing-account-sec .try-free-btn{
 	padding-top: 20px;
 }
-.setup-pricing-created-account-sec .try-free-for-1-month-btn .fl-btn{
+.try-free-btn .fl-btn{
 	font-size: 17px;
+	padding: 14.3px 13px 13.3px;
+	min-width: 240px;
 }
-.setup-pricing-created-account-title-2{
+.setup-pricing-sub-heading-1{
 	color: #828282;
 	font-weight: 500;
 	margin-bottom: 40px;
@@ -32,7 +34,7 @@
 	position: relative;
 	padding-left: 43px;
 }
-.setup-pricing-created-account-title-2:before{
+.setup-pricing-sub-heading-1:before{
 	content: '';
 	position: absolute;
 	left: 0;
@@ -44,7 +46,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
-.setup-pricing-created-account-title-3{
+.setup-pricing-sub-heading-2{
 	font-size: 20px;
 	margin-bottom: 27px;
 }
