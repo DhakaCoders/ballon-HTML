@@ -8,6 +8,10 @@ body.home header.header{
     padding: 60px 0;
 }
 
+header.header.border-none{
+    border-bottom: none;
+}
+
 .header-inr{
 	display: flex;
 	align-items: center;
