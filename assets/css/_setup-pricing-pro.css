@@ -23,6 +23,8 @@
 }
 .try-free-btn .fl-btn{
 	font-size: 17px;
+	padding: 14.3px 13px 13.3px;
+	min-width: 240px;
 }
 .setup-pricing-sub-heading-1{
 	color: #828282;
