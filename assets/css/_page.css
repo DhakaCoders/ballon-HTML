@@ -233,3 +233,42 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     content: none!important;
     display: none!important;
 }
+
+
+
+
+
+
+
+.create-a-job-form .select2-container--default .select2-selection--single .select2-selection__rendered{
+    font-weight: 500;
+    height: 46px;
+    background: #fff;
+    border: 2px solid #008ed9;
+    box-sizing: border-box;
+    padding: 16px 16px 13px 22px;
+    color: #acacac!important;
+    font-size: 12px;
+    border-radius: 7px!important;
+    line-height: 1;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.create-a-job-form span.select2.select2-container.select2-container--default {
+    width: 100%!important;
+}
+.create-a-job-form select.select-2-cntlr.select2-hidden-accessible.xontact-custom-select {
+    width: 100%!important;
+}
+.create-a-job-form.contact-select-down-icon {
+    position: relative;
+}
+.create-a-job-form .select2-container {
+    height: 48px!important;
+}
+.create-a-job-form .select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 48px!important;
+}

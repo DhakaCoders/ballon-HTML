@@ -245,6 +245,7 @@
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	margin-bottom: 20px;
 }
 .explr-cntnt-srch-result p{
 	margin-bottom: 0;
@@ -267,4 +268,28 @@
 	font-weight: 600;
 	line-height: 1;
 	margin-bottom: 0;
+}
+
+.explr-company-items-cntlr{
+	padding: 0 12px;
+}
+.explr-company-item{
+	border: 2px solid #c6c6c6;
+	border-radius: 7px;
+	padding: 25px 16px 10px 14px;
+}
+.company-item-lft{
+	width: 23%;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
+}
+.company-item-rgt{
+	width: 77%;
+	padding-left: 15px;
+}
+.company-item-top{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 }
