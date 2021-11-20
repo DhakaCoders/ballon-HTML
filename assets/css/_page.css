@@ -242,19 +242,18 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 
 .create-a-job-form .select2-container--default .select2-selection--single .select2-selection__rendered{
     font-weight: 500;
-    height: 46px;
+    height: 60px;
     background: #fff;
-    border: 2px solid #008ed9;
+    border: 2px solid #cecece;
     box-sizing: border-box;
-    padding: 16px 16px 13px 22px;
-    color: #acacac!important;
-    font-size: 12px;
-    border-radius: 7px!important;
+    padding: 15px 35px 15px 16px;
+    color: #2b2b2b!important;
+    font-size: 21px;
+    border-radius: 6px!important;
     line-height: 1;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
 }
 .create-a-job-form span.select2.select2-container.select2-container--default {
@@ -266,9 +265,15 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .create-a-job-form.contact-select-down-icon {
     position: relative;
 }
+..create-a-job-form .select2-container--open .selection .select2-selection--single .select2-selection__rendered{
+    border-color: #2b2b2b!important;
+}
 .create-a-job-form .select2-container {
-    height: 48px!important;
+    height: 60px!important;
 }
 .create-a-job-form .select2-container--default .select2-selection--single .select2-selection__arrow{
-    height: 48px!important;
+    height: 60px!important;
+}
+.create-a-job-form .select2-selection__arrow:after{
+    right: 19px;
 }
