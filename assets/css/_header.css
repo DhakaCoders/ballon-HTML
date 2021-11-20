@@ -33,7 +33,7 @@ nav.main-nav > ul{
 	margin-left: -2px;
 }
 nav.main-nav > ul > li{
-	padding: 0 2px;
+	padding: 10px 2px;
 	position: relative;
 }
 nav.main-nav > ul > li > a{
@@ -160,8 +160,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 }
-.profile a img{
-    max-height: 45px;
-    width: auto;
-}
+
