@@ -1,4 +1,4 @@
-.how-it-works-cat-grid-item-sec{
+.how-it-works-grids-sec{
 	background: #fff0f0;
 	position: relative;
 	padding-top: 42px;
@@ -14,33 +14,34 @@
 	height: 100%;
 	background-repeat: repeat-x;
 }
-.how-it-works-cat-grids-cntlr{
+.how-it-works-grids-cntlr{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.how-it-works-cat-grids-cntlr{
+.how-it-works-grids-cntlr{
 	margin: 0 -28px;
 }
-.how-it-works-cat-grid-item{
+.how-it-works-grid-item{
 	padding: 0 28px;
 	width: 33%;
 }
-.how-it-works-cat-grid-item-cntlr{
+.how-it-works-grid-item-cntlr{
 	background: #fff;
 	padding: 15px;
 	position: relative;
 	z-index: 99;
 	border-radius: 10px;
 }
-.how-it-works-cat-grid-item-cntlr i{
+.how-it-works-grid-item-cntlr i{
 	display: inline-block;
-	display: flex;
-    align-items: flex-end;
-    height: 66px;
     margin-bottom: 25px;
 }
-.how-it-works-cat-grid-item-cntlr h6{
+.how-it-works-grid-item-cntlr i img{
+	max-height: 58px;
+	width: auto;
+}
+.how-it-works-grid-item-cntlr h6{
 	font-size: 20px;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -67,17 +68,14 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.prising-mnthly-yearly{
+.bl-pkg-grids-cntlr > ul{
 	display: flex;
+	margin: 0 -25px;
 }
-.prising-mnthly-yearly{
-	margin: 0 -35px;
+.bl-pkg-grid-item-col{
+	padding: 0 25px!important;
 }
-.prising-col{
-	padding: 0 35px;
-}
-.prising-mnthly-cntlr,
-.prising-yearly-cntlr{
+.bl-pkg-grid-item-cntlr{
 	box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
 	-webkit-box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
 	-moz-box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
@@ -85,14 +83,17 @@
 	border-radius: 10px;
 	padding: 25px 40px 19px 23px;
 }
-.try-free-for-1-month-btn{
+.fl-pkg-grd-ftr-btn{
 	text-align: center;
 }
-.try-free-for-1-month-btn .fl-btn{
+.fl-pkg-grd-ftr-btn .fl-btn{
 	font-size: 17px;
 }
-.prising-title{
+.bl-pkg-grd-hdr .prising-title{
 	margin-bottom: 15px;
+}
+.bl-pkg-grd-hdr{
+	padding-bottom: 22px;
 }
 .price{
 	display: inline-block;
@@ -100,15 +101,13 @@
 	font-size: 36px;
 	color: #fa5252;
 	font-weight: 900;
-	padding-bottom: 22px;
 	
 }
-.prising-list {
+.bl-pkg-grd-desc {
     min-height: 259px;
-     padding-bottom: 25px; 
+    padding-bottom: 25px; 
     display: flex;
-    /* align-items: center; */
 }
-.prising-list li:last-of-type{
+.bl-pkg-grd-desc li:last-of-type{
 	padding-bottom: 0;
 }

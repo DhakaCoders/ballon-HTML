@@ -72,13 +72,13 @@
 .page-intro-sec-title{
 	margin-bottom: 25px;
 }
-.page-intro-sec-desc p{
+.page-intro-sec-cntlr p{
 	font-size: 30px;
 	line-height: 1.2;
 	color: #828282;
 	font-weight: 500;
 }
-.page-intro-sec-desc p:last-of-type{
+.page-intro-sec-cntlr p:last-of-type{
 	margin-bottom: 0;
 }
 
@@ -102,7 +102,7 @@ ul li:before{
 	width: 17px;
 	left: 0;
 	top: 0;
-	margin-top: 3px;
+	margin-top: 1px;
 	background-repeat: no-repeat;
     background-size: 100% auto;
 }
