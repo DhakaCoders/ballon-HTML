@@ -1,13 +1,22 @@
 .my-account-sec-cntlr{
 	display: flex;
 }
+.my-account-setting-sec .myaccount-content-cntlr{
+	padding-bottom:163px;
+}
 .myaccount-navigation {
     width: 25.64%;
     padding-left: 30px;
 }
-.myaccount-content {
+.myaccount-content{
     width: 74.35%;
-    border-bottom: 18px solid #7a92d0;
+    padding-left:42px;
+    padding-right:44px;
+    padding-bottom:129px;
+    
+}
+.myaccount-content-cntlr{
+	border-bottom: 18px solid #7a92d0;
     box-shadow: 0 0 36px -21px #000;
     -moz-box-shadow: 0 0 36px -21px #000;
     -webkit-box-shadow: 0 0 36px -21px #000;
@@ -93,4 +102,11 @@
 }
 .myaccount-setting-form .submint-btn{
 	margin:0 -10px;
+}
+.submit-btn-50 {
+    margin: 0 -10px;
+    display: flex;
+}
+.submit-btn-50 button{
+	width:50%;
 }
