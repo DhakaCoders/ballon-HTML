@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Join</title>
+  <title>Create A Job</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#fa5252">
@@ -33,10 +33,10 @@
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->	
+  <![endif]-->  
 
 </head>
-<body class="home">
+<body>
 <div class="page-body-cntlr">
   <header class="header">
     <div class="container">
@@ -67,112 +67,96 @@
     </div>
   </header>
 
-
-  <div class="join-contant-sec">
+  <section class="my-account-sec">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="join-contant-cntlr">
-            <div class="join-contant-inner">
-              <div class="join-contant-title-cntlr">
-                <h1 class="fl-h2 join-contant-title">Join Balloonn</h1>
+          <div class="my-account-sec-cntlr">
+            <div class="myaccount-navigation">
+              <div class="myaccount-navigation-inner">
+                <div class="myaccount-title-cntlr">
+                  <h1 class="fl-h4 my-account-title">Create A Job</h1>
+                </div>
+                <nav class="myaccount-menu">
+                  <ul class="reset-list">
+                    <li><a href="#" class="active">Title</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Description</a></li>
+                    <li><a href="#">Tags</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Dates</a></li>
+                    <li><a href="#">Scope</a></li>
+                    <li><a href="#">Screening Question</a></li>
+                    <li><a href="#">Budget</a></li>
+                  </ul>
+                </nav>
               </div>
-              <form action="" class="join-form">
-                <div class="input-field-wrapper">
-                  <div class="input-fields-row">
-                    <div class="input-field-col">
-                      <span><i class="fas fa-user"></i></span>
-                      <input type="email" name="email" placeholder="Enter Email" required="">
+            </div>
+            <div class="myaccount-content">
+              <div class="myaccount-content-cntlr">
+                <form action="" class="myaccount-form create-a-job-form">
+
+                  <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="email">Title</label>
+                          <input type="email" id="email"placeholder="Write a title for your job post">
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="input-field-wrapper">
-                  <div class="submint-btn">
-                    <button type="submit">Join Now</button>
-                    <button type="submit">Join as a Pro</button>
+
+                  <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="email">Describe</label>
+                          <textarea name="" id="" placeholder="Describe your job"></textarea>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </form>
-            </div>
-            <div class="join-btm-contant">
-              <div class="join-mgs">
-                <span>Already have a Balloonn account?</span>
-              </div>
-              <div class="join-btm-btn-cntlr">
-                <a href="login.html" class="fl-btn">Login</a>
+
+                  <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="email">Location</label>
+                          <input type="email" id="email"placeholder="Start typing a postcode or address">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="email">Screening Questions</label>
+                          <input type="email" id="email"placeholder="Write a screening question(s) for pros to answer">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </div>    
+  </section>
+
+
 
   <footer class="footer-wrp">
-    <div class="ftr-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="ftr-top-cntlr clearfix">
-              <div class="ftr-col ftr-col-01">
-                <h6 class="ftr-col-title fl-h6">Customers</h6>
-                <div class="ftr-col-menu">
-                  <ul class="reset-list">
-                    <li><a href="#">How to use</a></li>
-                    <li><a href="#">Search professionals</a></li>
-                    <li><a href="#">Sign up</a></li>
-                    <li><a href="#">Hire</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="ftr-col ftr-col-02">
-                <h6 class="ftr-col-title fl-h6">Professionals</h6>
-                <div class="ftr-col-menu">
-                  <ul class="reset-list">
-                    <li><a href="#">Sign up as a Pro</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Resources</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="ftr-col ftr-col-03">
-                <h6 class="ftr-col-title fl-h6">Support</h6>
-                <div class="ftr-col-menu">
-                  <ul class="reset-list">
-                    <li><a href="#">Help Hub</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Use</a></li>
-                    <li><a href="#">Satisfaction Guarantee</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="ftr-col ftr-col-04">
-                <h6 class="ftr-col-title fl-h6">Contact Us</h6>
-                <div class="ftr-mail">
-                  <a href="mailto:hello@balloonn.com">hello@balloonn.com</a>
-                </div>
-                <div class="ftr-socials">
-                  <ul class="reset-list">
-                    <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="ftr-btm">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="ftr-btm-cntlr">
-              <div class="ftr-copyright">
-                <p>&copy; 2021 Balloonn. All Rights Reserved</p>
-              </div>
-            </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="ftr-col">
+            <div></div>
           </div>
         </div>
       </div>

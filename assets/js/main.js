@@ -8,6 +8,9 @@ $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
 
+
+$('.select-2-cntlr').select2();
+
 if( $('.hamburger-cntlr').length ){
   $('.hamburger-cntlr').click(function(){
     $('body').toggleClass('allWork');
@@ -257,6 +260,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 /*start of Shariful*/
+
+/*var windowWidth = $(window).width();*/
+var containerWidth = $('.container').width();
+var offset = (windowWidth - containerWidth);
+var rgtOffSet = (offset / 2);
+$('.service-lft-img').css('margin-right', rgtOffSet);
+
+
 
 
 

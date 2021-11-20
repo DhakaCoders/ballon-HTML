@@ -11,6 +11,7 @@
 
 
 /*start of Noyon*/
+@import url('_explore.css');
 
 
 
@@ -24,7 +25,7 @@
 /*start of Niaz*/
 @import url('_account-settings-ui-elements.css');
 @import url('_account-settings.css');
-
+@import url('_create-a-job.css');
 
 /*start of Zahir*/
 @import url('_pro-profile.css');
@@ -34,6 +35,8 @@
 
 /*start of Keshob*/
 @import url('_join.css');
+@import url('_login.css');
+@import url('_setup.css');
 
 /*start of Momin*/
 @import url('_how-it-woks-pro.css');

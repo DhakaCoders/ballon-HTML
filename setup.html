@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Join</title>
+	<title>Setup</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#fa5252">
@@ -68,38 +68,56 @@
   </header>
 
 
-  <div class="join-contant-sec">
+  <div class="join-contant-sec setup-contant-sec">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="join-contant-cntlr">
             <div class="join-contant-inner">
               <div class="join-contant-title-cntlr">
-                <h1 class="fl-h2 join-contant-title">Join Balloonn</h1>
+                <h1 class="fl-h2 join-contant-title">Login into Balloonn</h1>
               </div>
-              <form action="" class="join-form">
+              <form action="" class="setup-form">
                 <div class="input-field-wrapper">
                   <div class="input-fields-row">
-                    <div class="input-field-col">
+                    <div class="input-field-col d2">
                       <span><i class="fas fa-user"></i></span>
-                      <input type="email" name="email" placeholder="Enter Email" required="">
+                      <input type="email" name="email" placeholder="First Name" required="">
+                    </div>
+                    <div class="input-field-col d2">
+                      <span><i class="fas fa-user"></i></span>
+                      <input type="email" name="email" placeholder="Last Name" required="">
                     </div>
                   </div>
-                </div>
-                <div class="input-field-wrapper">
-                  <div class="submint-btn">
-                    <button type="submit">Join Now</button>
-                    <button type="submit">Join as a Pro</button>
+                  <div class="input-fields-row">
+                    <div class="input-field-col">
+                      <span><i class="fas fa-lock"></i></span>
+                      <input type="email" name="email" placeholder="Password" required="">
+                    </div>
+                  </div>
+                  <div class="input-fields-row">
+                    <div class="input-field-col">
+                      <span><i class="fas fa-map-marker"></i></span>
+                      <input type="email" name="email" placeholder="Postcode" required="">
+                    </div>
                   </div>
                 </div>
               </form>
             </div>
-            <div class="join-btm-contant">
-              <div class="join-mgs">
-                <span>Already have a Balloonn account?</span>
+            <div class="setup-btm-contant">
+              <div class="login-checkmark-cntlr">
+                <div class="login-check-cntlr">
+                  <input type="checkbox" id="des">
+                  <span class="checkmark"></span>
+                  <label for="des">I understand and confirm that you agree to our <br> 
+                  website <a href="#">terms of use</a> and our <a href="#">privacy policy</a>.</label>
+                </div>
               </div>
-              <div class="join-btm-btn-cntlr">
-                <a href="login.html" class="fl-btn">Login</a>
+              <div class="setup-btn-cntlr">
+                <a href="login.html" class="fl-btn">Continue</a>
+              </div>
+              <div class="setup-mgs">
+                <span>Already have a Balloonn account? <a href="#">Login<i class="fas fa-caret-right"></i></a></span>
               </div>
             </div>
           </div>

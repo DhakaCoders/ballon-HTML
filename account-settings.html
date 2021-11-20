@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Account Settings</title>
+  <title>Account Settings</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#fa5252">
@@ -33,7 +33,7 @@
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->	
+  <![endif]-->  
 
 </head>
 <body>
@@ -73,55 +73,96 @@
         <div class="col-md-12">
           <div class="my-account-sec-cntlr">
             <div class="myaccount-navigation">
-              <div class="myaccount-title-cntlr">
-                <h1 class="fl-h4 my-account-title">Account Settings</h1>
-              </div>
-              <nav class="myaccount-menu">
-                <ul class="reset-list">
-                  <li><a href="#" class="active">My Account</a></li>
-                  <li><a href="#">Personal Infomation</a></li>
-                  <li><a href="#">Privacy & Safety</a></li>
-                  <li><a href="#">Notifications</a></li>
-                </ul>
-              </nav>
-              <div class="logout-link">
-                <a href="#">Log Out</a>
+              <div class="myaccount-navigation-inner">
+                <div class="myaccount-title-cntlr">
+                  <h1 class="fl-h4 my-account-title">Account Settings</h1>
+                </div>
+                <nav class="myaccount-menu">
+                  <ul class="reset-list">
+                    <li><a href="#" class="active">My Account</a></li>
+                    <li><a href="#">Personal Infomation</a></li>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">Privacy & Safety</a></li>
+                    <li><a href="#">Public Profile</a></li>
+                    <li><a href="#">Notifications</a></li>
+                  </ul>
+                </nav>
+                <div class="logout-link">
+                  <a href="#">Log Out</a>
+                </div>
               </div>
             </div>
             <div class="myaccount-content">
               <div class="myaccount-content-cntlr">
                 <h2 class="form-title fl-h2">My Account</h2>
-                <strong class="subtitle">Bigger Text Box & Attachments</strong>
+                <strong class="subtitle">Personal Details</strong>
                 <form action="" class="myaccount-form myaccount-setting-form">
-                  <div class="input-field-wrapper">
+                  <div class="input-field-wrapper input-field-wrapper-pd-50">
+                    <div class="myaccount-profile">
+                      <div class="account-profile-right">
+                        <div class="myaccount-profile-image">
+                          <img src="assets/images/profile-image.png" alt="">
+                          <div class="add-profile-img">
+                            <label for="file"><span><i class="fas fa-pen"></i></span></label>
+                            <input type="file" id="file">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="account-profile-lft">
+                        <div class="myaccount-info">
+                          <div class="input-fields-row">
+                            <div class="input-field-col">
+                              <span><i class="fas fa-user"></i></span>
+                              <input type="text" placeholder="First Name">
+                            </div>
+                          </div>
+                          <div class="input-fields-row">
+                            <div class="input-field-col">
+                              <span><i class="fas fa-user"></i></span>
+                              <input type="text" placeholder="Last Name">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div class="input-fields-row">
                       <div class="input-field-col">
-                        <span><i class="fas fa-pen"></i></span>
-                        <textarea name="" placeholder="Write your description"></textarea>
+                        <span><i class="fas fa-envelope"></i></span>
+                        <input type="email" placeholder="Email">
                       </div>
                     </div>
                     <div class="input-fields-row">
-                      <div class="input-field-col cursor-pointer">
-                        <input type="file">
-                        <!-- <label for="file">Upload Photo</label> -->
-                      </div>
-                    </div>
-                    <div class="input-fields-row">
-                      <div class="input-field-col cursor-pointer">
-                        <input type="file">
-                        <!-- <label for="file">Upload Photo</label> -->
+                      <div class="input-field-col">
+                        <span><i class="fas fa-phone"></i></span>
+                        <input type="number" placeholder="Phone Number">
                       </div>
                     </div>
                   </div>
-                  <strong class="subtitle">Buttons</strong>
+                  <strong class="subtitle">Change Password</strong>
                   <div class="input-field-wrapper">
-                    <div class="submint-btn">
-                      <button type="submit" class="full-width-btn">Delete Account</button>
-                      <button type="submit" class="full-width-btn">Delete Account</button>
-                      <div class="submit-btn-50">
-                        <button type="submit">Delete Account</button>
-                      <button type="submit">Delete Account</button>
+                    <div class="input-fields-row">
+                      <div class="input-field-col">
+                        <span><i class="fas fa-lock"></i></span>
+                        <input type="password" placeholder="Current Password">
                       </div>
+                    </div>
+                    <div class="input-fields-row">
+                      <div class="input-field-col">
+                        <span><i class="fas fa-lock"></i></span>
+                        <input type="password" placeholder="New Password">
+                      </div>
+                    </div>
+                    <div class="input-fields-row">
+                      <div class="input-field-col">
+                        <span><i class="fas fa-lock"></i></span>
+                        <input type="password" placeholder="Confirm New Password">
+                      </div>
+                    </div>
+                  </div>
+                  <strong class="subtitle">Account Removal</strong>
+                  <div class="input-field-wrapper">
+                     <div class="submint-btn">
+                      <button type="submit" class="full-width-btn">Delete Account</button>
                     </div>
                   </div>
                 </form>
