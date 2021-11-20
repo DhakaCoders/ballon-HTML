@@ -79,10 +79,10 @@
 	right: 0;
 	bottom: 0;
 }
-.hm-page-bnr-input-field-row.input-col-1 input[type=text]:focus .hm-page-bnr-input-field-row.input-col-1 label{
+/*.hm-page-bnr-input-field-row.input-col-1 input[type=text]:focus .hm-page-bnr-input-field-row.input-col-1 label{
 	opacity: 0;
 	z-index: -9;
-}
+}*/
 .hm-page-bnr-input-field-row input[type=text]:focus{
 	border-color: #fa5252;
 }
@@ -172,10 +172,10 @@
 	border-radius: 10px;
 }
 .service-grd-item-img-ctlr{
-	width: 55%;
+	width: 50%;
 }
 .service-grd-item-des-ctlr{
-	width: 45%;
+	width: 50%;
 }
 
 .service-grd-item-img{
@@ -216,6 +216,8 @@
 }
 .service-grd-item-des ul li{
 	width: 50%;
+	padding-bottom: 8px;
+	padding-right: 20px;
 }
 
 
@@ -227,7 +229,7 @@
 	display: inline-block;
 	vertical-align: baseline;
 	padding: 5px 38px 5px 10px;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 600;
 	color: #fa5252;
 	background: #fedada;
@@ -239,11 +241,14 @@
 .service-grd-item-des-btn a i{
 	position: absolute;
 	top: 50%;
-	right: 10px;
+	right: 13px;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	font-size: 20px;
+	font-size: 18px;
+}
+.service-grd-item-des-btn a:hover i{
+	margin-right: -3px;
 }
 
 
@@ -261,12 +266,12 @@
 
 .hire-pro-intro-img{
 	order: 2;
-	width: 30%;
+	width: 40%;
 }
 .hire-professional-intro-des{
 	order: 1;
 	padding-right: 20px;
-	width: 70%;
+	width: 60%;
 }
 
 .hire-pro-grds{
@@ -286,6 +291,8 @@
 
 .hire-pro-grd-item-img{
 	margin-bottom: 30px;
+	max-width: 88px;
+	width: 100%;
 }
 
 .hire-pro-grd-item-des-title{
