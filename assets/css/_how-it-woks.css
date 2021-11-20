@@ -10,9 +10,9 @@
 	left: 0;
 	right: 0;
 	z-index: 9;
-	/* width: 1920px; */
+	width: 100%;
 	height: 100%;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 }
 .how-it-works-cat-grids-cntlr{
 	display: flex;
@@ -45,7 +45,7 @@
 	margin-bottom: 15px;
 }
 .how-it-works-cat-item-list li{
-	padding-bottom: 5px;
+	padding-bottom: 12px;
 	font-size: 15px;
 }
 .how-it-works-cat-item-list li:before{
@@ -77,9 +77,9 @@
 }
 .prising-mnthly-cntlr,
 .prising-yearly-cntlr{
-	box-shadow: 1px 2px 27px -16px rgba(0,0,0,0.81);
--webkit-box-shadow: 1px 2px 27px -16px rgba(0,0,0,0.81);
--moz-box-shadow: 1px 2px 27px -16px rgba(0,0,0,0.81);
+	box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
+	-webkit-box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
+	-moz-box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
 	border-bottom: 18px solid #7a92d0;
 	border-radius: 10px;
 	padding: 25px 40px 19px 23px;

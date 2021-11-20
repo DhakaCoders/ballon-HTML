@@ -75,6 +75,7 @@
 	font-size: 30px;
 	line-height: 1.2;
 	color: #828282;
+	font-weight: 500;
 }
 .page-intro-sec-desc p:last-of-type{
 	margin-bottom: 0;
