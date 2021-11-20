@@ -1,0 +1,103 @@
+.login-form .input-field-col {
+	margin-bottom: 12px;
+}
+.login-top-btn-cntlr{
+	max-width: 518px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.login-top-btn-cntlr a{
+	text-align: center;
+	min-width: 100%;
+	padding: 16px 13px 17px;
+}
+.login-btm-btn-cntlr{
+	text-align: center;
+}
+.login-btm-btn-cntlr a{
+	min-width: 215px;
+	margin: 0 10px;
+	font-size: 18px;
+	padding: 12.5px 13px 13.5px;
+}
+
+
+/*checkmark*/
+.login-check-cntlr{
+    position: relative;
+    padding: 0 0 0 30px;
+    font-size:  16px;
+    display: inline-block;
+}
+.login-check-cntlr input[type="checkbox"]{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  left: 8px;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  height: 15px!important;
+  width: 15px!important;
+  z-index: 1;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.login-check-cntlr span.checkmark{
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  height: 15px;
+  width: 15px;
+  background: transparent;
+  border: 1px solid #767875;
+  border-radius: 2px;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.login-check-cntlr span.checkmark::after{
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.login-check-cntlr span.checkmark:after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+.login-check-cntlr input:checked ~ .checkmark:after{
+  display: block;
+}
+.login-check-cntlr input:checked ~ .checkmark{
+  background: #767875;
+}
+.login-check-cntlr label{
+	color: #76787c;
+	margin-bottom: 0;
+	display: inline-block;
+	line-height: 1;
+	cursor: pointer;
+	font-weight: 400;
+}
+.login-form .login-checkmark-cntlr{
+	max-width: 518px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+	display: flex;
+}
+.login-top-mgs{
+	margin-left: auto;
+	padding-right: 16px;
+}
+.login-top-mgs span{
+	color: #76787c;
+	font-weight: 400;
+}
