@@ -18,6 +18,7 @@
 
 /*start of Shariful*/
 @import url('_home2.css');
+@import url('_terms-of-service.css');
 
 
 
@@ -25,7 +26,7 @@
 /*start of Niaz*/
 @import url('_account-settings-ui-elements.css');
 @import url('_account-settings.css');
-
+@import url('_create-a-job.css');
 
 /*start of Zahir*/
 @import url('_pro-profile.css');
@@ -39,5 +40,5 @@
 @import url('_setup.css');
 
 /*start of Momin*/
-@import url('_how-it-woks.css');
-@import url('_setup-pricing.css');
+@import url('_how-it-woks-pro.css');
+@import url('_setup-pricing-pro.css');

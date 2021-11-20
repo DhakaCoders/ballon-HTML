@@ -27,6 +27,7 @@ body {
     color: #616368;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
 /*font-family: 'MyriadPro-Regular';*/
@@ -220,6 +221,7 @@ ul.sub-menu,
 .reset-slect ul,
 ul.ab-top-menu,
 .fl-pagination-ctlr ul,
+.bl-pkg-grids-cntlr > ul,
 .attachments-browser ul{
 	margin: 0;
 	padding: 0;
@@ -231,6 +233,7 @@ ul.sub-menu li,
 .reset-slect ul li,
 ul.ab-top-menu li,
 .fl-pagination-ctlr ul li,
+.bl-pkg-grids-cntlr > ul > li,
 .attachments-browser ul li{
 	padding: 0;
 	margin: 0;
@@ -243,6 +246,7 @@ ul.sub-menu li:before,
 .reset-slect ul li:before,
 ul.ab-top-menu li:before,
 .fl-pagination-ctlr ul li:before,
+.bl-pkg-grids-cntlr > ul > li:before,
 .attachments-browser ul li:before{
 	content: none!important;
 }

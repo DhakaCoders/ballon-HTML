@@ -8,6 +8,9 @@ $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
 
+
+$('.select-2-cntlr').select2();
+
 if( $('.hamburger-cntlr').length ){
   $('.hamburger-cntlr').click(function(){
     $('body').toggleClass('allWork');
@@ -264,7 +267,12 @@ var offset = (windowWidth - containerWidth);
 var rgtOffSet = (offset / 2);
 $('.service-lft-img').css('margin-right', rgtOffSet);
 
-
+if( $('#sidebar').length ){
+  $('#sidebar').stickySidebar({
+      topSpacing: 50,
+      bottomSpacing: 50
+  });
+}
 
 
 
@@ -282,7 +290,8 @@ if($('.fancybox').length){
 }
 
 /*start of Keshob*/
-
+$('.create-a-job-form select').select2();
+$('.select-2-cntlr').select2();
 
 /*start of Momin*/
 

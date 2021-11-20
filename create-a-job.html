@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Account Settings</title>
+  <title>Create A Job</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#fa5252">
@@ -67,7 +67,7 @@
     </div>
   </header>
 
-  <section class="my-account-sec my-account-setting-sec">
+  <section class="my-account-sec">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -75,96 +75,97 @@
             <div class="myaccount-navigation">
               <div class="myaccount-navigation-inner">
                 <div class="myaccount-title-cntlr">
-                  <h1 class="fl-h4 my-account-title">Account Settings</h1>
+                  <h1 class="fl-h4 my-account-title">Create A Job</h1>
                 </div>
                 <nav class="myaccount-menu">
                   <ul class="reset-list">
-                    <li><a href="#" class="active">My Account</a></li>
-                    <li><a href="#">Personal Infomation</a></li>
-                    <li><a href="#">Payment Methods</a></li>
-                    <li><a href="#">Privacy & Safety</a></li>
-                    <li><a href="#">Public Profile</a></li>
-                    <li><a href="#">Notifications</a></li>
+                    <li><a href="#" class="active">Title</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Description</a></li>
+                    <li><a href="#">Tags</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Dates</a></li>
+                    <li><a href="#">Scope</a></li>
+                    <li><a href="#">Screening Question</a></li>
+                    <li><a href="#">Budget</a></li>
                   </ul>
                 </nav>
-                <div class="logout-link">
-                  <a href="#">Log Out</a>
-                </div>
               </div>
             </div>
-            <div class="myaccount-content">
+            <div class="myaccount-content create-a-job-content">
               <div class="myaccount-content-cntlr">
-                <h2 class="form-title fl-h2">My Account</h2>
-                <strong class="subtitle">Personal Details</strong>
-                <form action="" class="myaccount-form myaccount-setting-form">
-                  <div class="input-field-wrapper input-field-wrapper-pd-50">
-                    <div class="myaccount-profile">
-                      <div class="account-profile-right">
-                        <div class="myaccount-profile-image">
-                          <img src="assets/images/profile-image.png" alt="">
-                          <div class="add-profile-img">
-                            <label for="file"><span><i class="fas fa-pen"></i></span></label>
-                            <input type="file" id="file">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="account-profile-lft">
-                        <div class="myaccount-info">
-                          <div class="input-fields-row">
-                            <div class="input-field-col">
-                              <span><i class="fas fa-user"></i></span>
-                              <input type="text" placeholder="First Name">
-                            </div>
-                          </div>
-                          <div class="input-fields-row">
-                            <div class="input-field-col">
-                              <span><i class="fas fa-user"></i></span>
-                              <input type="text" placeholder="Last Name">
-                            </div>
-                          </div>
+                <form action="" class="myaccount-form create-a-job-form">
+
+                  <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="email">Title</label>
+                          <input type="email" id="email"placeholder="Write a title for your job post">
                         </div>
                       </div>
                     </div>
-                    <div class="input-fields-row">
-                      <div class="input-field-col">
-                        <span><i class="fas fa-envelope"></i></span>
-                        <input type="email" placeholder="Email">
-                      </div>
-                    </div>
-                    <div class="input-fields-row">
-                      <div class="input-field-col">
-                        <span><i class="fas fa-phone"></i></span>
-                        <input type="number" placeholder="Phone Number">
+                  </div>
+
+                  <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <!-- <label for="email">Title</label> -->
+                          <div class="create-a-job-select select-2-sortby">
+                            <select class="select-2-cntlr">
+                              <option selected>Featured</option>
+                              <option value="1">sort by 1</option>
+                              <option value="1">sort by 2</option>
+                              <option value="1">sort by 3</option>
+                              <option value="1">sort by 4</option>
+                            </select>
+                          </div>
+                          
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <strong class="subtitle">Change Password</strong>
-                  <div class="input-field-wrapper">
-                    <div class="input-fields-row">
-                      <div class="input-field-col">
-                        <span><i class="fas fa-lock"></i></span>
-                        <input type="password" placeholder="Current Password">
-                      </div>
-                    </div>
-                    <div class="input-fields-row">
-                      <div class="input-field-col">
-                        <span><i class="fas fa-lock"></i></span>
-                        <input type="password" placeholder="New Password">
-                      </div>
-                    </div>
-                    <div class="input-fields-row">
-                      <div class="input-field-col">
-                        <span><i class="fas fa-lock"></i></span>
-                        <input type="password" placeholder="Confirm New Password">
+
+                  <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="textarea">Describe</label>
+                          <div class="input-field-col-inner">
+                            <textarea name="" id="textarea" placeholder="Describe your job"></textarea>
+                            <div class="upload-file">
+                              <label for="file"><span><i class="fas fa-paperclip"></i></span></label>
+                              <input type="file" id="file">
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <strong class="subtitle">Account Removal</strong>
-                  <div class="input-field-wrapper">
-                     <div class="submint-btn">
-                      <button type="submit" class="full-width-btn">Delete Account</button>
+
+                  <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="email">Location</label>
+                          <input type="email" id="email"placeholder="Start typing a postcode or address">
+                        </div>
+                      </div>
                     </div>
                   </div>
+
+                   <div class="form-block">
+                    <div class="input-field-wrapper">
+                      <div class="input-fields-row">
+                        <div class="input-field-col">
+                          <label for="email">Screening Questions</label>
+                          <input type="email" id="email"placeholder="Write a screening question(s) for pros to answer">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
                 </form>
               </div>
             </div>
