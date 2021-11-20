@@ -60,7 +60,7 @@
 .input-field-col.d2{
 	width: 50%;
 }
-.input-field-col span{
+.input-field-col span.icon{
 	position: absolute;	
 	top: 50%;	
 	left: 31px;
