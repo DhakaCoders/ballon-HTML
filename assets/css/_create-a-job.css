@@ -43,3 +43,15 @@
     z-index: 2;
     margin-bottom:0!important;
 }
+.form-block {
+    border-bottom: 2px solid #e1e1e1;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.myaccount-content.create-a-job-content .myaccount-content-cntlr {
+    padding-left: 0;
+    padding-right: 0;
+}
+.form-block .input-field-wrapper {
+    max-width: 100%;
+}
