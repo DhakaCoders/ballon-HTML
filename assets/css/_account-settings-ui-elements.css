@@ -148,11 +148,14 @@
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     cursor: pointer;
-    z-index: 22;
+    z-index: 2;
 }
 .input-field-wrapper-pd-50{
 	padding-bottom:50px;
 }
-.cursor-pointer input{
-	cursor:pointer;
+.textarea-icon-cntlr span {
+    top: 20px!important;
+    transform: translateY(0%)!important;
+    -webkit-transform: translateY(0%)!important;
+    -ms-transform: translateY(0%)!important;
 }
