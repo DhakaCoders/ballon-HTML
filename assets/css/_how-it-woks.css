@@ -16,6 +16,7 @@
 }
 .how-it-works-cat-grids-cntlr{
 	display: flex;
+	justify-content: center;
 }
 .how-it-works-cat-grids-cntlr{
 	margin: 0 -31px;
@@ -29,4 +30,15 @@
 	padding: 20px;
 	position: relative;
 	z-index: 99;
+}
+.how-it-works-cat-grid-item-cntlr i{
+	display: inline-block;
+	display: flex;
+    align-items: flex-end;
+    height: 66px;
+    margin: 25px;
+}
+.how-it-works-cat-grid-item-cntlr h6{
+	font-size: 20px;
+	font-weight: 700;
 }
