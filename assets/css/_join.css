@@ -7,10 +7,14 @@
     padding-bottom: 60px;
     border-radius: 10px;
     border-bottom: 18px solid #7a92d0;
+    box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+    -ms-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+    -webkit-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
 }
 .join-contant-title{
 	text-align: center;
 	margin-bottom: 24px;
+	font-weight: 700;
 }
 .join-form {
     max-width: 518px;
@@ -20,12 +24,25 @@
 .join-contant-inner {
     padding-bottom: 80px;
     border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 45px;
 }
-.join-form .input-field-mgs{
-
+.join-btm-contant {
+    text-align: center;
 }
-
-
+.join-mgs span{
+	font-weight: 500;
+	color: #76787c;
+	display: inline-block;
+	padding-bottom: 14px;
+}
+.join-btm-btn-cntlr a{
+	min-width: 403px;
+	padding: 15.5px 13px 16.5px;
+}
+.join-contant-sec {
+    padding-top: 35px;
+    padding-bottom: 125px;
+}
 
 
 
@@ -52,7 +69,7 @@
     background: #fff;
     border: 2px solid #cecece;
     box-sizing: border-box;
-    padding: 20px 20px 20px 44px;
+    padding: 15px 20px 15px 44px;
     padding-right: 20px;
     color: #2b2b2b;
     font-size: 21px;
@@ -75,31 +92,31 @@
 .input-field-col textarea::placeholder{
     color: #2b2b2b!important;
     opacity:1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .input-field-col input::-webkit-input-placeholder,
 .input-field-col textarea::-webkit-input-placeholder{
     color: #2b2b2b!important;
     opacity:1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .input-field-col input::-moz-placeholder,
 .input-field-col textarea::-moz-placeholder{
     color: #2b2b2b!important;
     opacity:1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .input-field-col input:-ms-input-placeholder,
 .input-field-col textarea:-ms-input-placeholder{ 
     color: #2b2b2b!important;
     opacity:1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .input-field-col input:-moz-placeholder,
 .input-field-col textarea:-moz-placeholder{
     color: #2b2b2b!important;
     opacity:1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .submint-btn button{
 	display: inline-block;
@@ -111,7 +128,7 @@
 	font-weight: 700;
 	line-height: 1.1!important;
 	text-align: center;
-	padding: 16px 13px 17px;
+	padding: 16.5px 13px 17.5px;
 	border: 2px solid #fa5252!important;
 	text-transform: capitalize;
 	border-radius: 6px!important;
