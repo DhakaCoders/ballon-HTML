@@ -8,6 +8,9 @@ $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
 
+
+$('.select-2-cntlr').select2();
+
 if( $('.hamburger-cntlr').length ){
   $('.hamburger-cntlr').click(function(){
     $('body').toggleClass('allWork');
