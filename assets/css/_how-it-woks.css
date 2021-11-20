@@ -48,8 +48,10 @@
 	padding-bottom: 5px;
 	font-size: 15px;
 }
-.how-it-works-cat-item-list li:after{
+.how-it-works-cat-item-list li:before{
 	background-image: url('../images/how-cat-list-icon.png');
+	margin-top: 0;
+	padding-bottom: 10px;
 }
 
 .pricing-plans-sec{
