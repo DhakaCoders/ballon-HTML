@@ -36,7 +36,7 @@
   <![endif]-->	
 
 </head>
-<body>
+<body class="home">
 <div class="page-body-cntlr">
   <div class="bdoverlay"></div>
   <header class="header">
@@ -64,8 +64,8 @@
                   <li><a href="#">Login</a></li>
                   <li class="menu-btn">
                     <a href="#">
-                      new job
-                      <i class="fas fa-plus"></i>
+                      join
+                      
                     </a>
                   </li>
                 </ul>
@@ -118,9 +118,13 @@
               <form>
                 <div class="hm-page-bnr-input-field">
                   <div class="hm-page-bnr-input-field-row input-col-1">
-                    <input type="text" name="" placeholder="What are you looking for?">
+                    <div class="hm-page-bnr-input-field-inr">
+                      <input type="text" name="" id="1">
+                      <label for="1">What are you looking for? <span>Handyman</span></label>
+                    </div>
                   </div>
                   <div class="hm-page-bnr-input-field-row input-col-2">
+                    <span><i class="fas fa-map-marker"></i></span>
                     <input type="text" name="" placeholder="Postcode">
                   </div>
                 </div>
@@ -136,7 +140,12 @@
   </section>
 
 
-  <section class="service-sec" style="background-image:url(assets/images/service-sec-bg.png);">
+  <section class="service-sec">
+    <div class="service-lft-img-ctlr">
+      <div class="service-lft-img">
+        <img src="assets/images/service-sec-bg.png">
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
