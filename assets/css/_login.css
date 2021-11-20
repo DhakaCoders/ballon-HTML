@@ -35,21 +35,27 @@
   cursor: pointer;
   left: 8px;
   right: 0;
-  top: 4px;
+  top: 50%;
   bottom: 0;
   height: 15px!important;
   width: 15px!important;
   z-index: 1;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
 }
 .login-check-cntlr span.checkmark{
   position: absolute;
-  top: 4px;
+  top: 50%;
   left: 8px;
   height: 15px;
   width: 15px;
   background: transparent;
   border: 1px solid #767875;
   border-radius: 2px;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
 }
 .login-check-cntlr span.checkmark::after{
   left: 4px;
