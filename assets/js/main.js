@@ -267,7 +267,12 @@ var offset = (windowWidth - containerWidth);
 var rgtOffSet = (offset / 2);
 $('.service-lft-img').css('margin-right', rgtOffSet);
 
-
+if( $('#sidebar').length ){
+  $('#sidebar').stickySidebar({
+      topSpacing: 50,
+      bottomSpacing: 50
+  });
+}
 
 
 
