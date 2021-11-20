@@ -7,6 +7,9 @@
     padding-bottom: 60px;
     border-radius: 10px;
     border-bottom: 18px solid #7a92d0;
+    box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+    -ms-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+    -webkit-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
 }
 .join-contant-title{
 	text-align: center;
@@ -20,12 +23,24 @@
 .join-contant-inner {
     padding-bottom: 80px;
     border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 45px;
 }
-.join-form .input-field-mgs{
-
+.join-btm-contant {
+    text-align: center;
 }
-
-
+.join-mgs span{
+	font-weight: 500;
+	color: #76787c;
+	display: inline-block;
+	padding-bottom: 14px;
+}
+.join-btm-btn-cntlr a{
+	min-width: 403px;
+}
+.join-contant-sec {
+    padding-top: 35px;
+    padding-bottom: 125px;
+}
 
 
 
