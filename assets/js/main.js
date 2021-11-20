@@ -275,8 +275,11 @@ $('.service-lft-img').css('margin-right', rgtOffSet);
 
 
 /*start of Zahir*/
-
-
+if($('.fancybox').length){
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+}
 
 /*start of Keshob*/
 
