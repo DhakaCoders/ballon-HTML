@@ -283,8 +283,11 @@ if( $('#sidebar').length ){
 
 
 /*start of Zahir*/
-
-
+if($('.fancybox').length){
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+}
 
 /*start of Keshob*/
 $('.create-a-job-form select').select2();
