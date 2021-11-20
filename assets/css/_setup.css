@@ -1,0 +1,65 @@
+.setup-form .input-field-col{
+	margin-bottom: 13px;
+}
+.setup-contant-sec .join-contant-inner{
+	padding-bottom: 23px;
+	margin-bottom: 30px;
+}
+.setup-btm-contant{
+	text-align: center;
+	max-width: 518px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.setup-btm-contant .login-checkmark-cntlr .login-check-cntlr input[type="checkbox"]{
+  left: 0;
+}
+.setup-btm-contant .login-checkmark-cntlr .login-check-cntlr span.checkmark{
+  left: 0;
+}
+.login-check-cntlr label a{
+	color: #fa5252;
+	text-decoration: none;
+}
+.login-check-cntlr label a:hover{
+	color: #7a92d0;
+}
+.setup-btm-contant .login-checkmark-cntlr{
+	padding-bottom: 25px;
+}
+.setup-btn-cntlr{
+	padding-bottom: 40px;
+}
+.setup-btn-cntlr a{
+	padding: 16.5px 13px 17.5px;
+	min-width: 100%;
+}
+.setup-btm-contant .login-checkmark-cntlr .login-check-cntlr label{
+	font-weight: 500;
+}
+.setup-mgs span{
+	font-weight: 500;
+	color: #76787c;
+}
+.setup-mgs span a{
+	display: inline-block;
+	position: relative;
+	padding-right: 11px;
+	text-decoration: none;
+	color: #fa5252;
+}
+.setup-mgs span a:hover{
+	color: #7a92d0;
+}
+.setup-mgs span a i{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	margin-top: 1px;
+}
+.setup-contant-sec .join-contant-cntlr{
+	padding-bottom: 19px;
+}

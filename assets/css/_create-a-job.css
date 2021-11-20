@@ -1,0 +1,9 @@
+.create-a-job-form .input-field-col label {
+    color: #fa5252;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.create-a-job-form .input-field-col input{
+	padding: 15px 20px 15px 16px;
+}
