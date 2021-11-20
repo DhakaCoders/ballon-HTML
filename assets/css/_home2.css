@@ -79,10 +79,10 @@
 	right: 0;
 	bottom: 0;
 }
-.hm-page-bnr-input-field-row.input-col-1 input[type=text]:focus .hm-page-bnr-input-field-row.input-col-1 label{
+/*.hm-page-bnr-input-field-row.input-col-1 input[type=text]:focus .hm-page-bnr-input-field-row.input-col-1 label{
 	opacity: 0;
 	z-index: -9;
-}
+}*/
 .hm-page-bnr-input-field-row input[type=text]:focus{
 	border-color: #fa5252;
 }
