@@ -72,13 +72,13 @@
 .page-intro-sec-title{
 	margin-bottom: 25px;
 }
-.page-intro-sec-desc p{
+.page-intro-sec-cntlr p{
 	font-size: 30px;
 	line-height: 1.2;
 	color: #828282;
 	font-weight: 500;
 }
-.page-intro-sec-desc p:last-of-type{
+.page-intro-sec-cntlr p:last-of-type{
 	margin-bottom: 0;
 }
 
@@ -102,7 +102,7 @@ ul li:before{
 	width: 17px;
 	left: 0;
 	top: 0;
-	margin-top: 3px;
+	margin-top: 1px;
 	background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -121,6 +121,12 @@ body .select2-dropdown {
     box-shadow: 0px 30px 84px rgb(44 17 62 / 9%);
     border-radius: 5px;
 }
+.select-2-sortby{
+    position: relative;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    display: none;
+}
 .select2-container--default .select2-selection--single .select2-selection__rendered{
     font-weight: 600;
     height: 46px;
@@ -136,7 +142,7 @@ body .select2-dropdown {
     -webkit-transition: all 0.5s;
     text-transform: uppercase;
 }
-.select-2-sortby:after {
+.select2-selection__arrow:after {
     content: "\f107";
     font-family: "Font Awesome 5 Free";
     font-style: normal;
@@ -150,7 +156,10 @@ body .select2-dropdown {
     transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    margin-top: -4px;
+    margin-top: 0px;
+}
+.select2-container--open .select2-selection__arrow:after{
+    content:"\f106";
 }
 .select2-container--default .select2-search--dropdown .select2-search__field, 
 .bootstrap-select .dropdown-menu .bs-searchbox input {
