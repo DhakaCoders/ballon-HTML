@@ -1,0 +1,12 @@
+.my-proaccount-setting-form .myaccount-profile-image{
+	border:1px solid #d4d4d4;
+	background:#fff;
+	border-radius:8px;
+}
+.my-proaccount-setting-form .account-profile-right{
+	padding-left:44px;
+}
+.my-proaccount-setting-form .add-profile-img{
+	right:-26px;
+	top:-10px;
+}
