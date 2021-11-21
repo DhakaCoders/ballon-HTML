@@ -320,6 +320,7 @@
 
 .bln-upload{
 	position: relative;
+	width: 3%;
 }
 .bln-upload label{
 	position: absolute;
@@ -334,10 +335,12 @@
 .bln-upload input[type=file]{
 	position: relative;
 	opacity: 0;
+	cursor: pointer;
 }
 
 .bln-msg-input-field{
 	position: relative;
+	width: 80%;
 }
 
 .bln-msg-input-field input[type=text]{
@@ -354,8 +357,40 @@
 .bln-msg-icons{
 	position: absolute;
 	top: 50%;
-	right: 0;
+	right: 10px;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+.bln-msg-icons-inr{
+	display: flex;
+	align-items: center;
+}
+.bln-msg-icon-col{
+	margin-left: 4px;
+}
+
+.bln-msg-icon-col i{
+	color: #76787c;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.bln-msg-send-btn{
+	margin-left: 6px;
+	width: 17%;
+}
+.bln-msg-send-btn button{
+	padding: 10px 35px;
+	background: #fa5252;
+	border: 2px solid #fa5252;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: capitalize;
+	max-width: 118px;
+	width: 100%;
+	cursor: pointer;
 }
