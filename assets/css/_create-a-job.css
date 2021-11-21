@@ -95,6 +95,9 @@
     text-decoration: none;
     display: inline-block;
 }
+.create-a-job-form .back-btn a:hover{
+    color: #fa5252;
+}
 .create-a-job-form .input-field-inner{
 	display: flex;
 	align-items: center;

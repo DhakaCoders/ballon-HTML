@@ -32,7 +32,7 @@
 	border: 2px solid #c6c6c6;
     border-radius: 5px;
     padding: 12px 10px 12px 30px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     color: #2b2b2b;
     width: 100%;
@@ -56,7 +56,7 @@
 	opacity: 1;
 }
 .bln-messege-search input[type=text]:focus{
-	border-color: #b6b4b4;
+	border-color: #8b8888;
 }
 .bln-messege-search span{
 	position: absolute;
@@ -66,8 +66,7 @@
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	z-index: 9;
-	margin-top: 2px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 
@@ -97,6 +96,10 @@
 	color: #c1c1c1;
 }
 
+.select2-dropdown .select2-results{
+	width: 120px!important;
+}
+
 
 .bln-messege-list{
 	padding: 0 7px 10px 10px;
@@ -109,6 +112,7 @@
 	padding-bottom: 10px;
 	position: relative;
 }
+
 .bln-messege-list ul li:after{
 	content: "";
 	position: absolute;
@@ -137,9 +141,12 @@
 	align-items: center;
 	justify-content: center;
 	background: #fff;
-	border-radius: 10px;
+	border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 17px 5px #e3e3e3; 
 	box-shadow: 0px 0px 17px 5px #e3e3e3;
+}
+.bln-msg-list-item-img img{
+	border-radius: 5px;
 }
 
 .bln-msg-list-item-des{
@@ -149,6 +156,14 @@
 .bln-msg-title{
 	font-size: 14px;
 	margin-bottom: 2px;
+}
+.bln-msg-title a{
+	text-decoration: none;
+	color: #000000;
+}
+.active .bln-msg-title a,
+.bln-msg-title a:hover{
+	color: #fa5252;
 }
 
 .bln-msg-hdr{
@@ -267,6 +282,9 @@
 	transform: translateY(-50%);
 	margin-top: -2px;
 }
+.bln-messege-des-hdr-rgt a:hover i{
+	margin-left: -5px;
+}
 
 
 .bln-msg-send-receive{
@@ -320,7 +338,11 @@
 
 .bln-upload{
 	position: relative;
-	width: 3%;
+	width: 5%;
+	padding-right: 20px;
+}
+.bln-upload-inr{
+	height: 25px;
 }
 .bln-upload label{
 	position: absolute;
@@ -336,11 +358,17 @@
 	position: relative;
 	opacity: 0;
 	cursor: pointer;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 .bln-msg-input-field{
 	position: relative;
-	width: 80%;
+	width: 78%;
 }
 
 .bln-msg-input-field input[type=text]{
@@ -352,6 +380,25 @@
     color: #2b2b2b;
     width: 100%;
     position: relative;
+}
+.bln-msg-input-field input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #2b2b2b;
+	opacity: 1;
+}
+.bln-msg-input-field input[type=text]::-moz-placeholder { /* Firefox 19+ */
+	color: #2b2b2b;
+	opacity: 1;
+}
+.bln-msg-input-field input[type=text]:-ms-input-placeholder { /* IE 10+ */
+	color: #2b2b2b;
+	opacity: 1;
+}
+.bln-msg-input-field input[type=text]:-moz-placeholder { /* Firefox 18- */
+	color: #2b2b2b;
+	opacity: 1;
+}
+.bln-msg-input-field input[type=text]:focus{
+	border-color: #8b8888;
 }
 
 .bln-msg-icons{
