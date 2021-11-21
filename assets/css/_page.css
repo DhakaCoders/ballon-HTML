@@ -177,13 +177,16 @@ body .select2-dropdown {
 .select-2-sortby{
     position: relative;
 }
+.select2-container--default .select2-selection--single{
+    background: transparent!important;
+}
 .select2-container--default .select2-selection--single .select2-selection__arrow b{
     display: none;
 }
 .select2-container--default .select2-selection--single .select2-selection__rendered{
     font-weight: 600;
     height: 46px;
-    background: #fff;
+    background: transparent;
     box-sizing: border-box;
     padding: 6px 16px 13px 8px;
     color: #2b2b2b!important;
@@ -213,6 +216,9 @@ body .select2-dropdown {
 }
 .select2-container--open .select2-selection__arrow:after{
     content:"\f106";
+}
+.select2-container--default .select2-search--dropdown{
+    padding: 0!important;
 }
 .select2-container--default .select2-search--dropdown .select2-search__field, 
 .bootstrap-select .dropdown-menu .bs-searchbox input {
