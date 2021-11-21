@@ -28,3 +28,6 @@
     text-align: center;
     padding-top: 16px;
 }
+.Print-button a:hover {
+    color: #fa5252;
+}
