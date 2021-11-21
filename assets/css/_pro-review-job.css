@@ -84,3 +84,13 @@
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
+.pro-rvw-job-mdul-cntlr .fl-pagination-cntlr{
+	padding-bottom: 34px;
+}
+.pro-rvw-job-mdul-cntlr{
+	border-bottom: 18px solid #7a92d0;
+    box-shadow: 0 0 36px -21px #000;
+    -moz-box-shadow: 0 0 36px -21px #000;
+    -webkit-box-shadow: 0 0 36px -21px #000;
+    border-radius: 11px;
+}

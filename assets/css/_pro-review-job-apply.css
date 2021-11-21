@@ -52,7 +52,7 @@
 }
 .job-cntnt-item-des p{
     color: #929396;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 .pro-rvw-job-aply-fature ul{
     display: flex;
@@ -80,4 +80,7 @@
 }
 .pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-dtls-col span i.fas.fa-user{
     margin-top: -2px;
+}
+.pro-rvw-job-btm-contant {
+    padding-bottom: 28px;
 }
