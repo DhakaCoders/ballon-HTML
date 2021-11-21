@@ -72,22 +72,22 @@
       <div class="row">
         <div class="col-md-12">
           <div class="my-account-sec-cntlr">
-            <div class="myaccount-navigation">
+            <div class="myaccount-navigation" id="sidebar">
               <div class="myaccount-navigation-inner">
                 <div class="myaccount-title-cntlr">
                   <h1 class="fl-h4 my-account-title">Create A Job</h1>
                 </div>
                 <nav class="myaccount-menu">
-                  <ul class="reset-list">
-                    <li><a href="#" class="active">Title</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Description</a></li>
-                    <li><a href="#">Tags</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">Dates</a></li>
-                    <li><a href="#">Scope</a></li>
-                    <li><a href="#">Screening Question</a></li>
-                    <li><a href="#">Budget</a></li>
+                  <ul class="reset-list" id="nav">
+                    <li><a href="#title" class="active">Title</a></li>
+                    <li><a href="#category">Category</a></li>
+                    <li><a href="#description">Description</a></li>
+                    <li><a href="#tags">Tags</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#dates">Dates</a></li>
+                    <li><a href="#scope">Scope</a></li>
+                    <li><a href="#screening-questions">Screening Questions</a></li>
+                    <li><a href="#budget">Budget</a></li>
                   </ul>
                 </nav>
               </div>
@@ -97,7 +97,7 @@
               <div class="myaccount-content-cntlr">
                 <form action="" class="myaccount-form create-a-job-form">
 
-                  <div class="form-block">
+                  <div class="form-block" id="title">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -108,7 +108,7 @@
                     </div>
                   </div>
 
-                  <div class="form-block">
+                  <div class="form-block" id="category">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -129,7 +129,7 @@
                     </div>
                   </div>
 
-                  <div class="form-block">
+                  <div class="form-block" id="describe">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -146,7 +146,7 @@
                     </div>
                   </div>
 
-                  <div class="form-block">
+                  <div class="form-block" id="tags">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -171,7 +171,7 @@
                     </div>
                   </div>
 
-                  <div class="form-block">
+                  <div class="form-block" id="location">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -182,7 +182,7 @@
                     </div>
                   </div>
 
-                  <div class="form-block">
+                  <div class="form-block" id="dates">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -203,11 +203,11 @@
                     </div>
                   </div>
 
-                  <div class="form-block">
+                  <div class="form-block" id="scope">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
-                            <label for="email">Category</label>
+                            <label for="email">Scope</label>
                             <div class="create-a-job-form contact-select-down-icon">
                                <select class="create-a-job-form select-2-cntlr">
                                   <option selected>Select size of job</option>
@@ -250,7 +250,7 @@
                     </div>
                   </div>
 
-                   <div class="form-block">
+                   <div class="form-block" id="screening-questions">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -261,7 +261,7 @@
                     </div>
                   </div>
 
-                  <div class="form-block">
+                  <div class="form-block" id="budget">
                     <div class="input-field-wrapper">
                       <div class="input-fields-row">
                         <div class="input-field-col">
@@ -324,6 +324,8 @@
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/select2/select2.min.js"></script>
 <script src="assets/flatpickr/flatpickr.js"></script>
+<script src="assets/js/jquery.sticky-sidebar.js"></script>
+<script src="assets/js/jquery.nav.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>

@@ -32,18 +32,21 @@
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
+    position: absolute;
+    top:50%;
 }
 .upload-file label span i{
 	color: #76787c;
 }
 .upload-file label{
-    position: absolute;
+    position: absolute!important;
     width: 100%;
     height: 100%;
     border-radius: 6px;
     cursor: pointer;
     z-index: 2;
     margin-bottom:0!important;
+    padding-right:0!important;
 }
 .form-block {
     border-bottom: 2px solid #e1e1e1;
