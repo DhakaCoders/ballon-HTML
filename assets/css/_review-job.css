@@ -11,3 +11,34 @@
 .review-job-mdul{
 	margin-bottom: 48px;
 }
+.proposal-job-cntnt-mdul{
+
+}
+.proposal-job-cntnt-mdul .profile{
+	width: 80px;
+	height: 80px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 24%);
+	-webkit-box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 24%);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
+	background: transparent;
+}
+.proposal-job-cntnt-mdul .job-cntnt-item{
+	padding-bottom: 10px;
+}
+.proposal-job-cntnt-mdul .job-cntnt-item-rgt{
+	margin-left: initial;
+	width: 63.1%;
+}
+.proposal-job-cntnt-mdul .job-cntnt-item-des:last-of-type p:last-of-type{
+	margin-bottom: 0;
+}
+.job-cntnt-item-des p a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fa5252;
+
+}
+.job-cntnt-item-des p a:hover{
+	color: initial;
+}
