@@ -1,3 +1,9 @@
+/*header{
+	display: none;
+}
+footer{
+	display: none;
+}*/
 .how-it-works-grids-sec{
 	background: #fff0f0;
 	position: relative;
@@ -9,7 +15,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 9;
+	z-index: 0.;
 	bottom: 0;
 	background-repeat: repeat-x;
 }
@@ -168,12 +174,16 @@
 	.bl-pkg-grid-item-cntlr{
 		padding: 22px 35px 18px 18px!important;
 	}
+	.bl-pkg-grd-desc{
+		min-height: 297px;
+	}
 	.bl-pkg-grd-hdr{
 		padding-bottom: 18px;
 	}
 	.price{
 		font-size: 30px;
 	}
+
 }
 @media(max-width: 639px){
 	.bl-pkg-grids-cntlr > ul{
