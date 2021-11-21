@@ -29,6 +29,9 @@
 .proposal-job-cntnt-mdul .job-cntnt-item{
 	padding-bottom: 10px;
 }
+.proposal-job-cntnt-mdul .job-cntnt-item:last-of-type{
+	padding-bottom: 27px;
+}
 .proposal-job-cntnt-mdul .job-cntnt-item-rgt{
 	margin-left: initial;
 	width: 63.1%;
@@ -47,11 +50,14 @@
 }
 .job-cntnt-item-pro-msg-cntlr{
 	margin-left: auto;
-	margin-top: auto;
+	padding-top: 70px;
 }
 .proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul{
 	display: block;
 }
 .proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul li{
 	padding-bottom: 6px;
+}
+.proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul li.job-cntnt-profile-item-cntlr{
+	margin-top: 10px;
 }
