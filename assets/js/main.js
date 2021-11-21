@@ -335,21 +335,23 @@ if(windowWidth <= 767){
 
 /*start of Niaz*/
 if($('.tol-tip').length){
-  $('.tol-tip').mouseover(function(){
+  $('.tol-tip').mouseenter(function(){
     $('.tol-tip-des').css({
-      // "display":"block",
-      "z-index":"1",
+      "width":"395",
       "opacity":"1",
+      "height":"auto",
       "transform":"translateY(0px)",
-      "transition":".2s"
+      "transition":".3s",
+      "z-index":"2",
     })
   })
-  $('.tol-tip').mouseout(function(){
+  $('.tol-tip').mouseleave(function(){
     $('.tol-tip-des').css({
-      "z-index":"-1111",
       "opacity":"0",
-      // "display":"none",
-      "transform":"translateY(-10px)"
+      "width":"0",
+      "height":"0",
+      "transform":"translateY(-10px)",
+      "z-index":"-1",
     })
   })
 }
