@@ -297,6 +297,7 @@ if($('.tol-tip').length){
     })
   })
 }
+$('#nav').onePageNav();
 
 /*start of Zahir*/
 if($('.fancybox').length){

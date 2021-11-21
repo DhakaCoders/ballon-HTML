@@ -1,5 +1,6 @@
 .my-account-sec-cntlr{
 	display: flex;
+    padding-left:30px
 }
 .my-account-sec{
     padding-top: 35px;
@@ -9,7 +10,6 @@
 }
 .myaccount-navigation {
     width: 25.64%;
-    padding-left: 30px;
 }
 .myaccount-content{
     width: 74.35%;
