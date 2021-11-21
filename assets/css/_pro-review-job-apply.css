@@ -68,3 +68,16 @@
 .pro-rvw-job-fature-item span.value{
     color: #616368;
 }
+.pro-rvw-job-aply-fature {
+    margin-bottom: 15px;
+}
+.pro-rvw-job-aply-mdul-cntlr {
+    padding-bottom: 38px;
+}
+.pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-dtls-col span i{
+    color: #fa5252;
+    margin-top: -1px;
+}
+.pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-dtls-col span i.fas.fa-user{
+    margin-top: -2px;
+}
