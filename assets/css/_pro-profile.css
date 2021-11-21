@@ -32,12 +32,12 @@
 	height: 11px;
 	width: 6px;
 }
-.pp-compny-card-cntns-sec-cntlr{
-	-webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
-	-moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
-	box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
-	border-radius: 12px;
-	border-bottom: 17px solid #014d4b;
+.pp-compny-card-cntns-sec-cntlr {
+    -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
+    -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
+    box-shadow: 1px 0px 17px 15px rgb(230 230 230 / 84%);
+    border-radius: 12px;
+    border-bottom: 17px solid #014d4b;
 }
 .pp-compny-card-cntns-inr {
     padding: 35px 35px 40px 45px;
@@ -67,7 +67,7 @@
 }
 .pp-compny-card-cntns-top{
 	display: flex;
-	padding-bottom: 62px;
+	padding-bottom: 65px;
 	flex-wrap: wrap;
 }
 .compny-card-cntns-top-lft{
@@ -79,17 +79,18 @@
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
-strong.card-loctn{
-	position: relative;
-	padding-left: 20px;
-	font-size: 18px;
-	color: #2b2b2b;
-	font-family: 'MyriadPro-Regular';
-	font-weight: 600;
-	margin-bottom: 12px;
-	display: block;
+.card-loctn {
+    position: relative;
+    padding-left: 18px;
+    font-size: 18px;
+    color: #2b2b2b;
+    font-family: 'MyriadPro-Regular';
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: block;
+    letter-spacing: .5px;
 }
-strong.card-loctn i{
+.card-loctn i{
 	position: absolute;
 /*	content: "";
 	background-image: url('../images/pp-loctn-icon.png');
@@ -101,7 +102,6 @@ strong.card-loctn i{
 	height: 18px;
 	color: #fa5252;
 	font-size: 19px;
-	position: absolute;
 	display: inline-block;
 }
 .card-loctn-time{
@@ -109,6 +109,8 @@ strong.card-loctn i{
 	display: inline-block;
 	font-size: 18px;
 	font-weight: 500;
+	/*font-weight: 600;*/
+	letter-spacing: .5px;
 }
 .card-rating{
 	color: #ffcc00;
@@ -147,7 +149,7 @@ strong.card-loctn i{
     font-weight: 500;
     min-width: 170px;
     padding-left: 25px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .invite-job a i {
     position: absolute;
@@ -160,7 +162,7 @@ strong.card-loctn i{
     background-repeat: no-repeat;*/
     left: 0;
     top: 0;
-    margin-left: 10px;
+    margin-left: 8px;
     margin-top: 10px;
     font-size: 16px;
 }
@@ -188,12 +190,13 @@ strong.card-loctn i{
     position: relative;
     font-size: 23px;
     color: #7a92d0;
-    padding: 5px 10px;
+    padding: 5px 12px;
     padding-left: 38px;
     background-color: #ecf1ff;
     display: inline-block;
     text-decoration: none;
     border-radius: 4px;
+    font-weight: 600;
 }
 .card-contcts-ways ul li a i{
 	position: absolute;
@@ -207,7 +210,7 @@ strong.card-loctn i{
 	left: 0;
 	top: 0;
 	margin-left: 10px;
-	margin-top: 5px;
+	margin-top: 6px;
 }
 .card-contcts-ways ul li:nth-child(2) a:before{}
 .card-contcts-ways ul li:nth-child(3) a:before{}
@@ -217,11 +220,11 @@ strong.card-loctn i{
 .compny-card-socials{}
 .compny-card-socials ul{
 	display: flex;
-	margin: 0 -6px;
+	margin: 0 -8px;
 	flex-wrap: wrap;
 }
 .compny-card-socials ul li{
-	padding: 0 7px;
+	padding: 0 8px;
 }
 .compny-card-socials ul li:nth-child(1){
 	padding-left: 0;
@@ -250,7 +253,7 @@ strong.card-loctn i{
 
 /*pp-about-sec*/
 .pp-about-fancy-sec{
-	padding: 22px 0 35px 0;
+	padding: 10px 0px 0px 0px;
 }
 .pp-about-fancy-sec-cntlr{
 	display: flex;
@@ -265,7 +268,7 @@ strong.card-loctn i{
 .pp-about-ttl{
 	margin-bottom: 10px;
 	position: relative;
-	padding-left: 30px;
+	padding-left: 32px;
 }
 .pp-about-ttl:before {
     position: absolute;
@@ -280,7 +283,11 @@ strong.card-loctn i{
     top: -3px;
 }
 .pp-des{}
-.pp-des p{}
+.pp-des p{
+	color:#2b2b2b;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
 .pp-about-rgt{}
 .pp-fancy-hdng{}
 .pp-fancy-ttl{
@@ -396,7 +403,7 @@ strong.card-loctn i{
 .pp-location-exprt-col{}
 .loctn-hdng{}
 .pp-location-ttl{
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	position: relative;
 	padding-left: 26px;
 }
@@ -425,7 +432,7 @@ strong.card-loctn i{
 	font-size: 20px;
 	text-transform: capitalize;
 	color: #2b2b2b;
-	font-weight: 600;
+	font-weight: 500;
 }
 .loctn-extra-info{
 	padding-top: 25px;
@@ -689,9 +696,8 @@ strong.card-loctn i{
 	border:2px solid #c6c6c6;
 	border-radius: 6px;
 }
-.pp-revw-item-iner{}
 .pp-revw-item-ttl{
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .pp-revw-item-cntns{
 	position: relative;
@@ -764,7 +770,13 @@ strong.card-loctn i{
     margin-top: 3px;
 }
 .pp-show-more-revw{
-	padding-top: 25px;
+	padding-top: 10px;
+	text-align: center;
 }
-.show-more-revw{}
-
+.show-more-revw{
+	font-size: 16px;
+	color: #bcbcbc;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none;
+}
