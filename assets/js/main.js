@@ -261,11 +261,19 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /*start of Shariful*/
 
-/*var windowWidth = $(window).width();*/
+
 var containerWidth = $('.container').width();
 var offset = (windowWidth - containerWidth);
 var rgtOffSet = (offset / 2);
 $('.service-lft-img').css('margin-right', rgtOffSet);
+
+$(window).resize(function(){
+  var windowWidth = $(window).width();
+  var containerWidth = $('.container').width();
+  var offset = (windowWidth - containerWidth);
+  var rgtOffSet = (offset / 2);
+  $('.service-lft-img').css('margin-right', rgtOffSet);
+});
 
 if( $('#sidebar').length ){
   $('#sidebar').stickySidebar({
