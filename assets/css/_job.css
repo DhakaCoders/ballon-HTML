@@ -103,6 +103,9 @@
 .job-cntnt-item-copy a{
 	display: inline-block;
 }
+.job-cntnt-item-copy a:hover{
+	opacity: 0.7;
+}
 .job-cntnt-item-copy a img{
 	display: inline-block;
 	max-height: 23px;
@@ -218,6 +221,7 @@
 .export-job-list-cv a{
 	display: inline-block;
 	color: #bcbcbc;
+	font-weight: 600;
 	text-decoration: none;
 }
 .export-job-list-cv a:hover{
