@@ -20,11 +20,11 @@
 }
 .myaccount-content-cntlr{
 	border-bottom: 18px solid #7a92d0;
-    box-shadow: 0 0 36px -21px #000;
-    -moz-box-shadow: 0 0 36px -21px #000;
-    -webkit-box-shadow: 0 0 36px -21px #000;
+    box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.25);
     border-radius: 11px;
-    padding:30px 34px;
+    padding:27px 34px;
 }
 .my-account-title{
     font-family: 'Inter', sans-serif;
@@ -89,6 +89,9 @@
 	height:189px;
 	display: block;
 }*/
+.input-field-col span.in-icon-file {
+    left: 19px!important;
+}
 .form-title{
     font-weight: 700;
     color:#000000;
@@ -96,7 +99,7 @@
 }
 .subtitle{
 	color:#959595;
-	font-size:24px;
+	font-size:23px;
 	font-weight:600;
 	text-transform: capitalize;
 	margin-bottom:26px;
@@ -130,12 +133,10 @@
 }
 .myaccount-setting-form .input-field-col label {
     position: absolute;
-    left: 0;
-    right: 0;
+    left:15px;
+    right:15px;
     top: 0;
     bottom: 0;
-    width: 100%;
-    max-width: 100%;
     height: 60px;
     background: #fff;
     border: 2px solid #cecece;
@@ -157,7 +158,7 @@
 	padding-bottom:50px;
 }
 .textarea-icon-cntlr span {
-    top: 20px!important;
+    top: 15px!important;
     transform: translateY(0%)!important;
     -webkit-transform: translateY(0%)!important;
     -ms-transform: translateY(0%)!important;
@@ -167,6 +168,10 @@
 	background-color:transparent!important;
 	color:#fa5252!important;
 }
+.submint-btn .fl-transparent-btn:hover {
+    background: #fa5252!important;
+    color: #fff!important;
+}
 .gray-bg label{
-	background-color:#c6c6c6;
+	background-color:#c6c6c6!important;
 }
