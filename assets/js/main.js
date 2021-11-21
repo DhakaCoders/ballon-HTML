@@ -257,6 +257,19 @@ google.maps.event.addDomListener(window, 'load', initialize);
     $(this).parents('.bln-accordion-menu').siblings().find('.bln-accordion-des').slideUp(300);
   });
 
+  if( $('.companyItemTagSlider').length ){
+    $('.companyItemTagSlider').slick({
+      dots: false,
+      infinite: false,
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+    });
+}
+
 
 
 /*start of Shariful*/
