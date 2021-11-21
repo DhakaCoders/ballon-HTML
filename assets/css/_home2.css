@@ -252,6 +252,7 @@
 	width: 50%;
 	padding-bottom: 8px;
 	padding-right: 20px;
+	font-weight: 500;
 }
 
 
@@ -340,7 +341,7 @@
 }
 
 .hire-pro-grd-item-des-title{
-	font-size: 20px;
+	font-size: 18px;
 	margin-bottom: 12px;
 }
 
