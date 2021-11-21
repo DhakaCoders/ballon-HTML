@@ -37,7 +37,7 @@
 	display: inline-block;
 	text-decoration: none;
 	color: #fa5252;
-
+	font-weight: 600;
 }
 .job-cntnt-item-des p a:hover{
 	color: initial;
