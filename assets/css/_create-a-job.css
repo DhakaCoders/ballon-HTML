@@ -102,3 +102,11 @@
 .create-a-job-form .input-field-inner .submint-btn{
 	margin-left: auto;
 }
+.form-block.form-block-bdrnone{
+    border-bottom:none;
+    padding-top:35px;
+    padding-bottom:10px
+}
+.create-a-job-form .input-field-inner .back-btn+.submint-btn button{
+    margin-bottom:0;
+}

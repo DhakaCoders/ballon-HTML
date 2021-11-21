@@ -53,8 +53,13 @@
     cursor: pointer;
 }
 .add-profile-img label span i {
-    font-size: 24px;
+    font-size: 22px;
     color: #000;
+}
+.add-profile-img label span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .myaccount-profile{
     margin-bottom: 15px;

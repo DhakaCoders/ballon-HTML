@@ -341,7 +341,7 @@ if($('.tol-tip').length){
       "opacity":"1",
       "height":"auto",
       "transform":"translateY(0px)",
-      "transition":".3s",
+      "transition":".2s",
       "z-index":"2",
     })
   })
