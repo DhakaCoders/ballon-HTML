@@ -17,7 +17,7 @@
 .job-cntnt-mdul-title{
 	margin-bottom: 0;
 }
-.job-cntnt-mdul-hdr span{
+.job-cntnt-mdul-hdr > span{
 	margin-left: auto;
 	padding-left: 10px;
 }

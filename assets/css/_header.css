@@ -37,17 +37,17 @@ nav.main-nav > ul{
 	margin-left: -2px;
 }
 nav.main-nav > ul > li{
-	padding: 10px 2px;
+	padding: 10px 17px;
 	position: relative;
 }
 nav.main-nav > ul > li > a{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #4f4f4f;
 	text-decoration: none;
-    padding: 7px 15px;
+    padding: 7px 0;
     text-transform: capitalize;
 }
 nav.main-nav > ul > li.menu-btn > a{
