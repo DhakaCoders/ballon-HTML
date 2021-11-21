@@ -16,7 +16,6 @@
 	letter-spacing: 0.5px;
 	text-decoration: none;
 	position: relative;
-
 }
 .back-to-explr-cntlr a:before{
 	position: absolute;
@@ -678,27 +677,21 @@ strong.card-loctn i{
 }*/
 .pp-revw-sec-cntlr >ul{
 	display: flex;
-	/*flex-wrap: wrap;*/
+	flex-wrap: wrap;
 }
 .pp-revw-sec-cntlr >ul >li{
 	flex-direction: column;
 	margin-bottom: 15px;
 	width: 100%;
 }
-.pp-revw-sec-cntlr >ul >li{
-	/*padding: 15px;*/
-}
 .pp-revw-item{
 	padding: 15px;
 	border:2px solid #c6c6c6;
 	border-radius: 6px;
 }
-.pp-revw-item-iner{
-	/*position: relative;*/
-}
+.pp-revw-item-iner{}
 .pp-revw-item-ttl{
 	margin-bottom: 15px;
-	text-transform: capitalize;
 }
 .pp-revw-item-cntns{
 	position: relative;
@@ -715,7 +708,6 @@ strong.card-loctn i{
 }
 .pp-revw-item-cntns >ul >li{
 	position: relative;
-	/*width: 33.3333%;*/
 	padding-left: 20px;
 	padding-bottom: 0;
 	margin-right: 20px;
@@ -747,10 +739,7 @@ strong.card-loctn i{
     background-image: url('../images/pp-calender.png');
     width: 15px;
     height: 17px;
-    right: -5px;
-}
-.pp-revw-item-cntns ul  li span{
-	display: inline-block;
+    left: 2px;
 }
 .rating-stars{
 	position: absolute;
@@ -774,6 +763,8 @@ strong.card-loctn i{
     font-weight: 700;
     margin-top: 3px;
 }
-.pp-show-more-revw{}
+.pp-show-more-revw{
+	padding-top: 25px;
+}
 .show-more-revw{}
 
