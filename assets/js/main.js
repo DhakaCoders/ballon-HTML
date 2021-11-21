@@ -344,8 +344,9 @@ if($('.tol-tip').length){
   });
 
 };
-$('#nav').onePageNav();
-
+if($('#bln-nav').length){
+  $('#bln-nav').onePageNav();
+}
 /*start of Zahir*/
 if($('.fancybox').length){
   $(document).ready(function() {

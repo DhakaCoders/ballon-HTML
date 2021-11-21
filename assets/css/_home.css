@@ -72,8 +72,8 @@
 }
 .professionals-desc-btn .fl-btn {
     min-width: 188px;
-    padding-top: 21px;
-    padding-bottom: 22px;
+   /* padding-top: 21px;
+    padding-bottom: 22px;*/
 }
 
 
@@ -105,6 +105,9 @@
 .bln-accordion-hdr{
 	padding: 23px 0;
 	cursor: pointer;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 .bln-accordion-hdr.active{
 	padding-top: 50px;
@@ -167,7 +170,7 @@
 	width: 35%;
 }
 .cta-module-decs-cntlr{
-	max-width: 550px;
+	max-width: 543px;
 	width: 100%;
 }
 .cta-module-decs-title{
