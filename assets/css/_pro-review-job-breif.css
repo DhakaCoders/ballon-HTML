@@ -16,3 +16,15 @@
 .pro-review-job .input-field-col p{
 	margin-bottom:0;
 }
+
+.Print-button a {
+    color: #bcbcbc;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Print-button {
+    text-align: center;
+    padding-top: 16px;
+}

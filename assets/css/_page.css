@@ -7,14 +7,14 @@
 	width: 16px!important;
 	height: 16px!important;
 	position: static;
-	background: #E1E1E1!important;
+	background: #2b2b2b!important;
 	border-radius: 100% 100%!important;
 	margin: 0 8px;
 	padding: 0!important;
 }
 .slick-slider .slick-dots li.slick-active,
 .slick-slider .slick-dots li:hover{
-	background: #F3BA4B!important;
+	background: #fa5252!important;
 }
 .slick-slider .slick-dots li:before,
 .slick-slider .slick-dots li button:before{
@@ -44,6 +44,59 @@
 
 .sitemap ol li a:focus{
 	text-decoration: underline;
+}
+
+/*prev, next*/
+.slick-next,.slick-prev{
+    height: 16px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+}
+.slick-prev{
+    background: url('../images/slider-prev-icon.png')!important;
+    background-size: 100% 100%!important;
+    fill: red!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.slick-prev:hover{
+    background: url('../images/slider-prev-icon-hvr.png')!important;
+    fill: red!important;
+    background-size: 100% 100%!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.slick-next{
+    background: url('../images/slider-next-icon.png')!important;
+    background-size: 100% 100%!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.slick-next:hover{
+    background: url('../images/slider-next-icon-hvr.png')!important;
+    background-size: 100% 100%!important;
+    fill: red!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.slick-prev:before,
+.slick-next:before{
+    content: none!important;;
 }
 
 
