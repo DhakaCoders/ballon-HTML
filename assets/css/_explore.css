@@ -298,6 +298,7 @@
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	margin-bottom: 23px;
 }
 .company-item-lft{
 	width: 23%;
@@ -437,6 +438,7 @@
 
 .company-item-tag{
 	margin: 0 -2px;
+	padding-right: 48px;
 }
 .company-item-tag-slide-cntlr{
 	padding: 0 2px;
@@ -451,4 +453,11 @@
 	font-weight: 600;
 	color: #616368;
 	line-height: 1;
+}
+.companyItemTagSlider .slick-prev{
+	right: 30px!important;
+	left: initial!important;
+}
+.companyItemTagSlider .slick-next{
+	right: 2px!important;
 }
