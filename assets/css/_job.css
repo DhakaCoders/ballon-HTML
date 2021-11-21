@@ -1,8 +1,11 @@
+.job-content-sec{
+	padding-top: 50px;
+}
 .job-content-cntlr{
 	padding: 0 14px;
 }
 .posting-job-module-cntlr{
-	
+	margin-bottom: 50px;
 }
 .job-cntnt-mdul-hdr{
 	display: flex;
@@ -21,6 +24,7 @@
 	display: inline-block;
 	text-decoration: none;
 	color: #fa5252;
+	font-weight: 500;
 }
 .job-cntnt-mdul-hdr span a:hover{
 	color: initial;
@@ -92,9 +96,62 @@
 	margin-left: auto;
 }
 .job-cntnt-item-copy{
-
+	text-align: right;
+	margin-bottom: 7px;
 }
 .job-cntnt-item-copy a{
 	display: inline-block;
-	text-align: right;
+
+}
+.offer-contacted-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+	
+	margin: 0 -14px;
+}
+.job-cntnt-item-offer{
+	padding: 0 14px;
+}
+.job-cntnt-item-offer-title{
+	display: inline-block;
+	color: #616368;
+	line-height: 1;
+	margin-bottom: 9px;
+}
+.job-cntnt-item-ofr-cunt{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.job-cntnt-item-ofr-cunt strong{
+	color: #2b2b2b;
+	font-weight: 500;
+	display: inline-block;
+	line-height: 1;
+}
+.job-cntnt-item-ofr-cunt span{
+	color: #7a92d0;
+	font-weight: 500;
+	display: inline-block;
+	line-height: 1;
+	padding-left: 5px;
+}
+.job-cntnt-item-cntcted{
+	padding: 0 14px;
+}
+.job-cntnt-item-cntcted-title{
+	display: inline-block;
+	color: #616368;
+	line-height: 1;
+	width: 100%;
+}
+.job-cntnt-item-cntcted strong{
+	color: #2b2b2b;
+	font-weight: 500;
+	display: inline-block;
+	line-height: 1;
+}
+
+.active-job-module-cntlr{
+	margin-bottom: 25px;
 }
