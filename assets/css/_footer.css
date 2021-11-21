@@ -45,12 +45,12 @@ body.home .footer-wrp{
 
 }
 .ftr-col-menu ul{
-	margin: -1px 0;
+	margin: 0;
 }
 .ftr-col-menu ul li{
 	font-size: 20px;
 	line-height: 1;
-	padding: 1px 0;
+	padding: 3px 0;
 }
 .ftr-col-menu ul li a{
 	display: inline-block;
@@ -65,6 +65,7 @@ body.home .footer-wrp{
 }
 .ftr-mail{
 	margin-bottom: 5px;
+	padding-top: 2px;
 }
 .ftr-mail a{
 	display: inline-block;
