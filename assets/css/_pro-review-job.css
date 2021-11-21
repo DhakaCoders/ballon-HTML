@@ -24,6 +24,7 @@
 .pro-rvw-job-mdul-cntlr .job-cntnt-item{
 	padding-bottom: 13px;
 	padding-top: 20px;
+	padding-right: 32px;
 	border-bottom: 2px solid #e1e1e1;
 	position: relative;
 }
@@ -64,4 +65,22 @@
 .job-cntnt-pro-msg-item.pro-rvw-job-gap {
     padding-top: 17px;
     padding-bottom: 3px;
+}
+.new-jon-tag{
+	position: absolute;
+	right: 0;
+	top: 21px;
+}
+.new-jon-tag span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fedada;
+	background: #fa5252;
+	width: 65px;
+	text-align: center;
+	padding: 5.5px 0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
