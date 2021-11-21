@@ -4,6 +4,7 @@
 }
 .my-account-sec{
     padding-top: 35px;
+    padding-bottom:129px;
 }
 .my-account-setting-sec-ui .myaccount-content-cntlr{
 	padding-bottom:180px;
@@ -15,8 +16,6 @@
     width: 74.35%;
     padding-left:42px;
     padding-right:44px;
-    padding-bottom:129px;
-    
 }
 .myaccount-content-cntlr{
 	border-bottom: 18px solid #7a92d0;

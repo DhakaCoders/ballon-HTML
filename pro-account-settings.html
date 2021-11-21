@@ -38,6 +38,7 @@
 </head>
 <body>
 <div class="page-body-cntlr">
+ <div class="bdoverlay"></div>
   <header class="header">
     <div class="container">
       <div class="row">
@@ -51,21 +52,59 @@
             <div class="hdr-rgt">
               <nav class="main-nav">
                 <ul class="clearfix reset-list">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li class="current-menu-item"><a href="#">Explore</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Hire</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">submenu 1</a></li>
+                      <li><a href="#">submenu 2</a></li>
+                      <li><a href="#">submenu 3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Login</a></li>
+                  <li class="menu-btn">
+                    <a href="#">
+                      join
+                      
+                    </a>
+                  </li>
                 </ul>
               </nav>
+              <div class="profile-ctlr">
+                <div class="profile">
+                  <a href="#">
+                    <img src="assets/images/profile.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hamburgar-cntlr show-md">
+              <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </header>
+
+  <div class="xs-mobile-menu d-none">
+    <div class="xs-menu">
+      <nav class="main-nav">
+        <ul class="clearfix reset-list">
+          <li class="current-menu-item"><a href="#">Explore</a></li>
+          <li><a href="#">Hire</a></li>
+          <li><a href="#">Login</a></li>
+          <li class="join"><a href="#">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- end of header -->
 
   <section class="my-account-sec my-account-setting-sec">
     <div class="container">
@@ -97,7 +136,7 @@
                 <h2 class="form-title fl-h2">My Account</h2>
                 <strong class="subtitle">Personal Details</strong>
                 <form action="" class="myaccount-form myaccount-setting-form my-proaccount-setting-form">
-                  <div class="input-field-wrapper input-field-wrapper-pd-50">
+                  <div class="input-field-wrapper input-field-wrapper-pd-35">
                     <div class="myaccount-profile">
                       <div class="account-profile-right">
                         <div class="myaccount-profile-image">
@@ -117,7 +156,7 @@
                             </div>
                           </div>
                           <div class="input-fields-row">
-                            <div class="input-field-col">
+                            <div class="input-field-col margin-botton-0">
                               <span class="in-icon"><i class="fas fa-user"></i></span>
                               <input type="text" placeholder="Last Name">
                             </div>
@@ -139,7 +178,7 @@
                     </div>
                   </div>
                   <strong class="subtitle">Change Password</strong>
-                  <div class="input-field-wrapper">
+                  <div class="input-field-wrapper input-field-wrapper-pd-35">
                     <div class="input-fields-row">
                       <div class="input-field-col">
                         <span class="in-icon"><i class="fas fa-lock"></i></span>
@@ -177,11 +216,70 @@
 
 
   <footer class="footer-wrp">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="ftr-col">
-            <div></div>
+    <div class="ftr-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="ftr-top-cntlr clearfix">
+              <div class="ftr-col ftr-col-01">
+                <h6 class="ftr-col-title fl-h6">Customers</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">How to use</a></li>
+                    <li><a href="#">Search professionals</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Hire</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ftr-col ftr-col-02">
+                <h6 class="ftr-col-title fl-h6">Professionals</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">Sign up as a Pro</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Resources</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ftr-col ftr-col-03">
+                <h6 class="ftr-col-title fl-h6">Support</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">Help Hub</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Satisfaction Guarantee</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ftr-col ftr-col-04">
+                <h6 class="ftr-col-title fl-h6">Contact Us</h6>
+                <div class="ftr-mail">
+                  <a href="mailto:hello@balloonn.com">hello@balloonn.com</a>
+                </div>
+                <div class="ftr-socials">
+                  <ul class="reset-list">
+                    <li><a target="_blank" href="#"><img src="assets/images/facebook-icon.png"></a></li>
+                    <li><a target="_blank" href="#"><img src="assets/images/instagram-icon.png"></a></li>
+                    <li><a target="_blank" href="#"><img src="assets/images/twiter-icon.png"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ftr-btm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="ftr-btm-cntlr">
+              <div class="ftr-copyright">
+                <p>&copy; 2021 Balloonn. All Rights Reserved</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
