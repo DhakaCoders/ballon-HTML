@@ -70,6 +70,10 @@
 	position: absolute;
 	right: 0;
 	top: 21px;
+	display: none;
+}
+.job-cntnt-item-new-job-tag .new-job-tag{
+	display: block;
 }
 .new-job-tag span{
 	display: inline-block;
