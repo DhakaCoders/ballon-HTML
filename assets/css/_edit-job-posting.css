@@ -7,14 +7,17 @@
     cursor: pointer;
 }
 
-.tol-tip-des {
+.tol-tip-des{
     position: absolute;
     width:0px;
     height:0px;
     background: #fff;
     padding-left: 12px;
     padding-top: 20px;
-    box-shadow: 0 0 27px -17px #000;
+    box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.22);
+    padding-right:12px;
     border-radius: 8px;
     left: -10px;
     top: 35px;
@@ -24,6 +27,14 @@
     /*transform: translateY(-10px);*/
     /*-ms-transform: translateY(-10px);*/
     /*-webkit-transform: translateY(-10px);*/
+}
+.tol-tip.tol-tip-cntlr .tol-tip-des{
+    width:395px;
+    opacity:1;
+    height:auto;
+    transform:translateY(0px);
+    transition:.2s;
+    z-index:2;
 }
 
 .tol-tip-des p{
@@ -38,4 +49,20 @@
 }
 .tol-tip i {
     color: #c6c6c6;
+}
+.tol-tip-des h6{
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    color:#2b2b2b;
+    padding-left:22px;
+}
+.tol-tip-des h6:after {
+    content: "\f5c3";
+    position: absolute;
+    left: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    top: 0;
+    color: #fa5252;
 }
