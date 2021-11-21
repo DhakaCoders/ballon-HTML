@@ -30,6 +30,7 @@
 @import url('_create-a-job.css');
 @import url('_pro-account-settings.css');
 @import url('_edit-job-posting.css');
+@import url('_pro-review-job-breif.css');
 
 /*start of Zahir*/
 @import url('_pro-profile.css');
@@ -42,6 +43,7 @@
 @import url('_login.css');
 @import url('_setup.css');
 @import url('_setup-pro.css');
+@import url('_pro-review-job-apply.css');
 
 /*start of Momin*/
 @import url('_how-it-woks-pro.css');
