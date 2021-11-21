@@ -108,12 +108,6 @@
 	.setup-pricing-account-sec .setup-pricing-account-sec-cntlr{
 		padding: 35px 16px 35px;
 	}
-	header{
-		display: none;
-	}
-	footer{
-		display: none;
-	}
 }
 @media(max-width: 639px){
 	.setup-pricing-account-sec .bl-pkg-grid-item-cntlr{
