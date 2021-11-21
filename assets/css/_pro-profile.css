@@ -1,10 +1,10 @@
-.pp-compny-card-cntns-sec{
+.bln-company-card-sec{
 	padding: 24px 0;
 }
-.back-to-explr-cntlr{
+.bln-back-to-explr-cntlr{
 	padding-bottom: 15px;
 }
-.back-to-explr-cntlr a{
+.bln-back-to-explr-cntlr a{
 	display: inline-block;
 	color: #fa5252;
 	text-transform: capitalize;
@@ -17,7 +17,7 @@
 	text-decoration: none;
 	position: relative;
 }
-.back-to-explr-cntlr a:before{
+.bln-back-to-explr-cntlr a:before{
 	position: absolute;
 	content: "";
 	left: 0;
@@ -29,48 +29,48 @@
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 11px;
+	height: 9px;
 	width: 6px;
 }
-.pp-compny-card-cntns-sec-cntlr {
+.bln-company-card-contents-cntlr {
     -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
     -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
     box-shadow: 1px 0px 17px 15px rgb(230 230 230 / 84%);
     border-radius: 12px;
     border-bottom: 17px solid #014d4b;
 }
-.pp-compny-card-cntns-inr {
+.bln-comp-card-cntnt-iner {
     padding: 35px 35px 40px 45px;
     display: flex;
     flex-wrap: wrap;
 }
-.pp-compny-card-cntns-lft{
+.bln-comp-card-cntnt-lft{
 	padding-right: 25px;
 	width: 24%;
 }
-.compny-card-logo {
+.comp-card-logo {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
     -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
     border-radius: 8px;
     text-align: center;
 }
-.compny-card-logo img{
+.comp-card-logo img{
 	width: 100%;
 	height: auto;
 }
-.pp-compny-card-cntns-rgt{
+.bln-comp-card-cntnt-rgt{
 	width: 76%;
 }
-.pp-compny-card-ttl{
+.card-title{
 	margin-bottom: 15px;
 }
-.pp-compny-card-cntns-top{
+.bln-comp-cntnt-top{
 	display: flex;
 	padding-bottom: 65px;
 	flex-wrap: wrap;
 }
-.compny-card-cntns-top-lft{
+.bln-comp-cntnt-top-lft{
 	padding-right: 20px;
 }
 .compny-card-title{
@@ -79,7 +79,7 @@
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
-.card-loctn {
+.card-location {
     position: relative;
     padding-left: 18px;
     font-size: 18px;
@@ -90,7 +90,7 @@
     display: block;
     letter-spacing: .5px;
 }
-.card-loctn i{
+.card-location i{
 	position: absolute;
 /*	content: "";
 	background-image: url('../images/pp-loctn-icon.png');
@@ -104,7 +104,7 @@
 	font-size: 19px;
 	display: inline-block;
 }
-.card-loctn-time{
+.card-location-time{
 	color: #c8c8c8;
 	display: inline-block;
 	font-size: 18px;
