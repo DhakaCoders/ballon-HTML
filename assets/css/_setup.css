@@ -51,6 +51,9 @@
 .setup-mgs span a:hover{
 	color: #7a92d0;
 }
+.setup-mgs span a:hover i{
+	right: -4px;
+}
 .setup-mgs span a i{
 	position: absolute;
 	right: 0;
@@ -59,7 +62,11 @@
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	margin-top: 1px;
+	display: inline-block;
 }
 .setup-contant-sec .join-contant-cntlr{
 	padding-bottom: 19px;
+}
+.join-contant-sec.setup-contant-sec {
+    padding-bottom: 71px;
 }
