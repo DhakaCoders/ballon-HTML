@@ -18,3 +18,25 @@
 #quote-price .input-field-col input{
     width: 522px;
 }
+#quote-price .input-field-col label{
+    display: block;
+}
+.pro-rvw-job-aply-form-btn-cntlr {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+.pro-rvw-job-aply-form-btn-cntlr a{
+    padding: 15.5px 13px 16.5px;
+}
+.pro-rvw-job-aply-form-cntlr {
+    border-bottom: 18px solid #7a92d0;
+    border-radius: 10px;
+    box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+    -ms-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+    -webkit-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+}
+.pro-review-job-apply-sec {
+    padding-top: 50px;
+    padding-bottom: 61px;
+}
