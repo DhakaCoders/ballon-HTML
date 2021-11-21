@@ -1,0 +1,11 @@
+.pro-rvw-job-top-con-inr .profile{
+	height: 78px;
+	width: 78px;
+}
+.pro-rvw-job-top-con-inr .job-cntnt-mdul-hdr{
+	margin-bottom: 16px;
+}
+.pro-rvw-job-top-con-inr .job-cntnt-item-dtls-col span i.fas.fa-user {
+    margin-top: -2px;
+    color: #fa5252;
+}
