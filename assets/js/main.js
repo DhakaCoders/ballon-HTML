@@ -295,7 +295,42 @@ if( $('#sidebar').length ){
   });
 }
 
+/*start of Momin*/
 
+/**
+Slick slider
+*/
+if(windowWidth <= 767){
+    $('.HowItWorksSlider').slick({
+      dots: true,
+      infinite: true,
+      autoplay: false,
+      arrows: false,
+      autoplaySpeed: 1000,
+      speed: 700,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+}
 
 
 /*start of Niaz*/
@@ -331,7 +366,6 @@ if($('.fancybox').length){
 $('.create-a-job-form select').select2();
 $('.select-2-cntlr').select2();
 
-/*start of Momin*/
 
 
     new WOW().init();
