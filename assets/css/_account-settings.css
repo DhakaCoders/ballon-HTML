@@ -16,9 +16,14 @@
 .account-profile-right {
     width: 46.52%;
 }
-
+.myaccount-setting-form .account-profile-right{
+    padding-left: 40px;
+}
 .account-profile-lft {
     width: 53.48%;
+}
+.account-profile-lft .input-field-col.margin-botton-0{
+    margin-bottom:0;
 }
 .add-profile-img {
     position: absolute;
@@ -53,4 +58,7 @@
 }
 .myaccount-profile{
     margin-bottom: 15px;
+}
+.my-account-setting-sec .myaccount-content-cntlr{
+    padding-bottom:60px;
 }

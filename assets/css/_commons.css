@@ -220,7 +220,7 @@ ul.sub-menu,
 .fl-pagi-ctlr ul,
 .reset-slect ul,
 ul.ab-top-menu,
-.fl-pagination-ctlr ul,
+.fl-pagination-cntlr ul,
 .bl-pkg-grids-cntlr > ul,
 .attachments-browser ul{
 	margin: 0;
@@ -232,7 +232,7 @@ ul.sub-menu li,
 .fl-pagi-ctlr ul li,
 .reset-slect ul li,
 ul.ab-top-menu li,
-.fl-pagination-ctlr ul li,
+.fl-pagination-cntlr ul li,
 .bl-pkg-grids-cntlr > ul > li,
 .attachments-browser ul li{
 	padding: 0;
@@ -245,7 +245,7 @@ ul.sub-menu li:before,
 .fl-pagi-ctlr ul li:before,
 .reset-slect ul li:before,
 ul.ab-top-menu li:before,
-.fl-pagination-ctlr ul li:before,
+.fl-pagination-cntlr ul li:before,
 .bl-pkg-grids-cntlr > ul > li:before,
 .attachments-browser ul li:before{
 	content: none!important;

@@ -332,9 +332,37 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 }
 
 
-
-
-
+.fl-pagination-cntlr{
+    padding-bottom: 42px;
+}
+.fl-pagination-cntlr ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fl-pagination-cntlr ul li{
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.fl-pagination-cntlr ul li a.next.page-numbers,
+.fl-pagination-cntlr ul li a.prev.page-numbers {
+    color: #fa5252;
+    transition: all 0s;
+}
+.fl-pagination-cntlr ul li a{
+    color: #76787c;
+    text-decoration: none;
+    position: relative;
+}
+.fl-pagination-cntlr ul li span.current,
+.fl-pagination-cntlr ul li a.next.page-numbers:hover,
+.fl-pagination-cntlr ul li a.prev.page-numbers:hover,
+.fl-pagination-cntlr ul li a:hover{
+    color: #fa5252;
+}
 @media(max-width: 1199px){
     .page-intro-sec{
         padding-bottom: 50px;
