@@ -1,0 +1,18 @@
+.pro-review-job .input-field-col p{
+	color:#000;
+	font-family: 'Inter', sans-serif;
+	font-size:24px;
+	font-weight:500;
+	padding-left:23px;
+}
+.pro-review-job .input-field-col > span{
+	display:inline-block;
+	margin-bottom:17px;
+}
+.pro-review-job .input-field-col p span{
+    color: #a3a4a6;
+
+}
+.pro-review-job .input-field-col p{
+	margin-bottom:0;
+}
