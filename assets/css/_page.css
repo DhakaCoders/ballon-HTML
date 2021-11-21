@@ -73,15 +73,14 @@
 	margin-bottom: 25px;
 }
 .page-intro-sec-cntlr p{
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 1.2;
 	color: #828282;
 	font-weight: 500;
 }
 .page-intro-sec-cntlr p:last-of-type{
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
-
 /*ul li*/
 ul{
 	padding: 0;
@@ -246,7 +245,7 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     background: #fff;
     border: 2px solid #cecece;
     box-sizing: border-box;
-    padding: 15px 35px 15px 16px;
+    padding: 17px 35px 15px 16px;
     color: #2b2b2b!important;
     font-size: 21px;
     border-radius: 6px!important;
@@ -276,4 +275,24 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 }
 .create-a-job-form .select2-selection__arrow:after{
     right: 19px;
+}
+
+
+
+
+@media(max-width: 1199px){
+    .page-intro-sec{
+        padding-bottom: 50px;
+    }
+    .page-intro-sec-title{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 991px){
+    .page-intro-sec{
+        padding-bottom: 45px;
+    }
+    .page-intro-sec-title{
+        margin-bottom: 20px;
+    }
 }

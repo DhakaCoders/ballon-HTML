@@ -18,6 +18,10 @@
 	text-align: initial;
 	padding-bottom: 25px;
 }
+.setup-pricing-account-sec .bl-pkg-grid-item-cntlr{
+	border-bottom: initial;
+	padding: 25px 40px 35px 23px;
+}
 .setup-pricing-account-sec .try-free-btn{
 	padding-top: 20px;
 }

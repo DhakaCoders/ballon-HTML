@@ -3,6 +3,8 @@
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 11px;
+    position: relative;
+    padding-right: 34px;
 }
 .create-a-job-form .input-field-col input,
 .create-a-job-form .input-field-col textarea{
@@ -47,6 +49,8 @@
     border-bottom: 2px solid #e1e1e1;
     padding-left: 45px;
     padding-right: 45px;
+    padding-bottom: 12px;
+    padding-top: 21px;
 }
 .myaccount-content.create-a-job-content .myaccount-content-cntlr {
     padding-left: 0;
@@ -54,4 +58,43 @@
 }
 .form-block .input-field-wrapper {
     max-width: 100%;
+}
+.create-a-job-content .myaccount-content-cntlr{
+	padding-top:10px;
+}
+
+.create-a-job-form .input-field-col ul li span {
+    background: #e5e5e5;
+    font-size: 14px;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #616368;
+    font-weight: 600;
+}
+
+.create-a-job-form .input-field-col ul {
+    display: flex;
+    margin: 0 -3px;
+}
+
+.create-a-job-form .input-field-col ul li {
+    padding: 0 3px;
+}
+.padding-btm-20{
+	padding-bottom:20px;
+}
+.create-a-job-form .back-btn a {
+    font-size: 16px;
+    color: #76787c;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+.create-a-job-form .input-field-inner{
+	display: flex;
+	align-items: center;
+}
+.create-a-job-form .input-field-inner .submint-btn{
+	margin-left: auto;
 }

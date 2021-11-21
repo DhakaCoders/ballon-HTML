@@ -1,7 +1,7 @@
 (function($) {
 
 /*Google Map Style*/
-var CustomMapStyles  = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+var CustomMapStyles  = [{"featureType":"all","elementType":"geometry.fill","stylers":[{"weight":"2.00"}]},{"featureType":"all","elementType":"geometry.stroke","stylers":[{"color":"#9c9c9c"}]},{"featureType":"all","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#eeeeee"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#7b7b7b"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#c8d7d4"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#070707"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]}]
 
 var windowWidth = $(window).width();
 $('.navbar-toggle').on('click', function(){
@@ -261,11 +261,19 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /*start of Shariful*/
 
-/*var windowWidth = $(window).width();*/
+
 var containerWidth = $('.container').width();
 var offset = (windowWidth - containerWidth);
 var rgtOffSet = (offset / 2);
 $('.service-lft-img').css('margin-right', rgtOffSet);
+
+$(window).resize(function(){
+  var windowWidth = $(window).width();
+  var containerWidth = $('.container').width();
+  var offset = (windowWidth - containerWidth);
+  var rgtOffSet = (offset / 2);
+  $('.service-lft-img').css('margin-right', rgtOffSet);
+});
 
 if( $('#sidebar').length ){
   $('#sidebar').stickySidebar({
@@ -278,13 +286,32 @@ if( $('#sidebar').length ){
 
 
 /*start of Niaz*/
-
-
-
+if($('.tol-tip').length){
+  $('.tol-tip').mouseover(function(){
+    $('.tol-tip-des').css({
+      // "display":"block",
+      "z-index":"1",
+      "opacity":"1",
+      "transform":"translateY(0px)",
+      "transition":".2s"
+    })
+  })
+  $('.tol-tip').mouseout(function(){
+    $('.tol-tip-des').css({
+      "z-index":"-1111",
+      "opacity":"0",
+      // "display":"none",
+      "transform":"translateY(-10px)"
+    })
+  })
+}
 
 /*start of Zahir*/
-
-
+if($('.fancybox').length){
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+}
 
 /*start of Keshob*/
 $('.create-a-job-form select').select2();
