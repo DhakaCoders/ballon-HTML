@@ -1,5 +1,6 @@
 .job-content-sec{
 	padding-top: 50px;
+	padding-bottom: 175px;
 }
 .job-content-cntlr{
 	padding: 0 14px;
@@ -101,7 +102,11 @@
 }
 .job-cntnt-item-copy a{
 	display: inline-block;
-
+}
+.job-cntnt-item-copy a img{
+	display: inline-block;
+	max-height: 23px;
+	height: auto;
 }
 .offer-contacted-cntlr{
 	display: flex;
@@ -154,4 +159,67 @@
 
 .active-job-module-cntlr{
 	margin-bottom: 25px;
+}
+.job-cntnt-item-pro-msg{
+
+}
+.job-cntnt-item-pro-msg ul{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 -5px;
+}
+.job-cntnt-item-pro-msg ul li{
+	padding: 0 5px;
+}
+.job-cntnt-pro-msg-item {
+
+}
+.job-cntnt-pro-msg-item a {
+    padding: 6px 5px 6px 30px;
+    display: inline-block;
+    position: relative;
+    background: #ecf1ff;
+    border-radius: 3px;
+    color: #7a92d0;
+    min-width: 110px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1;
+    text-align: left;
+}
+.job-cntnt-pro-msg-item a:hover{
+	background: #2b2b2b;
+}
+.job-cntnt-msg-item.job-cntnt-pro-msg-item a{
+	padding-left: 33px;
+}
+.job-cntnt-pro-msg-item a i {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    display: inline-block;
+    line-height: 1;
+}
+.job-cntnt-msg-item.job-cntnt-pro-msg-item a i{
+	margin-top: 1px;
+}
+.active-job-module-cntlr .job-cntnt-item-copy{
+	margin-bottom: 25px;
+}
+
+.export-job-list-cv{
+	text-align: center;
+}
+.export-job-list-cv a{
+	display: inline-block;
+	color: #bcbcbc;
+	text-decoration: none;
+}
+.export-job-list-cv a:hover{
+	color: #fa5252;
 }
