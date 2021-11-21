@@ -152,7 +152,7 @@
 .join-form .submint-btn {
     margin: 0 -7px;
 }
-.submint-btn button:last-child{
+.submint-btn .sub-blue-btn{
 	background: #7a92d0!important;
 	border: 2px solid #7a92d0!important;
 	color: #FFFFFF!important;
@@ -161,7 +161,7 @@
 	color: #fa5252!important;
 	background: transparent!important;
 }
-.submint-btn button:last-child:hover{
+.submint-btn .sub-blue-btn:hover{
 	color: #7a92d0!important;
 	background: transparent!important;
 }
