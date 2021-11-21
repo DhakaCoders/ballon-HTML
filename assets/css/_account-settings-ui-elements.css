@@ -168,6 +168,10 @@
 	background-color:transparent!important;
 	color:#fa5252!important;
 }
+.submint-btn .fl-transparent-btn:hover {
+    background: #fa5252!important;
+    color: #fff!important;
+}
 .gray-bg label{
 	background-color:#c6c6c6!important;
 }
