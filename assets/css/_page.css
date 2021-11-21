@@ -350,6 +350,7 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .fl-pagination-cntlr ul li a.next.page-numbers,
 .fl-pagination-cntlr ul li a.prev.page-numbers {
     color: #e5e5e5;
+    transition: all 0s;
 }
 .fl-pagination-cntlr ul li a{
     color: #76787c;
