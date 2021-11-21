@@ -142,57 +142,61 @@
 }
 
 
-.rocking-rolling-sec{
+.cta-module-sec{
 	background: #f5f7fa;
-	padding-top: 100px;
-	padding-bottom: 90px;
+	
 }
-.rocking-rolling-cntlr{
+.cta-module-cntlr{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	max-width: 970px;
 	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 90px;
 	margin-left: auto;
 	margin-right: auto;
+	background-size: auto 100%!important;
+	background-repeat: no-repeat!important;
+	background-position: left 42px center!important;
 }
-.rking-rling-lft{
+.cta-module-lft{
 	width: 65%;
 }
-.rking-rling-rgt{
+.cta-module-rgt{
 	width: 35%;
 }
-.rking-rling-decs-cntlr{
+.cta-module-decs-cntlr{
 	max-width: 550px;
 	width: 100%;
 }
-.rking-rling-decs-title{
+.cta-module-decs-title{
 
 }
-.rking-rling-decs{
+.cta-module-decs{
 	margin-bottom: 22px;
 }
-.rking-rling-decs p:last-of-type{
+.cta-module-decs p:last-of-type{
 	margin-bottom: 0;
 }
-.rking-rling-rating{
+.cta-module-rating{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 0 -5px;
 }
-.rking-rling-rating span{
+.cta-module-rating span{
 	padding: 0 5px;
 }
-.rking-rling-btns{
+.cta-module-btns{
 	max-width: 334px;
 	width: 100%;
 	margin-left: auto;
 }
-.rking-rling-btn-01{
+.cta-module-btn-01{
 	margin-bottom: 17px;
 }
-.rking-rling-btn a{
+.cta-module-btn a{
 	min-width: 100%;
 	font-size: 24px;
 }
