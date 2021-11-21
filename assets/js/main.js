@@ -312,9 +312,9 @@ if(windowWidth <= 767){
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 600,
+          breakpoint: 575,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1
           }
         },

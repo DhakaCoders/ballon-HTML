@@ -40,3 +40,31 @@
     padding-top: 50px;
     padding-bottom: 61px;
 }
+.pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-rgt {
+    margin-left: initial;
+}
+.pro-rvw-job-aply-lft .profile-ctlr{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.job-cntnt-item-des span{
+    color: #252525;
+}
+.job-cntnt-item-des p{
+    color: #929396;
+    margin-bottom: 20px;
+}
+.pro-rvw-job-aply-fature ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+.pro-rvw-job-aply-fature ul li{
+    padding: 0 12px;
+}
+.pro-rvw-job-fature-item span.property{
+    color: #252525;
+}
+.pro-rvw-job-fature-item span.value{
+    color: #616368;
+}
