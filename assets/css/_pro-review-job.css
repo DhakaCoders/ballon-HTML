@@ -66,12 +66,12 @@
     padding-top: 17px;
     padding-bottom: 3px;
 }
-.new-jon-tag{
+.new-job-tag{
 	position: absolute;
 	right: 0;
 	top: 21px;
 }
-.new-jon-tag span{
+.new-job-tag span{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 18px;
