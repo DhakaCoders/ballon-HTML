@@ -1,9 +1,9 @@
-header{
+/*header{
 	display: none;
 }
 footer{
 	display: none;
-}
+}*/
 .how-it-works-grids-sec{
 	background: #fff0f0;
 	position: relative;
@@ -172,9 +172,7 @@ footer{
 	.bl-pkg-grid-item-cntlr{
 		padding: 22px 35px 18px 18px!important;
 	}
-	.bl-pkg-grd-desc{
-		min-height: 297px;
-	}
+	
 	.bl-pkg-grd-hdr{
 		padding-bottom: 18px;
 	}
@@ -195,6 +193,9 @@ footer{
 	}
 	.how-it-works-grid-item-cntlr i{
 		margin-bottom: 10px;
+	}
+	.bl-pkg-grd-desc{
+		min-height: 269px;
 	}
 }
 @media(max-width: 639px){
