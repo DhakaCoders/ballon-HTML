@@ -5,8 +5,8 @@
 .my-account-sec{
     padding-top: 35px;
 }
-.my-account-setting-sec .myaccount-content-cntlr{
-	padding-bottom:163px;
+.my-account-setting-sec-ui .myaccount-content-cntlr{
+	padding-bottom:180px;
 }
 .myaccount-navigation {
     width: 25.64%;
@@ -116,9 +116,9 @@
 	margin-left:0!important;
 	margin-right:0!important;
 }
-.myaccount-setting-form .submint-btn{
+/*.myaccount-setting-form .submint-btn{
 	margin:0 -10px;
-}
+}*/
 .submit-btn-50 {
     margin: 0 -10px;
     display: flex;
@@ -154,8 +154,8 @@
     cursor: pointer;
     z-index: 2;
 }
-.input-field-wrapper-pd-50{
-	padding-bottom:50px;
+.input-field-wrapper-pd-35{
+	padding-bottom:35px;
 }
 .textarea-icon-cntlr span {
     top: 15px!important;
@@ -174,4 +174,11 @@
 }
 .gray-bg label{
 	background-color:#c6c6c6!important;
+}
+
+@media(max-width:1699px){
+    .myaccount-content{
+        padding-left:35px;
+        padding-right:35px;
+    }
 }
