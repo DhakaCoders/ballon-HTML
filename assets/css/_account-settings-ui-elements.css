@@ -39,9 +39,6 @@
 .myaccount-menu ul{
 
 }
-.myaccount-menu ul li{
-
-}
 .myaccount-menu ul li a,
 .logout-link a{
     display: inline-block;
@@ -52,7 +49,9 @@
     font-size:18px;
     text-transform: capitalize;
 }
-.myaccount-menu ul li a.active{
+.myaccount-menu ul li a.active,
+.myaccount-menu ul li.current a,
+.myaccount-menu ul li a:hover{
 	color:#fa5252;
 	font-weight:600;
 }

@@ -335,26 +335,15 @@ if(windowWidth <= 767){
 
 /*start of Niaz*/
 if($('.tol-tip').length){
+
   $('.tol-tip').mouseenter(function(){
-    $('.tol-tip-des').css({
-      "width":"395",
-      "opacity":"1",
-      "height":"auto",
-      "transform":"translateY(0px)",
-      "transition":".2s",
-      "z-index":"2",
-    })
-  })
+    $(this).addClass('tol-tip-cntlr');
+  });
   $('.tol-tip').mouseleave(function(){
-    $('.tol-tip-des').css({
-      "opacity":"0",
-      "width":"0",
-      "height":"0",
-      "transform":"translateY(-10px)",
-      "z-index":"-1",
-    })
-  })
-}
+    $(this).removeClass('tol-tip-cntlr');
+  });
+
+};
 $('#nav').onePageNav();
 
 /*start of Zahir*/
