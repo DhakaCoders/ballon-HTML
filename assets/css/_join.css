@@ -237,6 +237,24 @@
         padding-bottom: 60px;
     }
 }
+
+@media(max-width:479px){
+    .account-profile-right {
+        width: 100%;
+        margin-bottom:15px;
+    }
+
+    .myaccount-profile {
+        flex-wrap: wrap;
+    }
+
+    .account-profile-lft {
+        width: 100%;
+    }
+    .my-proaccount-setting-form .account-profile-right {
+        padding-left: 0px;
+    }
+}
 @media(max-width:369px){
     .input-field-col textarea, .input-field-col input{
         padding: 15px 15px 15px 32px;
