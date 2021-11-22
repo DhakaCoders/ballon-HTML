@@ -489,11 +489,76 @@
 	    width: 100%;
 	    padding-left: 0;
 	    padding-right: 0;
+	    padding-bottom: 0;
 	}
 	.hire-pro-grd-item-inr{
 		max-width: 350px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.hireProSlider .hire-pro-grd-item{
+		display: none;
+	}
+	.hireProSlider .hire-pro-grd-item:first-child{
+		display: block;
+	}
+	.hireProSlider.slick-initialized .hire-pro-grd-item{
+		display: block;
+	}
+}
+
+@media(max-width: 575px){
+	.hm-page-bnr-input-field{
+		display: block;
+	}
+	.input-col-1,
+	.input-col-2{
+		width: 100%;
+	}
+	.hm-page-bnr-input-field-row.input-col-1 input[type=text]{
+		border-right-width: 2px;
+		border-top-right-radius: 5px;
+    	border-bottom-right-radius: 5px;
+	}
+	.hm-page-bnr-input-field-row.input-col-2 input[type=text]{
+		border-left-width: 2px;
+		border-top-left-radius: 5px;
+    	border-bottom-left-radius: 5px;
+	}
+	.hire-professional-intro {
+	    display: block;
+	    padding-bottom: 30px;
+	}
+	.hire-pro-intro-img {
+	    width: 100%;
+	    margin-bottom: 30px;
+	    text-align: center;
+	}
+	.hire-professional-intro-des{
+		padding-right: 0;
+		width: 100%;
+	}
+}
+
+@media(max-width: 479px){
+	.hm-page-bnr-title{
+		margin-bottom: 12px;
+		font-size: 28px;
+	}
+	.hm-page-bnr-subtitle {
+	    font-size: 18px!important;
+	}
+	.hm-page-bnr-input-field-row label {
+	    font-size: 16px;
+	}
+	.service-grd-item-des ul {
+	    display: block;
+	}
+	.service-grd-item-des ul li{
+		width: 100%;
+	}
+	.service-grd-item-des-btn {
+	    text-align: left;
 	}
 }
