@@ -51,7 +51,7 @@
               </div>
             </div>
             <div class="hdr-rgt">
-              <nav class="main-nav">
+              <nav class="main-nav hide-sm">
                 <ul class="clearfix reset-list">
                   <li class="current-menu-item"><a href="#">Explore</a></li>
                   <li class="menu-item-has-children">
@@ -72,7 +72,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="hamburgar-cntlr show-md">
+            <div class="hamburgar-cntlr show-sm">
               <div class="hamburger-icon">
                 <span></span>
                 <span></span>
@@ -85,14 +85,38 @@
     </div>
   </header>
 
-  <div class="xs-mobile-menu d-none">
+  <div class="xs-mobile-menu">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+      <div class="hamburgar-cntlr show-sm">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
     <div class="xs-menu">
       <nav class="main-nav">
         <ul class="clearfix reset-list">
           <li class="current-menu-item"><a href="#">Explore</a></li>
-          <li><a href="#">Hire</a></li>
+          <li class="menu-item-has-children">
+            <a href="#">Hire</a>
+            <ul class="sub-menu">
+              <li><a href="#">submenu 1</a></li>
+              <li><a href="#">submenu 2</a></li>
+              <li><a href="#">submenu 3</a></li>
+            </ul>
+          </li>
           <li><a href="#">Login</a></li>
-          <li class="join"><a href="#">Join</a></li>
+          <li class="menu-btn">
+            <a href="#">
+              new job
+              <i class="fas fa-plus"></i>
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -306,7 +330,7 @@
                 <h2 class="hire-pro-intro-title fl-h2">Making it easy to <br>hire professionals</h2>
               </div>
             </div>
-            <div class="hire-pro-grds">
+            <div class="hire-pro-grds hireProSlider">
               <div class="hire-pro-grd-item hire-pro-grd-item-01">
                 <div class="hire-pro-grd-item-inr">
                   <div class="hire-pro-grd-item-img-ctlr">
@@ -362,7 +386,7 @@
         <div class="col-md-12">
           <div class="professionals-cntlr">
             <div class="professionals-lft">
-              <img src="assets/images/professionals-fea-img.png" alt="">
+              <a href="#"><img src="assets/images/professionals-fea-img.png" alt=""></a>
             </div>
             <div class="professionals-rgt">
               <div class="professionals-desc-cntlr">
@@ -439,7 +463,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="cta-module-cntlr" style="background-image: url('assets/images/cta-module-bg2.png');">
+          <div class="cta-module-cntlr" style="background-image: url('assets/images/cta-module-bg.png');">
             <div class="cta-module-lft">
               <div class="cta-module-decs-cntlr">
                 <h2 class="fl-h2 cta-module-decs-title">Let’s get rocking and rolling.</h2>

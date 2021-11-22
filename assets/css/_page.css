@@ -108,6 +108,7 @@
 }
 .sec-entry-hdr-title{
 	text-align: center;
+    text-transform: capitalize;
 }
 
 
@@ -125,6 +126,7 @@
 }
 .page-intro-sec-title{
 	margin-bottom: 25px;
+    text-transform: capitalize;
 }
 .page-intro-sec-cntlr p{
 	font-size: 28px;
@@ -421,6 +423,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
         margin-top:-2px;
         font-size:18px;
     }
+    .create-a-job-form .select2-container {
+        height: 55px!important;
+    }
 }
 @media(max-width: 991px){
     .page-intro-sec{
@@ -431,6 +436,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     }
     .page-intro-sec-cntlr p{
         font-size: 23px;
+    }
+    .sec-entry-hdr{
+        padding-bottom: 20px;
     }
 }
 @media(max-width: 767px){
@@ -445,9 +453,15 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
         height: 50px;
         padding: 14px 35px 14px 16px;
     }
+    .create-a-job-form .select2-container {
+        height: 50px!important;
+    }
     .create-a-job-form .select2-selection__arrow:after {
         margin-top: -5px;
         font-size: 16px;
+    }
+    .sec-entry-hdr{
+        padding-bottom: 15px;
     }
     
 }

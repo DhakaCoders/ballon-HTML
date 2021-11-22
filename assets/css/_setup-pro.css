@@ -15,7 +15,7 @@
 .join-contant-sec.setup-pro-contant-sec {
     padding-bottom: 83px;
 }
-.input-field-col span.input-tol-tip{
+.input-field-col .input-tol-tip{
 	position: absolute;	
 	top: 50%;	
 	right: 34px;
@@ -24,4 +24,51 @@
 	transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
+	cursor: pointer;
+	z-index: 8;
+}
+.input-tol-tip.tol-tip-cntlr .tol-tip-des{
+    width:395px;
+    opacity:1;
+    height:auto;
+    transform:translateY(0px);
+    transition:.2s;
+    z-index:9;
+}
+
+.input-tol-tip .tol-tip-des{
+	display: none;
+}
+@media(max-width: 1199px){
+	.input-field-col .input-tol-tip{
+		font-size: 18px;
+	}
+	.input-field-col .input-tol-tip{
+		right: 30px;
+	}
+}
+@media(max-width: 991px){
+	.setup-pro-contant-sec .join-contant-inner {
+	    padding-bottom: 35px;
+	    margin-bottom: 25px;
+	}
+}
+@media(max-width: 767px){
+	.setup-pro-form-title-cntlr {
+	    padding-top: 10px;
+	}
+	.setup-pro-contant-sec .join-contant-cntlr {
+	    padding-bottom: 20px;
+	}
+	.input-field-col .input-tol-tip{
+		right: 25px;
+	}
+	.input-field-col .input-tol-tip{
+		font-size: 16px;
+	}
+}
+@media(max-width: 575px){
+	.setup-pro-contant-sec .join-contant-inner {
+	    padding-bottom: 28px;
+	}
 }

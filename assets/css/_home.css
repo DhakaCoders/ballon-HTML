@@ -40,6 +40,9 @@
 .professionals-lft{
 	width: 41%;
 }
+.professionals-lft a{
+	display: inline-block;
+}
 .professionals-rgt{
 	width: 59%;
 	padding-left: 55px;
@@ -72,6 +75,7 @@
 }
 .professionals-desc p{
 	line-height: 1.6;
+	color: #393939;
 }
 .professionals-desc p:last-of-type{
 	margin-bottom: 0;
@@ -96,6 +100,7 @@
 .questions-title{
 	margin-bottom: 40px;
 	text-align: center;
+	text-transform: capitalize;
 }
 
 .cmn-questions{
@@ -137,8 +142,9 @@
     background-repeat: no-repeat!important;
     background-size: contain!important;
     background-position: center center!important;
-    height: 19px;
-    width: 18px;
+    height: 17px;
+    width: 16px;
+    margin-top: 2px;
 }
 .active .bln-accordion-title:after {
 	background: url(../images/minus-icon.png);
@@ -146,6 +152,7 @@
 .bln-accordion-des{
 	display: none;
 	padding-bottom: 50px;
+	padding-right: 74px;
 }
 .bln-accordion-des p:last-of-type{
 	margin-bottom: 0;
@@ -241,6 +248,9 @@ body.home .cta-module-cntlr{
 		padding-top: 80px;
 		padding-bottom: 80px;
 	}
+	.bln-accordion-des{
+		padding-right: 45px;
+	}
 }
 @media(max-width: 991px){
 	.professionals-rgt{
@@ -254,11 +264,12 @@ body.home .cta-module-cntlr{
 		padding-right: 25px;
 	}
 	.bln-accordion-title:after{
-		height: 16px;
+		height: 15px;
 		width: 14px;
 	}
 	.bln-accordion-des{
 		padding-bottom: 35px;
+		padding-right: 20px;
 	}
 	.questions-sec{
 		padding-top: 55px;
@@ -309,7 +320,7 @@ body.home .cta-module-cntlr{
 		padding-right: 15px;
 	}
 	.bln-accordion-title:after{
-		height: 15px;
+		height: 14px;
 		width: 13px;
 	}
 	.questions-sec{
@@ -332,14 +343,30 @@ body.home .cta-module-cntlr{
 	}
 	.cta-module-btns{
 		margin-right: auto;
-		margin-left: initial;
+		margin-left: auto;
 	}
 	.cta-module-cntlr{
 		background-position: left center!important;
 	}
+	.cta-module-decs-cntlr{
+		max-width: 100%;
+		text-align: center;
+	}
+	.cta-module-rating{
+		justify-content: center;
+	}
 	body.home .cta-module-cntlr{
 		padding-top: 50px;
 		padding-bottom: 50px;
+	}
+	.cta-module-btns{
+		max-width: 230px;
+	}
+	.cta-module-btn a{
+		font-size: 16px;
+	}
+	.bln-accordion-des{
+		padding-right: 0;
 	}
 }
 @media(max-width: 575px){

@@ -11,16 +11,16 @@ $('.navbar-toggle').on('click', function(){
 
 $('.select-2-cntlr').select2();
 
-if( $('.hamburger-cntlr').length ){
-  $('.hamburger-cntlr').click(function(){
+if( $('.hamburgar-cntlr').length ){
+  $('.hamburgar-cntlr').click(function(){
     $('body').toggleClass('allWork');
   });
 }
 if(windowWidth <=767){
     if( $('ul > li.menu-item-has-children').length ){
       $('ul > li.menu-item-has-children').click(function(){
-       $(this).next().slideToggle(300);
-       $(this).parent().toggleClass('sub-menu-arrow');
+       $(this).find('.sub-menu').slideToggle(300);
+       /*$(this).toggleClass('sub-menu-arrow');*/
      });
     }
 }
@@ -286,14 +286,18 @@ $(window).resize(function(){
   $('.service-lft-img').css('margin-right', rgtOffSet);
 });
 
-if( $('#sidebar').length ){
-  $('#sidebar').stickySidebar({
-      topSpacing: 50,
-      bottomSpacing: 50
-  });
+if(windowWidth > 639){
+  if( $('#sidebar').length ){
+    $('#sidebar').stickySidebar({
+        topSpacing: 50,
+        bottomSpacing: 50
+    });
+  }  
 }
 
+
 if(windowWidth <= 767){
+  if( $('.hireProSlider').length ){
     $('.hireProSlider').slick({
       dots: true,
       infinite: true,
@@ -304,13 +308,14 @@ if(windowWidth <= 767){
       slidesToShow: 1,
       slidesToScroll: 1
     });
+  }
 }
 
-if( $('.hamburgar-cntlr').length ){
+/*if( $('.hamburgar-cntlr').length ){
   $('.hamburgar-cntlr').click(function(){
     $('body').toggleClass('allWork');
   });
-}
+}*/
 
 /*start of Momin*/
 

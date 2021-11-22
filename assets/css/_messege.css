@@ -285,6 +285,9 @@
 .bln-messege-des-hdr-rgt a:hover i{
 	margin-left: -5px;
 }
+.bln-messege-des-hdr-rgt a:hover{
+	background: #e3e8f7;
+}
 
 
 .bln-msg-send-receive{
