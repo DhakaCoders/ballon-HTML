@@ -121,6 +121,7 @@
 }
 .submit-btn-50 button{
 	width:50%;
+    min-width:initial!important;
 }
 .input-field-col input[type="file"] {
     opacity: 0;
@@ -202,6 +203,7 @@
     }
     .subtitle{
         font-size:20px;
+        margin-bottom:22px;
     }
     .myaccount-setting-form .input-field-col label{
         font-size:18px;
@@ -219,5 +221,31 @@
     }
     .myaccount-title-cntlr{
         margin-bottom:35px;
+    }
+}
+
+@media(max-width:991px){
+    .myaccount-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .myaccount-content-cntlr{
+        padding: 27px 28px;
+    }
+    .my-account-sec-cntlr{
+        padding-left:15px;
+    }
+    .myaccount-content{
+        width:70%;
+    }
+    .myaccount-navigation{
+        width:30%;
+    }
+}
+
+@media(max-width:767px){
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:15px;
     }
 }
