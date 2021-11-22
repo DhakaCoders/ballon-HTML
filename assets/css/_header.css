@@ -5,7 +5,7 @@ header.header{
 
 body.home header.header{
     border-bottom: none;
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 header.header.border-none{
@@ -118,11 +118,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
 	border-bottom: 0;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
-    font-size: 16px;
+    font-size: 18px;
     display: block;
-    padding: 10px 19px;
+    padding: 10px 17px;
     text-decoration: none;
     color: #4f4f4f;
+    font-weight: 600;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
 	color: #fa5252;
@@ -142,6 +143,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
     height: 100%;
+}
+nav.main-nav > ul > li.menu-item-has-children:hover a{
+    color: #fa5252;
 }
 
 
