@@ -177,10 +177,34 @@
         font-size:18px;
     }
     .input-field-col textarea{
-        height:169px;
+        height:169px!important;
     }
     .submint-btn button{
         padding: 16px 13px 15px;
         font-size:18px!important;
+    }
+}
+
+@media(max-width:767px){
+    .input-field-col textarea{
+        height:150px!important;
+    }
+    .input-field-col textarea, 
+    .input-field-col input{
+        font-size:16px;
+        margin-top:-1px;
+        padding: 15px 15px 15px 35px;
+        height: 50px;
+    }
+    .input-field-col span.in-icon {
+        font-size: 16px;
+        left:28px;
+        margin-top: -1px;
+    }
+    .submint-btn button {
+        padding: 15px 10px 13.5px;
+        font-size: 16px!important;
+        margin-left:5px;
+        margin-left:5px;
     }
 }
