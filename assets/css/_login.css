@@ -99,11 +99,16 @@
 	margin-left: auto;
 	padding-right: 16px;
 }
-.login-top-mgs span{
+.login-top-mgs span,
+.login-top-mgs span a{
 	color: #76787c;
 	font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
 }
-
+.login-top-mgs span a:hover{
+  color: #fa5252;
+}
 
 @media(max-width: 991px){
     .join-contant-sec.login-contant-sec {
@@ -142,7 +147,7 @@
     }
     .login-top-mgs span,
     .login-check-cntlr label{
-        font-size: 14px;
+        font-size: 13px;
     }
     .login-check-cntlr label br{
         display: none;
