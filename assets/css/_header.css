@@ -301,6 +301,10 @@ body.allWork {
         padding: 7px 30px 7px 35px;
     }
     .xs-pop-up-menu-top{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
         display: flex;
         align-items: center;
         padding-bottom: 20px;
@@ -323,9 +327,6 @@ body.allWork {
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after{
         content: none;
-    }
-    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
-        border-bottom: none;
     }
     .xs-menu{
         overflow-y: auto;
