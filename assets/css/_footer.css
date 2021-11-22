@@ -35,11 +35,12 @@ body.home .footer-wrp{
 	padding-right: 0;
 }
 .ftr-col-title{
-	font-size: 21px;
+	font-size: 19px!important;
 	margin-bottom: 6px;
 	line-height: 1;
 	color: #1c1c1c;
 	text-transform: capitalize;
+	font-weight: 800;
 }
 .ftr-col-menu{
 
@@ -108,9 +109,9 @@ body.home .footer-wrp{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 12px;
     color: #fff;
-
+    padding-top: 2px;
 }
 .ftr-socials ul li.socials-facebook a:hover i{
 	background: #fa5252;
@@ -135,4 +136,75 @@ body.home .footer-wrp{
 	color: #fff;
 	font-size: 14px;
 
+}
+
+/*responsive*/
+@media(max-width: 1199px){
+	.ftr-col-title{
+		font-size: 18px!important;
+	}
+	.ftr-col-03 {
+		max-width: 27.51%;
+	}
+	.ftr-col-04 {
+		max-width: 21.03%;
+	}
+
+	.ftr-col-menu ul li,
+	.ftr-col-menu ul li a,
+	.ftr-mail a{
+		font-size: 17px;
+	}
+	.ftr-socials ul li.socials-facebook a i{
+		font-size: 10px;
+		height: 18px;
+		width: 18px;
+		margin-top: 0;
+	}
+	.ftr-socials ul li a{
+		font-size: 18px;
+	}
+}
+@media(max-width: 991px){
+	.ftr-col-02 {
+		max-width: 23.55%;
+	}
+	.ftr-col-03 {
+		max-width: 28.51%;
+	}
+	.ftr-col-04 {
+		max-width: 22.03%;
+	}
+	.ftr-col-title{
+		font-size: 17px!important;
+	}
+	.ftr-col-menu ul li,
+	.ftr-col-menu ul li a,
+	.ftr-mail a{
+		font-size: 16px;
+	}
+}
+@media(max-width: 767px){
+	.ftr-col{
+		max-width: 100%;
+		text-align: center;
+		padding-right: 0;
+	}
+	.ftr-socials ul{
+		justify-content: center;
+	}
+	.ftr-col-title{
+		font-size: 18px!important;
+	}
+	.ftr-col-menu ul li,
+	.ftr-col-menu ul li a,
+	.ftr-mail a{
+		font-size: 17px;
+	}
+	.ftr-copyright p{
+		text-align: center;
+	}
+}
+@media(max-width: 575px){
+	
 }

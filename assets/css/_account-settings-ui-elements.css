@@ -1,5 +1,6 @@
 .my-account-sec-cntlr{
 	display: flex;
+    flex-wrap:wrap;
     padding-left:30px
 }
 .my-account-sec{
@@ -121,6 +122,7 @@
 }
 .submit-btn-50 button{
 	width:50%;
+    min-width:initial!important;
 }
 .input-field-col input[type="file"] {
     opacity: 0;
@@ -178,9 +180,170 @@
         padding-right:35px;
     }
 }
-@media(max-width:1199px){
+@media(max-width:1399px){
     .myaccount-menu ul li a, 
     .logout-link a{
         font-size:17px;
+    }
+    .logout-link a:after {
+        font-size: 17px;
+        top: 1px;
+    }
+}
+@media(max-width:1199px){
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:16px;
+    }
+    .logout-link a:after {
+        font-size: 16px;
+        top: 1px;
+    }
+    .logout-link a{
+        padding-right:20px;
+    }
+    .subtitle{
+        font-size:20px;
+        margin-bottom:22px;
+    }
+    .myaccount-setting-form .input-field-col label{
+        font-size:18px;
+        padding: 17px 19px 20px 40px;
+        height: 55px;
+    }
+    .input-field-col span.in-icon-file {
+        margin-top: -2px;
+    }
+    .input-field-wrapper-pd-35{
+        padding-bottom:28px;
+    }
+    .my-account-setting-sec-ui .myaccount-content-cntlr{
+        padding-bottom: 140px;
+    }
+    .myaccount-title-cntlr{
+        margin-bottom:35px;
+    }
+    .my-account-sec{
+        padding-bottom:100px;
+    }
+}
+
+@media(max-width:991px){
+    .myaccount-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .myaccount-content-cntlr{
+        padding: 27px 28px;
+    }
+    .my-account-sec-cntlr{
+        padding-left:15px;
+    }
+    .myaccount-content{
+        width:70%;
+    }
+    .myaccount-navigation{
+        width:30%;
+    }
+    .my-account-sec{
+        padding-bottom:80px;
+    }
+    .subtitle {
+        font-size: 19px;
+    }
+}
+
+@media(max-width:767px){
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:15px;
+    }
+    .myaccount-title-cntlr{
+        margin-bottom: 25px;
+    }
+    .myaccount-menu{
+        margin-bottom: 15px;
+    }
+    .my-account-sec-cntlr{
+        padding-left:0;
+    }
+    .myaccount-content-cntlr {
+        padding: 20px 15px;
+    }
+    .myaccount-content{
+        padding-right:0;
+        padding-left:10px;
+    }
+    .myaccount-navigation {
+        width: 34%;
+    }
+    .myaccount-content {
+        width: 66%;
+    }
+    .subtitle {
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+    .myaccount-setting-form .input-field-col label{
+        font-size: 16px;
+        padding: 14px 15px 13px 35px;
+        height: 50px;
+    }
+    .input-field-wrapper-pd-35 {
+        padding-bottom: 20px;
+    }
+    .submit-btn-50 {
+        margin: 0 -5px;
+    }
+    .my-account-setting-sec-ui .myaccount-content-cntlr {
+        padding-bottom: 100px;
+    }
+    .logout-link a:after {
+        font-size: 15px;
+    }
+    .my-account-sec{
+        padding-bottom:50px;
+    }
+    .input-field-col span.in-icon-file{
+        left: 12px!important;
+    }
+}
+@media(max-width:575px){
+    .myaccount-navigation{
+        width:100%;
+        margin-bottom: 30px;
+        text-align:center;
+    }
+    .inner-wrapper-sticky {
+        position: static!important;
+        transform:initial!important;
+        width: initial!important;
+    }
+    .myaccount-content{
+        width:100%;
+        padding-left: 0;
+    }
+    .my-account-setting-sec-ui .myaccount-content-cntlr {
+        padding-bottom: 70px;
+    }
+}
+
+@media(max-width:369px){
+    .submit-btn-50{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:0px!important;
+        margin-right:0px!important;
+    }
+    .submit-btn-50 button{
+        width:100%;
+        margin-left:0px!important;
+        margin-right:0px!important;
+    }
+    .myaccount-setting-form .input-field-col label {
+        padding: 14px 15px 13px 32px;
+    }
+    .input-field-col span.in-icon-file {
+        left: 10px!important;
     }
 }
