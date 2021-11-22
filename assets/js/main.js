@@ -20,7 +20,7 @@ if(windowWidth <=767){
     if( $('ul > li.menu-item-has-children').length ){
       $('ul > li.menu-item-has-children').click(function(){
        $(this).find('.sub-menu').slideToggle(300);
-       /*$(this).toggleClass('sub-menu-arrow');*/
+       $(this).toggleClass('sub-menu-arrow');
      });
     }
 }

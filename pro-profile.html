@@ -36,7 +36,7 @@
   <![endif]-->  
 
 </head>
-<body class="home">
+<body class="">
 <div class="page-body-cntlr">
 
   <div class="bdoverlay"></div>
@@ -51,7 +51,7 @@
               </div>
             </div>
             <div class="hdr-rgt">
-              <nav class="main-nav">
+              <nav class="main-nav hide-sm">
                 <ul class="clearfix reset-list">
                   <li class="current-menu-item"><a href="#">Explore</a></li>
                   <li class="menu-item-has-children">
@@ -64,15 +64,13 @@
                   </li>
                   <li><a href="#">Login</a></li>
                   <li class="menu-btn">
-                    <a href="#">
-                      join
-                      
+                    <a href="#">join                  
                     </a>
                   </li>
                 </ul>
               </nav>
             </div>
-            <div class="hamburgar-cntlr show-md">
+            <div class="hamburgar-cntlr show-sm">
               <div class="hamburger-icon">
                 <span></span>
                 <span></span>
@@ -84,6 +82,45 @@
       </div>
     </div>
   </header>
+
+  <div class="xs-mobile-menu">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+      <div class="hamburgar-cntlr show-sm">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="xs-menu">
+      <nav class="main-nav">
+        <ul class="clearfix reset-list">
+          <li class="current-menu-item"><a href="#">Explore</a></li>
+          <li class="menu-item-has-children">
+            <a href="#">Hire</a>
+            <ul class="sub-menu">
+              <li><a href="#">submenu 1</a></li>
+              <li><a href="#">submenu 2</a></li>
+              <li><a href="#">submenu 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Login</a></li>
+          <li class="menu-btn">
+            <a href="#">
+              new job
+              <i class="fas fa-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- end of header -->
 
   <section class="bln-company-card-sec">
     <div class="container">
@@ -283,15 +320,15 @@
                   </ul>
 
                   <div class="bln-tooltip-info-icon">
-                    <span class="tol-tip pp-tooltip-cntlr">
-                      <i class="fas fa-info-circle"></i>
-                      <div class="tol-tip-des  pp-tooltip-des">
-                        <h6>Verified Details</h6>
-                        <p>Choose the category that best fits your request.</p>
-                        <strong>For example:</strong>
-                        <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                      </div>
-                    </span>
+                    <span class="tol-tip">
+                        <i class="fas fa-info-circle"></i>
+                        <div class="tol-tip-des">
+                          <h6>Category</h6>
+                          <p>Choose the category that best fits your request.</p>
+                          <strong>For example:</strong>
+                          <p>If you are looking for a logo, you should choose "Logo Design".</p>
+                        </div>
+                      </span>
                   </div>
                 </div>
             </div>
@@ -389,7 +426,7 @@
     </div>
   </section>
 
-    <footer class="footer-wrp">
+  <footer class="footer-wrp">
     <div class="ftr-top">
       <div class="container">
         <div class="row">
