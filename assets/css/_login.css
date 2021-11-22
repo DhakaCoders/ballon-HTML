@@ -103,3 +103,54 @@
 	color: #76787c;
 	font-weight: 400;
 }
+
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+  
+}
+@media(max-width: 767px){
+    .login-btm-btn-cntlr {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 10px;
+    }
+    .login-btm-btn-cntlr a{
+        min-width: 50%;
+    }
+}
+@media(max-width: 575px){
+    .login-top-btn-cntlr a {
+        padding: 15px 13px 16px;
+    }
+}
+@media(max-width: 479px){
+    .login-btm-btn-cntlr a {
+        min-width: 100%;
+        margin-bottom: 15px;
+        font-size: 16px;
+        padding: 11.5px 13px 12.5px;
+    }
+    .login-btm-btn-cntlr {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .login-top-mgs span,
+    .login-check-cntlr label{
+        font-size: 14px;
+    }
+}
+@media(max-width: 359px){
+    .login-top-mgs span, .login-check-cntlr label {
+        font-size: 12px;
+    }
+    .login-check-cntlr input[type="checkbox"],
+    .login-check-cntlr span.checkmark{
+        margin-top: 1px;
+    }
+    .login-top-btn-cntlr a {
+        padding: 14px 13px 15px;
+    }
+}

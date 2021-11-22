@@ -39,6 +39,9 @@
 	h6,.fl-h6{
 		font-size: 17px;
 	}
+	.fl-btn{
+		font-size: 19px;
+	}
 
 }
 
@@ -63,6 +66,9 @@
 	}
 	h5,.fl-h5{
 		font-size: 20px;
+	}
+	.fl-btn{
+		font-size: 17px;
 	}
 	
 }
@@ -105,6 +111,9 @@
 	}
 	h5,.fl-h5{
 		font-size: 18px;
+	}
+	.fl-btn{
+		font-size: 16px;
 	}
 }
 
