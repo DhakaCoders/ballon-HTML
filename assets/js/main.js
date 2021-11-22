@@ -11,8 +11,8 @@ $('.navbar-toggle').on('click', function(){
 
 $('.select-2-cntlr').select2();
 
-if( $('.hamburger-cntlr').length ){
-  $('.hamburger-cntlr').click(function(){
+if( $('.hamburgar-cntlr').length ){
+  $('.hamburgar-cntlr').click(function(){
     $('body').toggleClass('allWork');
   });
 }
@@ -306,11 +306,11 @@ if(windowWidth <= 767){
     });
 }
 
-if( $('.hamburgar-cntlr').length ){
+/*if( $('.hamburgar-cntlr').length ){
   $('.hamburgar-cntlr').click(function(){
     $('body').toggleClass('allWork');
   });
-}
+}*/
 
 /*start of Momin*/
 

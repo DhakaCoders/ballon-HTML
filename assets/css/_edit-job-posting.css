@@ -21,18 +21,19 @@
     border-radius: 8px;
     left: -10px;
     top: 35px;
-    /*display: none;*/
     opacity: 0;
     z-index:-1;
-    /*transform: translateY(-10px);*/
-    /*-ms-transform: translateY(-10px);*/
-    /*-webkit-transform: translateY(-10px);*/
+    transform: translateY(-10px);*/
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
 }
 .tol-tip.tol-tip-cntlr .tol-tip-des{
     width:395px;
     opacity:1;
     height:auto;
     transform:translateY(0px);
+    -ms-transform:translateY(0px);
+    -webkit-transform:translateY(0px);
     transition:.2s;
     z-index:2;
 }
