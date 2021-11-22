@@ -325,7 +325,7 @@ body.allWork {
     }
     .xs-menu nav.main-nav > ul > li {
         padding: 10px 0;
-        border-bottom: 1px solid #4f4f4f;
+        border-bottom: 1px solid #fa5252;
     }
     .xs-menu nav.main-nav > ul > li:last-child{
         border-bottom: none;
@@ -402,7 +402,7 @@ body.allWork {
         background: transparent!important;
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
-        border-color: #4f4f4f;
+        border-color: #fa5252;
     }
     nav.main-nav > ul > li.menu-item-has-children > a:before{
         content: none;
