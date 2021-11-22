@@ -122,6 +122,7 @@
 	position: relative;
 	font-size: 20px;
 	font-weight: 500;
+	padding-right: 25px;
 	margin-bottom: 0;
 }
 .bln-accordion-title:after {
@@ -175,6 +176,7 @@ body.home .cta-module-cntlr{
 }
 .cta-module-lft{
 	width: 65%;
+	padding-right: 15px;
 }
 .cta-module-rgt{
 	width: 35%;
@@ -202,7 +204,7 @@ body.home .cta-module-cntlr{
 	padding: 0 5px;
 }
 .cta-module-btns{
-	max-width: 334px;
+	max-width: 305px;
 	width: 100%;
 	margin-left: auto;
 }
@@ -211,7 +213,7 @@ body.home .cta-module-cntlr{
 }
 .cta-module-btn a{
 	min-width: 100%;
-	font-size: 24px;
+	font-size: 22px;
 }
 
 /*responsive*/
@@ -225,6 +227,20 @@ body.home .cta-module-cntlr{
 	.professionals-rgt{
 		padding-left: 35px;
 	}
+	.questions-sec{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.cta-module-btns{
+		max-width: 292px;
+	}
+	.cta-module-btn a{
+		font-size: 21px;
+	}
+	body.home .cta-module-cntlr{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
 }
 @media(max-width: 991px){
 	.professionals-rgt{
@@ -232,6 +248,34 @@ body.home .cta-module-cntlr{
 	}
 	.professionals-desc-titlr{
 		margin-bottom: 25px;
+	}
+	.bln-accordion-menu{
+		padding-left: 35px;
+		padding-right: 25px;
+	}
+	.bln-accordion-title:after{
+		height: 16px;
+		width: 14px;
+	}
+	.bln-accordion-des{
+		padding-bottom: 35px;
+	}
+	.questions-sec{
+		padding-top: 55px;
+		padding-bottom: 55px;
+	}
+	.questions-title{
+		margin-bottom: 30px;
+	}
+	.cta-module-btns{
+		max-width: 280px;
+	}
+	.cta-module-btn a{
+		font-size: 18px;
+	}
+	body.home .cta-module-cntlr{
+		padding-top: 70px;
+		padding-bottom: 70px;
 	}
 }
 @media(max-width: 767px){
@@ -260,6 +304,43 @@ body.home .cta-module-cntlr{
 	.professionals-desc-titlr br{
 		display: none!important;
 	}
+	.bln-accordion-menu{
+		padding-left: 25px;
+		padding-right: 15px;
+	}
+	.bln-accordion-title:after{
+		height: 15px;
+		width: 13px;
+	}
+	.questions-sec{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.questions-title{
+		margin-bottom: 25px;
+	}
+	.cta-module-lft{
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 30px;
+	}
+	.cta-module-cntlr{
+		max-width: 600px;
+	}
+	.cta-module-rgt{
+		width: 100%;
+	}
+	.cta-module-btns{
+		margin-right: auto;
+		margin-left: initial;
+	}
+	.cta-module-cntlr{
+		background-position: left center!important;
+	}
+	body.home .cta-module-cntlr{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 @media(max-width: 575px){
 	.professionals-lft-cloud{
@@ -271,5 +352,9 @@ body.home .cta-module-cntlr{
 		height: 100px;
 		max-width: 300px;
 		width: 100%;
+	}
+	body.home .cta-module-cntlr{
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 }
