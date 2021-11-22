@@ -316,7 +316,7 @@
         padding-left: 0px;
     }
 }
-@media(max-width:369px){
+@media(max-width:359px){
     .input-field-col textarea, .input-field-col input{
         padding: 15px 15px 15px 32px;
     }
