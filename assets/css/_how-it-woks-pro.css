@@ -35,12 +35,10 @@
 .how-it-works-grid-item-cntlr i{
 	display: inline-block;
     margin-bottom: 23px;
+    font-size: 58px;
+    color: #7a92d0;
 }
-.how-it-works-grid-item-cntlr i img{
-	max-height: 52px;
-	width: auto;
-}
-.how-it-works-grd-img-ttl{
+.how-it-works-grd-img-title{
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -130,6 +128,9 @@
 	.how-it-works-grid-item{
 		padding: 0 15px;
 	}
+	.how-it-works-grid-item-cntlr i{
+       font-size: 50px;
+	}
 	.pricing-plans-sec{
 		padding-top: 50px;
 	}
@@ -145,19 +146,14 @@
 	}
 }
 @media(max-width: 991px){
-	.how-it-works-grid-item-cntlr i img{
-        max-height: 50px;
-	}
 	.how-it-works-grid-item-cntlr{
 		padding: 12px;
 	}
 	.how-it-works-grid-item-cntlr i{
 		margin-bottom: 16px;
+		font-size: 46px;
 	}
-	.how-it-works-grid-item-cntlr i img{
-		max-height: 40px;
-	}
-	.how-it-works-grd-img-ttl{
+	.how-it-works-grd-img-title{
 		margin-bottom: 13px;
 	}
 	.bl-pkg-grids-cntlr > ul{

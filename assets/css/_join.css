@@ -271,6 +271,9 @@
     .join-contant-sec {
         padding-bottom: 50px;
     }
+    .input-field-col.d2{
+        width: 100%;
+    }
 }
 @media (max-width: 479px){
     .account-profile-right {
