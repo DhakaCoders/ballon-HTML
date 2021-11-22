@@ -218,6 +218,7 @@
 }
 .service-grd-item-img img{
 	display: none;
+	border-radius: 10px;
 }
 
 .service-grd-item-des{
@@ -372,6 +373,9 @@
 	.hm-page-bnr-input-field-row label{
 		font-size: 22px;
 	}
+	.hm-page-bnr-input-field-row.input-col-2 span{
+		font-size: 22px;
+	}
 	.hm-page-bnr-btn input[type=submit]{
 		font-size: 20px;
 	}
@@ -391,13 +395,105 @@
 	.service-grd-item-des-btn a i{
 		font-size: 16px;
 	}
+	.hm-page-bnr-input-field{
+		padding-right: 60px;
+	}
 }
 
 @media(max-width: 991px){
+	.hm-page-banner {
+	    padding: 35px 0 100px;
+	}
 	.hm-page-bnr-des {
 	    padding: 30px 20px 30px 20px;
 	}
 	.hm-page-bnr-subtitle {
 	    font-size: 25px!important;
+	}
+	.hm-page-bnr-input-field-row label {
+	    font-size: 20px;
+	}
+	.hm-page-bnr-input-field-row.input-col-2 span{
+		font-size: 20px;
+	}
+	.hm-page-bnr-btn input[type=submit] {
+	    font-size: 19px;
+	    padding: 14px 20px;
+	}
+	.service-grds > ul > li{
+		padding-right: 0;
+	}
+	.service-grd-item{
+		display: block;
+	}
+	.service-grd-item-img-ctlr,
+	.service-grd-item-des-ctlr{
+		width: 100%;
+	}
+	.service-grd-item-img-ctlr{
+		margin-bottom: 30px;
+		padding-top: 30px;
+	}
+	.service-grd-item-img{
+		background: transparent!important;
+	}
+	.service-grd-item-img img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-grd-item-des{
+		border-bottom-left-radius: 10px;
+	}
+	.service-grds > ul > li:nth-child(2n+2){
+		padding-left: 0;
+	}
+	.hire-pro-grd-item-des p br{
+		display: none;
+	}
+	.hm-page-bnr-input-field{
+		padding-right: 30px;
+	}
+}
+
+@media(max-width: 767px){
+	.hm-page-bnr-subtitle {
+	    font-size: 22px!important;
+	    margin-bottom: 25px;
+	}
+	.hm-page-bnr-input-field{
+		padding-right: 0;
+	}
+	.hm-page-bnr-input-field-row label {
+	    font-size: 18px;
+	}
+	.hm-page-bnr-input-field-row.input-col-2 span{
+		font-size: 18px;
+	}
+	.hm-page-banner {
+	    padding: 35px 0 80px;
+	}
+	.service-sec {
+	    padding: 35px 0 25px;
+	}
+	.service-grd-item-img-ctlr{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.hire-pro-grds{
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.hire-pro-grd-item {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.hire-pro-grd-item-inr{
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
