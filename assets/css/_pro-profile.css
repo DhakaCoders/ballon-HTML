@@ -8,7 +8,7 @@
 	display: inline-block;
 	color: #fa5252;
 	text-transform: capitalize;
-	padding-left: 9px;
+	padding-left: 10px;
 	font-size: 16px;
 	font-family: 'MyriadPro-Regular';
 	font-weight: 600;
@@ -31,6 +31,15 @@
 	background-repeat: no-repeat;
 	height: 9px;
 	width: 6px;
+    transition: all 0.3s!important;
+    -webkit-transition: all 0.3s!important;
+    -moz-transition: all 0.3s!important;
+}
+.bln-back-to-explr-cntlr a:hover{
+    color: #ff9091;
+}
+.bln-back-to-explr-cntlr a:hover:before{
+    left: 2px;
 }
 .bln-company-card-contents-cntlr {
     -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
