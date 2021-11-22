@@ -24,7 +24,7 @@
 .try-free-btn .fl-btn{
 	font-size: 17px;
 	padding: 14.3px 13px 13.3px;
-	min-width: 240px;
+	min-width: 238px;
 }
 .setup-pricing-heading-1{
 	font-size: 40px;
@@ -78,14 +78,7 @@
 	.setup-pricing-account-sec{
 		padding-bottom: 55px;
 	}
-	.setup-pricing-account-sec .bl-pkg-grids-cntlr u{
-		margin: 0 -25px;
-	}
-	.setup-pricing-account-sec .bl-pkg-grids-cntlr ul li.bl-pkg-grid-item-col{
-		padding-left: 25px;
-		padding-right: 25px;
-		padding-bottom: 40px;
-	}
+
 	.setup-pricing-account-sec-cntlr{
 		padding: 40px 40px 35px;
 		max-width: 700px;;
@@ -96,6 +89,48 @@
 	.setup-pricing-account-sec .bl-pkg-grd-desc{
 		min-height: 269px;
 	}
-
+	.setup-pricing-sub-heading-2{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 767px){
+	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 230px;
+	}
+	.setup-pricing-account-sec .bl-pkg-grids-cntlr ul{
+		margin: 0 -8px;
+	}
+	.setup-pricing-account-sec .bl-pkg-grids-cntlr ul li.bl-pkg-grid-item-col{
+		padding-left: 8px;
+		padding-right: 8px;
+		padding-bottom: 35px;
+	}
+	.setup-pricing-account-sec .setup-pricing-account-sec-cntlr{
+		padding: 35px 16px 35px;
+	}
+}
+@media(max-width: 639px){
+	.setup-pricing-account-sec .bl-pkg-grid-item-cntlr{
+		padding: 20px 67px 25px 65px;
+	}
+	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 238px;
+	}
+	.setup-pricing-account-sec .setup-pricing-account-sec-cntlr{
+		padding-bottom: 30px;
+	}
+	.setup-pricing-account-sec-cntlr{
+		max-width: 520px;
+	}
+}
+@media(max-width: 479px){
+	.setup-pricing-account-sec .bl-pkg-grid-item-cntlr{
+		padding: 20px 20px 25px 20px;
+	}
+}
+@media(max-width: 379px){
+	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 212px;
+	}
 
 }

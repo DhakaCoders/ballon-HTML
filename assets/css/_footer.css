@@ -48,7 +48,7 @@ body.home .footer-wrp{
 	margin: 0;
 }
 .ftr-col-menu ul li{
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1;
 	padding: 3px 0;
 }
@@ -90,17 +90,42 @@ body.home .footer-wrp{
 .ftr-socials ul li a{
 	font-size: 20px;
 	display: inline-block;
+	color: #979797;
 }
-.ftr-socials ul li a:hover{
-	opacity: 0.7;
+.ftr-socials ul li a i{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.ftr-socials ul li.socials-facebook a{
+	font-size: 13px;
+}
+.ftr-socials ul li.socials-facebook a i {
+    background: #979797;
+    border-radius: 100% 100%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #fff;
+
+}
+.ftr-socials ul li.socials-facebook a:hover i{
+	background: #fa5252;
+	color: #fff;
+}
+.ftr-socials ul li a:hover i{
+	color: #fa5252;
 }
 
 .ftr-btm{
 	background: #252525;
 }
 .ftr-btm-cntlr{
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 .ftr-copyright{
 
@@ -108,6 +133,6 @@ body.home .footer-wrp{
 .ftr-copyright p{
 	margin-bottom: 0;
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 
 }
