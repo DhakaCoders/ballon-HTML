@@ -377,6 +377,15 @@ if($('.fancybox').length){
 $('.create-a-job-form select').select2();
 $('.select-2-cntlr').select2();
 
+if($('.input-tol-tip').length){
+  $('.input-tol-tip').mouseenter(function(){
+    $(this).addClass('tol-tip-cntlr');
+  });
+  $('.input-tol-tip').mouseleave(function(){
+    $(this).removeClass('tol-tip-cntlr');
+  });
+};
+
 
 
     new WOW().init();
