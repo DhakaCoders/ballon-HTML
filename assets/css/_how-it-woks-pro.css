@@ -35,7 +35,7 @@
 .how-it-works-grid-item-cntlr i{
 	display: inline-block;
     margin-bottom: 23px;
-    font-size: 58px;
+    font-size: 56px;
     color: #7a92d0;
 }
 .how-it-works-grd-img-title{
@@ -186,10 +186,13 @@
 		padding: 15px;
 	}
 	.how-it-works-grid-item-cntlr i{
-		margin-bottom: 10px;
+		margin-bottom: 14px;
 	}
 	.bl-pkg-grd-desc{
 		min-height: 269px;
+	}
+	.price{
+		font-size: 27px;
 	}
 }
 @media(max-width: 639px){
@@ -228,6 +231,9 @@
 	.how-it-works-grid-item-cntlr ul li{
 		text-align: left;
 	}
+	.how-it-works-grid-item-cntlr i{
+		font-size: 50px;
+	}
 	.how-it-works-grids-cntlr{
 		margin: 0 0;
 	}
@@ -235,6 +241,10 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.price{
+		font-size: 25px;
+	}
+
 }
 @media(max-width: 379px){
 
