@@ -39,6 +39,27 @@
 }
 .professionals-lft{
 	width: 41%;
+	
+	
+}
+.professionals-lft-img-shadow{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	background: -moz-linear-gradient(top, transparent 0%, #FFFFFF 20%, #efefef 100%);
+	background: -webkit-linear-gradient(top, transparent 0%, #FFFFFF 20%, #efefef 100%);
+	background: linear-gradient(to bottom, transparent 0%, #FFFFFF 20%, #efefef 100%);
+}
+.professionals-lft-img{
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 24%);
+    -webkit-box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 24%);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
 }
 .professionals-rgt{
 	width: 59%;
@@ -96,6 +117,7 @@
 .questions-title{
 	margin-bottom: 40px;
 	text-align: center;
+	text-transform: capitalize;
 }
 
 .cmn-questions{
@@ -137,8 +159,8 @@
     background-repeat: no-repeat!important;
     background-size: contain!important;
     background-position: center center!important;
-    height: 19px;
-    width: 18px;
+    height: 17px;
+    width: 16px;
 }
 .active .bln-accordion-title:after {
 	background: url(../images/minus-icon.png);
@@ -254,7 +276,7 @@ body.home .cta-module-cntlr{
 		padding-right: 25px;
 	}
 	.bln-accordion-title:after{
-		height: 16px;
+		height: 15px;
 		width: 14px;
 	}
 	.bln-accordion-des{
@@ -309,7 +331,7 @@ body.home .cta-module-cntlr{
 		padding-right: 15px;
 	}
 	.bln-accordion-title:after{
-		height: 15px;
+		height: 14px;
 		width: 13px;
 	}
 	.questions-sec{
