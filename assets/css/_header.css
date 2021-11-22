@@ -77,7 +77,7 @@ nav.main-nav > ul > li > a:hover{
 }
 
 nav.main-nav > ul > li.menu-item-has-children > a{
-    padding-right: 16px;
+    padding-right: 22px;
     position: relative;
 }
 nav.main-nav > ul > li.menu-item-has-children > a:before {
@@ -85,11 +85,8 @@ nav.main-nav > ul > li.menu-item-has-children > a:before {
     position: absolute;
     right: 0;
     color: #0c224b;
-    font-size: 17px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    font-size: 20px;
+    top: 9px;
     font-family: 'Font Awesome\ 5 Free';
     font-style: normal;
     font-weight: 600;
@@ -103,7 +100,6 @@ nav.main-nav > ul > li.menu-item-has-children:hover > a:before{
     -ms-transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
-    margin-top: -10px;
     color: #fa5252;
 }
 
@@ -309,11 +305,11 @@ body.allWork {
     nav.main-nav > ul > li > a{
         font-size: 18px;
     }
-    nav.main-nav > ul > li.menu-btn > a{
-        padding: 7px 20px 7px 35px;
-    }
     body.home header.header {
         padding: 40px 0;
+    }
+    nav.main-nav > ul > li.menu-item-has-children > a:before{
+        top: 8px;
     }
 }
 
