@@ -349,14 +349,30 @@ if(windowWidth <= 767){
 
 
 /*start of Niaz*/
-if($('.tol-tip').length){
-  $('.tol-tip').mouseenter(function(){
-    $(this).addClass('tol-tip-cntlr');
-  });
-  $('.tol-tip').mouseleave(function(){
-    $(this).removeClass('tol-tip-cntlr');
-  });
-};
+if(windowWidth > 767){
+  if($('.tol-tip').length){
+    $('.tol-tip').mouseenter(function(){
+      $(this).addClass('tol-tip-cntlr');
+    });
+    $('.tol-tip').mouseleave(function(){
+      $(this).removeClass('tol-tip-cntlr');
+    });
+  };
+}else{
+
+  if($('.tol-tip').length){
+
+    $('.tol-tip').on('click',function(){
+       $(this).parents('.form-block').siblings().find('.tol-tip-cntlr').removeClass('tol-tip-cntlr');
+      $(this).toggleClass('tol-tip-cntlr');
+
+    })
+
+  };
+}
+
+
+
 if($('#bln-nav').length){
   $('#bln-nav').onePageNav();
 }
