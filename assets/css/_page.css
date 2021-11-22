@@ -446,6 +446,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     .default-page-con ul li, ul li{
         padding-bottom: 18px;
     }
+    .default-page-con ol li,ol li{
+        padding-bottom: 18px;
+    }
 }
 @media(max-width: 767px){
     .page-intro-sec {
@@ -481,6 +484,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 }
 @media(max-width: 639px){
     .default-page-con ul li, ul li{
+        padding-bottom: 15px;
+    }
+    .default-page-con ol li, ol li{
         padding-bottom: 15px;
     }
 }
