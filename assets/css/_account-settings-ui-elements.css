@@ -283,7 +283,7 @@
     }
     .myaccount-setting-form .input-field-col label{
         font-size: 16px;
-        padding: 14px 15px 13px 40px;
+        padding: 14px 15px 13px 35px;
         height: 50px;
     }
     .input-field-wrapper-pd-35 {
@@ -300,6 +300,9 @@
     }
     .my-account-sec{
         padding-bottom:50px;
+    }
+    .input-field-col span.in-icon-file{
+        left: 12px!important;
     }
 }
 @media(max-width:575px){
