@@ -89,6 +89,29 @@
     .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
         height: 55px!important;
     }
+    .pro-rvw-job-aply-form .input-field-col textarea {
+        height: 100px!important;
+    }
+}
+@media(max-width: 991px){
+    .pro-rvw-job-aply-form .form-block {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 9px;
+    }
+    .pro-rvw-job-aply-form .input-field-col textarea {
+        height: 90px!important;
+    }
+    .pro-rvw-job-aply-fature {
+        margin-bottom: 5px;
+    }
+    .job-cntnt-item-des p{
+        margin-bottom: 17px;
+    }
+    .job-cntnt-item-des p br{
+        display: none;
+    }
 }
 @media(max-width: 767px){
     .pro-rvw-job-aply-form .create-a-job-form span.select2.select2-container.select2-container--default {
@@ -99,5 +122,46 @@
     }
     #quote-price .input-field-col input{
         width: 100%;
+    }
+    .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
+        height: 50px!important;
+    }
+    .pro-rvw-job-aply-fature {
+        margin-bottom: 0;
+    }
+    .pro-rvw-job-aply-form .form-block {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .pro-rvw-job-aply-form-btn-cntlr a {
+        padding: 14px 13px 15px;
+    }
+    .pro-rvw-job-aply-mdul-cntlr {
+        padding-bottom: 30px;
+    }
+}
+@media(max-width: 479px){
+    .pro-rvw-job-aply-form .input-field-col textarea, 
+    .pro-rvw-job-aply-form .input-field-col input {
+        padding: 12px 15px 12px 15px;
+    }
+    .pro-rvw-job-aply-form .form-block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pro-rvw-job-aply-form-btn-cntlr a {
+        padding: 13px 13px 14px;
+    }
+    .pro-rvw-job-aply-top-contant-cntlr .job-cntnt-mdul-hdr > span{
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}
+@media(max-width: 479px){
+    .pro-rvw-job-aply-form-btn-cntlr a {
+        padding: 12px 13px 13px;
     }
 }
