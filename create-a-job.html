@@ -38,8 +38,8 @@
 </head>
 <body>
 <div class="page-body-cntlr">
-  <div class="bdoverlay"></div>
-  <header class="header d-none">
+ <div class="bdoverlay"></div>
+  <header class="header">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -50,7 +50,7 @@
               </div>
             </div>
             <div class="hdr-rgt">
-              <nav class="main-nav">
+              <nav class="main-nav hide-sm">
                 <ul class="clearfix reset-list">
                   <li class="current-menu-item"><a href="#">Explore</a></li>
                   <li class="menu-item-has-children">
@@ -65,19 +65,13 @@
                   <li class="menu-btn">
                     <a href="#">
                       join
+                      
                     </a>
                   </li>
                 </ul>
               </nav>
-              <div class="profile-ctlr">
-                <div class="profile">
-                  <a href="#">
-                    <img src="assets/images/profile.png">
-                  </a>
-                </div>
-              </div>
             </div>
-            <div class="hamburgar-cntlr show-md">
+            <div class="hamburgar-cntlr show-sm">
               <div class="hamburger-icon">
                 <span></span>
                 <span></span>
@@ -90,14 +84,38 @@
     </div>
   </header>
 
-  <div class="xs-mobile-menu d-none">
+  <div class="xs-mobile-menu">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+      <div class="hamburgar-cntlr show-sm">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
     <div class="xs-menu">
       <nav class="main-nav">
         <ul class="clearfix reset-list">
           <li class="current-menu-item"><a href="#">Explore</a></li>
-          <li><a href="#">Hire</a></li>
+          <li class="menu-item-has-children">
+            <a href="#">Hire</a>
+            <ul class="sub-menu">
+              <li><a href="#">submenu 1</a></li>
+              <li><a href="#">submenu 2</a></li>
+              <li><a href="#">submenu 3</a></li>
+            </ul>
+          </li>
           <li><a href="#">Login</a></li>
-          <li class="join"><a href="#">Join</a></li>
+          <li class="menu-btn">
+            <a href="#">
+              new job
+              <i class="fas fa-plus"></i>
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -150,13 +168,13 @@
                           <label for="email">Category
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
-                              <div class="tol-tip-des">
+                            </span>
+                            <div class="tol-tip-des">
                                 <h6>Category</h6>
                                 <p>Choose the category that best fits your request.</p>
                                 <strong>For example:</strong>
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                              </div>
-                            </span>
+                            </div>
                           </label>
                           <div class="create-a-job-form contact-select-down-icon">
                              <select class="create-a-job-form select-2-cntlr">
@@ -180,13 +198,13 @@
                           <label for="textarea">Description
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
-                              <div class="tol-tip-des">
+                            </span>
+                            <div class="tol-tip-des">
                                 <h6>Category</h6>
                                 <p>Choose the category that best fits your request.</p>
                                 <strong>For example:</strong>
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                              </div>
-                            </span>
+                            </div>
                           </label>
                           <div class="input-field-col-inner">
                             <textarea name="" id="textarea" placeholder="Describe your job"></textarea>
@@ -206,13 +224,13 @@
                           <label for="email">tags
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
-                              <div class="tol-tip-des">
+                            </span>
+                            <div class="tol-tip-des">
                                 <h6>Category</h6>
                                 <p>Choose the category that best fits your request.</p>
                                 <strong>For example:</strong>
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                              </div>
-                            </span>
+                            </div>
                           </label>
                           <div class="create-a-job-form contact-select-down-icon padding-btm-20">
                              <select class="create-a-job-form select-2-cntlr">
@@ -240,13 +258,13 @@
                           <label for="email">Location
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
-                              <div class="tol-tip-des">
+                            </span>
+                            <div class="tol-tip-des">
                                 <h6>Category</h6>
                                 <p>Choose the category that best fits your request.</p>
                                 <strong>For example:</strong>
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                              </div>
-                            </span>
+                            </div>
                           </label>
                           <input type="email" id="email"placeholder="Start typing a postcode or address">
                         </div>
@@ -260,13 +278,13 @@
                           <label for="email">Dates
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
-                              <div class="tol-tip-des">
+                            </span>
+                            <div class="tol-tip-des">
                                 <h6>Category</h6>
                                 <p>Choose the category that best fits your request.</p>
                                 <strong>For example:</strong>
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                              </div>
-                            </span>
+                            </div>
                           </label>
                             <div class="create-a-job-form contact-select-down-icon">
                              <select class="create-a-job-form select-2-cntlr">
@@ -289,14 +307,14 @@
                         <div class="input-field-col">
                             <label for="email">Scope
                               <span class="tol-tip">
-                                <i class="fas fa-info-circle"></i>
-                                <div class="tol-tip-des">
-                                  <h6>Category</h6>
-                                  <p>Choose the category that best fits your request.</p>
-                                  <strong>For example:</strong>
-                                  <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                                </div>
-                              </span>
+                              <i class="fas fa-info-circle"></i>
+                            </span>
+                            <div class="tol-tip-des">
+                                <h6>Category</h6>
+                                <p>Choose the category that best fits your request.</p>
+                                <strong>For example:</strong>
+                                <p>If you are looking for a logo, you should choose "Logo Design".</p>
+                            </div>
                             </label>
                             <div class="create-a-job-form contact-select-down-icon">
                                <select class="create-a-job-form select-2-cntlr">
@@ -346,13 +364,13 @@
                           <label for="email">Screening Questions
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
-                              <div class="tol-tip-des">
+                            </span>
+                            <div class="tol-tip-des">
                                 <h6>Category</h6>
                                 <p>Choose the category that best fits your request.</p>
                                 <strong>For example:</strong>
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
-                              </div>
-                            </span>
+                            </div>
                           </label>
                           <input type="email" id="email"placeholder="Write a screening question(s) for pros to answer">
                         </div>
@@ -390,7 +408,7 @@
     </div>    
   </section>
   
-  <footer class="footer-wrp d-none">
+  <footer class="footer-wrp">
     <div class="ftr-top">
       <div class="container">
         <div class="row">
@@ -435,9 +453,9 @@
                 </div>
                 <div class="ftr-socials">
                   <ul class="reset-list">
-                    <li><a target="_blank" href="#"><img src="assets/images/facebook-icon.png"></a></li>
-                    <li><a target="_blank" href="#"><img src="assets/images/instagram-icon.png"></a></li>
-                    <li><a target="_blank" href="#"><img src="assets/images/twiter-icon.png"></a></li>
+                    <li class="socials-facebook"><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
                   </ul>
                 </div>
               </div>

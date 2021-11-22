@@ -20,7 +20,7 @@ if(windowWidth <=767){
     if( $('ul > li.menu-item-has-children').length ){
       $('ul > li.menu-item-has-children').click(function(){
        $(this).find('.sub-menu').slideToggle(300);
-       /*$(this).toggleClass('sub-menu-arrow');*/
+       $(this).toggleClass('sub-menu-arrow');
      });
     }
 }
@@ -248,12 +248,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 /*start of Noyon*/
-  $('.bln-accordion-hdr').on('click', function(){
-    $(this).toggleClass('active');
-    $(this).parents('.bln-accordion-menu').siblings().find('.bln-accordion-hdr').removeClass('active');
-    $(this).parents('.bln-accordion-menu').find('.bln-accordion-des').slideToggle(300);
-    $(this).parents('.bln-accordion-menu').siblings().find('.bln-accordion-des').slideUp(300);
-  });
+
+$('.bln-accordion-hdr').on('click', function(){
+  $(this).toggleClass('active');
+  $(this).parents('.cmn-questions').siblings().find('.bln-accordion-hdr').removeClass('active');
+  $(this).parents('.cmn-questions').find('.bln-accordion-des').slideToggle(300);
+  $(this).parents('.cmn-questions').siblings().find('.bln-accordion-des').slideUp(300);
+});
 
   if( $('.companyItemTagSlider').length ){
     $('.companyItemTagSlider').slick({
@@ -268,6 +269,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
     });
 }
 
+/*var expertise = $('.expertise-filters-module ul li').length;
+alert(expertise);
+if (expertise > 6) {
+  $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide');
+  $('.explore-filter-more').append("+" + expertise + "<span>more</span>");
+}*/
 
 
 /*start of Shariful*/
@@ -349,14 +356,30 @@ if(windowWidth <= 767){
 
 
 /*start of Niaz*/
-if($('.tol-tip').length){
-  $('.tol-tip').mouseenter(function(){
-    $(this).addClass('tol-tip-cntlr');
-  });
-  $('.tol-tip').mouseleave(function(){
-    $(this).removeClass('tol-tip-cntlr');
-  });
-};
+if(windowWidth > 767){
+  if($('.tol-tip').length){
+    $('.tol-tip').mouseenter(function(){
+      $(this).addClass('tol-tip-cntlr');
+    });
+    $('.tol-tip').mouseleave(function(){
+      $(this).removeClass('tol-tip-cntlr');
+    });
+  };
+}else{
+
+  if($('.tol-tip').length){
+
+    $('.tol-tip').on('click',function(){
+       $(this).parents('.form-block').siblings().find('.tol-tip-cntlr').removeClass('tol-tip-cntlr');
+      $(this).toggleClass('tol-tip-cntlr');
+
+    })
+
+  };
+}
+
+
+
 if($('#bln-nav').length){
   $('#bln-nav').onePageNav();
 }

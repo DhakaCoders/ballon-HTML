@@ -1,7 +1,7 @@
 .create-a-job-form .input-field-col label,
 .pro-review-job .input-field-col > span{
     color: #fa5252;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 600;
     margin-bottom: 11px;
     position: relative;
@@ -89,7 +89,7 @@
 	padding-bottom:20px;
 }
 .create-a-job-form .back-btn a {
-    font-size: 16px;
+    font-size: 15px;
     color: #76787c;
     font-weight: 500;
     text-decoration: none;

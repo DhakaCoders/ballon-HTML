@@ -1,13 +1,13 @@
 .pro-review-job .input-field-col p{
 	color:#000;
 	font-family: 'Inter', sans-serif;
-	font-size:24px;
+	font-size:23px;
 	font-weight:500;
 	padding-left:23px;
 }
 .pro-review-job .input-field-col > span{
 	display:inline-block;
-	margin-bottom:17px;
+	margin-bottom:15px;
 }
 .pro-review-job .input-field-col p span{
     color: #a3a4a6;
@@ -19,7 +19,7 @@
 
 .Print-button a {
     color: #bcbcbc;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     font-weight: 600;
 }
@@ -30,4 +30,33 @@
 }
 .Print-button a:hover {
     color: #fa5252;
+}
+.scope-block .input-field-col {
+    margin-bottom: 7px;
+}
+
+@media(max-width:1199px){
+	.pro-review-job .input-field-col p{
+		font-size:21px;
+	}
+
+}
+@media(max-width:991px){
+	.pro-review-job .input-field-col > span {
+	    margin-bottom: 12px;
+	}
+}
+@media(max-width:767px){
+	.pro-review-job .input-field-col p {
+	    font-size: 18px;
+	}
+	.pro-review-job .input-field-col > span {
+	    margin-bottom: 6px;
+	}
+
+}
+@media(max-width:479px){
+	.pro-review-job .input-field-col p{
+		padding-left:10px;
+	}
 }

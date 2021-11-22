@@ -1,6 +1,6 @@
 
 .hm-page-banner{
-	padding: 40px 0 145px;
+	padding: 40px 0 130px;
 	background-repeat: no-repeat!important;
 	background-position: bottom center!important;
 }
@@ -18,8 +18,8 @@
 	padding: 35px 48px 40px 48px;
 	border-radius: 8px;
 	border-bottom: 14px solid #7a92d0;
-	-webkit-box-shadow: 0px 0px 25px 5px rgb(233 233 233); 
-	box-shadow: 0px 0px 25px 5px rgb(233 233 233);
+	-webkit-box-shadow: 0px 0px 25px 5px rgb(195 195 195); 
+	box-shadow: 0px 0px 25px 5px rgb(195 195 195);
 	background: #fff;
 	position: relative;
 	z-index: 9;
@@ -362,7 +362,7 @@
 
 @media(max-width: 1199px){
 	.hm-page-banner{
-		padding: 35px 0 120px;
+		padding: 35px 0 100px;
 	}
 	.hm-page-bnr-des{
 		padding: 35px 30px 40px 30px;
@@ -402,7 +402,7 @@
 
 @media(max-width: 991px){
 	.hm-page-banner {
-	    padding: 35px 0 100px;
+	    padding: 35px 0 80px;
 	}
 	.hm-page-bnr-des {
 	    padding: 30px 20px 30px 20px;
@@ -452,7 +452,7 @@
 		display: none;
 	}
 	.hm-page-bnr-input-field{
-		padding-right: 30px;
+		padding-right: 0;
 	}
 }
 
@@ -533,10 +533,12 @@
 	.hire-pro-intro-img {
 	    width: 100%;
 	    margin-bottom: 30px;
+	    text-align: center;
 	}
 	.hire-professional-intro-des{
 		padding-right: 0;
 		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -556,6 +558,7 @@
 	}
 	.service-grd-item-des ul li{
 		width: 100%;
+		padding-right: 0;
 	}
 	.service-grd-item-des-btn {
 	    text-align: left;
