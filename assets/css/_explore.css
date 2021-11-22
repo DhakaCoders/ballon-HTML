@@ -461,3 +461,14 @@
 .companyItemTagSlider .slick-next{
 	right: 2px!important;
 }
+@media (max-width: 575px){
+	.explr-cntnt-sortby-cntlr{
+		width: 100%;
+	}
+	.explr-cntnt-sortby.select-2-sortby{
+		margin-left: auto;
+	}
+	.explr-cntnt-srch-result {
+	    padding-bottom: 15px;
+	}
+}

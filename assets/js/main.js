@@ -286,14 +286,18 @@ $(window).resize(function(){
   $('.service-lft-img').css('margin-right', rgtOffSet);
 });
 
-if( $('#sidebar').length ){
-  $('#sidebar').stickySidebar({
-      topSpacing: 50,
-      bottomSpacing: 50
-  });
+if(windowWidth > 639){
+  if( $('#sidebar').length ){
+    $('#sidebar').stickySidebar({
+        topSpacing: 50,
+        bottomSpacing: 50
+    });
+  }  
 }
 
+
 if(windowWidth <= 767){
+  if( $('.hireProSlider').length ){
     $('.hireProSlider').slick({
       dots: true,
       infinite: true,
@@ -304,6 +308,7 @@ if(windowWidth <= 767){
       slidesToShow: 1,
       slidesToScroll: 1
     });
+  }
 }
 
 /*if( $('.hamburgar-cntlr').length ){
