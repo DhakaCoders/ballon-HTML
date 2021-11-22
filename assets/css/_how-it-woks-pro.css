@@ -116,6 +116,9 @@
     padding-bottom: 25px; 
     display: flex;
 }
+.bl-pkg-grd-desc ol li:before{
+	background-image: initial;
+}
 .bl-pkg-grd-desc li:last-of-type{
 	padding-bottom: 0;
 }
