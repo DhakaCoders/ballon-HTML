@@ -121,3 +121,15 @@
 		padding: 0;
 	}
 }
+@media (max-width: 767px){
+	.active-job-module-cntlr .job-cntnt-item-copy{
+		position: absolute;
+		top: 18px;
+		right: 20px;
+	}
+	.job-cntnt-item-rgt{
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 0;
+	}
+}
