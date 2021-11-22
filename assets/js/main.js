@@ -19,8 +19,8 @@ if( $('.hamburgar-cntlr').length ){
 if(windowWidth <=767){
     if( $('ul > li.menu-item-has-children').length ){
       $('ul > li.menu-item-has-children').click(function(){
-       $(this).next().slideToggle(300);
-       $(this).parent().toggleClass('sub-menu-arrow');
+       $(this).siblings('.sub-menu').next().slideToggle(300);
+       $(this).toggleClass('sub-menu-arrow');
      });
     }
 }

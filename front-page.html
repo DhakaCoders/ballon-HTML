@@ -51,7 +51,7 @@
               </div>
             </div>
             <div class="hdr-rgt">
-              <nav class="main-nav">
+              <nav class="main-nav hide-sm">
                 <ul class="clearfix reset-list">
                   <li class="current-menu-item"><a href="#">Explore</a></li>
                   <li class="menu-item-has-children">
@@ -72,7 +72,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="hamburgar-cntlr show-md">
+            <div class="hamburgar-cntlr show-sm">
               <div class="hamburger-icon">
                 <span></span>
                 <span></span>
@@ -85,14 +85,38 @@
     </div>
   </header>
 
-  <div class="xs-mobile-menu d-none">
+  <div class="xs-mobile-menu">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+      <div class="hamburgar-cntlr show-sm">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
     <div class="xs-menu">
       <nav class="main-nav">
         <ul class="clearfix reset-list">
           <li class="current-menu-item"><a href="#">Explore</a></li>
-          <li><a href="#">Hire</a></li>
+          <li class="menu-item-has-children">
+            <a href="#">Hire</a>
+            <ul class="sub-menu">
+              <li><a href="#">submenu 1</a></li>
+              <li><a href="#">submenu 2</a></li>
+              <li><a href="#">submenu 3</a></li>
+            </ul>
+          </li>
           <li><a href="#">Login</a></li>
-          <li class="join"><a href="#">Join</a></li>
+          <li class="menu-btn">
+            <a href="#">
+              new job
+              <i class="fas fa-plus"></i>
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
