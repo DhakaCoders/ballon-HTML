@@ -15,6 +15,9 @@
 .pro-rvw-job-aply-form .create-a-job-form select.select-2-cntlr.select2-hidden-accessible.xontact-custom-select {
     width: 522px!important;
 }
+.pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
+    height: 60px!important;
+}
 #quote-price .input-field-col input{
     width: 522px;
 }
@@ -80,4 +83,21 @@
 }
 .pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-dtls-col span i.fas.fa-user{
     margin-top: -2px;
+}
+
+@media(max-width: 1199px){
+    .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
+        height: 55px!important;
+    }
+}
+@media(max-width: 767px){
+    .pro-rvw-job-aply-form .create-a-job-form span.select2.select2-container.select2-container--default {
+        width: 100%!important;
+    }
+    .pro-rvw-job-aply-form .create-a-job-form select.select-2-cntlr.select2-hidden-accessible.xontact-custom-select {
+        width: 100%!important;
+    }
+    #quote-price .input-field-col input{
+        width: 100%;
+    }
 }
