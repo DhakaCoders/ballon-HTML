@@ -272,7 +272,6 @@
         padding-bottom: 50px;
     }
 }
-/*<<<<<<< HEAD
 @media (max-width: 479px){
     .join-btm-btn-cntlr a {
         min-width: 100%;
@@ -299,8 +298,6 @@
         padding-bottom: 40px;
     }
 }
-@media(max-width:359px){
-=======*/
 
 @media(max-width:479px){
     .account-profile-right {
