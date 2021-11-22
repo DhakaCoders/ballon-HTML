@@ -308,5 +308,27 @@ body.allWork {
     .xs-pop-up-menu-top .hamburgar-cntlr{
         margin-left: auto;
     }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
+        position: static;
+        z-index: 15;
+        width: 100%;
+        transition: initial;
+        transform: initial;
+        opacity: 1;
+        box-shadow: none;
+        background: transparent!important;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
+        font-size: 15px;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after{
+        content: none;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
+        border-bottom: none;
+    }
+    .xs-menu{
+        overflow-y: auto;
+    }
 }
 
