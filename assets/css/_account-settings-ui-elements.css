@@ -248,6 +248,9 @@
     .my-account-sec{
         padding-bottom:80px;
     }
+    .subtitle {
+        font-size: 19px;
+    }
 }
 
 @media(max-width:767px){
@@ -336,5 +339,11 @@
         width:100%;
         margin-left:0px!important;
         margin-right:0px!important;
+    }
+    .myaccount-setting-form .input-field-col label {
+        padding: 14px 15px 13px 32px;
+    }
+    .input-field-col span.in-icon-file {
+        left: 10px!important;
     }
 }
