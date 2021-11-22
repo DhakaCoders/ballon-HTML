@@ -248,12 +248,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 /*start of Noyon*/
-  $('.bln-accordion-hdr').on('click', function(){
-    $(this).toggleClass('active');
-    $(this).parents('.bln-accordion-menu').siblings().find('.bln-accordion-hdr').removeClass('active');
-    $(this).parents('.bln-accordion-menu').find('.bln-accordion-des').slideToggle(300);
-    $(this).parents('.bln-accordion-menu').siblings().find('.bln-accordion-des').slideUp(300);
-  });
+
+$('.bln-accordion-hdr').on('click', function(){
+  $(this).toggleClass('active');
+  $(this).parents('.cmn-questions').siblings().find('.bln-accordion-hdr').removeClass('active');
+  $(this).parents('.cmn-questions').find('.bln-accordion-des').slideToggle(300);
+  $(this).parents('.cmn-questions').siblings().find('.bln-accordion-des').slideUp(300);
+});
 
   if( $('.companyItemTagSlider').length ){
     $('.companyItemTagSlider').slick({
@@ -268,6 +269,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
     });
 }
 
+var expertise = $('.expertise-filters-module ul li').length;
+alert(expertise);
+if (expertise > 6) {
+  $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide');
+  $('.explore-filter-more').append("+" + expertise + "<span>more</span>");
+}
 
 
 /*start of Shariful*/

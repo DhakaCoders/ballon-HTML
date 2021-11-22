@@ -135,6 +135,13 @@
 	font-size: 18px;
 	color: #bcbcbc;
 	cursor: pointer;
+	display: none;
+}
+.explore-filter-more span{
+	padding-left: 5px;
+}
+.explr-fltr-expertise-mdul-extra-hide .explore-filter-more{
+	display: block;
 }
 .explore-reset-filters{
 }
