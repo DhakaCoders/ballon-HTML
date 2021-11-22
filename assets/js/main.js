@@ -308,6 +308,12 @@ if(windowWidth <= 767){
     });
 }
 
+if( $('.hamburgar-cntlr').length ){
+  $('.hamburgar-cntlr').click(function(){
+    $('body').toggleClass('allWork');
+  });
+}
+
 /*start of Momin*/
 
 /**
