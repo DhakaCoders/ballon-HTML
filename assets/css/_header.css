@@ -349,11 +349,8 @@ body.allWork {
         position: absolute;
         content: "\f107"!important;
         color: #4f4f4f;
-        top: 50%;
+        top: 14px;
         right: 20px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
         font-family: 'FontAwesome 5 Free';
         font-size: 16px;
         line-height: 16px;
@@ -376,6 +373,9 @@ body.allWork {
         box-shadow: none;
         display: none;
         background: transparent!important;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
+        border-color: #4f4f4f;
     }
 }
 
