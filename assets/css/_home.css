@@ -161,6 +161,7 @@
     background-position: center center!important;
     height: 17px;
     width: 16px;
+    margin-top: 2px;
 }
 .active .bln-accordion-title:after {
 	background: url(../images/minus-icon.png);
