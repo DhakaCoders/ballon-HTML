@@ -132,3 +132,8 @@
 		margin-left: 0;
 	}
 }
+@media (max-width: 359px){
+	.pro-rvw-job-mdul-cntlr .job-cntnt-item-pro-msg ul li {
+	    width: 50%;
+	}
+}
