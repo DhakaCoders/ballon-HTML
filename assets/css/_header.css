@@ -77,7 +77,34 @@ nav.main-nav > ul > li > a:hover{
 }
 
 nav.main-nav > ul > li.menu-item-has-children > a{
-
+    padding-right: 16px;
+    position: relative;
+}
+nav.main-nav > ul > li.menu-item-has-children > a:before {
+    content: "\f107";
+    position: absolute;
+    right: 0;
+    color: #0c224b;
+    font-size: 17px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'Font Awesome\ 5 Free';
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: inherit;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+nav.main-nav > ul > li.menu-item-has-children:hover > a:before{
+    transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    margin-top: -10px;
+    color: #fa5252;
 }
 
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
@@ -263,9 +290,6 @@ body.allWork {
         margin-left: -12px;
         margin-right: -12px;
     }
-    nav.main-nav > ul > li{
-        padding: 10px 12px;
-    }
     .profile-ctlr {
         margin-left: 14px;
     }
@@ -280,7 +304,7 @@ body.allWork {
         margin-right: -10px;
     }
     nav.main-nav > ul > li {
-        padding: 10px 10px;
+        padding: 10px 12px;
     }
     nav.main-nav > ul > li > a{
         font-size: 18px;
@@ -306,6 +330,7 @@ body.allWork {
     .xs-menu nav.main-nav > ul > li {
         padding: 10px 0;
         border-bottom: 1px solid #4f4f4f;
+        padding-left: 10px;
     }
     .xs-menu nav.main-nav > ul > li:last-child{
         border-bottom: none;
@@ -352,7 +377,10 @@ body.allWork {
         color: #4f4f4f;
         top: 14px;
         right: 20px;
-        font-family: 'FontAwesome 5 Free';
+        font-family: 'Font Awesome\ 5 Free';
+        font-style: normal;
+        font-weight: 600;
+        text-decoration: inherit;
         font-size: 16px;
         line-height: 16px;
         display: inline-block;
@@ -361,7 +389,8 @@ body.allWork {
         -webkit-transition: all 0.5s;
     }
     .xs-menu nav.main-nav > ul > li.menu-item-has-children.sub-menu-arrow:after{
-        content: "\f108"!important;
+        content: "\f106"!important;
+        color: #fa5252;
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
         position: static;
@@ -377,6 +406,16 @@ body.allWork {
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
         border-color: #4f4f4f;
+    }
+    nav.main-nav > ul > li.menu-item-has-children > a:before{
+        content: none;
+    }
+    .xs-menu nav.main-nav > ul > li.current-menu-item{
+        background: #fa5252;
+        border-bottom: none;
+    }
+    .xs-menu nav.main-nav > ul > li.current-menu-item a{
+        color: #fff;
     }
 }
 
