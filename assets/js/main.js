@@ -335,18 +335,18 @@ if(windowWidth <= 767){
 
 /*start of Niaz*/
 if($('.tol-tip').length){
-
   $('.tol-tip').mouseenter(function(){
     $(this).addClass('tol-tip-cntlr');
   });
   $('.tol-tip').mouseleave(function(){
     $(this).removeClass('tol-tip-cntlr');
   });
-
 };
 if($('#bln-nav').length){
   $('#bln-nav').onePageNav();
 }
+
+
 /*start of Zahir*/
 if($('.fancybox').length){
   $(document).ready(function() {
