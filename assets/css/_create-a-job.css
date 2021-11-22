@@ -113,3 +113,26 @@
 .create-a-job-form .input-field-inner .back-btn+.submint-btn button{
     margin-bottom:0;
 }
+@media(max-width:1199px){
+    .create-a-job-form .input-field-col label, 
+    .pro-review-job .input-field-col > span{
+        font-size:21px;
+    }
+}
+@media(max-width:991px){
+    .form-block {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media(max-width:767px){
+    .create-a-job-form .input-field-col label, .pro-review-job .input-field-col > span{
+        font-size:18px;
+    }
+}
+@media(max-width:480px){
+    .form-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
