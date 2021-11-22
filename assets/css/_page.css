@@ -135,18 +135,22 @@
 .page-intro-sec-cntlr p:last-of-type{
     margin-bottom: 0;
 }
+
 /*ul li*/
+.default-page-con ul,
 ul{
 	padding: 0;
 	margin: 0;
-	list-style: none;
+	list-style-type: none;
 }
+.default-page-con ul li,
 ul li{
 	padding-bottom: 20px;
 	padding-left: 23px;
 	position: relative;
 	line-height: 1.2;
 }
+.default-page-con ul li:before,
 ul li:before{
 	content: '';
 	background-image: url('../images/default-icn.png');
@@ -160,8 +164,36 @@ ul li:before{
     background-size: 100% auto;
 }
 
+.default-page-con ol,
+ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    -ms-counter-reset: my-awesome-counter;
+    -webkit-counter-reset: my-awesome-counter;
+}
+.default-page-con ol li,
+ol li{
+    padding-bottom: 20px;
+    padding-left: 23px;
+    position: relative;
+    line-height: 1.2;
+    counter-increment: my-awesome-counter;
+    -ms-counter-increment: my-awesome-counter;
+    -webkit-counter-increment: my-awesome-counter;
+}
+.default-page-con ol li:before,
+ol li:before{
+    content: counter(my-awesome-counter) '.';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fa5252;
+    margin-top: 0px;
+    font-weight: 700;
 
-
+}
 /*select 2*/
 body .select2-dropdown {
     margin: 0;
@@ -172,6 +204,8 @@ body .select2-dropdown {
     background: #FFFFFF;
     background-color: #FFFFFF;
     box-shadow: 0px 30px 84px rgb(44 17 62 / 9%);
+    -moz-box-shadow: 0px 30px 84px rgb(44 17 62 / 9%);
+    -webkit-box-shadow: 0px 30px 84px rgb(44 17 62 / 9%);
     border-radius: 5px;
 }
 .select-2-sortby{
