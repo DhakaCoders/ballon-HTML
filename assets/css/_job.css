@@ -227,3 +227,13 @@
 .export-job-list-cv a:hover{
 	color: #fa5252;
 }
+@media (max-width: 767px){
+	.job-cntnt-item-create-date {
+	    padding-bottom: 10px;
+	}
+}
+@media (max-width: 479px){
+	.job-cntnt-item-create-date span{
+		line-height: 1.3;
+	}
+}
