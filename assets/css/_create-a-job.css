@@ -148,6 +148,9 @@
     .form-block.form-block-bdrnone .input-field-inner .back-btn {
         margin-bottom: 10px;
     }
+    .form-block.form-block-bdrnone{
+        padding-top:26px;
+    }
 }
 @media(max-width:480px){
     .form-block {
