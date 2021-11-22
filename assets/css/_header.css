@@ -192,6 +192,69 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
     top: 16px;
 }
 
+body.allWork .hamburger-icon span:nth-child(1) {
+    top: 10px;
+    left: 0;
+    transform: rotate(45deg);
+}
+body.allWork .hamburger-icon span:nth-child(3) {
+    top: 10px;
+    left: 0;
+    transform: rotate(-45deg);
+}
+
+body.allWork .hamburger-icon span:nth-child(2){
+    content: none;
+    display: none;
+}
+
+.allWork .bdoverlay {
+    z-index: 9999;
+    opacity: 1;
+}
+.bdoverlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+}
+body.allWork {
+    overflow: hidden!important;
+}
+.allWork .xs-mobile-menu {
+    right: 0;
+    opacity: 1;
+    z-index: 99999;
+    width: 100%;
+}
+.xs-mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    background: #fff;
+    width: 0;
+    z-index: 99999;
+    opacity: 0;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    padding-top: 79px;
+    height: 100%;
+    max-width: 375px;
+    width: 100%;
+    padding-bottom: 118px;
+    border-left: 2px solid #F8800B;
+
+}
+
 
 @media(max-width: 1199px){
     nav.main-nav > ul{
