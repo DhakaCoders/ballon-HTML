@@ -178,9 +178,46 @@
         padding-right:35px;
     }
 }
-@media(max-width:1199px){
+@media(max-width:1399px){
     .myaccount-menu ul li a, 
     .logout-link a{
         font-size:17px;
+    }
+    .logout-link a:after {
+        font-size: 17px;
+        top: 1px;
+    }
+}
+@media(max-width:1199px){
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:16px;
+    }
+    .logout-link a:after {
+        font-size: 16px;
+        top: 1px;
+    }
+    .logout-link a{
+        padding-right:20px;
+    }
+    .subtitle{
+        font-size:20px;
+    }
+    .myaccount-setting-form .input-field-col label{
+        font-size:18px;
+        padding: 17px 19px 20px 40px;
+        height: 55px;
+    }
+    .input-field-col span.in-icon-file {
+        margin-top: -2px;
+    }
+    .input-field-wrapper-pd-35{
+        padding-bottom:28px;
+    }
+    .my-account-setting-sec-ui .myaccount-content-cntlr{
+        padding-bottom: 140px;
+    }
+    .myaccount-title-cntlr{
+        margin-bottom:35px;
     }
 }

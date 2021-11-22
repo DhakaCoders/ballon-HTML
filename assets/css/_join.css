@@ -165,3 +165,22 @@
 	color: #7a92d0!important;
 	background: transparent!important;
 }
+
+@media(max-width:1199px){
+    .input-field-col textarea, 
+    .input-field-col input{
+        font-size:18px;
+        padding: 15px 20px 15px 40px;
+        height:55px
+    }
+    .input-field-col span.in-icon{
+        font-size:18px;
+    }
+    .input-field-col textarea{
+        height:169px;
+    }
+    .submint-btn button{
+        padding: 16px 13px 15px;
+        font-size:18px!important;
+    }
+}
