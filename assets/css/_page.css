@@ -125,7 +125,7 @@
 	margin-right: auto;
 }
 .page-intro-sec-title{
-	margin-bottom: 25px;
+	margin-bottom: 30px;
     text-transform: capitalize;
 }
 .page-intro-sec-cntlr p{
@@ -161,7 +161,7 @@ ul li:before{
 	width: 17px;
 	left: 0;
 	top: 0;
-	margin-top: 1px;
+	margin-top: 0px;
 	background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -408,9 +408,11 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 @media(max-width: 1199px){
     .page-intro-sec{
         padding-bottom: 50px;
+        padding-top: 20px;
+
     }
     .page-intro-sec-title{
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     .page-intro-sec-cntlr p{
         font-size: 26px;
@@ -430,6 +432,7 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 @media(max-width: 991px){
     .page-intro-sec{
         padding-bottom: 45px;
+        padding-top: 15px;
     }
     .page-intro-sec-title{
         margin-bottom: 20px;
@@ -440,10 +443,22 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     .sec-entry-hdr{
         padding-bottom: 20px;
     }
+    .default-page-con ul li, ul li{
+        padding-bottom: 18px;
+    }
+    .default-page-con ol li,ol li{
+        padding-bottom: 18px;
+    }
 }
 @media(max-width: 767px){
+    .page-intro-sec {
+        padding-bottom: 40px;
+    }
     .page-intro-sec-cntlr p{
         font-size: 21px;
+    }
+    .page-intro-sec-title{
+        margin-bottom: 15px;
     }
     .sec-entry-hdr {
         padding-bottom: 20px;
@@ -463,7 +478,17 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     .sec-entry-hdr{
         padding-bottom: 15px;
     }
-    
+    ul.select2-results__options li{
+        font-size: 14px;
+    } 
+}
+@media(max-width: 639px){
+    .default-page-con ul li, ul li{
+        padding-bottom: 15px;
+    }
+    .default-page-con ol li, ol li{
+        padding-bottom: 15px;
+    }
 }
 @media(max-width: 575px){
     .page-intro-sec-cntlr p{

@@ -77,7 +77,30 @@ nav.main-nav > ul > li > a:hover{
 }
 
 nav.main-nav > ul > li.menu-item-has-children > a{
-
+    padding-right: 22px;
+    position: relative;
+}
+nav.main-nav > ul > li.menu-item-has-children > a:before {
+    content: "\f107";
+    position: absolute;
+    right: 0;
+    color: #0c224b;
+    font-size: 20px;
+    top: 9px;
+    font-family: 'Font Awesome\ 5 Free';
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: inherit;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+nav.main-nav > ul > li.menu-item-has-children:hover > a:before{
+    transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    color: #fa5252;
 }
 
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
@@ -250,7 +273,7 @@ body.allWork {
     -ms-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    padding: 30px 20px;
+    padding: 30px 0;
     height: 100%;
     max-width: 375px;
     width: 100%;
@@ -262,9 +285,6 @@ body.allWork {
     nav.main-nav > ul{
         margin-left: -12px;
         margin-right: -12px;
-    }
-    nav.main-nav > ul > li{
-        padding: 10px 12px;
     }
     .profile-ctlr {
         margin-left: 14px;
@@ -280,16 +300,16 @@ body.allWork {
         margin-right: -10px;
     }
     nav.main-nav > ul > li {
-        padding: 10px 10px;
+        padding: 10px 12px;
     }
     nav.main-nav > ul > li > a{
         font-size: 18px;
     }
-    nav.main-nav > ul > li.menu-btn > a{
-        padding: 7px 20px 7px 35px;
-    }
     body.home header.header {
         padding: 40px 0;
+    }
+    nav.main-nav > ul > li.menu-item-has-children > a:before{
+        top: 8px;
     }
 }
 
@@ -301,20 +321,22 @@ body.allWork {
         margin-left: 0;
         margin-right: 0;
         display: block;
-        padding-top: 40px;
+        padding-top: 60px;
     }
     .xs-menu nav.main-nav > ul > li {
         padding: 10px 0;
-        border-bottom: 1px solid #4f4f4f;
+        border-bottom: 1px solid #fa5252;
     }
     .xs-menu nav.main-nav > ul > li:last-child{
         border-bottom: none;
     }
     .xs-menu nav.main-nav > ul > li > a{
         padding: 0;
+        padding-left: 20px;
     }
     .xs-menu nav.main-nav > ul > li.menu-btn > a{
         padding: 7px 30px 7px 35px;
+        margin-left: 20px;
     }
     .xs-pop-up-menu-top{
         position: absolute;
@@ -324,14 +346,15 @@ body.allWork {
         z-index: 5;
         display: flex;
         align-items: center;
-        padding: 20px;
+        padding: 30px 20px;
         background: #fff;
     }
     .xs-pop-up-menu-top .hamburgar-cntlr{
         margin-left: auto;
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
-        font-size: 15px;
+        font-size: 17px;
+        padding-left: 35px;
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after{
         content: none;
@@ -343,7 +366,6 @@ body.allWork {
         padding-bottom: 5px;
     }
     .xs-menu nav.main-nav > ul > li.menu-item-has-children{
-        padding-right: 30px;
         position: relative;
     }
     .xs-menu nav.main-nav > ul > li.menu-item-has-children:after{
@@ -352,7 +374,10 @@ body.allWork {
         color: #4f4f4f;
         top: 14px;
         right: 20px;
-        font-family: 'FontAwesome 5 Free';
+        font-family: 'Font Awesome\ 5 Free';
+        font-style: normal;
+        font-weight: 600;
+        text-decoration: inherit;
         font-size: 16px;
         line-height: 16px;
         display: inline-block;
@@ -361,7 +386,8 @@ body.allWork {
         -webkit-transition: all 0.5s;
     }
     .xs-menu nav.main-nav > ul > li.menu-item-has-children.sub-menu-arrow:after{
-        content: "\f108"!important;
+        content: "\f106"!important;
+        color: #fa5252;
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
         position: static;
@@ -376,7 +402,23 @@ body.allWork {
         background: transparent!important;
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
-        border-color: #4f4f4f;
+        border-color: #fa5252;
+    }
+    nav.main-nav > ul > li.menu-item-has-children > a:before{
+        content: none;
+    }
+    .xs-menu nav.main-nav > ul > li.current-menu-item{
+        background: #fa5252;
+        border-bottom: none;
+    }
+    .xs-menu nav.main-nav > ul > li.current-menu-item a{
+        color: #fff;
+    }
+}
+
+@media(max-width: 400px){
+    .xs-mobile-menu{
+        max-width: 100%;
     }
 }
 

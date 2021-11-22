@@ -452,7 +452,7 @@
 		display: none;
 	}
 	.hm-page-bnr-input-field{
-		padding-right: 30px;
+		padding-right: 0;
 	}
 }
 
@@ -533,10 +533,12 @@
 	.hire-pro-intro-img {
 	    width: 100%;
 	    margin-bottom: 30px;
+	    text-align: center;
 	}
 	.hire-professional-intro-des{
 		padding-right: 0;
 		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -556,6 +558,7 @@
 	}
 	.service-grd-item-des ul li{
 		width: 100%;
+		padding-right: 0;
 	}
 	.service-grd-item-des-btn {
 	    text-align: left;
