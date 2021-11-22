@@ -19,7 +19,7 @@
     -moz-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.22);
     padding-right:12px;
     border-radius: 8px;
-    left: -10px;
+    left: 0px;
     top: 35px;
     opacity: 0;
     z-index:-1;
@@ -81,19 +81,13 @@
     .tol-tip{
         top:1px;
     }
-    .tol-tip.tol-tip-cntlr .tol-tip-des{
-        width:350px;
-    }
+   
 }
 @media(max-width:991px){
-    .tol-tip.tol-tip-cntlr .tol-tip-des{
-        width:225px;
-    }
+   
 }
 @media(max-width:767px){
-    .tol-tip.tol-tip-cntlr .tol-tip-des {
-        width: 130px;
-    }
+ 
     .tol-tip-des p{
         font-size:14px;
     }
@@ -101,12 +95,16 @@
     .tol-tip-des strong{
         font-size:15px;
     }
-}
-@media(max-width:479px){
-    .tol-tip.tol-tip-cntlr .tol-tip-des {
-        width:150px;
-        left:auto;
-        right:0;
+    .tol-tip.tol-tip-cntlr:after{
+        left:-6px;
     }
+    .tol-tip.tol-tip-cntlr+.tol-tip-des{
+        width:300px;
+    }
+}
+@media(max-width:575px){
+   .tol-tip.tol-tip-cntlr+.tol-tip-des{
+    width:250px;
+   }
 
 }
