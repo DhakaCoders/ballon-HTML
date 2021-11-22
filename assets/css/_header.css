@@ -192,6 +192,66 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
     top: 16px;
 }
 
+body.allWork .hamburger-icon span:nth-child(1) {
+    top: 10px;
+    left: 0;
+    transform: rotate(45deg);
+}
+body.allWork .hamburger-icon span:nth-child(3) {
+    top: 10px;
+    left: 0;
+    transform: rotate(-45deg);
+}
+
+body.allWork .hamburger-icon span:nth-child(2){
+    content: none;
+    display: none;
+}
+
+.allWork .bdoverlay {
+    z-index: 9999;
+    opacity: 1;
+}
+.bdoverlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+}
+body.allWork {
+    overflow: hidden!important;
+}
+.allWork .xs-mobile-menu {
+    right: 0;
+    opacity: 1;
+    z-index: 99999;
+    width: 100%;
+}
+.xs-mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    background: #fff;
+    width: 0;
+    z-index: 99999;
+    opacity: 0;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 30px 20px;
+    height: 100%;
+    max-width: 375px;
+    width: 100%;
+}
+
 
 @media(max-width: 1199px){
     nav.main-nav > ul{
@@ -222,6 +282,53 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
     }
     nav.main-nav > ul > li.menu-btn > a{
         padding: 7px 20px 7px 35px;
+    }
+}
+
+@media(max-width: 767px){
+    .xs-menu nav.main-nav > ul {
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+    }
+    .xs-menu nav.main-nav > ul > li {
+        padding: 10px 0;
+    }
+    .xs-menu nav.main-nav > ul > li > a{
+        padding: 0;
+    }
+    .xs-menu nav.main-nav > ul > li.menu-btn > a{
+        padding: 7px 30px 7px 35px;
+    }
+    .xs-pop-up-menu-top{
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .xs-pop-up-menu-top .hamburgar-cntlr{
+        margin-left: auto;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
+        position: static;
+        z-index: 15;
+        width: 100%;
+        transition: initial;
+        transform: initial;
+        opacity: 1;
+        box-shadow: none;
+        background: transparent!important;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
+        font-size: 15px;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after{
+        content: none;
+    }
+    nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
+        border-bottom: none;
+    }
+    .xs-menu{
+        overflow-y: auto;
     }
 }
 

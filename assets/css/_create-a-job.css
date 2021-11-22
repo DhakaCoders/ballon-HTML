@@ -113,3 +113,45 @@
 .create-a-job-form .input-field-inner .back-btn+.submint-btn button{
     margin-bottom:0;
 }
+@media(max-width:1199px){
+    .create-a-job-form .input-field-col label, 
+    .pro-review-job .input-field-col > span{
+        font-size:21px;
+    }
+    .create-a-job-form .input-field-col ul li span{
+        font-size:17px;
+    }
+}
+@media(max-width:991px){
+    .form-block {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media(max-width:767px){
+    .create-a-job-form .input-field-col label, .pro-review-job .input-field-col > span{
+        font-size:18px;
+        padding-right:30px;
+    }
+    .create-a-job-form .input-field-col ul li span{
+        font-size:16px;
+    }
+    .form-block.form-block-bdrnone .input-field-inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form-block.form-block-bdrnone .input-field-inner .submint-btn {
+        margin-left: initial;
+    }
+
+    .form-block.form-block-bdrnone .input-field-inner .back-btn {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:480px){
+    .form-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
