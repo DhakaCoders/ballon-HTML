@@ -15,3 +15,13 @@
 .join-contant-sec.setup-pro-contant-sec {
     padding-bottom: 83px;
 }
+.input-field-col span.input-tol-tip{
+	position: absolute;	
+	top: 50%;	
+	right: 34px;
+	color: #c8c8c8;
+	font-size: 20px;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
