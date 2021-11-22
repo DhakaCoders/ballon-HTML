@@ -145,7 +145,7 @@
 		padding-right: 30px;
 	}
 	.price{
-		font-size: 34px;
+		font-size: 32px;
 	}
 }
 @media(max-width: 991px){
@@ -174,7 +174,7 @@
 		padding-bottom: 18px;
 	}
 	.price{
-		font-size: 30px;
+		font-size: 28px;
 	}
 	.pricing-plans-sec{
 		padding-top: 45px;
