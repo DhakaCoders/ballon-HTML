@@ -112,6 +112,9 @@
 	h5,.fl-h5{
 		font-size: 18px;
 	}
+	.fl-btn{
+		font-size: 16px;
+	}
 }
 
 @media(max-width: 575px){
