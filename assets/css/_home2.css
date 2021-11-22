@@ -354,3 +354,50 @@
 .hire-pro-grd-item-03 .hire-pro-grd-item-des-title{
 	color: #4cbd64;
 }
+
+
+
+
+
+@media(max-width: 1199px){
+	.hm-page-banner{
+		padding: 35px 0 120px;
+	}
+	.hm-page-bnr-des{
+		padding: 35px 30px 40px 30px;
+	}
+	.hm-page-bnr-subtitle{
+		font-size: 28px!important;
+	}
+	.hm-page-bnr-input-field-row label{
+		font-size: 22px;
+	}
+	.hm-page-bnr-btn input[type=submit]{
+		font-size: 20px;
+	}
+	.service-grd-item-des ul li{
+		font-size: 14px;
+	}
+	.hire-professional-sec {
+	    padding: 50px 0 30px;
+	}
+	.service-grd-item-des{
+		padding: 20px 20px;
+	}
+	.service-grd-item-des-btn a{
+		font-size: 20px;
+		padding: 5px 38px 5px 15px;
+	}
+	.service-grd-item-des-btn a i{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 991px){
+	.hm-page-bnr-des {
+	    padding: 30px 20px 30px 20px;
+	}
+	.hm-page-bnr-subtitle {
+	    font-size: 25px!important;
+	}
+}
