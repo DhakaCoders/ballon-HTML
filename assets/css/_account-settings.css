@@ -35,7 +35,7 @@
     align-items: center;
     border-radius: 100%;
     right: -14px;
-    top: -12px;
+    top: -9px;
 }
 .add-profile-img input {
     opacity: 0;
@@ -66,4 +66,43 @@
 }
 .my-account-setting-sec .myaccount-content-cntlr{
     padding-bottom:60px;
+}
+
+@media(max-width:1199px){
+    .myaccount-profile-image{
+        max-width:117px;
+        height:115px;
+
+    }
+    .add-profile-img{
+        width:44px;
+        height:42px;
+        top:-6px;
+    }
+    .add-profile-img label span i{
+        font-size:20px;
+    }
+}
+@media(max-width:991px){
+
+}
+@media(max-width:767px){
+    .myaccount-profile-image{
+        max-width: 102px;
+        height: 100px;
+        padding: 20px;
+    }
+    .add-profile-img {
+        width: 40px;
+        height: 38px;
+        right: -12px;
+    }
+    .myaccount-setting-form .account-profile-right {
+        padding-left: 15px;
+    }
+}
+@media(max-width:369px){
+    .myaccount-setting-form .account-profile-right {
+        padding-left: 0px;
+    }
 }

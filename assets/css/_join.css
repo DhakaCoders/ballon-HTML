@@ -208,3 +208,11 @@
         margin-left:5px;
     }
 }
+@media(max-width:369px){
+    .input-field-col textarea, .input-field-col input{
+        padding: 15px 15px 15px 32px;
+    }
+    .input-field-col span.in-icon{
+        left:26px;
+    }
+}

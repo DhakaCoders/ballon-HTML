@@ -248,6 +248,9 @@
     .my-account-sec{
         padding-bottom:80px;
     }
+    .subtitle {
+        font-size: 19px;
+    }
 }
 
 @media(max-width:767px){
