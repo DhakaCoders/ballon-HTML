@@ -533,7 +533,6 @@
 	.hire-pro-intro-img {
 	    width: 100%;
 	    margin-bottom: 30px;
-	    text-align: center;
 	}
 	.hire-professional-intro-des{
 		padding-right: 0;
@@ -550,7 +549,7 @@
 	    font-size: 18px!important;
 	}
 	.hm-page-bnr-input-field-row label {
-	    font-size: 16px;
+	    font-size: 14px;
 	}
 	.service-grd-item-des ul {
 	    display: block;
@@ -560,5 +559,16 @@
 	}
 	.service-grd-item-des-btn {
 	    text-align: left;
+	}
+	.hm-page-bnr-input-field-inr{
+		height: 60px;
+	}
+	.hm-page-bnr-input-field-row input[type=text]{
+		height: 60px;
+	}
+}
+@media(max-width: 359px){
+	.hm-page-bnr-input-field-row label {
+	    font-size: 12px;
 	}
 }
