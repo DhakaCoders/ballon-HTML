@@ -236,4 +236,13 @@
 	.job-cntnt-item-create-date span{
 		line-height: 1.3;
 	}
+	.job-cntnt-item-title {
+	    margin-bottom: 13px;
+	}
+	.job-cntnt-item-details {
+	    margin-bottom: 10px;
+	}
+	.job-cntnt-item-details ul li{
+		margin-bottom: 6px;
+	}
 }

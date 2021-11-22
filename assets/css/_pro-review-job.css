@@ -107,7 +107,12 @@
     padding-bottom: 15px;
 }
 
-
+@media(max-width: 1199px){
+	.pro-review-job-sec {
+	    padding-bottom: 70px;
+	    padding-top: 40px;
+	}
+}
 @media(max-width: 991px){
 	.pro-rvw-job-mdul-cntlr .job-cntnt-item-rgt-2{
 		margin: 0;
@@ -120,6 +125,10 @@
 	.job-cntnt-pro-msg-item.pro-rvw-job-gap{
 		padding: 0;
 	}
+	.pro-review-job-sec {
+	    padding-bottom: 60px;
+	    padding-top: 35px;
+	}
 }
 @media (max-width: 767px){
 	.active-job-module-cntlr .job-cntnt-item-copy{
@@ -130,5 +139,18 @@
 	.job-cntnt-item-rgt{
 		width: 100%;
 		margin-left: 0;
+	}
+	.pro-rvw-job-mdul-cntlr .fl-pagination-cntlr {
+	    padding-top: 20px;
+	    padding-bottom: 30px;
+	}
+	.pro-review-job-sec {
+	    padding-bottom: 50px;
+	    padding-top: 35px;
+	}
+}
+@media (max-width: 359px){
+	.pro-rvw-job-mdul-cntlr .job-cntnt-item-pro-msg ul li {
+	    width: 50%;
 	}
 }
