@@ -108,6 +108,7 @@
 }
 .sec-entry-hdr-title{
 	text-align: center;
+    text-transform: capitalize;
 }
 
 
