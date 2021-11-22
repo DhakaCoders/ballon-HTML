@@ -5,7 +5,7 @@ header.header{
 
 body.home header.header{
     border-bottom: none;
-    padding: 50px 0;
+    padding: 45px 0;
 }
 
 header.header.border-none{
@@ -268,9 +268,6 @@ body.allWork {
     }
     .profile-ctlr {
         margin-left: 14px;
-    }
-    body.home header.header {
-        padding: 50px 0;
     }
 }
 

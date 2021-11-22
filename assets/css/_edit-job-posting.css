@@ -23,11 +23,11 @@
     top: 35px;
     opacity: 0;
     z-index:-1;
-    transform: translateY(-10px);*/
+    transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
 }
-.tol-tip.tol-tip-cntlr .tol-tip-des{
+.tol-tip.tol-tip-cntlr+.tol-tip-des{
     width:395px;
     opacity:1;
     height:auto;
@@ -35,9 +35,19 @@
     -ms-transform:translateY(0px);
     -webkit-transform:translateY(0px);
     transition:.2s;
-    z-index:2;
+    z-index:11;
 }
-
+.tol-tip.tol-tip-cntlr:after {
+    content: "\f0de";
+    position: absolute;
+    left: -4px;
+    font-family: 'Font Awesome 5 Free';
+    top: 100%;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 8px;
+    z-index: 1111;
+}
 .tol-tip-des p{
     color: #616368;
     font-size: 16px;
@@ -71,4 +81,32 @@
     .tol-tip{
         top:1px;
     }
+    .tol-tip.tol-tip-cntlr .tol-tip-des{
+        width:350px;
+    }
+}
+@media(max-width:991px){
+    .tol-tip.tol-tip-cntlr .tol-tip-des{
+        width:225px;
+    }
+}
+@media(max-width:767px){
+    .tol-tip.tol-tip-cntlr .tol-tip-des {
+        width: 130px;
+    }
+    .tol-tip-des p{
+        font-size:14px;
+    }
+    .tol-tip-des h6,
+    .tol-tip-des strong{
+        font-size:15px;
+    }
+}
+@media(max-width:479px){
+    .tol-tip.tol-tip-cntlr .tol-tip-des {
+        width:150px;
+        left:auto;
+        right:0;
+    }
+
 }
