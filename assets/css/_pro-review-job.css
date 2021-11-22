@@ -1,4 +1,5 @@
-.pro-rvw-job-top-con-inr .profile{
+.pro-rvw-job-top-con-inr .profile,
+.pro-rvw-job-aply-lft .profile{
 	height: 78px;
 	width: 78px;
 }
