@@ -101,6 +101,7 @@
 {
     font-size: 12px;
     top: 12px;
+    margin-top: 0;
 }
 .hm-page-bnr-input-field-row input[type=text]:focus{
 	border-color: #b2afaf;
