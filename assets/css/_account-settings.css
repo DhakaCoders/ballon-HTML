@@ -84,7 +84,9 @@
     }
 }
 @media(max-width:991px){
-
+    .my-account-setting-sec .myaccount-content-cntlr{
+        padding-bottom:50px;
+    }
 }
 @media(max-width:767px){
     .myaccount-profile-image{
@@ -99,6 +101,9 @@
     }
     .myaccount-setting-form .account-profile-right {
         padding-left: 15px;
+    }
+    .my-account-setting-sec .myaccount-content-cntlr{
+        padding-bottom:40px;
     }
 }
 @media(max-width:369px){
