@@ -395,4 +395,7 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     .page-intro-sec-cntlr p{
         font-size: 23px;
     }
+    .sec-entry-hdr {
+        padding-bottom: 20px;
+    }
 }

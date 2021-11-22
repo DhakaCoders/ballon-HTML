@@ -295,6 +295,19 @@ if( $('#sidebar').length ){
   });
 }
 
+if(windowWidth <= 767){
+    $('.hireProSlider').slick({
+      dots: true,
+      infinite: true,
+      autoplay: false,
+      arrows: false,
+      autoplaySpeed: 1000,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
+
 /*start of Momin*/
 
 /**
