@@ -138,4 +138,7 @@
 	.ts-page-sidebar .sidebar__inner{
 		text-align: center;
 	}
+	.ts-page-sidebar-des .inner-wrapper-sticky{
+		position: static!important;
+	}
 }
