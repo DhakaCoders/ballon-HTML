@@ -169,6 +169,7 @@
 .bln-accordion-des{
 	display: none;
 	padding-bottom: 50px;
+	padding-right: 74px;
 }
 .bln-accordion-des p:last-of-type{
 	margin-bottom: 0;
@@ -264,6 +265,9 @@ body.home .cta-module-cntlr{
 		padding-top: 80px;
 		padding-bottom: 80px;
 	}
+	.bln-accordion-des{
+		padding-right: 45px;
+	}
 }
 @media(max-width: 991px){
 	.professionals-rgt{
@@ -282,6 +286,7 @@ body.home .cta-module-cntlr{
 	}
 	.bln-accordion-des{
 		padding-bottom: 35px;
+		padding-right: 20px;
 	}
 	.questions-sec{
 		padding-top: 55px;
@@ -355,14 +360,27 @@ body.home .cta-module-cntlr{
 	}
 	.cta-module-btns{
 		margin-right: auto;
-		margin-left: initial;
+		margin-left: auto;
 	}
 	.cta-module-cntlr{
 		background-position: left center!important;
 	}
+	.cta-module-decs-cntlr{
+		max-width: 100%;
+		text-align: center;
+	}
+	.cta-module-rating{
+		justify-content: center;
+	}
 	body.home .cta-module-cntlr{
 		padding-top: 50px;
 		padding-bottom: 50px;
+	}
+	.cta-module-btns{
+		max-width: 230px;
+	}
+	.cta-module-btn a{
+		font-size: 16px;
 	}
 }
 @media(max-width: 575px){
