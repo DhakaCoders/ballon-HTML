@@ -269,9 +269,6 @@ body.allWork {
     .profile-ctlr {
         margin-left: 14px;
     }
-    body.home header.header {
-        padding: 50px 0;
-    }
 }
 
 @media(max-width: 991px){

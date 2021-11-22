@@ -1,6 +1,6 @@
 
 .hm-page-banner{
-	padding: 40px 0 145px;
+	padding: 40px 0 130px;
 	background-repeat: no-repeat!important;
 	background-position: bottom center!important;
 }
@@ -362,7 +362,7 @@
 
 @media(max-width: 1199px){
 	.hm-page-banner{
-		padding: 35px 0 120px;
+		padding: 35px 0 100px;
 	}
 	.hm-page-bnr-des{
 		padding: 35px 30px 40px 30px;
@@ -402,7 +402,7 @@
 
 @media(max-width: 991px){
 	.hm-page-banner {
-	    padding: 35px 0 100px;
+	    padding: 35px 0 80px;
 	}
 	.hm-page-bnr-des {
 	    padding: 30px 20px 30px 20px;
