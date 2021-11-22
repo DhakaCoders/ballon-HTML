@@ -7,7 +7,7 @@
     padding-bottom:129px;
 }
 .my-account-setting-sec-ui .myaccount-content-cntlr{
-	padding-bottom:180px;
+	padding-bottom:160px;
 }
 .myaccount-navigation {
     width: 25.64%;
@@ -176,5 +176,11 @@
     .myaccount-content{
         padding-left:35px;
         padding-right:35px;
+    }
+}
+@media(max-width:1199px){
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:17px;
     }
 }
