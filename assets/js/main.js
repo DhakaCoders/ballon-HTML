@@ -269,12 +269,12 @@ $('.bln-accordion-hdr').on('click', function(){
     });
 }
 
-var expertise = $('.expertise-filters-module ul li').length;
+/*var expertise = $('.expertise-filters-module ul li').length;
 alert(expertise);
 if (expertise > 6) {
   $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide');
   $('.explore-filter-more').append("+" + expertise + "<span>more</span>");
-}
+}*/
 
 
 /*start of Shariful*/
