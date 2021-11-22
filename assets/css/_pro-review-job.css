@@ -106,3 +106,30 @@
 .pro-rvw-job-top-contant {
     padding-bottom: 15px;
 }
+
+
+@media(max-width: 991px){
+	.pro-rvw-job-mdul-cntlr .job-cntnt-item-rgt-2{
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 9px;
+	}
+	.pro-rvw-job-mdul-cntlr .job-cntnt-item-pro-msg ul{
+		display: flex;
+	}
+	.job-cntnt-pro-msg-item.pro-rvw-job-gap{
+		padding: 0;
+	}
+}
+@media (max-width: 767px){
+	.active-job-module-cntlr .job-cntnt-item-copy{
+		position: absolute;
+		top: 18px;
+		right: 20px;
+	}
+	.job-cntnt-item-rgt{
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 0;
+	}
+}
