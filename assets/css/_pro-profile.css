@@ -223,7 +223,7 @@
     -webkit-transition: all 0s!important;
     -moz-transition: all 0s!important;
 }
-.bln-location-extra-info a:hover, .locations-lft ul li a:hover span, .contact-methods ul li a:hover span{
+.bln-location-extra-info a:hover, .locations-lft ul li a:hover, .contact-methods ul li a:hover span{
 	color: #fa5252!important;
 }
 .bln-location-extra-info a i, .locations-lft ul li a i, .contact-methods ul li a i, .invite-job a i{
