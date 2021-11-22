@@ -122,7 +122,9 @@
     }
 }
 @media(max-width: 575px){
-  
+    .login-top-btn-cntlr a {
+        padding: 15px 13px 16px;
+    }
 }
 @media(max-width: 479px){
     .login-btm-btn-cntlr a {
@@ -147,5 +149,8 @@
     .login-check-cntlr input[type="checkbox"],
     .login-check-cntlr span.checkmark{
         margin-top: 1px;
+    }
+    .login-top-btn-cntlr a {
+        padding: 14px 13px 15px;
     }
 }
