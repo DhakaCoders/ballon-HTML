@@ -44,7 +44,11 @@
 .setup-pro-contant-sec .input-field-col input{
 	padding-right: 45px;
 }
-
+.setup-pro-contant-sec .tol-tip-des{
+	right: 15px;
+    top: 50px;
+    left: initial;
+}
 @media(max-width: 1199px){
 	.input-field-col .input-tol-tip{
 		font-size: 18px;
