@@ -1,18 +1,4 @@
 
-@media (max-width: 1699px){
-
-}
-@media (max-width: 1499px) {
-
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
 
 @media(max-width: 1199px){
 	.hide-lg{
@@ -25,16 +11,16 @@
 		font-size: 40px;
 	}
 	h2,.fl-h2{
-		font-size: 33px;
+		font-size: 34px;
 	}
 	h3,.fl-h3{
-		font-size: 30px;
+		font-size: 31px;
 	}
 	h4,.fl-h4{
-		font-size: 26px;
+		font-size: 27px;
 	}
 	h5,.fl-h5{
-		font-size: 22px;
+		font-size: 23px;
 	}
 	h6,.fl-h6{
 		font-size: 17px;
@@ -53,19 +39,19 @@
 		display: block!important;
 	}
 	h1,.fl-h1{
-		font-size: 35px;
+		font-size: 37px;
 	}
 	h2,.fl-h2{
-		font-size: 30px;
+		font-size: 32px;
 	}
 	h3,.fl-h3{
-		font-size: 28px;
+		font-size: 29px;
 	}
 	h4,.fl-h4{
-		font-size: 24px;
+		font-size: 25px;
 	}
 	h5,.fl-h5{
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.fl-btn{
 		font-size: 17px;
@@ -98,19 +84,19 @@
 		padding-left: 20px;
 	}
 	h1,.fl-h1{
-		font-size: 30px;
+		font-size: 33px;
 	}
 	h2,.fl-h2{
-		font-size: 27px;
+		font-size: 29px;
 	}
 	h3,.fl-h3{
-		font-size: 24px;
+		font-size: 25px;
 	}
 	h4,.fl-h4{
-		font-size: 20px;
+		font-size: 22px;
 	}
 	h5,.fl-h5{
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.fl-btn{
 		font-size: 16px;
@@ -124,14 +110,5 @@
 	.show-xs{
 		display: block!important;
 	}
-
-}
-
-@media(max-width: 479px){
-
-
-}
-
-@media(max-width: 359px){
 
 }
