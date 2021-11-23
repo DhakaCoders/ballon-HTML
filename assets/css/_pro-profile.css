@@ -20,6 +20,10 @@
     position: relative;
     letter-spacing: 1px;
 }
+.bln-company-card-contents-cntlr{
+    margin-bottom: 30px;
+}
+
 .bln-back-to-explr-cntlr i{
     display: inline-block;
     position: absolute;
@@ -33,19 +37,21 @@
     left: -2px;
 }
 .bln-comp-item {
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
     padding: 35px 35px 40px 45px;
     display: flex;
     flex-wrap: wrap;
+}
+.bln-comp-card-cntnt-iner{
+    border-bottom: 17px solid #014d4b;
+    border-radius: 12px;
     -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
     -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
     box-shadow: 0px -1px 20px 9px rgb(215 215 215 / 73%);
-    border-bottom: 17px solid #014d4b;
-    border-radius: 12px;
 }
 .bln-comp-card-cntnt-lft{
     padding-right: 15px;
-    width: 21%;
+    width: 19.8%;
 }
 .comp-card-logo {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
@@ -61,7 +67,7 @@
     border-radius: 100%;
 }
 .bln-comp-card-cntnt-rgt{
-    width: 79%;
+    width: 80.2%;
     padding-left: 10px;
 }
 .bln-comp-cntnt-top{
@@ -310,11 +316,17 @@
     position: relative;
     padding-left: 31px;
 }
-.about-title i,  .fancy-heading i{
+.about-title i{
     display: inline-block;
     position: absolute;
     left: 0;
-    top: -1px;
+    top: 0;
+}
+.fancy-heading i{
+    top: -2px;
+    left: 0;
+    position: absolute;
+    display: inline-block;
 }
 .about-desc p {
     color: #2b2b2b;
@@ -476,7 +488,7 @@
     font-style: italic;
     text-decoration: none;
     position: relative;
-    padding-left: 11px;
+    /*padding-left: 11px;*/
 }
 .bln-location-extra-info a i {
     display: inline-block;
@@ -551,12 +563,12 @@
 }
 .bln-verified-title{
     margin-bottom: 15px;
-    padding-left: 40px;
+    padding-left: 39px;
     position: relative;
 }
 .bln-verified-title i {
     position: absolute;
-    left: 0;
+    left: 1px;
     top: -1px;
 }
 .bln-verifd-dtls-item {
@@ -738,6 +750,7 @@
 .bln-review-item-cntns > ul{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -25px;
 }
 .bln-review-item-cntns >ul >li {
     position: relative;
@@ -745,26 +758,29 @@
     padding-bottom: 0;
     padding: 0 25px;
 }
-.bln-review-item-cntns >ul >li> i{
+.bln-review-item-cntns >ul >li> i {
     position: absolute;
-    left: 0;
-    top: 1px;
+    left: 25px;
+    top: 0px;
     color: #fa5252;
 }
-.bln-review-item-cntns >ul >li:nth-child(3)> i{
-    top: -2px;
-    left: 6px;
+.toolbox-icon i{
+
 }
-.bln-review-item-cntns >ul >li:nth-child(2)> i{
-    left: 9px;
+.map-marker-icon i {
+    top: 1px!important;
+    left: 30px!important;
 }
-.bln-review-item-cntns >ul >li:nth-child(1)> i{
-    left: 5px;
+.calender-icon i {
+    top: -2px!important;
+    left: 27px!important;
 }
+
 .bln-review-item-cntns> ul> li> span{
     color: #2b2b2b;
     font-weight: 500;
     display: inline-block;
+    padding-left: 20px;
 }
 .rating-stars{
     margin-left: auto;

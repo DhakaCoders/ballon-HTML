@@ -36,7 +36,7 @@
 	margin-bottom: 40px;
 	display: inline-block;
 	position: relative;
-	padding-left: 43px;
+	padding-left: 40px;
 }
 .setup-pricing-sub-heading-2:before{
 	content: '';
@@ -45,8 +45,8 @@
 	top: 0;
 	margin-top: 0;
 	background-image: url('../images/like-icon.png');
-	width: 30px;
-	height: 31px;
+	width: 28px;
+	height: 30px;
 	top: 50%;
 	transform: translateY(-50%);
 	background-size: 100% auto;
@@ -135,6 +135,9 @@
 	}
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
 		padding: 25px 30px 35px;
+	}
+	.try-free-btn {
+		padding-top: 10px;
 	}
 	.try-free-btn .fl-btn{
 		font-size: 15px;
