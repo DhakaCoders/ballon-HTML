@@ -97,6 +97,9 @@
 	.setup-btn-cntlr a {
 	    padding: 14px 13px 15px;
 	}
+	.setup-form .input-field-col {
+	    margin-bottom: 20px;
+	}
 }
 @media (max-width: 479px){
 	.setup-btn-cntlr a {

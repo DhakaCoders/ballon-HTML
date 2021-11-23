@@ -258,6 +258,9 @@
 }
 
 @media (max-width: 575px){
+    .input-field-col {
+        margin-bottom: 20px;
+    }
     .join-form .submint-btn button {
         margin: 0 7px;
     }
@@ -268,7 +271,7 @@
         min-width: 339px;
     }
     .join-contant-cntlr {
-        padding: 0px 35px;
+        padding: 0px 20px;
         padding-top: 40px;
         padding-bottom: 50px;
     }
@@ -312,7 +315,7 @@
         flex-wrap: wrap;
     }
     .join-contant-cntlr {
-        padding: 0px 30px;
+        padding: 0px 20px;
         padding-top: 40px;
         padding-bottom: 40px;
     }
