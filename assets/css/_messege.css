@@ -127,7 +127,7 @@
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 	height: 2px;
-	width: 74%;
+	width: 75%;
 	background: #e8e8e8;
 }
 .bln-messege-list ul li:last-child:after{
@@ -143,10 +143,9 @@
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	height: 35px;
-	width: 3px;
-	background: #f65151;
-	border-top-right-radius: 50px;
-	border-bottom-right-radius: 50px;
+	width: 5px;
+	background: url('../images/msg-list-icon.png');
+	background-repeat: no-repeat!important;
 }
 
 .bln-msg-list-item{
@@ -481,4 +480,21 @@
 .bln-msg-send-btn button:hover{
 	background: transparent;
 	color: #fa5252;
+}
+
+
+
+@media(max-width: 1199px){
+	.bln-messege-lft-sidebar {
+	    width: 32%;
+	}
+	.bln-messege-des {
+	    width: 68%;
+	}
+	.bln-msg-send-btn{
+		width: 19%;
+	}
+	.bln-msg-input-field{
+		width: 76%;
+	}
 }
