@@ -105,12 +105,14 @@
     .tol-tip.tol-tip-cntlr:after{
         left:-6px;
     }
-    .tol-tip.tol-tip-cntlr+.tol-tip-des{
+    .tol-tip.tol-tip-cntlr+.tol-tip-des,
+    .tol-tip-des{
         width:300px;
     }
 }
 @media(max-width:575px){
-   .tol-tip.tol-tip-cntlr+.tol-tip-des{
+   .tol-tip.tol-tip-cntlr+.tol-tip-des,
+   .tol-tip-des{
     width:250px;
    }
 
