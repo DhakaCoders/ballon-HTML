@@ -19,11 +19,15 @@
     padding-right: 40px;
     padding-bottom: 129px;
 }
+.explore-content-cntlr .fl-pagination-cntlr{
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
 .explore-content{
     border-bottom: 18px solid #7a92d0;
-    box-shadow: 0 0 36px -21px #000;
-    -moz-box-shadow: 0 0 36px -21px #000;
-    -webkit-box-shadow: 0 0 36px -21px #000;
+    box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -moz-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -webkit-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
     border-radius: 11px;
     padding: 25px 30px;
 }
@@ -136,6 +140,16 @@
 	color: #bcbcbc;
 	cursor: pointer;
 	display: none;
+}
+.expertise-filters-module{
+	height: 121px;
+    overflow: hidden;
+    transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.expertise-filters-module-fheight.expertise-filters-module{
+	height: initial;
 }
 .explore-filter-more span{
 	padding-left: 5px;
@@ -447,19 +461,30 @@
 	margin: 0 -2px;
 	padding-right: 48px;
 }
+.company-item-tag-slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
 .company-item-tag-slide-cntlr{
 	padding: 0 2px;
-	width: auto!important;
+	/*width: auto!important;*/
 }
 .company-item-tag-slide span{
 	background: #e5e5e5;
 	display: inline-block;
 	padding: 6.5px 6px;
 	border-radius: 3px;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: 600;
 	color: #616368;
 	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
 }
 .companyItemTagSlider .slick-prev{
 	right: 30px!important;

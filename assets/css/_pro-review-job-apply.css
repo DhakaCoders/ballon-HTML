@@ -158,10 +158,14 @@
     .pro-rvw-job-aply-form-btn-cntlr a {
         padding: 13px 13px 14px;
     }
-    .pro-rvw-job-aply-top-contant-cntlr .job-cntnt-mdul-hdr > span{
+    .job-cntnt-mdul-hdr > span{
         margin-left: 0;
         padding-left: 0;
-        padding-top: 10px;
+    }
+    .proposal-job-cntnt-mdul .job-cntnt-item-details ul li,
+    .pro-rvw-job-mdul-cntlr .job-cntnt-item-details ul li,
+    .pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-details ul li{
+        width: initial;
     }
 }
 @media(max-width: 479px){

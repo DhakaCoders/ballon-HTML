@@ -132,9 +132,9 @@
 	}
 }
 @media (max-width: 767px){
-	.active-job-module-cntlr .job-cntnt-item-copy{
+	.job-cntnt-item-copy{
 		position: absolute;
-		top: 18px;
+		top: 30px;
 		right: 20px;
 	}
 	.job-cntnt-item-rgt{
@@ -149,9 +149,17 @@
 	    padding-bottom: 50px;
 	    padding-top: 35px;
 	}
+	.pro-rvw-job-top-con-inr .job-cntnt-item-create-date {
+	    padding-bottom: 15px;
+	    padding-top: 15px;
+	}
 }
 @media (max-width: 359px){
 	.pro-rvw-job-mdul-cntlr .job-cntnt-item-pro-msg ul li {
 	    width: 50%;
+	}
+	.pro-rvw-job-top-con-inr .profile, .pro-rvw-job-aply-lft .profile {
+	    height: 71px;
+	    width: 71px;
 	}
 }
