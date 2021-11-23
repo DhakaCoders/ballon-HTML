@@ -108,9 +108,15 @@
     }
 }
 @media(max-width:479px){
-    .my-account-setting-sec .myaccount-content-cntlr {
+    .my-account-setting-sec .myaccount-content-cntlr{
         padding-top:35px;
-        text-align: center;
+    }
+    .my-account-setting-sec .myaccount-content-cntlr .form-title,
+    .my-account-setting-sec .myaccount-content-cntlr .input-field-subtitle-center{
+        text-align:center;
+    }
+    .my-account-setting-sec .myaccount-content-cntlr .input-field-subtitle-center{
+        width:100%;
     }
     .myaccount-setting-form .account-profile-right{
         padding-left:0;

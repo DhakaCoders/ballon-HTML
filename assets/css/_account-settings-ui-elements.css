@@ -107,7 +107,7 @@
     color:#000000;
     text-transform: capitalize;
 }
-.subtitle{
+.input-field-subtitle{
 	color:#959595;
 	font-size:23px;
 	font-weight:600;
@@ -215,7 +215,7 @@
     .logout-link a{
         padding-right:23px;
     }
-    .subtitle{
+    .input-field-subtitle{
         font-size:20px;
         margin-bottom:22px;
     }
@@ -261,7 +261,7 @@
     .my-account-sec{
         padding-bottom:80px;
     }
-    .subtitle {
+    .input-field-subtitle {
         font-size: 19px;
     }
 }
@@ -296,7 +296,7 @@
     .myaccount-content {
         width: 66%;
     }
-    .subtitle {
+    .input-field-subtitle {
         font-size: 17px;
         margin-bottom: 18px;
     }
