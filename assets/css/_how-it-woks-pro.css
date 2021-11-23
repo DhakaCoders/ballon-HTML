@@ -203,7 +203,8 @@
 	.bln-pkg-grid-item-cntlr{
 		padding: 25px 20px 19px;
 	}
-	.fl-pkg-grd-ftr-btn .fl-btn{
+	.fl-pkg-grd-ftr-btn .fl-btn,
+	.try-free-btn .fl-btn{
 		font-size: 16px;
 	}
 }
@@ -237,7 +238,8 @@
 		text-align: center;
 		padding: 30px 20px 30px;
 	}
-	.fl-pkg-grd-ftr-btn .fl-btn{
+	.fl-pkg-grd-ftr-btn .fl-btn,
+	.try-free-btn .fl-btn{
 		font-size: 15px;
 	}
 
