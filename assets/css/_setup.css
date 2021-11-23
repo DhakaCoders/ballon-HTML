@@ -1,9 +1,15 @@
 .setup-form .input-field-col{
 	margin-bottom: 13px;
 }
-.setup-contant-sec .join-contant-inner{
+.setup-contant-sec .input-field-wrapper{
 	padding-bottom: 23px;
 	margin-bottom: 30px;
+	border-bottom: 2px solid #e1e1e1;
+}
+.setup-contant-sec .join-contant-inner{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
 }
 .setup-btm-contant{
 	text-align: center;
@@ -30,9 +36,10 @@
 .setup-btn-cntlr{
 	padding-bottom: 40px;
 }
-.setup-btn-cntlr a{
+.setup-btn-cntlr button{
 	padding: 14.5px 13px 15.5px;
 	min-width: 100%;
+	cursor: pointer;
 }
 .setup-btm-contant .login-checkmark-cntlr .login-check-cntlr label{
 	font-weight: 500;
@@ -94,7 +101,7 @@
 	.setup-btm-contant .login-checkmark-cntlr .login-check-cntlr label {
 	    font-size: 13px;
 	}
-	.setup-btn-cntlr a {
+	.setup-btn-cntlr button {
 	    padding: 14px 13px 15px;
 	}
 	.setup-form .input-field-col {
@@ -102,7 +109,7 @@
 	}
 }
 @media (max-width: 479px){
-	.setup-btn-cntlr a {
+	.setup-btn-cntlr button {
 	    padding: 13px 12px 14px;
 	}
 	.setup-btn-cntlr {

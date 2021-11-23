@@ -7,10 +7,11 @@
     margin-right: auto;
     margin-bottom: 15px;
 }
-.login-top-btn-cntlr a{
+.login-top-btn-cntlr button{
 	text-align: center;
 	min-width: 100%;
 	padding: 15px 13px 16px;
+    cursor: pointer;
 }
 .login-btm-btn-cntlr{
 	text-align: center;
@@ -131,7 +132,7 @@
     }
 }
 @media(max-width: 575px){
-    .login-top-btn-cntlr a {
+    .login-top-btn-cntlr button {
         padding: 15px 13px 16px;
     }
 }
@@ -162,7 +163,7 @@
     .login-check-cntlr span.checkmark{
         margin-top: 1px;
     }
-    .login-top-btn-cntlr a {
+    .login-top-btn-cntlr button {
         padding: 14px 13px 15px;
     }
 }
