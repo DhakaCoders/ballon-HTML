@@ -36,7 +36,7 @@
 	margin-bottom: 40px;
 	display: inline-block;
 	position: relative;
-	padding-left: 43px;
+	padding-left: 40px;
 }
 .setup-pricing-sub-heading-2:before{
 	content: '';
@@ -45,8 +45,8 @@
 	top: 0;
 	margin-top: 0;
 	background-image: url('../images/like-icon.png');
-	width: 30px;
-	height: 31px;
+	width: 28px;
+	height: 30px;
 	top: 50%;
 	transform: translateY(-50%);
 	background-size: 100% auto;
@@ -99,7 +99,6 @@
 	.setup-pricing-account-sec .bln-pkg-grids-cntlr ul li.bln-pkg-grid-item-col{
 		padding-left: 8px;
 		padding-right: 8px;
-		padding-bottom: 35px;
 	}
 	.setup-pricing-account-sec .setup-pricing-account-sec-cntlr{
 		padding: 30px 16px 35px;
@@ -116,7 +115,10 @@
 		margin-bottom: 25px;
 	}
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
-		padding: 20px 15px 30px;
+		padding: 25px 20px 30px;
+	}
+	.try-free-btn .fl-btn{
+		font-size: 16px;
 	}
 }
 @media(max-width: 639px){
@@ -131,10 +133,20 @@
 	.setup-pricing-account-sec-cntlr{
 		max-width: 520px;
 	}
+	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
+		padding: 25px 30px 35px;
+	}
+	.try-free-btn {
+		padding-top: 10px;
+	}
+	.try-free-btn .fl-btn{
+		font-size: 15px;
+	}
+
 }
 @media(max-width: 479px){
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
-		padding: 20px 18px 40px;
+		padding: 30px 25px 40px;
 	}
 }
 @media(max-width: 379px){
@@ -149,5 +161,8 @@
 	}
 	.setup-pricing-sub-heading-2{
 		margin-bottom: 25px;
+	}
+	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 200px;
 	}
 }
