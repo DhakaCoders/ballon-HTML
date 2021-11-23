@@ -336,15 +336,21 @@ body.allWork {
         padding-top: 60px;
     }
     .xs-menu nav.main-nav > ul > li {
-        padding: 10px 0;
+        padding: 0 0;
         border-bottom: 1px solid #fa5252;
     }
     .xs-menu nav.main-nav > ul > li:last-child{
         border-bottom: none;
     }
     .xs-menu nav.main-nav > ul > li > a{
-        padding: 0;
+        padding: 10px 0;
         padding-left: 20px;
+    }
+    .xs-menu nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:first-child {
+        border-top: 1px solid #fa5252;
+    }
+    nav.main-nav > ul > li.menu-btn{
+        padding-top: 10px;
     }
     .xs-menu nav.main-nav > ul > li.menu-btn > a{
         padding: 7px 30px 7px 35px;
