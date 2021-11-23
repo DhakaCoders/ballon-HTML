@@ -828,9 +828,14 @@
     padding-right: 30px;
 }
 /*__________________________________________responsive________________________________________*/
-@media(max-width: 1199px){
+@media(max-width: 1299px){
     .comp-card-logo{
         height: 180px;
+    }
+}
+@media(max-width: 1199px){
+    .comp-card-logo{
+        /*height: 180px;*/
     }
     .bln-comp-cntnt-top {
         padding-bottom: 40px;
