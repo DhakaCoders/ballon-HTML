@@ -76,6 +76,9 @@
 		padding-top: 40px;
 		padding-bottom: 15px;
 	}
+	.job-cntnt-item-pro-msg-cntlr:last-child{
+		padding-bottom: 0;
+	}
 	.proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul{
 		display: flex;
 	}
@@ -87,4 +90,13 @@
 	.review-job-module-cntlr .job-cntnt-mdul-title {
 	    margin-bottom: 15px;
 	}
+	.review-job-sec {
+	    padding-bottom: 50px;
+	}
+}
+@media(max-width: 479px){
+	.job-cntnt-item-pro-msg-cntlr {
+	    padding-top: 30px;
+	}
+
 }
