@@ -154,4 +154,8 @@
 	.pro-rvw-job-mdul-cntlr .job-cntnt-item-pro-msg ul li {
 	    width: 50%;
 	}
+	.pro-rvw-job-top-con-inr .profile, .pro-rvw-job-aply-lft .profile {
+	    height: 71px;
+	    width: 71px;
+	}
 }

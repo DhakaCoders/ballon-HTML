@@ -121,6 +121,10 @@
     .create-a-job-form .input-field-col ul li span{
         font-size:17px;
     }
+    .create-a-job-form .form-block {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }
 @media(max-width:991px){
     .form-block {
@@ -150,6 +154,16 @@
     }
     .form-block.form-block-bdrnone{
         padding-top:26px;
+    }
+    .create-a-job-form .form-block {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media(max-width:639px){
+    .create-a-job-form .form-block {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media(max-width:480px){
