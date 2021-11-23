@@ -12,14 +12,16 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 0;
 	bottom: 0;
 	background-repeat: repeat-x;
+	z-index: 2;
 }
 .how-it-works-grids-cntlr{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	position: relative;
+	z-index: 9;
 }
 .how-it-works-grids-cntlr{
 	margin: 0 -24px;
@@ -218,8 +220,6 @@
 		padding-right: 0;
 	}
 	.bln-pkg-grd-desc{
-		max-width: 265px;
-		margin: 0 auto;
 		text-align: left;
 		padding-bottom: 30px;
 	}
@@ -235,7 +235,7 @@
 	}
 	.bln-pkg-grid-item-cntlr{
 		text-align: center;
-		padding: 20px 20px 23px;
+		padding: 30px 20px 30px;
 	}
 	.fl-pkg-grd-ftr-btn .fl-btn{
 		font-size: 15px;
@@ -271,4 +271,11 @@
 		margin-bottom: 18px;
 	}
 
+}
+
+
+@media(max-width: 400px){
+	.fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 100%;
+	}
 }
