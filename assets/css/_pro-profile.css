@@ -42,16 +42,27 @@
     left: 2px;
 }
 .bln-company-card-contents-cntlr {
-    -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
-    -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
-    box-shadow: 0px -1px 16px 12px rgb(230 230 230 / 68%);
-    border-radius: 12px;
-    border-bottom: 17px solid #014d4b;
+    /*-webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);*/
+    /*-moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);*/
+    /*box-shadow: 0px -1px 16px 12px rgb(230 230 230 / 68%);*/
+    /*border-radius: 12px;*/
+    /*border-bottom: 17px solid #014d4b;*/
 }
-.bln-comp-card-cntnt-iner {
+/*.bln-comp-card-cntnt-iner {
     padding: 35px 35px 40px 45px;
     display: flex;
     flex-wrap: wrap;
+}*/
+.bln-comp-item {
+     margin-bottom: 25px; 
+    padding: 35px 35px 40px 45px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
+    -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
+    box-shadow: 0px -1px 16px 12px rgb(230 230 230 / 68%);
+    border-bottom: 17px solid #014d4b;
+    border-radius: 12px;
 }
 .bln-comp-card-cntnt-lft{
 	padding-right: 25px;
@@ -182,6 +193,7 @@
     margin-left: 8px;
     margin-top: 10px;
     font-size: 18px;
+    display: inline-block;
 }
 .bln-comp-card-cntnt-btm{
 	display: flex;
@@ -235,6 +247,7 @@
     margin-left: 10px;
     margin-top: 6px;
     font-size: 22px;
+    display: inline-block;
 }
 .bln-comp-card-cont-btm-rgt{
 	margin-left: auto;
@@ -271,7 +284,7 @@
 }
 .card-socials ul li a i{
 	font-size: 27px;
-	display: inline-block;
+    display: inline-block;
 }
 .social-fb a i {
     padding: 9px;
@@ -297,7 +310,7 @@
 }
 /*bln-about-sec -------------------------------------------------------*/
 .bln-about-section{
-	padding: 10px 0px 0px 0px;
+	padding-bottom: 25px;
 }
 .bln-about-cntnt-cnltr{
 	display: flex;
