@@ -94,11 +94,16 @@
 .bln-messege-sortby .select2-selection__arrow:after{
 	content: "\f0d7";
 	color: #c1c1c1;
+	margin-top: -1px;
 }
 
-/*.select2-dropdown .select2-results{
+.messege .select2-dropdown .select2-results{
 	width: 120px!important;
-}*/
+}
+
+.bln-messege-sortby-ctlr .select2-container--default .select2-selection--single .select2-selection__rendered{
+	padding: 4px 16px 13px 8px;
+}
 
 
 .bln-messege-list{
@@ -129,11 +134,29 @@
 	content: none;
 }
 
+.bln-messege-list ul li.active:before{
+	content: ""!important;
+	position: absolute;
+	top: 50%;
+	left: -10px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	height: 35px;
+	width: 3px;
+	background: #f65151;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
 .bln-msg-list-item{
 	display: flex;
 	align-items: center;
 }
 
+.bln-msg-list-item-img-ctlr{
+	width: 20%;
+}
 .bln-msg-list-item-img{
 	height: 54px;
 	width: 54px;
@@ -151,6 +174,7 @@
 
 .bln-msg-list-item-des{
 	padding-left: 5px;
+	width: 80%;
 }
 
 .bln-msg-title{
@@ -290,6 +314,10 @@
 }
 
 
+
+.bln-msg-grds{
+	padding-bottom: 50px;
+}
 .bln-msg-send-receive{
 	padding: 15px 20px;
 }
@@ -371,7 +399,7 @@
 
 .bln-msg-input-field{
 	position: relative;
-	width: 78%;
+	width: 81%;
 }
 
 .bln-msg-input-field input[type=text]{
@@ -432,7 +460,7 @@
 
 .bln-msg-send-btn{
 	margin-left: 6px;
-	width: 17%;
+	width: 14%;
 }
 .bln-msg-send-btn button{
 	padding: 10px 35px;

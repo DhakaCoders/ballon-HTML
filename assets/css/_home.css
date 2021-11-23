@@ -355,10 +355,6 @@ body.home .cta-module-cntlr{
 	.cta-module-rating{
 		justify-content: center;
 	}
-	body.home .cta-module-cntlr{
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
 	.cta-module-btns{
 		max-width: 230px;
 	}
@@ -379,9 +375,5 @@ body.home .cta-module-cntlr{
 		height: 100px;
 		max-width: 300px;
 		width: 100%;
-	}
-	body.home .cta-module-cntlr{
-		padding-top: 40px;
-		padding-bottom: 40px;
 	}
 }
