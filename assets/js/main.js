@@ -208,7 +208,16 @@ $('.bln-accordion-hdr').on('click', function(){
       autoplaySpeed: 4000,
       speed: 700,
       slidesToShow: 6,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          }
+        }
+      ]
     });
 }
 
