@@ -739,7 +739,7 @@
 }
 .bln-review-item-cntns{
     position: relative;
-    width: 70%;
+    width: 78%;
 }
 .bln-review-item-cntns p {
     color: #2b2b2b;
@@ -750,17 +750,17 @@
 .bln-review-item-cntns > ul{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -25px;
+    margin: 0 -17px;
 }
 .bln-review-item-cntns >ul >li {
     position: relative;
     margin-bottom: 5px;
     padding-bottom: 0;
-    padding: 0 25px;
+    padding: 0 17px;
 }
 .bln-review-item-cntns >ul >li> i {
     position: absolute;
-    left: 25px;
+    left: 18px;
     top: 0px;
     color: #fa5252;
 }
@@ -769,11 +769,11 @@
 }
 .map-marker-icon i {
     top: 1px!important;
-    left: 30px!important;
+    left: 22px!important;
 }
 .calender-icon i {
     top: -2px!important;
-    left: 27px!important;
+    left: 18px!important;
 }
 
 .bln-review-item-cntns> ul> li> span{
