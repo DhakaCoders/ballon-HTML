@@ -228,6 +228,7 @@
 	}
 	.bln-pkg-grd-hdr .prising-title{
 		margin-bottom: 15px;
+		font-size: 23px;
 	}
 	.pricing-plans-sec-entry-hdr{
 		padding-bottom: 12px;
@@ -247,13 +248,14 @@
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
+		padding-top: 20px;
 	}
 	.how-it-works-grid-item-cntlr ul li{
 		text-align: left;
 	}
 	.how-it-works-grid-item-cntlr i{
 		font-size: 60px;
-		margin-bottom: 16px;
+		margin-bottom: 20px;
 	}
 	.how-it-works-grids-cntlr{
 		margin: 0 0;
@@ -263,10 +265,10 @@
 		padding-right: 0;
 	}
 	.how-it-works-grd-img-title{
-		font-size: 20px;
+		font-size: 20px!important;
 	}
 	.how-it-works-grd-img-title{
-		margin-bottom: 15px;
+		margin-bottom: 18px;
 	}
 
 }
