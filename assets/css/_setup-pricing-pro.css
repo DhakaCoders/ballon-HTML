@@ -136,6 +136,9 @@
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
 		padding: 25px 30px 35px;
 	}
+	.try-free-btn {
+		padding-top: 10px;
+	}
 	.try-free-btn .fl-btn{
 		font-size: 15px;
 	}
