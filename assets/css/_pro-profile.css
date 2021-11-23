@@ -33,9 +33,9 @@
 .bln-back-to-explr-cntlr a:hover{
     color: #014d4b;
 }
-.bln-back-to-explr-cntlr a:hover i{
+/*.bln-back-to-explr-cntlr a:hover i{
     left: -2px;
-}
+}*/
 .bln-comp-item {
     /*margin-bottom: 25px;*/
     padding: 35px 35px 40px 45px;
