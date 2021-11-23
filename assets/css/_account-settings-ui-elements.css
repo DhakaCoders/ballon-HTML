@@ -324,7 +324,7 @@
         left: 12px!important;
     }
 }
-@media(max-width:575px){
+@media(max-width:639px){
     .myaccount-navigation{
         width:100%;
         margin-bottom: 30px;
@@ -342,6 +342,12 @@
     .my-account-setting-sec-ui .myaccount-content-cntlr {
         padding-bottom: 70px;
     }
+}
+@media(max-width:575px){
+    
+    
+    
+    
 }
 @media(max-width:400px){
     .submit-btn-50 button{
