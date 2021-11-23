@@ -10,8 +10,17 @@
 	right:-26px;
 	top:-10px;
 }
+
 @media(max-width:767px){
 	.my-proaccount-setting-form .account-profile-right {
 	    padding-left: 15px;
+	}
+}
+@media(max-width:639px){
+	.input-field-wrapper{
+		max-width:100%;
+	}
+	.myaccount-content-cntlr{
+		padding: 20px 20px;
 	}
 }

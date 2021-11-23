@@ -8,10 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-  <!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
-  <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
-  <?php } ?> -->
-
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
   
@@ -19,7 +15,6 @@
   <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
   <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +33,7 @@
 </head>
 <body>
 <div class="page-body-cntlr">
-  <div class="bdoverlay"></div>
+ <div class="bdoverlay"></div>
   <header class="header">
     <div class="container">
       <div class="row">
@@ -54,22 +49,29 @@
                 <ul class="clearfix reset-list">
                   <li class="current-menu-item"><a href="#">Explore</a></li>
                   <li class="menu-item-has-children">
-                    <a href="#">Hire</a>
+                    <a href="#">jobs</a>
                     <ul class="sub-menu">
                       <li><a href="#">submenu 1</a></li>
                       <li><a href="#">submenu 2</a></li>
                       <li><a href="#">submenu 3</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Login</a></li>
+                  <li><a href="#">messege</a></li>
                   <li class="menu-btn">
                     <a href="#">
-                      join
-                      
+                      new job
+                      <i class="fas fa-plus"></i>
                     </a>
                   </li>
                 </ul>
               </nav>
+              <div class="profile-ctlr">
+                <div class="profile">
+                  <a href="#">
+                    <img src="assets/images/profile.png">
+                  </a>
+                </div>
+              </div>
             </div>
             <div class="hamburgar-cntlr show-sm">
               <div class="hamburger-icon">
@@ -102,14 +104,14 @@
         <ul class="clearfix reset-list">
           <li class="current-menu-item"><a href="#">Explore</a></li>
           <li class="menu-item-has-children">
-            <a href="#">Hire</a>
+            <a href="#">jobs</a>
             <ul class="sub-menu">
               <li><a href="#">submenu 1</a></li>
               <li><a href="#">submenu 2</a></li>
               <li><a href="#">submenu 3</a></li>
             </ul>
           </li>
-          <li><a href="#">Login</a></li>
+          <li><a href="#">messege</a></li>
           <li class="menu-btn">
             <a href="#">
               new job
@@ -152,7 +154,7 @@
             <div class="myaccount-content">
               <div class="myaccount-content-cntlr">
                 <h2 class="form-title fl-h2">My Account</h2>
-                <strong class="subtitle">Personal Details</strong>
+                <strong class="input-field-subtitle input-field-subtitle-center">Personal Details</strong>
                 <form action="" class="myaccount-form myaccount-setting-form">
                   <div class="input-field-wrapper input-field-wrapper-pd-35">
                     <div class="myaccount-profile">
@@ -167,13 +169,13 @@
                       </div>
                       <div class="account-profile-lft">
                         <div class="myaccount-info">
-                          <div class="input-fields-row">
+                          <div class="input-field-row">
                             <div class="input-field-col">
                               <span class="in-icon"><i class="fas fa-user"></i></span>
                               <input type="text" placeholder="First Name">
                             </div>
                           </div>
-                          <div class="input-fields-row">
+                          <div class="input-field-row">
                             <div class="input-field-col margin-botton-0">
                               <span class="in-icon"><i class="fas fa-user"></i></span>
                               <input type="text" placeholder="Last Name">
@@ -182,41 +184,41 @@
                         </div>
                       </div>
                     </div>
-                    <div class="input-fields-row">
+                    <div class="input-field-row">
                       <div class="input-field-col">
                         <span class="in-icon"><i class="fas fa-envelope"></i></span>
                         <input type="email" placeholder="Email">
                       </div>
                     </div>
-                    <div class="input-fields-row">
+                    <div class="input-field-row">
                       <div class="input-field-col">
                         <span class="in-icon"><i class="fas fa-phone"></i></span>
                         <input type="number" placeholder="Phone Number">
                       </div>
                     </div>
                   </div>
-                  <strong class="subtitle">Change Password</strong>
+                  <strong class="input-field-subtitle">Change Password</strong>
                   <div class="input-field-wrapper input-field-wrapper-pd-35">
-                    <div class="input-fields-row">
+                    <div class="input-field-row">
                       <div class="input-field-col">
                         <span class="in-icon"><i class="fas fa-lock"></i></span>
                         <input type="password" placeholder="Current Password">
                       </div>
                     </div>
-                    <div class="input-fields-row">
+                    <div class="input-field-row">
                       <div class="input-field-col">
                         <span class="in-icon"><i class="fas fa-lock"></i></span>
                         <input type="password" placeholder="New Password">
                       </div>
                     </div>
-                    <div class="input-fields-row">
+                    <div class="input-field-row">
                       <div class="input-field-col">
                         <span class="in-icon"><i class="fas fa-lock"></i></span>
                         <input type="password" placeholder="Confirm New Password">
                       </div>
                     </div>
                   </div>
-                  <strong class="subtitle">Account Removal</strong>
+                  <strong class="input-field-subtitle">Account Removal</strong>
                   <div class="input-field-wrapper">
                      <div class="submint-btn">
                       <button type="submit" class="full-width-btn">Delete Account</button>
@@ -313,13 +315,12 @@
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
 <script src="assets/slick.slider/slick.js"></script>
-<script src="assets/swiper/swiper-bundle.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/select2/select2.min.js"></script>
 <script src="assets/flatpickr/flatpickr.js"></script>
+<script src="assets/js/jquery.nav.js"></script>
 <script src="assets/js/jquery.sticky-sidebar.js"></script>
 <script src="assets/js/main.js"></script>
 

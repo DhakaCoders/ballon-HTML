@@ -20,9 +20,9 @@
 }
 .myaccount-content-cntlr{
 	border-bottom: 18px solid #7a92d0;
-    box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.25);
-    -webkit-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -webkit-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -moz-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
     border-radius: 11px;
     padding:27px 34px;
 }
@@ -49,25 +49,38 @@
     text-transform: capitalize;
 }
 .myaccount-menu ul li a.active,
-.myaccount-menu ul li.current a,
-.myaccount-menu ul li a:hover{
+.myaccount-menu ul li.current a{
 	color:#fa5252;
 	font-weight:600;
+}
+.myaccount-menu ul li a:hover{
+    color:#fa5252;
 }
 .logout-link a{
 	color:#fa5252;
 	font-weight:700;
 	position: relative;
-	padding-right:23px;
+	padding-right:26px;
+}
+.logout-link a:hover {
+    color: #7B92D2;
+}
+
+.logout-link a:hover:after {
+    color: #7a92d0;
+    right:0;
 }
 .logout-link a:after {
     content: '\f2f5';
     position: absolute;
     font-family: 'Font Awesome 5 Free';
-    right: 0;
+    right: 3px;
     font-size: 18px;
     top: -1px;
     color: #fa5252;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
 }
 
 /* -------------- form css ------------ */
@@ -94,7 +107,7 @@
     color:#000000;
     text-transform: capitalize;
 }
-.subtitle{
+.input-field-subtitle{
 	color:#959595;
 	font-size:23px;
 	font-weight:600;
@@ -191,18 +204,15 @@
     }
 }
 @media(max-width:1199px){
-    .myaccount-menu ul li a, 
-    .logout-link a{
-        font-size:16px;
-    }
+    
     .logout-link a:after {
         font-size: 16px;
         top: 1px;
     }
     .logout-link a{
-        padding-right:20px;
+        padding-right:23px;
     }
-    .subtitle{
+    .input-field-subtitle{
         font-size:20px;
         margin-bottom:22px;
     }
@@ -229,6 +239,10 @@
 }
 
 @media(max-width:991px){
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:16px;
+    }
     .myaccount-content {
         padding-left: 15px;
         padding-right: 15px;
@@ -248,15 +262,15 @@
     .my-account-sec{
         padding-bottom:80px;
     }
-    .subtitle {
+    .input-field-subtitle {
         font-size: 19px;
     }
 }
 
 @media(max-width:767px){
-    .myaccount-menu ul li a, 
-    .logout-link a{
-        font-size:15px;
+ 
+    .myaccount-menu ul li{
+        margin-bottom:2px!important;
     }
     .myaccount-title-cntlr{
         margin-bottom: 25px;
@@ -280,7 +294,7 @@
     .myaccount-content {
         width: 66%;
     }
-    .subtitle {
+    .input-field-subtitle {
         font-size: 17px;
         margin-bottom: 18px;
     }
@@ -308,7 +322,7 @@
         left: 12px!important;
     }
 }
-@media(max-width:575px){
+@media(max-width:639px){
     .myaccount-navigation{
         width:100%;
         margin-bottom: 30px;
@@ -327,19 +341,28 @@
         padding-bottom: 70px;
     }
 }
-
-@media(max-width:369px){
+@media(max-width:575px){
+    
+    
+    
+    
+}
+@media(max-width:400px){
+    .submit-btn-50 button{
+        width:100%;
+        margin-left:0px!important;
+        margin-right:0px!important;
+    }
     .submit-btn-50{
         display: flex;
         flex-wrap: wrap;
         margin-left:0px!important;
         margin-right:0px!important;
     }
-    .submit-btn-50 button{
-        width:100%;
-        margin-left:0px!important;
-        margin-right:0px!important;
-    }
+}
+@media(max-width:369px){
+    
+    
     .myaccount-setting-form .input-field-col label {
         padding: 14px 15px 13px 32px;
     }

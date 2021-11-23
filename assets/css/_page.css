@@ -8,7 +8,7 @@
 	width: 16px!important;
 	height: 16px!important;
 	position: static;
-	background: #2b2b2b!important;
+	background: #828282!important;
 	border-radius: 100% 100%!important;
 	margin: 0 8px;
 	padding: 0!important;
@@ -49,8 +49,8 @@
 
 /*prev, next*/
 .slick-next,.slick-prev{
-    height: 16px;
-    width: 11px;
+    height: 14px;
+    width: 9px;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -232,7 +232,6 @@ body .select2-dropdown {
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    text-transform: uppercase;
 }
 .select2-selection__arrow:after {
     content: "\f107";
@@ -400,10 +399,12 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     position: relative;
 }
 .fl-pagination-cntlr ul li span.current,
-.fl-pagination-cntlr ul li a.next.page-numbers:hover,
-.fl-pagination-cntlr ul li a.prev.page-numbers:hover,
 .fl-pagination-cntlr ul li a:hover{
     color: #fa5252;
+}
+.fl-pagination-cntlr ul li a.next.page-numbers:hover,
+.fl-pagination-cntlr ul li a.prev.page-numbers:hover{
+    color: #616368;
 }
 @media(max-width: 1199px){
     .page-intro-sec{
@@ -491,6 +492,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     }
 }
 @media(max-width: 575px){
+    span.select2.select2-container.select2-container--default {
+        width: 97px!important;
+    }
     .page-intro-sec-cntlr p{
         font-size: 20px;
     }
