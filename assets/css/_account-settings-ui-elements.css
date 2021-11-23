@@ -204,10 +204,7 @@
     }
 }
 @media(max-width:1199px){
-    .myaccount-menu ul li a, 
-    .logout-link a{
-        font-size:16px;
-    }
+    
     .logout-link a:after {
         font-size: 16px;
         top: 1px;
@@ -242,6 +239,10 @@
 }
 
 @media(max-width:991px){
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:16px;
+    }
     .myaccount-content {
         padding-left: 15px;
         padding-right: 15px;
@@ -267,10 +268,7 @@
 }
 
 @media(max-width:767px){
-    .myaccount-menu ul li a, 
-    .logout-link a{
-        font-size:15px;
-    }
+ 
     .myaccount-menu ul li{
         margin-bottom:2px!important;
     }
