@@ -8,23 +8,29 @@
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 160px;
-	width: 400px;
+	height: 224px;
+    width: 470px;
 	z-index: 2;
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
 	background-position: left bottom!important;
+
+	/*height: 160px;
+	width: 400px;*/
 }
 .professionals-rgt-cloud{
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: 2;
-	height: 185px;
+	height: 200px;
 	width: 566px;
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
 	background-position: right top!important;
+
+	/*height: 185px;
+	width: 566px;*/
 }
 .professionals-cntlr{
 	position: relative;
