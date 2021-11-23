@@ -11,6 +11,9 @@
 .create-a-job-form .input-field-col textarea{
 	padding: 15px 20px 15px 16px;
 }
+.create-a-job-form .input-field-col textarea {
+    padding-right: 30px;
+}
 .input-field-col textarea{
 	display: block;
 }
