@@ -86,7 +86,8 @@ nav.main-nav > ul > li.menu-item-has-children > a:before {
     right: 0;
     color: #0c224b;
     font-size: 20px;
-    top: 9px;
+    line-height: 1;
+    top: 10px;
     font-family: 'Font Awesome\ 5 Free';
     font-style: normal;
     font-weight: 600;
