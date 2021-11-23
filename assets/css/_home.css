@@ -8,23 +8,29 @@
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 160px;
-	width: 400px;
+	height: 230px;
+    width: 555px;
 	z-index: 2;
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
 	background-position: left bottom!important;
+
+	/*height: 160px;
+	width: 400px;*/
 }
 .professionals-rgt-cloud{
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: 2;
-	height: 185px;
+	height: 200px;
 	width: 566px;
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
 	background-position: right top!important;
+
+	/*height: 185px;
+	width: 566px;*/
 }
 .professionals-cntlr{
 	position: relative;
@@ -183,7 +189,7 @@
 	margin-right: auto;
 	background-size: auto 100%!important;
 	background-repeat: no-repeat!important;
-	background-position: left 42px center!important;
+	background-position: left top -42px!important;
 	position: relative;
 	z-index: 3;
 }
@@ -226,7 +232,10 @@ body.home .cta-module-cntlr{
 }
 .cta-module-rating span.cta-module-rating-plus a{
 	color: #8b8b8b;
-	transform: rotate(4deg);
+	font-style: italic;
+}
+.cta-module-rating span.cta-module-rating-plus a i{
+	font-style: inherit;
 }
 .cta-module-rating span.cta-module-rating-plus a:hover i,
 .cta-module-rating span a:hover i{
@@ -246,11 +255,36 @@ body.home .cta-module-cntlr{
 }
 
 /*responsive*/
+@media(max-width: 1899px){
+	.professionals-lft-cloud{
+		height: 170px;
+		width: 400px; 
+	}
+}
+@media(max-width: 1899px){
+	.professionals-lft-cloud{
+		height: 150px;
+		width: 320px; 
+	}
+}
 @media(max-width: 1699px){
+	.professionals-lft-cloud{
+		height: 230px;
+		width: 555px;
+	}
+}
+@media(max-width: 1499px){
 
 }
-@media(max-width: 1399px){
-	
+@media(max-width: 1299px){
+	.professionals-lft-cloud{
+		height: 200px;
+		width: 450px; 
+	}
+	.professionals-rgt-cloud{
+		height: 170px;
+		width: 406px;
+	}
 }
 @media(max-width: 1199px){
 	.professionals-rgt{
@@ -272,6 +306,10 @@ body.home .cta-module-cntlr{
 	}
 	.bln-accordion-des{
 		padding-right: 45px;
+	}
+	.professionals-lft-cloud{
+		height: 150px;
+		width: 320px; 
 	}
 }
 @media(max-width: 991px){
