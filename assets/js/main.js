@@ -315,7 +315,14 @@ if(windowWidth > 767){
 
   };
 }
-
+if(windowWidth > 575){
+  if( $('#sidebar').length ){
+    $('#sidebar').stickySidebar({
+        topSpacing: 50,
+        bottomSpacing: 50
+    });
+  }  
+}
 
 
 if($('#bln-nav').length){
