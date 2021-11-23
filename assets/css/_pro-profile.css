@@ -33,9 +33,9 @@
 .bln-back-to-explr-cntlr a:hover{
     color: #014d4b;
 }
-.bln-back-to-explr-cntlr a:hover i{
+/*.bln-back-to-explr-cntlr a:hover i{
     left: -2px;
-}
+}*/
 .bln-comp-item {
     /*margin-bottom: 25px;*/
     padding: 35px 35px 40px 45px;
@@ -199,8 +199,9 @@
     margin: 0 -5px;
     flex-wrap: wrap;
 }
-.contact-methods ul li{
+.contact-methods ul li {
     padding: 0 5px;
+    margin-bottom: 10px;
 }
 .contact-methods ul li:after{
     content: none;
@@ -442,7 +443,7 @@
 .pp-location-exprt-col{}
 .bln-location-entry-hdng{}
 .bln-location-title{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     position: relative;
     padding-left: 26px;
 }
@@ -651,10 +652,6 @@
     padding-right: 15px;
     width: 50%;
 }
-.bln-qualftion-list ul{}
-.bln-qualftion-list ul li{
-    padding-bottom: 5px;
-}
 .bln-qualftion-list ul li:before{
     content: none;
 }
@@ -682,6 +679,7 @@
 .bln-qualification-logo i{
     display: inline-block;
     padding: 0 5px;
+    margin-bottom: 10px;
 }
 .bln-qualification-logo i img{}
 
@@ -694,7 +692,7 @@
 .bln-review-title{
     position: relative;
     padding-left: 37px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .bln-review-title i {
     display: inline-block;

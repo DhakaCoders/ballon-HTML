@@ -14,6 +14,9 @@
 .input-field-col textarea{
 	display: block;
 }
+/*.myaccount-menu ul#bln-nav li:first-child{
+    display: none;
+}*/
 .upload-file {
     position: absolute;
     bottom: 0;
