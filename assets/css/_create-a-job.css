@@ -33,7 +33,9 @@
     width: 43px!important;
     height: 40px!important;
 }
-
+.upload-file label:hover span i{
+    color: #fa5252;
+}
 .upload-file label span{
     left: 50%;
     transform: translate(-50%,-50%);
