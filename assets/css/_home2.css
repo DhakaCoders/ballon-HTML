@@ -1,7 +1,7 @@
 
 .hm-page-banner{
 	padding: 40px 0 130px;
-	background-repeat: no-repeat!important;
+	background-repeat: repeat-x!important;
 	background-position: bottom center!important;
 }
 
@@ -320,6 +320,7 @@
 
 .hire-pro-intro-title{
 	line-height: 1.28;
+	margin-bottom: 0;
 }
 
 .hire-pro-grds{
