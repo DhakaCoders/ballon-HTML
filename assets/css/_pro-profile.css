@@ -20,6 +20,9 @@
     position: relative;
     letter-spacing: 1px;
 }
+.bln-company-card-contents-cntlr{
+    margin-bottom: 30px;
+}
 
 .bln-back-to-explr-cntlr i{
     display: inline-block;
@@ -42,14 +45,13 @@
 .bln-comp-card-cntnt-iner{
     border-bottom: 17px solid #014d4b;
     border-radius: 12px;
-    margin-bottom: 25px;
     -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
     -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
     box-shadow: 0px -1px 20px 9px rgb(215 215 215 / 73%);
 }
 .bln-comp-card-cntnt-lft{
     padding-right: 15px;
-    width: 19.7%;
+    width: 19.8%;
 }
 .comp-card-logo {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
@@ -65,7 +67,7 @@
     border-radius: 100%;
 }
 .bln-comp-card-cntnt-rgt{
-    width: 80.3%;
+    width: 80.2%;
     padding-left: 10px;
 }
 .bln-comp-cntnt-top{
@@ -314,11 +316,17 @@
     position: relative;
     padding-left: 31px;
 }
-.about-title i,  .fancy-heading i{
+.about-title i{
     display: inline-block;
     position: absolute;
     left: 0;
-    top: -1px;
+    top: 0;
+}
+.fancy-heading i{
+    top: -2px;
+    left: 0;
+    position: absolute;
+    display: inline-block;
 }
 .about-desc p {
     color: #2b2b2b;
@@ -555,12 +563,12 @@
 }
 .bln-verified-title{
     margin-bottom: 15px;
-    padding-left: 40px;
+    padding-left: 39px;
     position: relative;
 }
 .bln-verified-title i {
     position: absolute;
-    left: 0;
+    left: 1px;
     top: -1px;
 }
 .bln-verifd-dtls-item {
