@@ -190,6 +190,12 @@
 	position: relative;
 	z-index: 3;
 }
+.cta-module-wrap{
+	position: relative;
+}
+.hiwp-cta-module-sec .cta-module-cntlr-bg{
+	background-position: left 66px center!important;
+}
 .cta-module-cntlr-bg{
 	background-repeat: no-repeat!important;
 	background-position: left 66px top!important;
