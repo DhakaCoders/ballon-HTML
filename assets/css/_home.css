@@ -239,7 +239,8 @@ body.home .cta-module-cntlr{
 .cta-module-rating span{
 	padding: 0 4px;
 }
-.cta-module-rating span a{
+.cta-module-rating span a,
+.cta-module-rating span{
 	color: #ffcc00;
 	display: inline-block;
 	font-size: 18px;
