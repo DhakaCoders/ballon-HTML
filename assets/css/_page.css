@@ -49,8 +49,8 @@
 
 /*prev, next*/
 .slick-next,.slick-prev{
-    height: 16px;
-    width: 11px;
+    height: 14px;
+    width: 9px;
     position: absolute;
     margin: 0;
     padding: 0;
