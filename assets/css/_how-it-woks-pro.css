@@ -4,6 +4,9 @@
 	padding-top: 42px;
 	padding-bottom: 35px;
 }
+.how-it-works-grids-sec .slick-dotted.slick-slider{
+	margin-bottom: 0!important;
+}
 .how-it-works-top-cloud{
 	position: absolute;
 	top: 0;
@@ -150,7 +153,7 @@
 }
 @media(max-width: 991px){
 	.how-it-works-grid-item-cntlr{
-		padding: 15px;
+		padding: 18px;
 	}
 	.how-it-works-grid-item-cntlr i{
 		margin-bottom: 16px;
@@ -184,11 +187,7 @@
 }
 @media(max-width: 767px){
 	.how-it-works-grids-sec{
-		padding-bottom: 15px;
-		padding-top: 35px;
-	}
-	.pricing-plans-sec{
-		padding-top: 40px;
+		padding-bottom: 50px;
 	}
 	.how-it-works-grid-item-cntlr{
 		padding: 15px;
@@ -196,17 +195,11 @@
 	.how-it-works-grid-item-cntlr i{
 		margin-bottom: 14px;
 	}
-	.price{
-		font-size: 24px;
-	}
 	.pricing-plans-sec-entry-hdr{
 		padding-bottom: 15px;
 	}
 	.bln-pkg-grid-item-cntlr{
 		padding: 25px 20px 19px;
-	}
-	.bln-pkg-grd-hdr{
-		padding-bottom: 15px;
 	}
 	.fl-pkg-grd-ftr-btn .fl-btn{
 		font-size: 16px;
@@ -228,16 +221,20 @@
 		max-width: 265px;
 		margin: 0 auto;
 		text-align: left;
+		padding-bottom: 30px;
 	}
 	.bln-pkg-grids-cntlr ul li.bln-pkg-grid-item-col{
 		padding-bottom: 40px;
 	}
+	.bln-pkg-grd-hdr .prising-title{
+		margin-bottom: 15px;
+	}
 	.pricing-plans-sec-entry-hdr{
-		padding-bottom: 10px;
+		padding-bottom: 12px;
 	}
 	.bln-pkg-grid-item-cntlr{
 		text-align: center;
-		padding: 20px 20px 19px;
+		padding: 20px 20px 23px;
 	}
 	.fl-pkg-grd-ftr-btn .fl-btn{
 		font-size: 15px;
@@ -245,9 +242,6 @@
 
 }
 @media(max-width: 575PX){
-	.how-it-works-grids-sec{
-		padding-bottom: 10px;
-	}
 	.how-it-works-grid-item-cntlr{
 		max-width: 320px;
 		width: 100%;
@@ -258,7 +252,8 @@
 		text-align: left;
 	}
 	.how-it-works-grid-item-cntlr i{
-		font-size: 50px;
+		font-size: 60px;
+		margin-bottom: 16px;
 	}
 	.how-it-works-grids-cntlr{
 		margin: 0 0;
@@ -267,10 +262,11 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.price{
-		font-size: 25px;
+	.how-it-works-grd-img-title{
+		font-size: 20px;
+	}
+	.how-it-works-grd-img-title{
+		margin-bottom: 15px;
 	}
 
-}
-@media(max-width: 379px){
 }
