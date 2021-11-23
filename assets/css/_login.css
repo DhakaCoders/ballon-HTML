@@ -153,9 +153,6 @@
     .login-check-cntlr label br{
         display: none;
     }
-    .join-contant-sec.login-contant-sec {
-        padding-bottom: 40px;
-    }
 }
 @media(max-width: 359px){
     .login-top-mgs span, .login-check-cntlr label {
