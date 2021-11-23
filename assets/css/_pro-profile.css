@@ -199,8 +199,9 @@
     margin: 0 -5px;
     flex-wrap: wrap;
 }
-.contact-methods ul li{
+.contact-methods ul li {
     padding: 0 5px;
+    margin-bottom: 10px;
 }
 .contact-methods ul li:after{
     content: none;
@@ -442,7 +443,7 @@
 .pp-location-exprt-col{}
 .bln-location-entry-hdng{}
 .bln-location-title{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     position: relative;
     padding-left: 26px;
 }
@@ -695,7 +696,7 @@
 .bln-review-title{
     position: relative;
     padding-left: 37px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .bln-review-title i {
     display: inline-block;
