@@ -215,10 +215,22 @@ body.home .cta-module-cntlr{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: 0 -5px;
+	margin: 0 -4px;
 }
 .cta-module-rating span{
-	padding: 0 5px;
+	padding: 0 4px;
+}
+.cta-module-rating span a{
+	color: #ffcc00;
+	display: inline-block;
+}
+.cta-module-rating span.cta-module-rating-plus a{
+	color: #8b8b8b;
+	transform: rotate(4deg);
+}
+.cta-module-rating span.cta-module-rating-plus a:hover i,
+.cta-module-rating span a:hover i{
+	color: #fa5252;
 }
 .cta-module-btns{
 	max-width: 305px;
