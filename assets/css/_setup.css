@@ -84,12 +84,10 @@
 @media (max-width: 767px){
 	.join-contant-sec.setup-contant-sec {
 	    padding-bottom: 50px;
+	    padding-top: 50px;
 	}
 }
 @media (max-width: 575px){
-	.join-contant-sec.setup-contant-sec {
-	    padding-bottom: 40px;
-	}
 	.setup-btn-cntlr {
 	    padding-bottom: 30px;
 	}
@@ -101,9 +99,6 @@
 	}
 }
 @media (max-width: 479px){
-	.setup-btm-contant .login-checkmark-cntlr .login-check-cntlr{
-		padding: 0 0 0 20px;
-	}
 	.setup-btn-cntlr a {
 	    padding: 13px 12px 14px;
 	}
