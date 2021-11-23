@@ -258,6 +258,9 @@
     .logout-link a{
         font-size:15px;
     }
+    .myaccount-menu ul li{
+        margin-bottom:2px!important;
+    }
     .myaccount-title-cntlr{
         margin-bottom: 25px;
     }
