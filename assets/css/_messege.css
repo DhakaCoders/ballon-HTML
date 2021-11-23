@@ -498,3 +498,40 @@
 		width: 76%;
 	}
 }
+
+@media(max-width: 991px){
+	.bln-messege-lft-sidebar {
+	    width: 38%;
+	}
+	.bln-messege-des {
+	    width: 62%;
+	}
+	.bln-msg-list-item-img-ctlr {
+	    width: 21%;
+	}
+	.bln-msg-list-item-des {
+	    width: 79%;
+	}
+	.bln-msg-date span,
+	.bln-msg-des-hdr strong,
+	.bln-msg-des-hdr span,
+	.bln-msg-grd-col p{
+		font-size: 15px;
+	}
+	.bln-msg-grd-col{
+		width: 80%;
+	}
+	.bln-msg-send-btn button{
+		padding: 10px 20px;
+		max-width: 100px;
+	}
+	.bln-msg-send-btn {
+	    width: 24%;
+	}
+	.bln-msg-input-field {
+	    width: 68%;
+	}
+	.bln-upload{
+		width: 8%;
+	}
+}
