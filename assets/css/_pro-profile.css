@@ -42,20 +42,31 @@
     left: 2px;
 }
 .bln-company-card-contents-cntlr {
-    -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
-    -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
-    box-shadow: 0px -1px 16px 12px rgb(230 230 230 / 68%);
-    border-radius: 12px;
-    border-bottom: 17px solid #014d4b;
+    /*-webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);*/
+    /*-moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);*/
+    /*box-shadow: 0px -1px 16px 12px rgb(230 230 230 / 68%);*/
+    /*border-radius: 12px;*/
+    /*border-bottom: 17px solid #014d4b;*/
 }
-.bln-comp-card-cntnt-iner {
+/*.bln-comp-card-cntnt-iner {
     padding: 35px 35px 40px 45px;
     display: flex;
     flex-wrap: wrap;
+}*/
+.bln-comp-item {
+     margin-bottom: 25px; 
+    padding: 35px 35px 40px 45px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
+    -moz-box-shadow: 0px -2px 22px 15px rgba(230,230,230,0.84);
+    box-shadow: 0px -1px 16px 12px rgb(230 230 230 / 68%);
+    border-bottom: 17px solid #014d4b;
+    border-radius: 12px;
 }
 .bln-comp-card-cntnt-lft{
-	padding-right: 25px;
-	width: 24%;
+	padding-right: 24px;
+	width: 21%;
 }
 .comp-card-logo {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
@@ -65,17 +76,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-     height: 215px; 
+    height: 200px; 
 }
 .comp-card-logo img {
     border-radius: 100%;
 }
 .bln-comp-card-cntnt-rgt{
-	width: 76%;
+	width: 79%;
 }
 .bln-comp-cntnt-top{
 	display: flex;
-	padding-bottom: 65px;
+	padding-bottom: 60px;
 	flex-wrap: wrap;
 }
 .bln-comp-cntnt-top-lft{
@@ -87,12 +98,12 @@
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
-.card-title a{
+.card-title a, .fancy-heading a, .about-title a, .bln-location-title a, .bln-expert-title a{
 	text-decoration: none;
 	color: #000000;
 	display: inline-block;
 }
-.card-title a:hover{
+.card-title a:hover, .fancy-heading a:hover, .about-title a:hover ,  .bln-location-title a:hover, .bln-expert-title a:hover{
 	color: #fa5252;
 }
 .card-location {
@@ -182,6 +193,7 @@
     margin-left: 8px;
     margin-top: 10px;
     font-size: 18px;
+    display: inline-block;
 }
 .bln-comp-card-cntnt-btm{
 	display: flex;
@@ -207,8 +219,8 @@
     position: relative;
     font-size: 21px;
     color: #7a92d0;
-    padding: 5px 15px;
-    padding-left: 38px;
+    padding: 7px 22px;
+    padding-left: 41px;
     background-color: #ecf1ff;
     display: inline-block;
     text-decoration: none;
@@ -232,9 +244,10 @@
     position: absolute;
     left: 0;
     top: 0;
-    margin-left: 10px;
-    margin-top: 6px;
+    margin-left: 13px;
+    margin-top: 8px;
     font-size: 22px;
+    display: inline-block;
 }
 .bln-comp-card-cont-btm-rgt{
 	margin-left: auto;
@@ -271,7 +284,7 @@
 }
 .card-socials ul li a i{
 	font-size: 27px;
-	display: inline-block;
+    display: inline-block;
 }
 .social-fb a i {
     padding: 9px;
@@ -297,7 +310,7 @@
 }
 /*bln-about-sec -------------------------------------------------------*/
 .bln-about-section{
-	padding: 10px 0px 0px 0px;
+	padding-bottom: 25px;
 }
 .bln-about-cntnt-cnltr{
 	display: flex;
@@ -311,19 +324,13 @@
 .about-title{
 	margin-bottom: 10px;
 	position: relative;
-	padding-left: 32px;
+    padding-left: 31px;
 }
-.about-title:before {
+.about-title i{
+    display: inline-block;
     position: absolute;
-    content: "";
-    background-image: url('../images/pp-abt-hdng-icon.png');
-    height: 26px;
-    width: 23px;
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
     left: 0;
-    top: -3px;
+    top: -1px;
 }
 .about-desc p {
     color: #2b2b2b;
@@ -339,19 +346,13 @@
 .fancy-heading{
 	position: relative;
 	margin-bottom: 15px;
-	padding-left:40px;
+	padding-left: 40px;
 }
-.fancy-heading:before {
+.fancy-heading i{
+    display: inline-block;
     position: absolute;
-    content: "";
-    background-image: url('../images/pp-fancy-hdng-icon.png');
-    height: 26px;
-    width: 31px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     left: 0;
-    top: 0;
+    top: -1px;
 }
 .bln-about-rgt{
 	padding-left: 20px;
@@ -441,7 +442,7 @@
 }
 /*bln-location-expert-sec---------------------------------------*/
 .bln-location-expert-sec{
-	padding: 35px 0;
+	padding-bottom: 35px;
 }
 .bln-location-expert-cntnts-cntlr{
 	display: flex;

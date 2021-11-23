@@ -232,7 +232,6 @@ body .select2-dropdown {
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    text-transform: uppercase;
 }
 .select2-selection__arrow:after {
     content: "\f107";
