@@ -99,16 +99,11 @@
 	right: 0;
 	bottom: 0;
 }
-.hm-page-bnr-input-field-row input[type=text]:focus + label{
-    opacity: 0;
-    z-index: -9;
+.hm-page-bnr-input-field-row input[type=text]:focus + label,
+.hm-page-bnr-input-field-row input[type=text]:valid + label{
+    display: none;
 }
-/*.hm-page-bnr-input-field-row.input-col-2 input[type=text]:focus + label,
-.hm-page-bnr-input-field-row.input-col-2 input[type=text]:valid + label
-{
-    opacity: 0;
-    z-index: -9;
-}*/
+
 .hm-page-bnr-input-field-row input[type=text]:focus{
 	border-color: #b2afaf;
 }
