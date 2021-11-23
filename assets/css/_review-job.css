@@ -61,3 +61,42 @@
 .proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul li.job-cntnt-profile-item-cntlr{
 	margin-top: 10px;
 }
+
+@media (max-width: 991px){
+	.proposal-job-cntnt-mdul .job-cntnt-item-rgt{
+		width: 68%;
+	}
+}
+@media (max-width: 767px){
+	.proposal-job-cntnt-mdul .job-cntnt-item-rgt{
+		width: 100%;
+	}
+	.job-cntnt-item-pro-msg-cntlr{
+		margin-left: 0;
+		padding-top: 40px;
+		padding-bottom: 15px;
+	}
+	.job-cntnt-item-pro-msg-cntlr:last-child{
+		padding-bottom: 0;
+	}
+	.proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul{
+		display: flex;
+	}
+	.proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul li.job-cntnt-profile-item-cntlr{
+		margin-top: 0;
+	}
+}
+@media (max-width: 575px){
+	.review-job-module-cntlr .job-cntnt-mdul-title {
+	    margin-bottom: 15px;
+	}
+	.review-job-sec {
+	    padding-bottom: 50px;
+	}
+}
+@media(max-width: 479px){
+	.job-cntnt-item-pro-msg-cntlr {
+	    padding-top: 30px;
+	}
+
+}

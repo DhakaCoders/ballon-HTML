@@ -490,6 +490,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     }
 }
 @media(max-width: 575px){
+    span.select2.select2-container.select2-container--default {
+        width: 97px!important;
+    }
     .page-intro-sec-cntlr p{
         font-size: 20px;
     }
