@@ -15,8 +15,12 @@
 }
 .pro-review-job .input-field-col p{
 	margin-bottom:0;
+	padding-right: 10px;
 }
-
+.pro-review-job-brf{
+	padding-bottom:67px;
+}
+.
 .Print-button a {
     color: #bcbcbc;
     font-size: 15px;

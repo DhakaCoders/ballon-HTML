@@ -367,15 +367,15 @@
 	align-items: center;
 }
 
-.bln-upload{
+.bln-upload-file{
 	position: relative;
 	width: 5%;
 	padding-right: 20px;
 }
-.bln-upload-inr{
+.bln-upload-file-inr{
 	height: 25px;
 }
-.bln-upload label{
+.bln-upload-file label{
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -385,7 +385,7 @@
 	margin-bottom: 0;
 	cursor: pointer;
 }
-.bln-upload input[type=file]{
+.bln-upload-file input[type=file]{
 	position: relative;
 	opacity: 0;
 	cursor: pointer;
@@ -532,7 +532,7 @@
 	.bln-msg-input-field {
 	    width: 68%;
 	}
-	.bln-upload{
+	.bln-upload-file{
 		width: 8%;
 	}
 }
@@ -610,7 +610,7 @@
 	.bln-msg-send-inr {
 	    display: block;
 	}
-	.bln-upload {
+	.bln-upload-file {
 	    width: 100%;
 	    padding-right: 0;
 	    margin-bottom: 15px;
