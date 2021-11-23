@@ -117,6 +117,9 @@
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
 		padding: 25px 20px 30px;
 	}
+	.try-free-btn .fl-btn{
+		font-size: 16px;
+	}
 }
 @media(max-width: 639px){
 
@@ -133,6 +136,10 @@
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
 		padding: 25px 30px 35px;
 	}
+	.try-free-btn .fl-btn{
+		font-size: 15px;
+	}
+
 }
 @media(max-width: 479px){
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
@@ -151,5 +158,8 @@
 	}
 	.setup-pricing-sub-heading-2{
 		margin-bottom: 25px;
+	}
+	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 200px;
 	}
 }
