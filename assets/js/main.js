@@ -212,12 +212,16 @@ $('.bln-accordion-hdr').on('click', function(){
     });
 }
 
-/*var expertise = $('.expertise-filters-module ul li').length;
-alert(expertise);
-if (expertise > 6) {
+var expertiseC = $('.expertise-filters-module ul li').length;
+if (expertiseC > 6) {
   $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide');
-  $('.explore-filter-more').append("+" + expertise + "<span>more</span>");
-}*/
+  $('.explore-filter-more').append("+" + expertiseC + "<span>more</span>");
+  $('.explore-filter-more').click(function(){
+    $('.expertise-filters-module').addClass('expertise-filters-module-fheight');
+    $('.explr-fltr-expertise-mdul-cntlr').removeClass('explr-fltr-expertise-mdul-extra-hide');
+  });
+}
+
 
 
 /*start of Shariful*/
