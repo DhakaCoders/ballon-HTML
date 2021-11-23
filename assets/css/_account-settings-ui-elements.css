@@ -194,17 +194,17 @@
     }
 }
 @media(max-width:1399px){
-    .myaccount-menu ul li a, 
-    .logout-link a{
-        font-size:17px;
-    }
+    
     .logout-link a:after {
         font-size: 17px;
         top: 1px;
     }
 }
 @media(max-width:1199px){
-    
+    .myaccount-menu ul li a, 
+    .logout-link a{
+        font-size:17px;
+    }
     .logout-link a:after {
         font-size: 16px;
         top: 1px;
