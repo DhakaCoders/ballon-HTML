@@ -60,16 +60,27 @@
 	color:#fa5252;
 	font-weight:700;
 	position: relative;
-	padding-right:23px;
+	padding-right:26px;
+}
+.logout-link a:hover {
+    color: #7B92D2;
+}
+
+.logout-link a:hover:after {
+    color: #7a92d0;
+    right:0;
 }
 .logout-link a:after {
     content: '\f2f5';
     position: absolute;
     font-family: 'Font Awesome 5 Free';
-    right: 0;
+    right: 3px;
     font-size: 18px;
     top: -1px;
     color: #fa5252;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
 }
 
 /* -------------- form css ------------ */
@@ -96,7 +107,7 @@
     color:#000000;
     text-transform: capitalize;
 }
-.subtitle{
+.input-field-subtitle{
 	color:#959595;
 	font-size:23px;
 	font-weight:600;
@@ -202,9 +213,9 @@
         top: 1px;
     }
     .logout-link a{
-        padding-right:20px;
+        padding-right:23px;
     }
-    .subtitle{
+    .input-field-subtitle{
         font-size:20px;
         margin-bottom:22px;
     }
@@ -250,7 +261,7 @@
     .my-account-sec{
         padding-bottom:80px;
     }
-    .subtitle {
+    .input-field-subtitle {
         font-size: 19px;
     }
 }
@@ -285,7 +296,7 @@
     .myaccount-content {
         width: 66%;
     }
-    .subtitle {
+    .input-field-subtitle {
         font-size: 17px;
         margin-bottom: 18px;
     }
@@ -313,7 +324,7 @@
         left: 12px!important;
     }
 }
-@media(max-width:575px){
+@media(max-width:639px){
     .myaccount-navigation{
         width:100%;
         margin-bottom: 30px;
@@ -331,6 +342,12 @@
     .my-account-setting-sec-ui .myaccount-content-cntlr {
         padding-bottom: 70px;
     }
+}
+@media(max-width:575px){
+    
+    
+    
+    
 }
 @media(max-width:400px){
     .submit-btn-50 button{
