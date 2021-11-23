@@ -829,7 +829,14 @@
 }
 /*__________________________________________responsive________________________________________*/
 @media(max-width: 1199px){
-    
+    .comp-card-logo{
+        height: 180px;
+    }
+    .bln-comp-cntnt-top {
+        padding-bottom: 40px;
+    }
+
+
 }
 @media(max-width: 991px){}
 @media(max-width: 767px){}
