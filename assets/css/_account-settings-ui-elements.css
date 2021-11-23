@@ -332,19 +332,22 @@
         padding-bottom: 70px;
     }
 }
-
-@media(max-width:369px){
+@media(max-width:400px){
+    .submit-btn-50 button{
+        width:100%;
+        margin-left:0px!important;
+        margin-right:0px!important;
+    }
     .submit-btn-50{
         display: flex;
         flex-wrap: wrap;
         margin-left:0px!important;
         margin-right:0px!important;
     }
-    .submit-btn-50 button{
-        width:100%;
-        margin-left:0px!important;
-        margin-right:0px!important;
-    }
+}
+@media(max-width:369px){
+    
+    
     .myaccount-setting-form .input-field-col label {
         padding: 14px 15px 13px 32px;
     }
