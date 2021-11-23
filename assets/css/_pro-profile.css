@@ -199,8 +199,9 @@
     margin: 0 -5px;
     flex-wrap: wrap;
 }
-.contact-methods ul li{
+.contact-methods ul li {
     padding: 0 5px;
+    margin-bottom: 10px;
 }
 .contact-methods ul li:after{
     content: none;
@@ -442,7 +443,7 @@
 .pp-location-exprt-col{}
 .bln-location-entry-hdng{}
 .bln-location-title{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     position: relative;
     padding-left: 26px;
 }
@@ -682,6 +683,7 @@
 .bln-qualification-logo i{
     display: inline-block;
     padding: 0 5px;
+    margin-bottom: 10px;
 }
 .bln-qualification-logo i img{}
 
@@ -694,7 +696,7 @@
 .bln-review-title{
     position: relative;
     padding-left: 37px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .bln-review-title i {
     display: inline-block;
@@ -739,7 +741,7 @@
 }
 .bln-review-item-cntns{
     position: relative;
-    width: 70%;
+    width: 78%;
 }
 .bln-review-item-cntns p {
     color: #2b2b2b;
@@ -750,17 +752,17 @@
 .bln-review-item-cntns > ul{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -25px;
+    margin: 0 -17px;
 }
 .bln-review-item-cntns >ul >li {
     position: relative;
     margin-bottom: 5px;
     padding-bottom: 0;
-    padding: 0 25px;
+    padding: 0 17px;
 }
 .bln-review-item-cntns >ul >li> i {
     position: absolute;
-    left: 25px;
+    left: 18px;
     top: 0px;
     color: #fa5252;
 }
@@ -769,11 +771,11 @@
 }
 .map-marker-icon i {
     top: 1px!important;
-    left: 30px!important;
+    left: 22px!important;
 }
 .calender-icon i {
     top: -2px!important;
-    left: 27px!important;
+    left: 18px!important;
 }
 
 .bln-review-item-cntns> ul> li> span{

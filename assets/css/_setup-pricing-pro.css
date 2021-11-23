@@ -80,7 +80,6 @@
 
 	.setup-pricing-account-sec-cntlr{
 		padding: 40px 40px 35px;
-		max-width: 700px;;
 	}
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
 		padding: 22px 15px 30px;
@@ -88,11 +87,12 @@
 	.setup-pricing-sub-heading-2{
 		margin-bottom: 28px;
 	}
+	.setup-pricing-sub-heading-2:before{
+		width: 25px;
+		height: 28px;
+	}
 }
 @media(max-width: 767px){
-	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
-		min-width: 230px;
-	}
 	.setup-pricing-account-sec .bln-pkg-grids-cntlr ul{
 		margin: 0 -8px;
 	}
@@ -105,10 +105,10 @@
 	}
 	
 	.setup-pricing-sub-heading-2{
-		padding-left: 30px;
+		padding-left: 35px;
 	}
 	.setup-pricing-sub-heading-2:before{
-		width: 25px;
+		width: 23px;
 		height: 26px;
 	}
 	.setup-pricing-sub-heading-3{
@@ -122,19 +122,18 @@
 	}
 }
 @media(max-width: 639px){
-
-	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
-		min-width: 238px;
+	.setup-pricing-account-sec{
+		padding: 60px 0;
 	}
 	.setup-pricing-account-sec .setup-pricing-account-sec-cntlr{
-		padding-bottom: 30px;
+		padding-bottom: 50px;
 		padding-top: 25px;
 	}
 	.setup-pricing-account-sec-cntlr{
 		max-width: 520px;
 	}
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
-		padding: 25px 30px 35px;
+		padding: 30px 30px 35px;
 	}
 	.try-free-btn {
 		padding-top: 10px;
@@ -144,25 +143,22 @@
 	}
 
 }
-@media(max-width: 479px){
+@media(max-width: 400px){
+
+}
+/*@media(max-width: 479px){
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
 		padding: 30px 25px 40px;
 	}
-}
-@media(max-width: 379px){
-	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
-		min-width: 212px;
-	}
-
-}
+}*/
 @media(max-width: 359px){
+	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr {
+   		 padding: 30px 22px 40px;
+	}
 	.setup-pricing-heading-1{
 		margin-bottom: 14px;
 	}
 	.setup-pricing-sub-heading-2{
 		margin-bottom: 25px;
-	}
-	.setup-pricing-account-sec .fl-pkg-grd-ftr-btn .fl-btn{
-		min-width: 200px;
 	}
 }
