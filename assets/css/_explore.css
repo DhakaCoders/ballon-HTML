@@ -447,19 +447,30 @@
 	margin: 0 -2px;
 	padding-right: 48px;
 }
+.company-item-tag-slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
 .company-item-tag-slide-cntlr{
 	padding: 0 2px;
-	width: auto!important;
+	/*width: auto!important;*/
 }
 .company-item-tag-slide span{
 	background: #e5e5e5;
 	display: inline-block;
 	padding: 6.5px 6px;
 	border-radius: 3px;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: 600;
 	color: #616368;
 	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
 }
 .companyItemTagSlider .slick-prev{
 	right: 30px!important;

@@ -204,11 +204,11 @@ $('.bln-accordion-hdr').on('click', function(){
       dots: false,
       infinite: false,
       arrows: true,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 4000,
       speed: 700,
       slidesToShow: 6,
-      slidesToScroll: 1,
+      slidesToScroll: 1
     });
 }
 
