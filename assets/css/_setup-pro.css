@@ -6,8 +6,14 @@
     margin-bottom: 12px;
 }
 .setup-pro-contant-sec .join-contant-inner{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border: none;
+}
+.setup-pro-contant-sec .input-field-wrapper{
 	padding-bottom: 41px;
 	margin-bottom: 30px;
+	border-bottom: 2px solid #e1e1e1;
 }
 .setup-pro-contant-sec .join-contant-cntlr{
 	padding-bottom: 27px;
@@ -39,9 +45,6 @@
 	padding-right: 45px;
 }
 
-.input-tol-tip .tol-tip-des{
-	display: none;
-}
 @media(max-width: 1199px){
 	.input-field-col .input-tol-tip{
 		font-size: 18px;
@@ -51,7 +54,7 @@
 	}
 }
 @media(max-width: 991px){
-	.setup-pro-contant-sec .join-contant-inner {
+	.setup-pro-contant-sec .input-field-wrapper {
 	    padding-bottom: 35px;
 	    margin-bottom: 25px;
 	}
@@ -71,7 +74,7 @@
 	}
 }
 @media(max-width: 575px){
-	.setup-pro-contant-sec .join-contant-inner {
+	.setup-pro-contant-sec .input-field-wrapper {
 	    padding-bottom: 28px;
 	}
 }
