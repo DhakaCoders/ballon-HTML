@@ -527,7 +527,7 @@
 }
 /*bln-verified-qualification-section-----------------------------------------*/
 .bln-verified-qualification-section{
-    padding-bottom: 0;
+    padding-bottom: 60px;
 }
 .bln-verified-qualification-cntnts-cntlr{
     display: flex;
@@ -663,7 +663,7 @@
 
 /*bln-review-section-------------------------*/
 .bln-review-section{
-    padding: 25px 0;
+    padding-bottom: 100px;
 }
 .bln-review-contents-cntlr{}
 .pp-revw-hdng{}
