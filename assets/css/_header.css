@@ -207,7 +207,7 @@ nav.main-nav > ul > li.menu-item-has-children:hover a{
 }
 
 .hamburgar-cntlr{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .hamburger-icon{
     height: 20px;
@@ -434,6 +434,9 @@ body.allWork {
 @media(max-width: 400px){
     .xs-mobile-menu{
         max-width: 100%;
+    }
+    .hamburgar-cntlr {
+        margin-left: 15px;
     }
 }
 
