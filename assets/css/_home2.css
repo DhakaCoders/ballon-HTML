@@ -101,6 +101,7 @@
 {
     font-size: 12px;
     top: 12px;
+    margin-top: 0;
 }
 .hm-page-bnr-input-field-row.input-col-2 input[type=text]:focus + label,
 .hm-page-bnr-input-field-row.input-col-2 input[type=text]:valid + label

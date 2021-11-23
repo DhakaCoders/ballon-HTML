@@ -61,10 +61,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px; 
+    /*height: 200px; */
 }
 .comp-card-logo img {
     border-radius: 100%;
+    height: 200px;
 }
 .bln-comp-card-cntnt-rgt{
     width: 80.2%;
@@ -770,7 +771,7 @@
     left: 22px!important;
 }
 .calender-icon i {
-    top: -2px!important;
+    top: -1px!important;
     left: 18px!important;
 }
 
@@ -787,15 +788,14 @@
     display: flex;
     position: relative;
 }
-.rating-stars> ul> li{}
-.rating-stars> ul> li > i {
+.rating-stars> ul> li > a{
     padding: 0 1px;
-}
-.rating-stars> ul> li> i a{
     display: inline-block;
 }
-.rating-stars> ul> li> i> a> img{
-    width: 24px;
+.rating-stars> ul> li> a >i{
+    display: inline-block;
+    font-size: 24px;
+    color: #ffcc00;
 }
 .revw-rate {
     /* position: absolute; */
@@ -843,13 +843,13 @@
 }
 /*__________________________________________responsive________________________________________*/
 @media(max-width: 1299px){
-    .comp-card-logo{
+    .comp-card-logo img{
         height: 180px;
     }
 }
 @media(max-width: 1199px){
-    .comp-card-logo{
-        /*height: 180px;*/
+    .comp-card-logo img{
+        /*height: 170px;*/
     }
     .bln-comp-cntnt-top {
         padding-bottom: 40px;
