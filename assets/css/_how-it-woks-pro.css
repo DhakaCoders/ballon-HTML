@@ -218,8 +218,6 @@
 		padding-right: 0;
 	}
 	.bln-pkg-grd-desc{
-		max-width: 265px;
-		margin: 0 auto;
 		text-align: left;
 		padding-bottom: 30px;
 	}
@@ -235,7 +233,7 @@
 	}
 	.bln-pkg-grid-item-cntlr{
 		text-align: center;
-		padding: 20px 20px 23px;
+		padding: 30px 20px 30px;
 	}
 	.fl-pkg-grd-ftr-btn .fl-btn{
 		font-size: 15px;
@@ -271,4 +269,11 @@
 		margin-bottom: 18px;
 	}
 
+}
+
+
+@media(max-width: 400px){
+	.fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 100%;
+	}
 }
