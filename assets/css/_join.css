@@ -228,6 +228,7 @@
         margin-right:5px;
     }
     .join-contant-sec {
+        padding-top: 50px;
         padding-bottom: 70px;
     }
     .join-contant-cntlr {
@@ -310,9 +311,6 @@
     .join-contant-inner {
         padding-bottom: 30px;
         margin-bottom: 20px;
-    }
-    .join-contant-sec {
-        padding-bottom: 40px;
     }
 }
 @media(max-width:400px){
