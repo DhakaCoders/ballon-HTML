@@ -247,6 +247,11 @@
         padding-bottom: 50px;
         margin-bottom: 30px;
     }
+    .join-btm-contant{
+        max-width: 518px;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 575px){
