@@ -652,10 +652,6 @@
     padding-right: 15px;
     width: 50%;
 }
-.bln-qualftion-list ul{}
-.bln-qualftion-list ul li{
-    padding-bottom: 5px;
-}
 .bln-qualftion-list ul li:before{
     content: none;
 }
