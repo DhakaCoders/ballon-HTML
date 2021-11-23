@@ -401,6 +401,9 @@ body.allWork {
         content: "\f106"!important;
         color: #fa5252;
     }
+    .xs-menu nav.main-nav > ul > li.menu-item-has-children.sub-menu-arrow{
+        padding-bottom: 0;
+    }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
         position: static;
         z-index: 15;
