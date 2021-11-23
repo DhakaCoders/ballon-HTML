@@ -8,8 +8,8 @@
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 224px;
-    width: 470px;
+	height: 230px;
+    width: 555px;
 	z-index: 2;
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
@@ -252,7 +252,19 @@ body.home .cta-module-cntlr{
 }
 
 /*responsive*/
-@media(max-width: 1699px){
+@media(max-width: 1899px){
+	.professionals-lft-cloud{
+		height: 170px;
+		width: 400px; 
+	}
+}
+@media(max-width: 1799px){
+	.professionals-lft-cloud{
+		height: 230px;
+		width: 555px;
+	}
+}
+@media(max-width: 1499px){
 
 }
 @media(max-width: 1399px){
