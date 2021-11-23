@@ -49,10 +49,12 @@
     text-transform: capitalize;
 }
 .myaccount-menu ul li a.active,
-.myaccount-menu ul li.current a,
-.myaccount-menu ul li a:hover{
+.myaccount-menu ul li.current a{
 	color:#fa5252;
 	font-weight:600;
+}
+.myaccount-menu ul li a:hover{
+    color:#fa5252;
 }
 .logout-link a{
 	color:#fa5252;
