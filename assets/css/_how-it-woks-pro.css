@@ -182,7 +182,7 @@
 		font-size: 28px;
 	}
 	.pricing-plans-sec{
-		padding-top: 45px;
+		padding-top: 50px;
 		padding-bottom: 10px;
 	}
 
@@ -196,9 +196,6 @@
 	}
 	.how-it-works-grid-item-cntlr i{
 		margin-bottom: 14px;
-	}
-	.pricing-plans-sec-entry-hdr{
-		padding-bottom: 15px;
 	}
 	.bln-pkg-grid-item-cntlr{
 		padding: 25px 20px 19px;
@@ -230,9 +227,6 @@
 		margin-bottom: 15px;
 		font-size: 23px;
 	}
-	.pricing-plans-sec-entry-hdr{
-		padding-bottom: 12px;
-	}
 	.bln-pkg-grid-item-cntlr{
 		text-align: center;
 		padding: 30px 20px 30px;
@@ -244,7 +238,7 @@
 }
 @media(max-width: 575PX){
 	.how-it-works-grid-item-cntlr{
-		max-width: 320px;
+		max-width: 370px;
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
