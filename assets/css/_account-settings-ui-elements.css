@@ -60,16 +60,27 @@
 	color:#fa5252;
 	font-weight:700;
 	position: relative;
-	padding-right:23px;
+	padding-right:26px;
+}
+.logout-link a:hover {
+    color: #7B92D2;
+}
+
+.logout-link a:hover:after {
+    color: #7a92d0;
+    right:0;
 }
 .logout-link a:after {
     content: '\f2f5';
     position: absolute;
     font-family: 'Font Awesome 5 Free';
-    right: 0;
+    right: 3px;
     font-size: 18px;
     top: -1px;
     color: #fa5252;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
 }
 
 /* -------------- form css ------------ */
