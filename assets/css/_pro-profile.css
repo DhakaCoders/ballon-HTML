@@ -79,19 +79,19 @@
 .bln-comp-cntnt-top-lft{
     padding-right: 20px;
 }
-.card-title{
+.bln-comp-card-title{
     font-weight: 600;
     color: #000000;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
-.card-title a, .fancy-heading a, .about-title a, .bln-location-title a, .bln-expert-title a,
+.bln-comp-card-title a, .fancy-heading a, .about-title a, .bln-location-title a, .bln-expert-title a,
  .bln-location-title a, .bln-verified-title a, .bln-qualification-title a,  .bln-review-title a, .bln-item-review-title a{
     text-decoration: none;
     color: #000000;
     display: inline-block;
 }
-.card-title a:hover, .fancy-heading a:hover, .about-title a:hover ,
+.bln-comp-card-title a:hover, .fancy-heading a:hover, .about-title a:hover ,
   .bln-location-title a:hover, .bln-expert-title a:hover,
 .bln-location-title a:hover,  .bln-verified-title a:hover,  .bln-qualification-title a:hover,
 .bln-review-title a:hover,  .bln-item-review-title a:hover{
@@ -157,11 +157,11 @@
     color: #c8c8c8;
     font-weight: 500;
 }
-.bln-comp-card-cntnts-top-rgt{
+.bln-comp-card-invite-job-cntlr{
     margin-left: auto;
 }
-.invite-job{}
-.invite-job a {
+.bln-comp-card-invite-job{}
+.bln-comp-card-invite-job a {
     position: relative;
     display: inline-block;
     padding: 6px;
@@ -170,7 +170,7 @@
     padding-left: 25px;
     border-radius: 10px;
 }
-.invite-job a i {
+.bln-comp-card-invite-job a i {
     position: absolute;
 /*    content: "";
     background-image: url('../images/pp-plus.png');
@@ -191,23 +191,23 @@
     flex-wrap: wrap;
     align-items: center;
 }
-.bln-comp-card-cntnt-btm-lft{
+.bln-comp-card-cntct-methods-cntlr{
     padding-right: 20px;
 }
-.contact-methods ul{
+.bln-comp-card-cntct-methods ul{
     display: flex;
     align-items: center;
     margin: 0 -5px;
     flex-wrap: wrap;
 }
-.contact-methods ul li {
+.bln-comp-card-cntct-methods ul li {
     padding: 0 5px;
     margin-bottom: 10px;
 }
-.contact-methods ul li:after{
+.bln-comp-card-cntct-methods ul li:after{
     content: none;
 }
-.contact-methods ul li a {
+.bln-comp-card-cntct-methods ul li a {
     position: relative;
     font-size: 21px;
     color: #7a92d0;
@@ -222,17 +222,17 @@
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
 }
-.contact-methods ul li a span{
+.bln-comp-card-cntct-methods ul li a span{
      transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
 }
-.bln-location-extra-info a:hover i, .locations-lft ul li a:hover i, .contact-methods ul li a:hover i{}
-.bln-location-extra-info a:hover, .locations-lft ul li a:hover, .contact-methods ul li a:hover{
+.bln-location-extra-info a:hover i, .locations-lft ul li a:hover i, .bln-comp-card-cntct-methods ul li a:hover i{}
+.bln-location-extra-info a:hover, .locations-lft ul li a:hover, .bln-comp-card-cntct-methods ul li a:hover{
     color: #fa5252!important;
 }
-.bln-location-extra-info a i, .locations-lft ul li a i, .contact-methods ul li a i, .invite-job a i{}
-.contact-methods ul li a i {
+.bln-location-extra-info a i, .locations-lft ul li a i, .bln-comp-card-cntct-methods ul li a i, .bln-comp-card-invite-job a i{}
+.bln-comp-card-cntct-methods ul li a i {
     position: absolute;
     left: 0;
     top: 0;
@@ -241,16 +241,16 @@
     font-size: 22px;
     display: inline-block;
 }
-.bln-comp-card-cont-btm-rgt{
+.bln-comp-card-socials-cntlr{
     margin-left: auto;
 }
-.card-socials{}
-.card-socials ul{
+.bln-comp-card-socials{}
+.bln-comp-card-socials ul{
     display: flex;
     margin: 0 -8px;
     flex-wrap: wrap;
 }
-.card-socials ul li{
+.bln-comp-card-socials ul li{
     padding: 0 8px;
 }
 .contact-by-tel a{
@@ -260,10 +260,10 @@
     height: 27px;
     width: 28px;
 }
-.card-socials ul li:after{
+.bln-comp-card-socials ul li:after{
     content: none;
 }
-.card-socials ul li a {
+.bln-comp-card-socials ul li a {
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -271,10 +271,10 @@
     -webkit-transition: initial!important;
     -moz-transition: initial!important;
 }
-.card-socials ul li a span{
+.bln-comp-card-socials ul li a span{
     display: inline-block;
 }
-.card-socials ul li a i{
+.bln-comp-card-socials ul li a i{
     font-size: 27px;
     display: inline-block;
 }
