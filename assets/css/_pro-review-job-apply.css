@@ -36,9 +36,9 @@
 .pro-rvw-job-aply-form-cntlr {
     border-bottom: 18px solid #7a92d0;
     border-radius: 10px;
-    box-shadow: 5px 0px 44px 1px rgb(236 236 236);
-    -ms-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
-    -webkit-box-shadow: 5px 0px 44px 1px rgb(236 236 236);
+    box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -moz-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -webkit-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
 }
 .pro-review-job-apply-sec {
     padding-top: 50px;
@@ -92,7 +92,9 @@
 .job-cntnt-item-dtls-col-pl18 span{
     padding-left: 18px!important;
 }
-
+.pro-review-job-apply-sec .job-cntnt-mdul-hdr{
+    margin-bottom: 20px;
+}
 @media(max-width: 1199px){
     .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
         height: 55px!important;
