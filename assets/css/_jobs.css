@@ -370,7 +370,7 @@
 }
 @media (max-width: 359px){
 	.job-cntnt-item-details ul li {
-	    width: 50%;
+	    width: 100%;
 	}
 	.job-cntnt-item-copy a {
 	    max-width: 18px;
