@@ -397,6 +397,7 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     color: #76787c;
     text-decoration: none;
     position: relative;
+    font-weight: 600;
 }
 .fl-pagination-cntlr ul li span.current,
 .fl-pagination-cntlr ul li a:hover{
