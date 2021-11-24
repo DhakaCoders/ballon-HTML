@@ -58,6 +58,7 @@
 }
 .job-cntnt-item-title{
 	margin-bottom: 8px;
+	line-height: 1.25;
 }
 .job-cntnt-item-title a{
 	display: inline-block;
