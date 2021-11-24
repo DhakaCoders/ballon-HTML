@@ -108,7 +108,9 @@
 .pro-rvw-job-top-contant {
     padding-bottom: 15px;
 }
-
+.pro-rvw-job-mdul-cntlr .job-cntnt-item-des p{
+	font-size: 14px;
+}
 @media(max-width: 1199px){
 	.pro-review-job-sec {
 	    padding-bottom: 70px;
@@ -130,6 +132,14 @@
 	.pro-review-job-sec {
 	    padding-bottom: 60px;
 	    padding-top: 35px;
+	}
+	.pro-rvw-job-contant-cntlr {
+	    max-width: 600px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.pro-rvw-job-mdul-cntlr .job-cntnt-item{
+		padding-right: 20px;
 	}
 }
 @media (max-width: 767px){

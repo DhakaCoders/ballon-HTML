@@ -754,4 +754,8 @@
 	.explr-cntnt-submit{
 		text-align: left;
 	}
+	.explr-cntnt-sortby-cntlr {
+	    max-width: initial; 
+	    margin-left: initial;
+	}
 }
