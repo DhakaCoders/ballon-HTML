@@ -171,6 +171,10 @@
 	    padding-bottom: 15px;
 	    padding-top: 15px;
 	}
+	.pro-rvw-job-aply-lft .profile{
+		height: 120px;
+		width: 120px;
+	}
 }
 @media (max-width: 359px){
 	.pro-rvw-job-mdul-cntlr .job-cntnt-item-pro-msg ul li {
