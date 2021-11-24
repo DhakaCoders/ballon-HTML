@@ -450,6 +450,7 @@
     font-style: italic;
     text-decoration: none;
     position: relative;
+    display: inline-block;
 }
 .pp-loc-exprt-xtra-info a i {
     display: inline-block;
@@ -780,6 +781,22 @@
 
 
 @media(max-width: 1199px){
+.pp-loc-exprt-cntnt-lft {
+    padding-right: 35px;
+    width: 60%;
+}
+.pp-loc-exprt-cont-rgt {
+    width: 40%;
+    padding-right: 0;
+}
+.pp-about-desc p {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+    .pp-about-fancy-gallery {
+    height: 230px;
+}
 .pp-company-intro-invite-job a i {
     left: 12px;
     top: 7px;
@@ -811,25 +828,96 @@
     margin: 0 -6px;
 }
 .pp-about-left {
-    width: 55%;
-    padding-right: 40px;
+    width: 60%;
+    padding-right: 30px;
 }
 .pp-about-rgt {
-    width: 45%;
+    width: 40%;
 }
 .pp-about-fancy-more-inln-img-item:after{
     height: 37px;
     width: 37px;
 }
-
-
-
+.pp-loc-exprt-location-title {
+    padding-left: 22px;
+}
+.pp-loc-exprt-location-title i {
+    top: 1px;
+    font-size: 20px;
+}
+.pp-about-fancy-title i img {
+    width: 29px;
+}
+.pp-loc-exprt-google-map-cntlr {
+    width: 68%;
+    padding-left: 10px;
+}
+.pp-loc-exprt-locations {
+    padding-right: 15px;
+    width: 32%;
+}
+.pp-loc-exprt-xtra-info {
+    padding-top: 20px;
+}
+.pp-loc-exprt-locations ul li a{
+    font-size: 19px;
+}
+.pp-loc-exprt-xtra-info a{
+    font-size: 16px;
+}
+.pp-loc-exprt-expertise-title i img{
+    height: 23px;
+}
+.pp-loc-exprt-expertise-title {
+    padding-left: 28px;
+}
+.pp-loc-exprt-expert-sectors ul li span {
+    padding: 7px 9px;
+    font-size: 17px;
+}
+.pp-about-fancy-more-items {
+    height: 100px;
+    width: 100px;
+    right: 10px;
+    bottom: -27px;
+}
 
 }
 
 
 
 @media(max-width: 991px){
+    .pp-about-fancy-gallery{
+    height: 250px;
+}
+    .pp-loc-exprt-expertise-title i img {
+    height: 20px;
+}
+.pp-loc-exprt-expertise-title {
+    padding-left: 25px;
+}
+.pp-loc-exprt-location-title{
+    padding-left: 20px;
+}
+.pp-loc-exprt-location-title i {
+    font-size: 19px;
+}
+.pp-loc-exprt-xtra-info a {
+    font-size: 14px;
+}
+.pp-loc-exprt-locations {
+    padding-right: 9px;
+}
+.pp-loc-exprt-locations ul li a {
+    font-size: 18px;
+}
+.pp-loc-exprt-expert-sectors ul li span {
+    padding: 6px 8px;
+    font-size: 16px;
+}
+.pp-about-desc p {
+    margin-bottom: 10px;
+}
 .pp-company-intro-item {
     padding: 20px;
 }
@@ -918,19 +1006,6 @@
 .pp-company-introduce-cntlr {
     margin-bottom: 25px;
 }
-.pp-about-left {
-    padding-right: 25px;
-}
-.pp-about-desc p{
-    font-size: 15px;
-    line-height: 1.2;
-}
-.pp-about-fancy-more-items {
-    height: 100px;
-    width: 100px;
-    right: 10px;
-    bottom: -27px;
-}
 .pp-about-title {
     padding-left: 28px;
 }
@@ -941,11 +1016,24 @@
 
 
 
-
-
 }
 @media(max-width: 767px){
-        .pp-company-intro-contact-methods ul li a {
+.pp-loc-exprt-expert-sectors ul li span {
+    padding: 5px 6px;
+    font-size: 14px;
+}
+.pp-loc-exprt-locations ul li a {
+    font-size: 17px;
+}
+.pp-loc-exprt-expert-sectors ul li span {
+    padding: 5px 7px;
+    font-size: 15px;
+}
+.pp-about-left {
+    width: 60%;
+    padding-right: 20px;
+}
+.pp-company-intro-contact-methods ul li a {
     font-size: 15px;
     padding: 6px 7px;
     padding-left: 33px;
@@ -1031,16 +1119,11 @@
     padding: 8px;
     margin-top: 1px;
 }
-.pp-about-desc p {
-    font-size: 15px;
-    line-height: 1.1;
-    margin-bottom: 15px;
-}
 .pp-about-title {
     padding-left: 25px;
 }
 .pp-about-fancy-title i img {
-    width: 27px;
+    width: 25px;
 }
 .pp-about-fancy-title {
     padding-left: 37px;
@@ -1059,11 +1142,38 @@
     height: 28px;
     width: 28px;
 }
+.pp-loc-exprt-locations {
+    padding-right: 0;
+    padding-top: 15px;
+    order: 2;
+    width: 100%;
+}
+.pp-loc-exprt-google-map-cntlr {
+    width: 100%;
+    padding-left: 10px;
+    order: 1;
+}
+.pp-loc-exprt-locations ul {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+.pp-loc-exprt-locations ul li {
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+.pp-loc-exprt-locations ul li a {
+    font-size: 16px;
+}
+.pp-loc-exprt-xtra-info {
+    padding-top: 0;
+}
 
 
 
 }
 @media(max-width: 639px){
+
 .pp-company-intro-logo-cntlr {
     width: 100%;
     max-width: 200px;
@@ -1089,6 +1199,15 @@
 
 
 @media(max-width: 575px){
+    .pp-loc-exprt-locations ul li a {
+    font-size: 15px;
+}
+.pp-loc-exprt-locations ul li {
+    padding: 0 4px;
+}
+.pp-loc-exprt-locations ul {
+    margin: 0 -4px;
+}
     .pp-company-intro-top-rgt {
     margin-left: initial;
 }
@@ -1160,6 +1279,28 @@
 
 
 @media(max-width: 479px){
+.pp-loc-exprt-cntnt-lft {
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.pp-loc-exprt-cont-rgt {
+    width: 100%;
+    padding-left: 0;
+}
+.pp-loc-exprt-google-map-cntlr{
+    padding-left: 0;
+}
+.pp-loc-exprt-expert-sectors ul li span {
+    padding: 4px 7px;
+    font-size: 16px;
+}
+.pp-about-fancy-more-items {
+    height: 90px;
+    width: 90px;
+    right: 15px;
+    bottom: -15px;
+}
     .pp-company-intro-title {
     font-size: 24px!important;
 }
@@ -1192,7 +1333,6 @@
 .pp-about-fancy-gallery {
     height: 200px;
 }
-
 
 @media (max-width: 379px){
 
