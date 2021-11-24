@@ -5,10 +5,13 @@
 }
 .my-account-sec{
     padding-top: 35px;
-    padding-bottom:129px;
+    padding-bottom:109px;
+}
+.my-account-setting-sec-ui .myaccount-navigation-inner{
+    padding-top: 5px;
 }
 .my-account-setting-sec-ui .myaccount-content-cntlr{
-	padding-bottom:160px;
+	padding-bottom: 100px;
 }
 .myaccount-navigation {
     width: 25.64%;
@@ -228,7 +231,7 @@
         padding-bottom:28px;
     }
     .my-account-setting-sec-ui .myaccount-content-cntlr{
-        padding-bottom: 140px;
+        padding-bottom: 85px;
     }
     .myaccount-title-cntlr{
         margin-bottom:35px;
@@ -244,7 +247,7 @@
         font-size:16px;
     }
     .myaccount-content {
-        padding-left: 15px;
+        padding-left: 20px;
         padding-right: 15px;
     }
     .myaccount-content-cntlr{
@@ -310,7 +313,7 @@
         margin: 0 -5px;
     }
     .my-account-setting-sec-ui .myaccount-content-cntlr {
-        padding-bottom: 100px;
+        padding-bottom: 70px;
     }
     .logout-link a:after {
         font-size: 15px;
@@ -338,7 +341,7 @@
         padding-left: 0;
     }
     .my-account-setting-sec-ui .myaccount-content-cntlr {
-        padding-bottom: 70px;
+        padding-bottom: 50px;
     }
 }
 @media(max-width:575px){
