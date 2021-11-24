@@ -162,6 +162,9 @@
     .pro-rvw-job-aply-mdul-cntlr .job-cntnt-item{
         flex-wrap: wrap;
     }
+    .pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-title{
+        padding-right: 0px;
+    }
 }
 @media(max-width: 479px){
     .pro-rvw-job-aply-form .input-field-col textarea, 
