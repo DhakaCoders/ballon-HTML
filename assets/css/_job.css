@@ -80,6 +80,7 @@
 	position: absolute;
 	top: 50%;
 	left: 0;
+    color: #fa5252;
 	transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -102,9 +103,11 @@
 }
 .job-cntnt-item-copy a{
 	display: inline-block;
+	color: #000000;
+	font-size: 20px;
 }
 .job-cntnt-item-copy a:hover{
-	opacity: 0.7;
+	color: #fa5252;
 }
 .job-cntnt-item-copy a img{
 	display: inline-block;
@@ -229,13 +232,13 @@
 }
 @media (max-width: 1199px){
 	.job-content-sec {
-	    padding-bottom: 150px;
+	    padding-bottom: 130px;
 	}
 }
 @media (max-width: 991px){
 	.job-content-sec {
 		padding-top: 40px;
-	    padding-bottom: 120px;
+	    padding-bottom: 100px;
 	}
 }
 @media (max-width: 767px){
@@ -249,8 +252,8 @@
 		padding: 30px 20px;
 	}
 	.job-content-sec {
-		padding-top: 35px;
-	    padding-bottom: 100px;
+		padding-top: 50px;
+	    padding-bottom: 70px;
 	}
 }
 @media (max-width: 575px){
@@ -264,6 +267,7 @@
 	.job-cntnt-item-copy a{
 		max-width: 20px;
 		width: 100%;
+		font-size: 18px;
 	}
 	.active-job-module-cntlr {
 	    margin-bottom: 18px;
@@ -272,7 +276,7 @@
 	    margin-bottom: 40px;
 	}
 	.job-content-sec {
-	    padding-bottom: 75px;
+	    padding-bottom: 50px;
 	}
 }
 @media (max-width: 479px){
@@ -296,9 +300,6 @@
 	.posting-job-module-cntlr {
 	    margin-bottom: 35px;
 	}
-	.job-content-sec {
-	    padding-bottom: 60px;
-	}
 }
 @media (max-width: 359px){
 	.job-cntnt-item-details ul li {
@@ -306,5 +307,8 @@
 	}
 	.job-cntnt-item-copy a {
 	    max-width: 18px;
+	}
+	.posting-job-module-cntlr {
+	    margin-bottom: 25px;
 	}
 }
