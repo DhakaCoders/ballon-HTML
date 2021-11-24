@@ -95,6 +95,9 @@
 .pro-review-job-apply-sec .job-cntnt-mdul-hdr{
     margin-bottom: 20px;
 }
+.pro-rvw-job-aply-mdul-cntlr .job-cntnt-item{
+    flex-wrap: nowrap;
+}
 @media(max-width: 1199px){
     .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
         height: 55px!important;
@@ -153,6 +156,11 @@
     }
     .pro-review-job-apply-sec {
         padding-bottom: 50px;
+    }
+}
+@media(max-width: 575px){
+    .pro-rvw-job-aply-mdul-cntlr .job-cntnt-item{
+        flex-wrap: wrap;
     }
 }
 @media(max-width: 479px){
