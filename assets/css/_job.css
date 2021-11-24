@@ -109,6 +109,11 @@
 .job-cntnt-item-copy a:hover{
 	color: #fa5252;
 }
+.job-cntnt-item-copy a i{
+	transition: all 0s;
+	-ms-transition: all 0s;
+	-webkit-transition: all 0s;
+}
 .job-cntnt-item-copy a img{
 	display: inline-block;
 	max-height: 23px;
