@@ -435,6 +435,9 @@ body.allWork {
     .xs-menu nav.main-nav > ul > li.current-menu-item a{
         color: #fff;
     }
+    nav.main-nav > ul > li.menu-btn{
+        padding-top: 20px;
+    }
 }
 
 @media(max-width: 400px){

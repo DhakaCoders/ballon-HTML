@@ -35,6 +35,7 @@
 	color: #828282;
 	margin-bottom: 30px;
 	font-size: 33px;
+	letter-spacing: 0.3px;
 }
 
 .hm-page-bnr-input-field{
@@ -209,15 +210,15 @@
 	border-radius: 10px;
 }
 .service-grd-item-img-ctlr{
-	width: 55%;
+	width: 54.3%;
 }
 .service-grd-item-des-ctlr{
-	width: 45%;
+	width: 45.7%;
 }
 
 .service-grd-item-img{
 	height: 100%;
-	border-radius: 10px;
+	border-radius: 11px;
 }
 .service-grd-item-img img{
 	display: none;
@@ -238,6 +239,7 @@
 .service-grd-item-des-title{
 	padding-left: 50px;
 	position: relative;
+	text-transform: capitalize;
 }
 .service-grd-item-des-title i{
 	position: absolute;
@@ -257,6 +259,7 @@
 	padding-bottom: 8px;
 	padding-right: 20px;
 	font-weight: 500;
+	text-transform: capitalize;
 }
 
 
@@ -379,7 +382,7 @@
 		padding: 35px 30px 40px 30px;
 	}
 	.hm-page-bnr-subtitle{
-		font-size: 28px!important;
+		font-size: 29px!important;
 	}
 	.hm-page-bnr-input-field-row label{
 		font-size: 22px;
@@ -398,6 +401,11 @@
 	}
 	.service-grd-item-des{
 		padding: 20px 20px;
+		padding-left: 30px;
+	}
+	.service-grds > ul > li:nth-child(2n+2) .service-grd-item-des{
+		padding-left: 20px;
+		padding-right: 30px;
 	}
 	.service-grd-item-des-btn a{
 		font-size: 20px;
@@ -419,7 +427,7 @@
 	    padding: 30px 20px 30px 20px;
 	}
 	.hm-page-bnr-subtitle {
-	    font-size: 25px!important;
+	    font-size: 27px!important;
 	}
 	.hm-page-bnr-input-field-row label {
 	    font-size: 20px;
@@ -469,7 +477,7 @@
 
 @media(max-width: 767px){
 	.hm-page-bnr-subtitle {
-	    font-size: 22px!important;
+	    font-size: 24px!important;
 	    margin-bottom: 25px;
 	}
 	.hm-page-bnr-input-field{
@@ -526,6 +534,7 @@
 	.hire-professional-intro{
 		padding-bottom: 55px;
 	}
+
 }
 
 @media(max-width: 575px){
@@ -536,6 +545,7 @@
 	.input-col-2{
 		width: 100%;
 	}
+
 	.hm-page-bnr-input-field-row.input-col-1 input[type=text]{
 		border-right-width: 2px;
 		border-top-right-radius: 5px;
@@ -563,15 +573,18 @@
 		width: 100%;
 		text-align: center;
 	}
+	.hm-page-bnr-title{
+		margin-bottom: 20px;
+	}
 }
 
 @media(max-width: 479px){
 	.hm-page-bnr-title{
-		margin-bottom: 12px;
+		
 		font-size: 28px;
 	}
 	.hm-page-bnr-subtitle {
-	    font-size: 18px!important;
+	    font-size: 20px!important;
 	}
 	.hm-page-bnr-input-field-row label {
 	    font-size: 14px;
@@ -591,6 +604,25 @@
 	}
 	.hm-page-bnr-input-field-row input[type=text]{
 		height: 60px;
+	}
+	.hm-page-bnr-input-field-row.input-col-1 input[type=text]{
+		padding: 15px;
+
+	}
+	.hm-page-bnr-input-field-row.input-col-1 label{
+		left: 15px;
+	}
+	.hm-page-bnr-input-field-row.input-col-2 input[type=text]{
+		padding-left: 28px;
+	}
+	.service-grd-item-des{
+		padding-left: 20px;
+	}
+	.service-grds > ul > li:nth-child(2n+2) .service-grd-item-des{
+		padding-right: 20px;
+	}
+	.service-grd-item-des ul li{
+		font-size: 15px;
 	}
 }
 @media(max-width: 359px){
