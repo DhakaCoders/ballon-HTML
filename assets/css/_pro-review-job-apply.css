@@ -52,8 +52,9 @@
     margin-right: 10px;
     padding-bottom: 15px;
 }
-.job-cntnt-item-des span{
+.job-cntnt-item-des > span{
     color: #252525;
+    font-weight: 500;
 }
 .job-cntnt-item-des p{
     color: #616368;
