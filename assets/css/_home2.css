@@ -1,12 +1,8 @@
-
 .hm-page-banner{
 	padding: 40px 0 130px;
 	background-repeat: repeat-x!important;
 	background-position: bottom center!important;
 }
-
-
-
 .hm-page-bnr-des-ctlr{
 	max-width: 930px;
 	width: 100%;
@@ -24,8 +20,6 @@
 	position: relative;
 	z-index: 9;
 }
-
-
 .hm-page-bnr-title{
 	margin-bottom: 8px;
 	font-weight: 700;
@@ -37,7 +31,6 @@
 	font-size: 33px;
 	letter-spacing: 0.3px;
 }
-
 .hm-page-bnr-input-field{
 	display: flex;
 	padding-right: 85px;
@@ -54,8 +47,6 @@
 .hm-page-bnr-input-field-row{
 	margin-bottom: 15px;
 }
-
-
 .hm-page-bnr-input-field-inr{
 	height: 70px;
 	position: relative;
@@ -133,8 +124,6 @@
 	background: #fff;
 	color: #fa5252;
 }
-
-
 .hm-page-bnr-input-field-row label{
 	position: absolute;
 	top: 50%;
@@ -160,8 +149,6 @@
 .hm-page-bnr-input-field-row.input-col-1 label span{
 	color: #9d9d9d;
 }
-
-
 .hm-page-bnr-input-field-row.input-col-2 span{
 	position: absolute;
 	top: 50%;
@@ -173,9 +160,6 @@
 	font-size: 25px;
 	margin-top: -1px;
 }
-
-
-
 .service-sec{
 	padding: 50px 0 25px;
 	position: relative;
@@ -235,7 +219,6 @@
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
-
 .service-grd-item-des-title{
 	padding-left: 50px;
 	position: relative;
@@ -261,8 +244,6 @@
 	font-weight: 500;
 	text-transform: capitalize;
 }
-
-
 .service-grd-item-des-btn{
 	padding-top: 15px;
 	text-align: right;
@@ -295,10 +276,6 @@
 .service-grd-item-des-btn a:hover i{
 	margin-right: -3px;
 }
-
-
-
-
 .hire-professional-sec{
 	padding: 60px 0 40px;
 }
@@ -343,9 +320,6 @@
 	padding-right: 15px;
 	padding-bottom: 30px;
 }
-
-
-
 .hire-pro-grd-item-img{
 	margin-bottom: 30px;
 	max-width: 88px;
@@ -369,11 +343,6 @@
 .hire-pro-grd-item-03 .hire-pro-grd-item-des-title{
 	color: #4cbd64;
 }
-
-
-
-
-
 @media(max-width: 1199px){
 	.hm-page-banner{
 		padding: 40px 0 100px;

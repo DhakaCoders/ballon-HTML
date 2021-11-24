@@ -14,9 +14,6 @@
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
 	background-position: left bottom!important;
-
-	/*height: 160px;
-	width: 400px;*/
 }
 .professionals-rgt-cloud{
 	position: absolute;
@@ -28,9 +25,6 @@
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
 	background-position: right top!important;
-
-	/*height: 185px;
-	width: 566px;*/
 }
 .professionals-cntlr{
 	position: relative;
@@ -85,11 +79,7 @@
 }
 .professionals-desc-btn .fl-btn {
     min-width: 188px;
-   /* padding-top: 21px;
-    padding-bottom: 22px;*/
 }
-
-
 .questions-sec{
 	padding-top: 85px;
 	padding-bottom: 90px;
@@ -160,8 +150,6 @@
 .bln-accordion-des p:last-of-type{
 	margin-bottom: 0;
 }
-
-
 .cta-module-sec{
 	background: #f5f7fa;
 	position: relative;
@@ -268,8 +256,6 @@ body.home .cta-module-cntlr{
 	min-width: 100%;
 	font-size: 22px;
 }
-
-/*responsive*/
 @media(max-width: 1899px){
 	.professionals-lft-cloud{
 		height: 170px;
@@ -287,9 +273,6 @@ body.home .cta-module-cntlr{
 		height: 230px;
 		width: 555px;
 	}
-}
-@media(max-width: 1499px){
-
 }
 @media(max-width: 1299px){
 	.professionals-lft-cloud{
