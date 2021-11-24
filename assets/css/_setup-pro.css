@@ -35,12 +35,24 @@
     transition:.2s;
     z-index:9;
 }
+.input-tol-tip.tol-tip.tol-tip-cntlr:after{
+    content: "\f0de"!important;
+    position: absolute;
+    left: -4px;
+    font-family: 'FontAwesome';
+    top: 100%;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 8px;
+    z-index: 1111;
+    display: block;
+}
 .setup-pro-contant-sec .input-field-col input{
 	padding-right: 45px;
 }
 .setup-pro-contant-sec .tol-tip-des{
 	right: 15px;
-    top: 70px;
+    top: 57px;
     left: initial;
 }
 @media(max-width: 1199px){
