@@ -38,6 +38,11 @@
 
 .sitemap ol li a{
 	color: #FF674D;
+    text-decoration: none;
+}
+.sitemap ol li a:focus{
+    text-decoration: underline;
+    color: #2b2b2b;
 }
 .sitemap ol li{
 	padding-left: 25px;
