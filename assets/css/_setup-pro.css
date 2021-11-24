@@ -40,7 +40,7 @@
 }
 .setup-pro-contant-sec .tol-tip-des{
 	right: 15px;
-    top: 50px;
+    top: 70px;
     left: initial;
 }
 @media(max-width: 1199px){
@@ -62,6 +62,9 @@
 	.join-contant-sec.setup-pro-contant-sec {
 	    padding-bottom: 60px;
 	}
+	.setup-pro-contant-sec .tol-tip-des{
+	    top: 65px;
+	}
 }
 @media(max-width: 767px){
 	.setup-pro-form-title-cntlr {
@@ -80,9 +83,20 @@
 	    padding-bottom: 50px;
 	    padding-top: 50px;
 	}
+	.input-tol-tip.tol-tip-cntlr .tol-tip-des{
+		width: 350px;
+	}
+	.setup-pro-contant-sec .tol-tip-des {
+	    top: 60px;
+	}
 }
 @media(max-width: 575px){
 	.setup-pro-contant-sec .input-fields-cntlr {
 	    padding-bottom: 28px;
+	}
+}
+@media(max-width: 479px){
+	.input-tol-tip.tol-tip-cntlr .tol-tip-des{
+		width: 330px;
 	}
 }
