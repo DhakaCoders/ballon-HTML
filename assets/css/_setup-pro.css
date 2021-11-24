@@ -25,7 +25,7 @@
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	cursor: pointer;
-	z-index: 8;
+	z-index: 21;
 }
 .input-tol-tip.tol-tip-cntlr .tol-tip-des{
     width:395px;
