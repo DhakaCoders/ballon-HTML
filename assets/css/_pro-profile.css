@@ -67,7 +67,6 @@
     justify-content: center;
     align-items: center;
     width: 19.8%;
-    height: 200px;
 }
 .pp-company-intro-logo{
     display: flex;
@@ -76,7 +75,6 @@
 }
 .pp-company-intro-logo img {
     border-radius: 100%;
-    height: 200px;
 }
 .pp-company-intro-cntnts-cntlr {
     width: 80.2%;
@@ -84,7 +82,7 @@
 }
 .pp-company-intro-cntnts-top{
     display: flex;
-    padding-bottom: 60px;
+    padding-bottom: 57px;
     flex-wrap: wrap;
 }
 .pp-company-intro-top-lft{
@@ -191,7 +189,6 @@
 }
 .pp-company-intro-contact-methods ul li {
     padding: 0 5px;
-    margin-bottom: 10px;
 }
 .pp-company-intro-contact-methods ul li:after{
     content: none;
@@ -242,9 +239,6 @@
 .pp-company-intro-socials ul li{
     padding: 0 8px;
 }
-.contact-by-tel a{
-    margin-top: 1px;
-}
 .contact-by-tel a img{
     height: 27px;
     width: 28px;
@@ -256,9 +250,12 @@
     text-decoration: none;
     display: inline-block;
     position: relative;
-     transition: initial!important;
+    transition: initial!important;
     -webkit-transition: initial!important;
     -moz-transition: initial!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pp-company-intro-socials ul li a span{
     display: inline-block;
@@ -298,8 +295,7 @@
     flex-wrap: wrap;
 }
 .pp-about-left {
-    max-width: 56%;
-    width: 100%;
+    width: 56%;
     padding-right: 70px;
 }
 .pp-about-title{
@@ -324,6 +320,7 @@
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 16px;
+    line-height: 1.3;
 }
 .pp-about-desc p:last-child{
     margin-bottom: 0;
@@ -777,23 +774,21 @@
     padding-right: 35px;
 }
 /*__________________________________________responsive________________________________________*/
-@media(max-width: 1299px){
-.pp-company-intro-logo img{
-    height: 180px;
-}
-.pp-comp-cntnt-top {
-    padding-bottom: 32px;
-}
+@media(max-width: 1299px){}
 
 
-}
+
 @media(max-width: 1199px){
-.pp-company-intro-logo img{
-    height: 170px;
+.pp-company-intro-invite-job a i {
+    left: 12px;
+    top: 7px;
 }
-.pp-company-intro-contact-methods ul li a {
+.pp-company-intro-cntnts-top {
+    padding-bottom: 53px;
+}
+    .pp-company-intro-contact-methods ul li a {
     font-size: 20px;
-    padding: 7px 23px;
+    padding: 6px 23px;
     padding-left: 41px;
 }
 .pp-company-intro-rating{
@@ -802,14 +797,383 @@
 .pp-company-intro-item {
     padding: 30px 30px 30px 40px;
 }
+.pp-company-intro-rating i{
+    font-size: 21px;
+}
+.pp-company-intro-socials ul li a i{
+    font-size: 26px;
+}
+.pp-company-intro-socials ul li {
+    padding: 0 6px;
+}
+.pp-company-intro-socials ul{
+    margin: 0 -6px;
+}
+.pp-about-left {
+    width: 55%;
+    padding-right: 40px;
+}
+.pp-about-rgt {
+    width: 45%;
+}
+
+
+
 
 
 }
-@media(max-width: 991px){}
-@media(max-width: 767px){}
-@media(max-width: 639px){}
-@media(max-width: 575px){}
-@media(max-width: 479px){}
-@media(max-width: 379px){}
-@media(max-width: 359px){}
+
+
+
+@media(max-width: 991px){
+.pp-company-intro-item {
+    padding: 20px;
+}
+.pp-company-intro-cntnts-cntlr {
+    padding-left: 20px;
+}
+.pp-company-intro-logo-cntlr{
+    width: 23.8%;
+}
+.pp-company-intro-cntnts-cntlr {
+    width: 76.2%;
+    padding-left: 15px;
+}
+.pp-company-intro-locatn{
+    margin-bottom: 5px;
+}
+.pp-company-intro-cntnts-top {
+    padding-bottom: 25px;
+}
+.pp-company-intro-contact-methods ul li a {
+    font-size: 18px;
+    padding: 6px 8px;
+}
+.pp-company-intro-contact-methods ul li a {
+    font-size: 16px;
+    padding: 6px 7px;
+    padding-left: 34px;
+}
+.pp-company-intro-cntnts-btm-lft {
+    padding-right: 25px;
+}
+.pp-company-intro-contact-methods ul li a i {
+    margin-left: 11px;
+    margin-top: 6px;
+    font-size: 19px;
+}
+.pp-company-intro-contact-methods ul li {
+    padding: 0 3px;
+    margin-bottom: 5px;
+}
+.pp-company-intro-contact-methods ul {
+    margin: 0 -3px;
+}
+.pp-company-intro-item{
+    align-items: center;
+}
+.social-fb a i {
+    height: 25px;
+    width: 25px;
+    font-size: 19px!important;
+}
+.pp-company-intro-socials ul li {
+    padding: 0 4px;
+}
+.pp-company-intro-socials ul {
+    margin: 0 -3px;
+}
+.pp-company-intro-invite-job a {
+    padding: 6px;
+    min-width: 140px;
+    padding-left: 24px;
+    font-size: 16px;
+}
+.pp-company-intro-invite-job a i {
+    left: 11px;
+    top: 8px;
+    font-size: 14px;
+}
+.pp-company-intro-locatn, .pp-company-intro-time{
+    font-size: 16px;
+}
+.pp-company-intro-rating {
+    font-size: 19px;
+    padding-left: 24px;
+}
+.pp-company-intro-rating i {
+    font-size: 19px;
+}
+.pp-company-intro-locatn i{
+    font-size: 18px;
+}
+.pp-plr {
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.pp-company-introduce-cntlr {
+    margin-bottom: 25px;
+}
+
+
+.pp-about-left {
+    padding-right: 25px;
+}
+.pp-about-desc p{
+    font-size: 15px;
+    line-height: 1.2;
+}
+.pp-about-fancy-more-items {
+    height: 100px;
+    width: 100px;
+    right: 16px;
+    bottom: -29px;
+}
+.pp-about-title {
+    padding-left: 28px;
+}
+
+
+
+
+
+
+}
+@media(max-width: 767px){
+        .pp-company-intro-contact-methods ul li a {
+    font-size: 15px;
+    padding: 6px 7px;
+    padding-left: 33px;
+}
+.pp-company-intro-cntnts-cntlr {
+    width: 71.2%;
+    padding-left: 15px;
+}
+.pp-company-intro-logo-cntlr {
+    width: 28.8%;
+}
+.pp-company-intro-title {
+    margin-bottom: 5px;
+}
+.pp-company-intro-item {
+    padding: 20px 20px 20px 25px;
+}
+
+.pp-company-intro-contact-methods ul li a {
+    font-size: 17px;
+    padding: 6px 7px;
+    padding-left: 33px;
+}
+.pp-company-intro-contact-methods ul li a i {
+    margin-left: 11px;
+    margin-top: 6px;
+    font-size: 17px;
+}
+.pp-company-intro-locatn, .pp-company-intro-time {
+    font-size: 15px;
+}
+.pp-company-intro-top-rgt {
+    margin-left: initial;
+}
+.pp-company-intro-btm-rgt {
+    margin-left: initial;
+    margin-top: 7px;
+}
+.pp-plr {
+    padding-left: 0;
+    padding-right: 0;
+}
+.pp-company-intro-invite-job a {
+    padding: 4px;
+    min-width: 125px;
+    padding-left: 22px;
+    font-size: 15px;
+}
+.pp-company-intro-invite-job a i {
+    left: 9px;
+    top: 7px;
+    font-size: 12px;
+}
+.pp-company-intro-top-lft {
+    padding-right: 60px;
+    padding-bottom: 5px;
+}
+.pp-company-intro-rating i {
+    font-size: 17px;
+}
+.pp-company-intro-locatn i {
+    font-size: 16px;
+}
+.pp-company-intro-locatn{
+    padding-left: 16px;
+}
+.pp-company-intro-title{
+    font-size: 24px!important;
+}
+.pp-company-intro-locatn {
+    margin-bottom: 0;
+}
+.pp-company-intro-cntnts-top {
+    padding-bottom: 15px;
+}
+.pp-company-intro-socials ul li a i {
+    font-size: 24px;
+}
+.social-fb a i {
+    height: 22px;
+    width: 22px;
+    font-size: 17px!important;
+    padding: 8px;
+    margin-top: 1px;
+}
+
+}
+@media(max-width: 639px){
+.pp-company-intro-logo-cntlr {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.pp-company-intro-cntnts-cntlr {
+    width: 100%;
+    padding-left: 0;
+}
+.pp-company-intro-top-rgt {
+    margin-left: auto;
+}
+.pp-company-intro-btm-rgt {
+    margin-top: 0!important;
+}
+
+
+
+}
+@media(max-width: 575px){
+    .pp-company-intro-top-rgt {
+    margin-left: initial;
+}
+.pp-company-intro-rating {
+    font-size: 17px;
+    padding-left: 22px;
+}
+.pp-company-intro-title {
+    font-size: 27px!important;
+}
+.pp-company-intro-top-lft {
+    padding-right: 45px;
+    padding-bottom: 5px;
+}
+.pp-company-intro-locatn, .pp-company-intro-time {
+    font-size: 17px;
+}
+.pp-company-intro-rating {
+    font-size: 17px;
+    padding-left: 22px;
+}
+.pp-company-intro-socials ul li a i {
+    font-size: 23px;
+}
+.pp-company-intro-cntnts-btm-lft {
+    padding-right: 10px;
+}
+.pp-company-intro-contact-methods ul li a i {
+    margin-left: 7.5px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+.pp-company-intro-contact-methods ul li a {
+    font-size: 17px;
+    padding: 9px 15px;
+    padding-left: 30px;
+}
+.social-fb a i {
+    height: 20px;
+    width: 20px;
+    font-size: 14px!important;
+    padding: 2px;
+    margin-top: 1px;
+}
+
+}
+@media(max-width: 479px){
+    .pp-company-intro-title {
+    font-size: 24px!important;
+}
+.pp-company-intro-top-lft {
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.pp-company-intro-item {
+    padding: 20px 15px 20px 15px;
+}
+.pp-company-intro-locatn, .pp-company-intro-time {
+    font-size: 14px;
+}
+.pp-company-intro-contact-methods ul li a i {
+    margin-left: 4px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.pp-company-intro-cntnts-btm-lft {
+    padding-right: 10px;
+}
+.pp-company-intro-contact-methods ul li a {
+    font-size: 14px;
+    padding: 7px 8px;
+    padding-left: 20px;
+}
+.pp-company-intro-btm-rgt {
+    /*margin-top: 5px!important;*/
+}
+.pp-company-intro-contact-methods ul li {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 379px){
+
+}
+
+}
+@media(max-width: 359px){
+    .pp-company-intro-contact-methods ul li {
+    margin-bottom: 5px;
+}
+.pp-company-intro-locatn, .pp-company-intro-time {
+    font-size: 13px;
+}
+.pp-company-intro-item {
+    padding: 20px 10px 20px 10px;
+}
+.pp-company-intro-contact-methods ul li a i {
+    margin-left: 4px;
+    margin-top: 9px;
+    font-size: 12px;
+}
+.pp-company-intro-contact-methods ul li a {
+    font-size: 13px;
+    padding: 7px 7px;
+    padding-left: 17px;
+}
+.pp-company-intro-cntnts-btm-lft {
+    padding-right: 0;
+}
+.pp-company-intro-socials ul li a i {
+    font-size: 21px;
+}
+.pp-company-intro-rating {
+    font-size: 18px;
+    padding-left: 20px;
+}
+.pp-company-intro-rating i {
+    font-size: 16px;
+}
+.pp-company-intro-locatn i {
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+
+}
 @media(max-width: 320px){}
