@@ -8,7 +8,7 @@
 }
 .pro-rvw-job-mdul-cntlr .job-cntnt-item-dtls-col span i.fas.fa-user,
 .pro-rvw-job-top-con-inr .job-cntnt-item-dtls-col span i.fas.fa-user {
-    margin-top: -2px;
+
     color: #fa5252;
 }
 .pro-rvw-job-mdul-cntlr .job-cntnt-item-dtls-col span i,
@@ -17,6 +17,9 @@
 }
 .pro-rvw-job-mdul-cntlr .job-cntnt-item-rgt{
 	margin-left: 0;
+}
+.job-cntnt-item-dtls-col-pl15 span{
+	padding-left: 15px!important;
 }
 .pro-rvw-job-mdul-cntlr .job-cntnt-item-rgt-2{
 	margin-left: auto;
@@ -141,6 +144,10 @@
 	.pro-rvw-job-mdul-cntlr .job-cntnt-item{
 		padding-right: 20px;
 	}
+	.pro-review-job-sec .job-cntnt-item-title{
+		padding-right: 0;
+		margin-bottom: 15px;
+	}
 }
 @media (max-width: 767px){
 	.job-cntnt-item-copy{
@@ -172,5 +179,8 @@
 	.pro-rvw-job-top-con-inr .profile, .pro-rvw-job-aply-lft .profile {
 	    height: 71px;
 	    width: 71px;
+	}
+	.pro-review-job-sec .job-cntnt-item-details ul li{
+		width: 100%;
 	}
 }
