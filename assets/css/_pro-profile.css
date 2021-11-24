@@ -1027,6 +1027,23 @@
     padding: 8px;
     margin-top: 1px;
 }
+.pp-about-desc p {
+    font-size: 15px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+.pp-about-title {
+    padding-left: 25px;
+}
+.pp-about-fancy-title i img {
+    width: 30px;
+}
+.pp-about-fancy-title {
+    padding-left: 37px;
+}
+
+
+
 
 }
 @media(max-width: 639px){
