@@ -247,6 +247,9 @@
 .export-job-list-cv a:hover{
 	color: #fa5252;
 }
+.job-cntnt-item-dtls-col-pl22 span{
+	padding-left: 22px!important;
+}
 @media (max-width: 1199px){
 	.job-content-sec {
 	    padding-bottom: 130px;
@@ -264,13 +267,17 @@
 	}
 	.active-job-module-cntlr .job-cntnt-item-rgt{
 		width: 100%;
-		padding-top: 30px;
+		padding-top: 20px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt .job-cntnt-item-pro-msg ul{
+		justify-content: flex-end;
 	}
 }
 @media (max-width: 767px){
 	.job-cntnt-item-create-date {
-	    padding-bottom: 30px;
+	    padding-bottom: 15px;
 	}
+
 	.job-cntnt-item-title{
 		padding-right: 30px;
 	}
@@ -287,6 +294,12 @@
 	.posting-job-mdul .company-item-lft{
 		margin-bottom: 20px;
 	}
+	.job-content-cntlr{
+		max-width: 500px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media (max-width: 639px){
 	.active-job-module-cntlr .job-cntnt-item-lft{
@@ -297,11 +310,14 @@
 	    padding-top: 0;
 	}
 	.posting-job-mdul .company-item-lft {
-	    width: 150px;
-	    height: 150px;
+	    width: initial;
+	    height: initial;
 	    margin-left: auto;
 	    margin-right: auto;
 	    margin-bottom: 30px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt .job-cntnt-item-pro-msg ul {
+		justify-content: flex-start;
 	}
 }
 @media (max-width: 575px){
@@ -347,6 +363,9 @@
 	}
 	.posting-job-module-cntlr {
 	    margin-bottom: 35px;
+	}
+	.job-cntnt-item-details.job-page-cntnt-item-details ul li{
+		width: 100%;
 	}
 }
 @media (max-width: 359px){
