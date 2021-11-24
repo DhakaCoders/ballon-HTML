@@ -55,6 +55,14 @@
 .job-cntnt-item-title{
 	margin-bottom: 8px;
 }
+.job-cntnt-item-title a{
+	display: inline-block;
+	text-decoration: none;
+	color: #2b2b2b;
+}
+.job-cntnt-item-title a:hover{
+	
+}
 .job-cntnt-item-details{
 	margin-bottom: 5px;
 }
