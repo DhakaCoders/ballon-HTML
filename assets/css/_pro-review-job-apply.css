@@ -88,6 +88,9 @@
 .pro-rvw-job-aply-mdul-cntlr .job-cntnt-item-dtls-col span i.fas.fa-user{
     margin-top: -2px;
 }
+.job-cntnt-item-dtls-col-pl18 span{
+    padding-left: 18px!important;
+}
 
 @media(max-width: 1199px){
     .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
