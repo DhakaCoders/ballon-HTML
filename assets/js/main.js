@@ -211,7 +211,14 @@ $('.bln-accordion-hdr').on('click', function(){
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1199,
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 767,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
