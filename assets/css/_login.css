@@ -110,7 +110,9 @@
 .login-top-mgs span a:hover{
   color: #fa5252;
 }
-
+.login-contant-sec .join-contant-inner{
+    padding-bottom: 45px;
+}
 @media(max-width: 991px){
     .join-contant-sec.login-contant-sec {
         padding-bottom: 60px;
