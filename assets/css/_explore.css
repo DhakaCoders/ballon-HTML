@@ -146,6 +146,7 @@
 	font-size: 18px;
 	color: #bcbcbc;
 	cursor: pointer;
+	font-style: italic;
 	display: none;
 }
 .expertise-filters-module{
@@ -324,7 +325,7 @@
 .explr-company-item{
 	border: 2px solid #c6c6c6;
 	border-radius: 7px;
-	padding: 25px 16px 10px 14px;
+	padding: 25px 16px 13px 14px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -335,6 +336,11 @@
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
 	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
 	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
+	border-radius: 5px;
+	overflow: hidden;
+}
+.company-item-img{
+
 }
 .company-item-rgt{
 	width: 77%;
@@ -383,13 +389,13 @@
 }
 .company-item-top-dtls-col span.company-item-top-dtls-info-title{
 	position: relative;
-	padding-left: 22px;
+	padding-left: 19px;
 	font-weight: 600;
 	font-size: 14px;
 	color: #2b2b2b;
 }
 .company-item-top-dtls-col span.company-item-top-dtls-info-title-2{
-	padding-left: 18px;
+	padding-left: 17px;
 }
 .company-item-top-dtls-col span.company-item-top-dtls-info-title i{
 	position: absolute;
@@ -431,6 +437,7 @@
 }	
 .company-item-desc p{
 	font-size: 15px;
+	line-height: 1.25;
 }
 .company-item-desc p:last-of-type{
 	margin-bottom: 0;
@@ -446,7 +453,7 @@
 	margin-bottom: 8px;
 }
 .company-item-cntct-col a{
-	padding: 6px 5px 6px 30px;
+	padding: 6px 5px 6px 28px;
 	display: inline-block;
 	position: relative;
 	background: #ecf1ff;
@@ -688,6 +695,8 @@
 		box-shadow: initial;
 		-webkit-box-shadow: initial;
 		-moz-box-shadow: initial;
+		border-radius: initial;
+		overflow: initial;
 	}
 	.company-item-img{
 		display: inline-block;
@@ -696,6 +705,8 @@
 		-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24%);
 		height: 170px;
 		width: 170px;
+		border-radius: 5px;
+		overflow: hidden;
 	}
 	.company-item-rgt{
 		width: 100%;
