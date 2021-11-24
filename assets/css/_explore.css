@@ -695,6 +695,8 @@
 		box-shadow: initial;
 		-webkit-box-shadow: initial;
 		-moz-box-shadow: initial;
+		border-radius: initial;
+		overflow: initial;
 	}
 	.company-item-img{
 		display: inline-block;
@@ -703,6 +705,8 @@
 		-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24%);
 		height: 170px;
 		width: 170px;
+		border-radius: 5px;
+		overflow: hidden;
 	}
 	.company-item-rgt{
 		width: 100%;
