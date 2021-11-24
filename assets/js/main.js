@@ -230,6 +230,13 @@ $('.bln-accordion-hdr').on('click', function(){
             slidesToShow: 3,
             slidesToScroll: 1,
           }
+        },
+        {
+          breakpoint: 479,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
         }
       ]
     });
