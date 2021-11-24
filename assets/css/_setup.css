@@ -1,15 +1,14 @@
 .setup-form .input-field-col{
 	margin-bottom: 13px;
 }
-.setup-contant-sec .input-field-wrapper{
+/*.setup-contant-sec .input-field-wrapper{
 	padding-bottom: 23px;
 	margin-bottom: 30px;
 	border-bottom: 2px solid #e1e1e1;
-}
+}*/
 .setup-contant-sec .join-contant-inner{
-	padding-bottom: 0;
-	margin-bottom: 0;
-	border: none;
+	padding-bottom: 23px;
+	margin-bottom: 30px;
 }
 .setup-btm-contant{
 	text-align: center;
