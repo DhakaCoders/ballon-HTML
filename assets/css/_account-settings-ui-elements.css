@@ -32,7 +32,6 @@
 .my-account-title{
     font-family: 'Inter', sans-serif;
 	font-weight:700;
-	/*text-transform: capitalize;*/
 }
 .myaccount-title-cntlr{
     margin-bottom: 40px;
@@ -85,23 +84,6 @@
     -webkit-transition: all .5s;
     -ms-transition: all .5s;
 }
-
-/* -------------- form css ------------ */
-
-/*.input-fields-row .input-field-col textarea,
-.input-fields-row .input-field-col input[type="text"],
-.input-fields-row .input-field-col input[type="number"],
-.input-fields-row .input-field-col input[type="email"]{
-	width: 100%;
-	padding: 15px 16px;
-	border:none;
-	border:2px solid #c6c6c6;
-	border-radius:8px;
-}
-.input-fields-row .input-field-col textarea{
-	height:189px;
-	display: block;
-}*/
 .input-field-col span.in-icon-file {
     left: 19px!important;
 }
@@ -129,9 +111,6 @@
 	margin-left:0!important;
 	margin-right:0!important;
 }
-/*.myaccount-setting-form .submint-btn{
-	margin:0 -10px;
-}*/
 .submit-btn-50 {
     margin: 0 -10px;
     display: flex;
@@ -344,12 +323,6 @@
         padding-bottom: 50px;
     }
 }
-@media(max-width:575px){
-    
-    
-    
-    
-}
 @media(max-width:400px){
     .submit-btn-50 button{
         width:100%;
@@ -364,8 +337,6 @@
     }
 }
 @media(max-width:369px){
-    
-    
     .myaccount-setting-form .input-field-col label {
         padding: 14px 15px 13px 32px;
     }

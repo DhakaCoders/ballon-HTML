@@ -137,8 +137,6 @@ body.home .footer-wrp{
 	font-size: 14px;
 
 }
-
-/*responsive*/
 @media(max-width: 1199px){
 	.ftr-col-title{
 		font-size: 18px!important;
@@ -204,7 +202,4 @@ body.home .footer-wrp{
 	.ftr-copyright p{
 		text-align: center;
 	}
-}
-@media(max-width: 575px){
-	
 }

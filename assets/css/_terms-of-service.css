@@ -1,8 +1,6 @@
-
 .ts-sidebar-sec{
 	padding: 32px 0 50px;
 }
-
 .ts-sidebar-sec-inr{
 	padding-left: 30px;
 	padding-right: 30px;
@@ -19,8 +17,6 @@
 .ts-page-content{
 	width: 70%;
 }
-
-
 .ts-page-sidebar-title{
 	margin-bottom: 28px;
 }
@@ -42,8 +38,6 @@
 	font-weight: 600;
 }
 
-
-
 .ts-page-content-inr{
 	padding: 30px 20px 5px 30px;
 	border-radius: 10px;
@@ -51,15 +45,12 @@
 	-webkit-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
 	box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
 }
-
 .ts-page-content-hdr{
 	padding-bottom: 30px;
 }
-
 .ts-page-content-title{
 	margin-bottom: 10px;
 }
-
 .ts-page-content-inr em{
 	display: inline-block;
 	vertical-align: baseline;
@@ -73,9 +64,14 @@
 	margin-bottom: 25px;
 	color: #000000;
 }
-
-
-@media(max-width: 1199px){
+@media(max-width: 991px){
+	.ts-sidebar-sec-inr {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.ts-page-sidebar ul li a{
+		font-size: 17px;
+	}
 	.ts-page-content-inr p{
 		font-size: 17px;
 	}
@@ -83,18 +79,9 @@
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
-	.ts-page-sidebar ul li a{
-		font-size: 17px;
-	}
+	
 	.ts-page-content-inr em{
 		font-size: 17px;
-	}
-}
-
-@media(max-width: 991px){
-	.ts-sidebar-sec-inr {
-	    padding-left: 0;
-	    padding-right: 0;
 	}
 }
 @media(max-width: 767px){
@@ -108,7 +95,7 @@
 	    font-size: 16px;
 	}
 	.ts-page-content-inr{
-		padding: 30px 15px 5px 15px;
+		padding: 30px 15px 5px 20px;
 	}
 	.ts-page-content-hdr {
 	    padding-bottom: 22px;
@@ -122,6 +109,10 @@
 	}
 	.ts-page-sidebar-title {
 	    margin-bottom: 22px;
+	}
+	.ts-sidebar-sec-inr{
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 
@@ -145,5 +136,9 @@
 	}
 	.ts-sidebar-sec {
 	    padding: 60px 0 50px;
+	}
+	.ts-sidebar-sec-inr{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
