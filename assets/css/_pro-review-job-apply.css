@@ -30,7 +30,7 @@
     padding-bottom: 24px;
 }
 .pro-rvw-job-aply-form-btn-cntlr button{
-    padding: 15.5px 13px 16.5px;
+    padding: 14px 13px 15px;
     cursor: pointer;
 }
 .pro-rvw-job-aply-form-cntlr {
@@ -137,14 +137,14 @@
         padding-top: 10px;
         padding-bottom: 5px;
     }
-    .pro-rvw-job-aply-form-btn-cntlr button {
-        padding: 14px 13px 15px;
-    }
     .pro-rvw-job-aply-mdul-cntlr {
         padding-bottom: 30px;
     }
     .pro-rvw-job-aply-fature ul li{
         padding-bottom: 6px;
+    }
+    .pro-review-job-apply-sec {
+        padding-bottom: 50px;
     }
 }
 @media(max-width: 479px){

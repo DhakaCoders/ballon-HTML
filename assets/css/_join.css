@@ -318,6 +318,10 @@
         padding-bottom: 30px;
         margin-bottom: 20px;
     }
+    .input-field-col textarea, 
+    .input-field-col input{
+        font-size: 15px;
+    }
 }
 @media(max-width:400px){
     .submint-btn button {
