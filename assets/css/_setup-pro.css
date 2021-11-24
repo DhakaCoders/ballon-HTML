@@ -5,15 +5,9 @@
 	color: #fa5252;
     margin-bottom: 12px;
 }
-.setup-pro-contant-sec .join-contant-inner{
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	border: none;
-}
-.setup-pro-contant-sec .input-field-wrapper{
+.setup-pro-contant-sec .input-fields-cntlr{
 	padding-bottom: 41px;
 	margin-bottom: 30px;
-	border-bottom: 2px solid #e1e1e1;
 }
 .setup-pro-contant-sec .join-contant-cntlr{
 	padding-bottom: 27px;
@@ -31,7 +25,7 @@
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	cursor: pointer;
-	z-index: 8;
+	z-index: 21;
 }
 .input-tol-tip.tol-tip-cntlr .tol-tip-des{
     width:395px;
@@ -41,12 +35,24 @@
     transition:.2s;
     z-index:9;
 }
+.input-tol-tip.tol-tip.tol-tip-cntlr:after{
+    content: "\f0de"!important;
+    position: absolute;
+    left: -4px;
+    font-family: 'FontAwesome';
+    top: 100%;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 8px;
+    z-index: 1111;
+    display: block;
+}
 .setup-pro-contant-sec .input-field-col input{
 	padding-right: 45px;
 }
 .setup-pro-contant-sec .tol-tip-des{
 	right: 15px;
-    top: 50px;
+    top: 54px;
     left: initial;
 }
 @media(max-width: 1199px){
@@ -56,11 +62,17 @@
 	.input-field-col .input-tol-tip{
 		right: 30px;
 	}
+	.join-contant-sec.setup-pro-contant-sec {
+	    padding-bottom: 70px;
+	}
 }
 @media(max-width: 991px){
-	.setup-pro-contant-sec .input-field-wrapper {
+	.setup-pro-contant-sec .input-fields-cntlr {
 	    padding-bottom: 35px;
 	    margin-bottom: 25px;
+	}
+	.join-contant-sec.setup-pro-contant-sec {
+	    padding-bottom: 60px;
 	}
 }
 @media(max-width: 767px){
@@ -76,9 +88,24 @@
 	.input-field-col .input-tol-tip{
 		font-size: 16px;
 	}
+	.join-contant-sec.setup-pro-contant-sec {
+	    padding-bottom: 50px;
+	    padding-top: 50px;
+	}
+	.input-tol-tip.tol-tip-cntlr .tol-tip-des{
+		width: 350px;
+	}
+	.setup-pro-contant-sec .tol-tip-des {
+	    top: 50px;
+	}
 }
 @media(max-width: 575px){
-	.setup-pro-contant-sec .input-field-wrapper {
+	.setup-pro-contant-sec .input-fields-cntlr {
 	    padding-bottom: 28px;
+	}
+}
+@media(max-width: 479px){
+	.input-tol-tip.tol-tip-cntlr .tol-tip-des{
+		width: 330px;
 	}
 }

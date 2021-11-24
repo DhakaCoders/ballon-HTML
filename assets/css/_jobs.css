@@ -30,14 +30,18 @@
 .job-cntnt-mdul-hdr span a:hover{
 	color: initial;
 }
-.job-cntnt-mdul{
-
+.posting-job-mdul .company-item-lft{
+	width: 88px;
+	height: 88px;
+}
+.active-job-module-cntlr .job-cntnt-item-lft {
+    padding-left: 13px;
 }
 .job-cntnt-mdul-inr{
 	border-bottom: 18px solid #7a92d0;
-    box-shadow: 0 0 36px -21px #000;
-    -moz-box-shadow: 0 0 36px -21px #000;
-    -webkit-box-shadow: 0 0 36px -21px #000;
+    box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -moz-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -webkit-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
     border-radius: 11px;
 }
 .job-cntnt-item{
@@ -54,6 +58,15 @@
 }
 .job-cntnt-item-title{
 	margin-bottom: 8px;
+	line-height: 1.25;
+}
+.job-cntnt-item-title a{
+	display: inline-block;
+	text-decoration: none;
+	color: #2b2b2b;
+}
+.job-cntnt-item-title a:hover{
+	color: #fa5252;
 }
 .job-cntnt-item-details{
 	margin-bottom: 5px;
@@ -68,7 +81,7 @@
 	padding: 0 9px;
 }
 .job-cntnt-item-dtls-edinburgh .job-cntnt-item-dtls-col span{
-	padding-left: 18px;
+	padding-left: 15px;
 }
 .job-cntnt-item-dtls-col span{
 	position: relative;
@@ -80,6 +93,7 @@
 	position: absolute;
 	top: 50%;
 	left: 0;
+    color: #fa5252;
 	transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -102,9 +116,16 @@
 }
 .job-cntnt-item-copy a{
 	display: inline-block;
+	color: #000000;
+	font-size: 20px;
 }
 .job-cntnt-item-copy a:hover{
-	opacity: 0.7;
+	color: #fa5252;
+}
+.job-cntnt-item-copy a i{
+	transition: all 0s;
+	-ms-transition: all 0s;
+	-webkit-transition: all 0s;
 }
 .job-cntnt-item-copy a img{
 	display: inline-block;
@@ -227,21 +248,37 @@
 .export-job-list-cv a:hover{
 	color: #fa5252;
 }
+.job-cntnt-item-dtls-col-pl22 span{
+	padding-left: 22px!important;
+}
 @media (max-width: 1199px){
 	.job-content-sec {
-	    padding-bottom: 150px;
+	    padding-bottom: 130px;
 	}
 }
 @media (max-width: 991px){
 	.job-content-sec {
 		padding-top: 40px;
-	    padding-bottom: 120px;
+	    padding-bottom: 100px;
+	}
+	.active-job-module-cntlr .posting-job-mdul .job-cntnt-item-copy{
+	    position: absolute;
+	    top: 30px;
+	    right: 20px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt{
+		width: 100%;
+		padding-top: 20px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt .job-cntnt-item-pro-msg ul{
+		justify-content: flex-end;
 	}
 }
 @media (max-width: 767px){
 	.job-cntnt-item-create-date {
-	    padding-bottom: 25px;
+	    padding-bottom: 15px;
 	}
+
 	.job-cntnt-item-title{
 		padding-right: 30px;
 	}
@@ -249,8 +286,39 @@
 		padding: 30px 20px;
 	}
 	.job-content-sec {
-		padding-top: 35px;
-	    padding-bottom: 100px;
+		padding-top: 50px;
+	    padding-bottom: 70px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt {
+	    padding-top: 15px;
+	}
+	.posting-job-mdul .company-item-lft{
+		margin-bottom: 20px;
+	}
+	.job-content-cntlr{
+		max-width: 500px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (max-width: 639px){
+	.active-job-module-cntlr .job-cntnt-item-lft{
+		width: 100%;
+		padding-left: 0;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt {
+	    padding-top: 0;
+	}
+	.posting-job-mdul .company-item-lft {
+	    width: initial;
+	    height: initial;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 30px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt .job-cntnt-item-pro-msg ul {
+		justify-content: flex-start;
 	}
 }
 @media (max-width: 575px){
@@ -264,6 +332,7 @@
 	.job-cntnt-item-copy a{
 		max-width: 20px;
 		width: 100%;
+		font-size: 18px;
 	}
 	.active-job-module-cntlr {
 	    margin-bottom: 18px;
@@ -272,7 +341,7 @@
 	    margin-bottom: 40px;
 	}
 	.job-content-sec {
-	    padding-bottom: 75px;
+	    padding-bottom: 50px;
 	}
 }
 @media (max-width: 479px){
@@ -296,15 +365,18 @@
 	.posting-job-module-cntlr {
 	    margin-bottom: 35px;
 	}
-	.job-content-sec {
-	    padding-bottom: 60px;
+	.job-cntnt-item-details.job-page-cntnt-item-details ul li{
+		width: 100%;
 	}
 }
 @media (max-width: 359px){
 	.job-cntnt-item-details ul li {
-	    width: 50%;
+	    width: 100%;
 	}
 	.job-cntnt-item-copy a {
 	    max-width: 18px;
+	}
+	.posting-job-module-cntlr {
+	    margin-bottom: 25px;
 	}
 }

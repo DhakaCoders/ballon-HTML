@@ -31,8 +31,9 @@
   <![endif]-->  
 
 </head>
-<body>
+<body class="home">
 <div class="page-body-cntlr">
+
   <div class="bdoverlay"></div>
   <header class="header">
     <div class="container">
@@ -48,13 +49,8 @@
               <nav class="main-nav hide-sm">
                 <ul class="clearfix reset-list">
                   <li class="current-menu-item"><a href="#">Explore</a></li>
-                  <li class="menu-item-has-children">
+                  <li>
                     <a href="#">Hire</a>
-                    <ul class="sub-menu">
-                      <li><a href="#">submenu 1</a></li>
-                      <li><a href="#">submenu 2</a></li>
-                      <li><a href="#">submenu 3</a></li>
-                    </ul>
                   </li>
                   <li><a href="#">Login</a></li>
                   <li class="menu-btn">
@@ -96,19 +92,14 @@
       <nav class="main-nav">
         <ul class="clearfix reset-list">
           <li class="current-menu-item"><a href="#">Explore</a></li>
-          <li class="menu-item-has-children">
+          <li class="">
             <a href="#">Hire</a>
-            <ul class="sub-menu">
-              <li><a href="#">submenu 1</a></li>
-              <li><a href="#">submenu 2</a></li>
-              <li><a href="#">submenu 3</a></li>
-            </ul>
           </li>
           <li><a href="#">Login</a></li>
           <li class="menu-btn">
             <a href="#">
-              new job
-              <i class="fas fa-plus"></i>
+              join
+              
             </a>
           </li>
         </ul>
@@ -129,43 +120,45 @@
                 <h1 class="fl-h2 join-contant-title">Login into Balloonn</h1>
               </div>
               <form action="" class="login-form">
-                <div class="input-field-wrapper">
-                  <div class="input-field-row">
-                    <div class="input-field-col">
-                      <span class="in-icon"><i class="fas fa-user"></i></span>
-                      <input type="email" name="email" placeholder="Username or Email" required="">
+                <div class="input-fields-cntlr">
+                  <div class="input-field-wrapper">
+                    <div class="input-field-row">
+                      <div class="input-field-col">
+                        <span class="in-icon"><i class="fas fa-user"></i></span>
+                        <input type="email" name="email" placeholder="Username or Email" required="">
+                      </div>
+                    </div>
+                    <div class="input-field-row">
+                      <div class="input-field-col">
+                        <span class="in-icon"><i class="fas fa-lock"></i></span>
+                        <input type="password" name="password" placeholder="Password" required="">
+                      </div>
                     </div>
                   </div>
-                  <div class="input-field-row">
-                    <div class="input-field-col">
-                      <span class="in-icon"><i class="fas fa-lock"></i></span>
-                      <input type="password" name="password" placeholder="Password" required="">
+                  <div class="login-top-btn-cntlr">
+                    <button type="submit" class="fl-btn">Continue</button>
+                  </div>
+                  <div class="login-checkmark-cntlr">
+                    <div class="login-check-cntlr">
+                      <input type="checkbox" id="des">
+                      <span class="checkmark"></span>
+                      <label for="des">Remember Me</label>
+                    </div>
+                    <div class="login-top-mgs">
+                      <span><a href="#">Forgot Password?</a></span>
                     </div>
                   </div>
                 </div>
-                <div class="login-top-btn-cntlr">
-                  <button type="submit" class="fl-btn">Continue</button>
-                </div>
-                <div class="login-checkmark-cntlr">
-                  <div class="login-check-cntlr">
-                    <input type="checkbox" id="des">
-                    <span class="checkmark"></span>
-                    <label for="des">Remember Me</label>
+                <div class="join-btm-contant">
+                  <div class="join-have-a-accnt-mgs">
+                    <span>Don't have an Balloonn account?</span>
                   </div>
-                  <div class="login-top-mgs">
-                    <span><a href="#">Forgot Password?</a></span>
+                  <div class="login-btm-btn-cntlr">
+                    <a href="login.html" class="fl-btn">Login</a>
+                    <a href="login.html" class="fl-btn fl-blue-btn">Login</a>
                   </div>
                 </div>
               </form>
-            </div>
-            <div class="join-btm-contant">
-              <div class="join-have-a-accnt-mgs">
-                <span>Don't have an Balloonn account?</span>
-              </div>
-              <div class="login-btm-btn-cntlr">
-                <a href="login.html" class="fl-btn">Login</a>
-                <a href="login.html" class="fl-btn fl-blue-btn">Login</a>
-              </div>
             </div>
           </div>
         </div>
