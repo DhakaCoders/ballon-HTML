@@ -110,7 +110,7 @@
 .login-top-mgs span a:hover{
   color: #fa5252;
 }
-.login-contant-sec .join-contant-inner{
+.login-contant-sec .input-fields-cntlr{
     padding-bottom: 45px;
 }
 @media(max-width: 991px){
