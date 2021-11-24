@@ -30,8 +30,12 @@
 .job-cntnt-mdul-hdr span a:hover{
 	color: initial;
 }
-.job-cntnt-mdul{
-
+.posting-job-mdul .company-item-lft{
+	width: 88px;
+	height: 88px;
+}
+.active-job-module-cntlr .job-cntnt-item-lft {
+    padding-left: 13px;
 }
 .job-cntnt-mdul-inr{
 	border-bottom: 18px solid #7a92d0;
@@ -253,6 +257,15 @@
 		padding-top: 40px;
 	    padding-bottom: 100px;
 	}
+	.active-job-module-cntlr .posting-job-mdul .job-cntnt-item-copy{
+	    position: absolute;
+	    top: 30px;
+	    right: 20px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt{
+		width: 100%;
+		padding-top: 30px;
+	}
 }
 @media (max-width: 767px){
 	.job-cntnt-item-create-date {
@@ -267,6 +280,28 @@
 	.job-content-sec {
 		padding-top: 50px;
 	    padding-bottom: 70px;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt {
+	    padding-top: 15px;
+	}
+	.posting-job-mdul .company-item-lft{
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 639px){
+	.active-job-module-cntlr .job-cntnt-item-lft{
+		width: 100%;
+		padding-left: 0;
+	}
+	.active-job-module-cntlr .job-cntnt-item-rgt {
+	    padding-top: 0;
+	}
+	.posting-job-mdul .company-item-lft {
+	    width: 150px;
+	    height: 150px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 30px;
 	}
 }
 @media (max-width: 575px){
