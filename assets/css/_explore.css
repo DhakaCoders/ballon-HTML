@@ -582,6 +582,9 @@
 	.explr-cntnt-srch-result p{
 		font-size: 20px;
 	}
+	.explr-company-item{
+		padding-bottom: 25px;
+	}
 	
 }
 @media(max-width: 767px){
@@ -701,12 +704,43 @@
 	.company-item-top-details ul li{
 		width: 33.33%;
 	}
+	
 }
 @media(max-width: 479px){
+	.company-item-top-contact,
 	.company-item-top-details ul{
 		flex-wrap: wrap;
 	}
+	.company-item-cntct-col a{
+		min-width: 110px;
+	}
+	.company-item-cntct-col{
+		width: 100%;
+		margin-bottom: 8px;
+	}
 	.company-item-top-details ul li{
 		width: 50%;
+	}
+	.explr-cntnt-search{
+		flex-wrap: wrap;
+	}
+	.explr-cntnt-search-col-02,
+	.explr-cntnt-search-col-01{
+		width: 100%;
+	}
+	.explr-cntnt-search-col.explr-cntnt-search-col-02 input[type=text]{
+		border-radius: 5px;
+		border-left: none;
+		border: 2px solid #c6c6c6;
+	}
+	.explr-cntnt-search-col.explr-cntnt-search-col-01 input[type=text]{
+		border-radius: 5px;
+	}
+	.explr-cntnt-search-col input[type=text]{
+		border: 2px solid #c6c6c6;
+		border-radius: 5px;
+	}
+	.explr-cntnt-submit{
+		text-align: left;
 	}
 }
