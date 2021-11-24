@@ -67,6 +67,12 @@
     justify-content: center;
     align-items: center;
     width: 19.8%;
+    height: 200px;
+}
+.pp-company-intro-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .pp-company-intro-logo img {
     border-radius: 100%;
@@ -78,7 +84,7 @@
 }
 .pp-company-intro-cntnts-top{
     display: flex;
-    padding-bottom: 58px;
+    padding-bottom: 60px;
     flex-wrap: wrap;
 }
 .pp-company-intro-top-lft{
@@ -127,7 +133,7 @@
     color: #c8c8c8;
     display: inline-block;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: .5px;
 }
 .pp-company-intro-rating{
@@ -283,8 +289,8 @@
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
-/*pp-about-sec -------------------------------------------------------*/
-.pp-about-section{
+/*pp-about-sec ------------------------------------------------------------------*/
+.pp-about-sec{
     padding-bottom: 45px;
 }
 .pp-about-cntnt-cnltr{
@@ -387,7 +393,7 @@
 .pp-about-fancy-more-items:hover .pp-about-fancy-more-inln-img-item:after{
     opacity: .7;
 }
-/*pp-location-expert-sec---------------------------------------*/
+/*pp-location-expert-sec--------------------------------------------------------------*/
 .pp-location-expert-sec{
     padding-bottom: 45px;
 }
@@ -506,8 +512,8 @@
     font-weight: 600;
     display: inline-block;
 }
-/*pp-verified-qualification-section-----------------------------------------*/
-.pp-verified-qualification-section{
+/*pp-verified-qualification-sec-------------------------------------------------------*/
+.pp-verified-qualification-sec{
     padding-bottom: 60px;
 }
 .pp-verified-qualification-cntnts-cntlr{
@@ -635,8 +641,8 @@
     padding: 0 5px;
     margin-bottom: 10px;
 }
-/*pp-review-section-------------------------*/
-.pp-review-section{
+/*pp-review-sec--------------------------------------------------*/
+.pp-review-sec{
     padding-bottom: 100px;
 }
 .pp-review-title{
