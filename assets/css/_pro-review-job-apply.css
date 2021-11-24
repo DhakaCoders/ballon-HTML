@@ -58,6 +58,7 @@
 .job-cntnt-item-des p{
     color: #616368;
     margin-bottom: 22px;
+    line-height: 1.25;
 }
 .pro-rvw-job-aply-fature ul{
     display: flex;
@@ -69,6 +70,7 @@
 }
 .pro-rvw-job-fature-item span.property{
     color: #252525;
+    font-weight: 500;
 }
 .pro-rvw-job-fature-item span.value{
     color: #616368;
