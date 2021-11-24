@@ -29,8 +29,9 @@
     padding-top: 30px;
     padding-bottom: 24px;
 }
-.pro-rvw-job-aply-form-btn-cntlr a{
+.pro-rvw-job-aply-form-btn-cntlr button{
     padding: 15.5px 13px 16.5px;
+    cursor: pointer;
 }
 .pro-rvw-job-aply-form-cntlr {
     border-bottom: 18px solid #7a92d0;
@@ -136,7 +137,7 @@
         padding-top: 10px;
         padding-bottom: 5px;
     }
-    .pro-rvw-job-aply-form-btn-cntlr a {
+    .pro-rvw-job-aply-form-btn-cntlr button {
         padding: 14px 13px 15px;
     }
     .pro-rvw-job-aply-mdul-cntlr {
@@ -155,7 +156,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .pro-rvw-job-aply-form-btn-cntlr a {
+    .pro-rvw-job-aply-form-btn-cntlr button {
         padding: 13px 13px 14px;
     }
     .job-cntnt-mdul-hdr > span{
@@ -169,7 +170,7 @@
     }
 }
 @media(max-width: 479px){
-    .pro-rvw-job-aply-form-btn-cntlr a {
+    .pro-rvw-job-aply-form-btn-cntlr button {
         padding: 12px 13px 13px;
     }
 }
