@@ -52,7 +52,7 @@
 }
 .setup-pro-contant-sec .tol-tip-des{
 	right: 15px;
-    top: 57px;
+    top: 54px;
     left: initial;
 }
 @media(max-width: 1199px){
@@ -73,9 +73,6 @@
 	}
 	.join-contant-sec.setup-pro-contant-sec {
 	    padding-bottom: 60px;
-	}
-	.setup-pro-contant-sec .tol-tip-des{
-	    top: 65px;
 	}
 }
 @media(max-width: 767px){
@@ -99,7 +96,7 @@
 		width: 350px;
 	}
 	.setup-pro-contant-sec .tol-tip-des {
-	    top: 60px;
+	    top: 50px;
 	}
 }
 @media(max-width: 575px){
