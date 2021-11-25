@@ -2,14 +2,14 @@
 	padding-top: 35px;
 	padding-bottom: 75px;
 }
-.setup-pricing-account-sec-cntlr{
+.setup-pricing-account-cntlr{
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	box-shadow: 4px -2px 60px -26px rgb(0 0 0 / 30%);
-	-webkit-box-shadow: 4px -2px 60px -26px rgb(0 0 0 / 30%);
-	-moz-box-shadow: 4px -2px 60px -26px rgb(0 0 0 / 30%);
+	box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -moz-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
+    -webkit-box-shadow: 0px 0px 30px -4px rgb(0 0 0 / 27%);
 	border-bottom: 18px solid #7a92d0;
 	border-radius: 10px;
 	padding: 50px 70px 38px;
@@ -65,7 +65,7 @@
 	.setup-pricing-account-sec{
 		padding-bottom: 65px;
 	}
-	.setup-pricing-account-sec-cntlr{
+	.setup-pricing-account-cntlr{
 		padding: 45px 55px 35px;
 	}
 	.setup-pricing-sub-heading-2{
@@ -78,7 +78,7 @@
 		padding-bottom: 55px;
 	}
 
-	.setup-pricing-account-sec-cntlr{
+	.setup-pricing-account-cntlr{
 		padding: 40px 40px 35px;
 	}
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
@@ -97,10 +97,10 @@
 		margin: 0 -8px;
 	}
 	.setup-pricing-account-sec .bln-pkg-grids-cntlr ul li.bln-pkg-grid-item-col{
-		padding-left: 8px;
-		padding-right: 8px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
-	.setup-pricing-account-sec .setup-pricing-account-sec-cntlr{
+	.setup-pricing-account-sec .setup-pricing-account-cntlr{
 		padding: 30px 16px 35px;
 	}
 	
@@ -120,16 +120,19 @@
 	.try-free-btn .fl-btn{
 		font-size: 16px;
 	}
+	.setup-pricing-account-cntlr .fl-pkg-grd-ftr-btn .fl-btn{
+		min-width: 219px;
+	}
 }
 @media(max-width: 639px){
 	.setup-pricing-account-sec{
 		padding: 60px 0;
 	}
-	.setup-pricing-account-sec .setup-pricing-account-sec-cntlr{
+	.setup-pricing-account-sec .setup-pricing-account-cntlr{
 		padding-bottom: 50px;
 		padding-top: 25px;
 	}
-	.setup-pricing-account-sec-cntlr{
+	.setup-pricing-account-cntlr{
 		max-width: 520px;
 	}
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
