@@ -318,9 +318,8 @@ if($('.input-tol-tip').length){
 };
 
 
-/* file upload*/
-/*
-if($('.input-field-col #file').length){
+
+/*if($('.input-field-col #file').length){
   $('.input-field-col #file').change( function(){
     var fileValue = $(this.files[0];
     $('.file-upload-here').append("<span>" +  fileValue + "</span> ");
