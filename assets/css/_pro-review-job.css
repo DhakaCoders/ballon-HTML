@@ -121,6 +121,9 @@
 .pro-rvw-job-mdul-cntlr .job-cntnt-item-des p{
 	font-size: 14px;
 }
+.pro-review-job-sec .job-cntnt-item-dtls-col span i.fas.fa-user {
+    margin-top: -1px;
+}
 @media(max-width: 1199px){
 	.pro-review-job-sec {
 	    padding-bottom: 70px;
