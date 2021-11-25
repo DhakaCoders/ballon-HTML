@@ -641,10 +641,10 @@
     margin-bottom: 10px;
 }
 .vfqf-svq-logo{
-    width: 55px;
+    /*width: 55px;*/
 }
 .vfqf-cscs-logo{
-    width: 90px;
+    /*width: 90px;*/
 }
 /*pp-review-sec--------------------------------------------------*/
 .pp-review-sec{
@@ -753,7 +753,7 @@
 }
 .pp-xs-revw-item-rating-inr > ul > li> a >i, .pp-revw-item-rating-inr > ul > li> a >i{
     display: inline-block;
-    font-size: 24px;
+    font-size: 23px;
     color: #ffcc00;
 }
 .revw-rate {
@@ -1317,12 +1317,12 @@
 
 .pp-company-intro-contact-methods ul li a {
     font-size: 17px;
-    padding: 6px 7px;
-    padding-left: 33px;
+    padding: 6px 8px;
+    padding-left: 26px;
 }
 .pp-company-intro-contact-methods ul li a i {
-    margin-left: 11px;
-    margin-top: 6px;
+    margin-left: 6px;
+    margin-top: 7px;
     font-size: 17px;
 }
 .pp-company-intro-locatn, .pp-company-intro-time {
