@@ -1,6 +1,6 @@
 .job-content-sec{
 	padding-top: 50px;
-	padding-bottom: 175px;
+	padding-bottom: 125px;
 }
 .job-content-cntlr{
 	padding: 0 14px;
@@ -253,13 +253,13 @@
 }
 @media (max-width: 1199px){
 	.job-content-sec {
-	    padding-bottom: 130px;
+	    padding-bottom: 100px;
 	}
 }
 @media (max-width: 991px){
 	.job-content-sec {
 		padding-top: 40px;
-	    padding-bottom: 100px;
+	    padding-bottom: 80px;
 	}
 	.active-job-module-cntlr .posting-job-mdul .job-cntnt-item-copy{
 	    position: absolute;
@@ -287,7 +287,7 @@
 	}
 	.job-content-sec {
 		padding-top: 50px;
-	    padding-bottom: 70px;
+	    padding-bottom: 60px;
 	}
 	.active-job-module-cntlr .job-cntnt-item-rgt {
 	    padding-top: 15px;
