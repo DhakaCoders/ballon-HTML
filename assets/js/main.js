@@ -318,7 +318,27 @@ if($('.input-tol-tip').length){
 };
 
 
+/* file upload*/
 
+if($('.input-field-col #file').length){
+  $('.input-field-col #file').change( function(){
+    var fileValue = $(this).val();
+    $('.file-upload-here').append("<span>" +  fileValue + "</span> ");
+  });
+}
+
+if($('.myaccount-profile-image').length){
+  $('add-profile-img #profile').change( function(){
+    var profile = $(this).val();
+    $('.myaccount-profile-image').append("<span>" +  profile + "</span> ");
+  });
+}
+/*if($('.input-field-col #file').length){
+  $('.input-field-col #file').change( function(){
+    var fileValue = $(this).val();
+    $('.file-upload-here').append("<span>" + '<img src=" ' + fileValue  + ' ">'  + "</span> ");
+  });
+}*/
     new WOW().init();
 
 })(jQuery);

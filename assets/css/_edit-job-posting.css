@@ -6,7 +6,9 @@
     top: 0;
     cursor: pointer;
 }
-
+.edit-job-title{
+    text-transform: capitalize;
+}
 .tol-tip-des{
     position: absolute;
     background: #fff;
