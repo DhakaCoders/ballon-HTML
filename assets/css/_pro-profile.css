@@ -1190,13 +1190,20 @@
 .pp-vfqf-cntqualification-title {
     padding-left: 33px;
 }
-
+.pp-vfqf-toltip-des {
+    top: 20px;
+    left: -250px!important;
+}
 
 
 }
 @media(max-width: 767px){
 .pp-xs-revw-item-rating {
     padding-top: 5px;
+}
+.pp-vfqf-toltip-des {
+    top: 20px;
+    left: -240px!important;
 }
 .pp-revw-item-cont-cntlr {
     width: 100%;
