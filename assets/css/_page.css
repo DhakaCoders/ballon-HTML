@@ -39,6 +39,9 @@
 	color: #FF674D;
     text-decoration: none;
 }
+.sitemap ol li a:hover{
+    color: #7a92d0;
+}
 .sitemap ol li a:focus{
     text-decoration: underline;
     color: #2b2b2b;
