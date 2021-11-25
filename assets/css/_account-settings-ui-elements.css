@@ -247,6 +247,9 @@
     .input-field-subtitle {
         font-size: 19px;
     }
+    .input-field-wrapper{
+        max-width: 100%;
+    }
 }
 
 @media(max-width:767px){
