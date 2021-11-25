@@ -7,6 +7,7 @@
 
 .View-job-mdul-hdr .job-cntnt-mdul-title > span{
 	color: #7a92d0;
+	font-weight: 500;
 }
 .review-job-mdul{
 	margin-bottom: 48px;
@@ -84,6 +85,9 @@
 	}
 	.proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul li.job-cntnt-profile-item-cntlr{
 		margin-top: 0;
+	}
+	.review-job-cntlr .proposal-job-cntnt-mdul .job-cntnt-item{
+		padding-bottom: 25px;
 	}
 }
 @media (max-width: 575px){

@@ -43,6 +43,13 @@
     color: #ecf1ff;
     padding: 7px 5px 7px 30px;
 }
+.job-cntnt-pro-msg-item.pro-rvw-job-bg-trnsprnt a{
+	background: transparent;
+	border: 2px solid #7a92d0;
+}
+.job-cntnt-pro-msg-item.pro-rvw-job-bg-trnsprnt a:hover{
+	background: #ecf1ff;	
+}
 .job-cntnt-pro-msg-item.pro-rvw-job-bg a:hover{
 	background: #ecf1ff;
     color: #7a92d0;
