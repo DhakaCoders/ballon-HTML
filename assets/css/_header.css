@@ -20,6 +20,9 @@ header.header.border-none{
     align-items: center;
 	margin-left: auto;
 }
+.header-profile-image .hdr-lft{
+    padding-left: 10px;
+}
 
 .logo a{
 	display: inline-block;
@@ -299,6 +302,7 @@ body.allWork {
     .profile-ctlr {
         margin-left: 14px;
     }
+
 }
 @media(max-width: 991px){
     .logo a{
@@ -325,6 +329,9 @@ body.allWork {
 @media(max-width: 767px){
     body.home header.header {
         padding: 30px 0;
+    }
+    .header-profile-image .hdr-lft{
+        padding-left: 0;
     }
     .xs-menu nav.main-nav > ul {
         margin-left: 0;
