@@ -319,27 +319,29 @@ if($('.input-tol-tip').length){
 
 
 
-/*if($('.input-field-col #file').length){
-  $('.input-field-col #file').change( function(){
-    var fileValue = $(this.files[0];
+
+  /* account settings ui elements */
+if($('#file').length){
+  $('#file').change( function(e){
+    var fileValue = e.target.files[0].name;
     $('.file-upload-here').append("<span>" +  fileValue + "</span> ");
   });
-}*/
-
-
-
-/*if($('.myaccount-profile-image').length){
-  $('add-profile-img #profile').change( function(){
-    var profile = $(this).val();
-    $('.myaccount-profile-image').append("<span>" +  profile + "</span> ");
+}
+if($('#file2').length){
+  $('#file2').change( function(e){
+    var fileValue2 = e.target.files[0].name;
+    $('.file-upload-here').append("<span>" +  fileValue2 + "</span> ");
   });
-}*/
-/*if($('.input-field-col #file').length){
-  $('.input-field-col #file').change( function(){
-    var fileValue = $(this).val();
-    $('.file-upload-here').append("<span>" + '<img src=" ' + fileValue  + ' ">'  + "</span> ");
+}
+
+  /* account-settings */
+
+if($('#profile').length){
+  $('#profile').change( function(e){ 
+    var image = document.getElementById('pro_image');
+    image.src = URL.createObjectURL(event.target.files[0]);
   });
-}*/
+}
     new WOW().init();
 
 })(jQuery);
