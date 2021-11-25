@@ -1199,12 +1199,21 @@
     padding: 5px 6px;
     font-size: 14px;
 }
+.revw-rate {
+    font-size: 23px;
+}
 .pp-revw-item-rating> ul> li> a >i {
-    font-size: 22px;
+    font-size: 20px;
 }
 .pp-vfqf-verified-title i {
     font-size: 20px;
     top: 0;
+}
+.pp-revw-item-cont-cntlr >ul >li {
+    padding-right: 15px;
+}
+.revw-rate{
+    margin-top: 0;
 }
 .pp-vfqf-cntnts-rgt {
     padding-left: 25px;
@@ -1425,6 +1434,23 @@
 @media(max-width: 575px){
     .pp-loc-exprt-locations ul li a {
     font-size: 15px;
+}
+.pp-revw-item-rating> ul> li> a >i {
+    font-size: 18px;
+}
+.revw-rate {
+    font-size: 22px;
+}
+.map-marker-icon span i {
+    top: 0!important;
+    font-size: 17px;
+}
+.calender-icon span i {
+    left: 0px!important;
+}
+.calender-icon span i img {
+    height: 17px;
+    width: 15px;
 }
 .pp-about-fancy-title {
     padding-left: 33px;
