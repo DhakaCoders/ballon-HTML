@@ -31,15 +31,14 @@
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
+    color: #fa5252;
 }
 .pp-company-back-to-explr-cntlr a:hover{
     color: #014d4b;
 }
 .pp-company-back-to-explr-cntlr a:hover i{
     left: -2px;
-    transition: all 0s;
-    -webkit-transition: all 0s;
-    -moz-transition: all 0s;
+    color: #014d4b;
 }
 .pp-company-intro-item {
     /*margin-bottom: 25px;*/
