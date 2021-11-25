@@ -39,19 +39,19 @@
     position: relative;
 }
 
-.bln-messege-search input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.bln-messege-search input[type=text]::-webkit-input-placeholder { 
 	color: #2b2b2b;
 	opacity: 1;
 }
-.bln-messege-search input[type=text]::-moz-placeholder { /* Firefox 19+ */
+.bln-messege-search input[type=text]::-moz-placeholder {
 	color: #2b2b2b;
 	opacity: 1;
 }
-.bln-messege-search input[type=text]:-ms-input-placeholder { /* IE 10+ */
+.bln-messege-search input[type=text]:-ms-input-placeholder {
 	color: #2b2b2b;
 	opacity: 1;
 }
-.bln-messege-search input[type=text]:-moz-placeholder { /* Firefox 18- */
+.bln-messege-search input[type=text]:-moz-placeholder {
 	color: #2b2b2b;
 	opacity: 1;
 }
@@ -68,7 +68,9 @@
 	z-index: 9;
 	font-size: 16px;
 }
-
+.bln-messege-search span i{
+	color: #2b2b2b;
+}
 
 .bln-messege-sortby-ctlr{
 	padding: 10px 10px 20px 10px;
@@ -106,20 +108,20 @@
 }
 
 
-.bln-messege-list{
+.bln-messege-company-list{
 	padding: 0 7px 10px 0;
 }
-.bln-messege-list ul{
+.bln-messege-company-list ul{
 
 }
-.bln-messege-list ul li{
+.bln-messege-company-list ul li{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	position: relative;
 }
 
-.bln-messege-list ul li:after{
+.bln-messege-company-list ul li:after{
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -131,11 +133,11 @@
 	width: 75%;
 	background: #e8e8e8;
 }
-.bln-messege-list ul li:last-child:after{
+.bln-messege-company-list ul li:last-child:after{
 	content: none;
 }
 
-.bln-messege-list ul li.active:before{
+.bln-messege-company-list ul li.active:before{
 	content: ""!important;
 	position: absolute;
 	top: 50%;
@@ -149,15 +151,15 @@
 	background-repeat: no-repeat!important;
 }
 
-.bln-msg-list-item{
+.bln-msg-cmpny-list-item{
 	display: flex;
 	align-items: center;
 }
 
-.bln-msg-list-item-img-ctlr{
+.bln-msg-cmpny-list-item-img-ctlr{
 	width: 20%;
 }
-.bln-msg-list-item-img{
+.bln-msg-cmpny-list-item-img{
 	height: 54px;
 	width: 54px;
 	display: flex;
@@ -168,11 +170,11 @@
 	-webkit-box-shadow: 0px 0px 17px 5px #e3e3e3; 
 	box-shadow: 0px 0px 17px 5px #e3e3e3;
 }
-.bln-msg-list-item-img img{
+.bln-msg-cmpny-list-item-img img{
 	border-radius: 5px;
 }
 
-.bln-msg-list-item-des{
+.bln-msg-cmpny-list-item-des{
 	padding-left: 5px;
 	width: 80%;
 }
@@ -221,6 +223,8 @@
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	color: #fa5252;
+	font-size: 12px;
 }
 .bln-msg-fea p{
 	font-size: 12px;
@@ -249,7 +253,14 @@
 	color: #000000;
 	margin-bottom: 5px;
 }
-
+.bln-msg-des-title a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+}
+.bln-msg-des-title a:hover{
+	color: #fa5252;
+}
 .bln-msg-des-fea{
 	display: flex;
 }
@@ -305,6 +316,7 @@
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	margin-top: -2px;
+	font-size: 16px;
 }
 .bln-messege-des-hdr-rgt a:hover i{
 	margin-left: -3px;
@@ -318,7 +330,7 @@
 .bln-msg-grds{
 	padding-bottom: 50px;
 }
-.bln-msg-send-receive{
+.bln-msg-inr{
 	padding: 15px 20px;
 }
 
@@ -335,6 +347,9 @@
 .bln-msg-grd-col{
 	width: 70%;
 	padding-bottom: 15px;
+}
+.bln-msg-grd-col.sender{
+	width: 65%;
 }
 
 .sender{
@@ -374,6 +389,7 @@
 }
 .bln-upload-file-inr{
 	height: 25px;
+	cursor: pointer;
 }
 .bln-upload-file label{
 	position: absolute;
@@ -395,6 +411,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
+	z-index: -1;
 }
 
 .bln-msg-input-field{
@@ -498,6 +515,12 @@
 	.bln-msg-input-field{
 		width: 76%;
 	}
+	.bln-msg-grd-col{
+		width: 75%;
+	}
+	.bln-msg-grd-col.sender {
+		width: 70%;
+	}
 }
 
 @media(max-width: 991px){
@@ -507,10 +530,10 @@
 	.bln-messege-des {
 	    width: 62%;
 	}
-	.bln-msg-list-item-img-ctlr {
+	.bln-msg-cmpny-list-item-img-ctlr {
 	    width: 21%;
 	}
-	.bln-msg-list-item-des {
+	.bln-msg-cmpny-list-item-des {
 	    width: 79%;
 	}
 	.bln-msg-date span,
@@ -534,6 +557,12 @@
 	}
 	.bln-upload-file{
 		width: 8%;
+	}
+	.bln-msg-grd-col{
+		width: 85%;
+	}
+	.bln-msg-grd-col.sender {
+		width: 80%;
 	}
 }
 
@@ -566,7 +595,7 @@
 	.bln-msg-send-btn {
 	    width: 20%;
 	}
-	.bln-messege-list {
+	.bln-messege-company-list {
 	    padding: 0 10px 10px 10px;
 	}
 	.bln-msg-icon-col i{
@@ -586,6 +615,13 @@
 	}
 	.bln-msg-input-field {
 	    width: 67%;
+	}
+	.bln-msg-grds{
+		padding-bottom: 30px;
+	}
+	.bln-messege-search input[type=text]{
+		padding-top: 8px;
+		padding-bottom: 8px;
 	}
 }
 
@@ -622,5 +658,8 @@
 	.bln-msg-send-btn {
 	    width: 100%;
 	    margin-left: 0px;
+	}
+	.bln-msg-send-btn button{
+		min-width: 100%;
 	}
 }
