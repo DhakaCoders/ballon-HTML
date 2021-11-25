@@ -36,14 +36,23 @@
     border-radius: 100%;
     right: -14px;
     top: -9px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
-/* Chrome, Safari, Edge, Opera */
+.myaccount-profile-image img{
+    display: inline-block;
+    max-height: 90px;
+    width: auto;
+}
+.add-profile-img:hover{
+    background: #a9a8a8;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-/* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
@@ -77,9 +86,6 @@ input[type=number] {
 }
 .my-account-setting-sec .myaccount-content-cntlr{
     padding-bottom:60px;
-}
-.add-profile-img label:hover span i{
-    color: #ffd8d8;
 }
 @media(max-width:1199px){
     .myaccount-profile-image{
@@ -143,3 +149,7 @@ input[type=number] {
     .myaccount-setting-form .account-profile-right {
         padding-left: 0px;
     }
+    .submint-btn button{
+        min-width: 100%!important;
+    }
+}

@@ -6,7 +6,6 @@ $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
 
-
 $('.select-2-cntlr').select2();
 
 if( $('.hamburgar-cntlr').length ){
@@ -25,7 +24,6 @@ if(windowWidth <=767){
 if($("ul.slick-dots li").length == 1){
    $("ul.slick-dots").hide();
 }
-//matchHeightCol
 if($('.mHc').length){
   $('.mHc').matchHeight();
 };
@@ -48,7 +46,6 @@ if($('.mHc6').length){
   $('.mHc6').matchHeight();
 };
 $(window).load(function() {
-//matchHeightCol
   if($('.mHc').length){
     $('.mHc').matchHeight();
   };
@@ -72,9 +69,6 @@ $(window).load(function() {
   };
 });
 
-//$('[data-toggle="tooltip"]').tooltip();
-
-//banner animation
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   $('.page-banner-bg').css({
@@ -89,35 +83,16 @@ $(window).scroll(function() {
 
 if($('.fancybox').length){
 $('.fancybox').fancybox({
-    //openEffect  : 'none',
-    //closeEffect : 'none'
   });
 
 }
 
-
-/**
-Responsive on 767px
-*/
-
-// if (windowWidth <= 767) {
+if ($('.toggle-btn').length) {
   $('.toggle-btn').on('click', function(){
     $(this).toggleClass('menu-expend');
     $('.toggle-bar ul').slideToggle(500);
   });
-
-
-// }
-
-
-
-// http://codepen.io/norman_pixelkings/pen/NNbqgG
-// https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
-
-
-/**
-Slick slider
-*/
+}
 if( $('.responsive-slider').length ){
     $('.responsive-slider').slick({
       dots: true,
@@ -151,27 +126,14 @@ if( $('.responsive-slider').length ){
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
 
-
-
-
-
-
-
-
-/* BS form Validator*/
 (function() {
   'use strict';
   window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.getElementsByClassName('needs-validation');
-    // Loop over them and prevent submission
     var validation = Array.prototype.filter.call(forms, function(form) {
       form.addEventListener('submit', function(event) {
         if (form.checkValidity() === false) {
@@ -183,14 +145,6 @@ if( $('.responsive-slider').length ){
     });
   }, false);
 })();
-
-
-
-
-
-
-
-/*start of Noyon*/
 
 $('.bln-accordion-hdr').on('click', function(){
   $(this).toggleClass('active');
@@ -252,11 +206,6 @@ if (expertiseC > 6) {
   });
 }
 
-
-
-/*start of Shariful*/
-
-
 var containerWidth = $('.container').width();
 var offset = (windowWidth - containerWidth);
 var rgtOffSet = (offset / 2);
@@ -279,7 +228,6 @@ if(windowWidth > 639){
   }  
 }
 
-
 if(windowWidth <= 767){
   if( $('.hireProSlider').length ){
     $('.hireProSlider').slick({
@@ -294,13 +242,6 @@ if(windowWidth <= 767){
     });
   }
 }
-
-
-/*start of Momin*/
-
-/**
-Slick slider
-*/
 if(windowWidth <= 767){
     $('.HowItWorksSlider').slick({
       dots: true,
@@ -319,15 +260,10 @@ if(windowWidth <= 767){
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
 
-
-/*start of Niaz*/
 if(windowWidth > 767){
   if($('.tol-tip').length){
     $('.tol-tip').mouseenter(function(){
@@ -363,14 +299,12 @@ if($('#bln-nav').length){
 }
 
 
-/*start of Zahir*/
 if($('.fancybox').length){
   $(document).ready(function() {
     $(".fancybox").fancybox();
   });
 }
 
-/*start of Keshob*/
 $('.create-a-job-form select').select2();
 $('.select-2-cntlr').select2();
 

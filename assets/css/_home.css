@@ -153,15 +153,16 @@
 .cta-module-sec{
 	background: #f5f7fa;
 	position: relative;
+	overflow: hidden;
 }
 .cta-module-bg-show-xs{
 	background-repeat: no-repeat!important;
-	background-position: center top!important;
+	background-position: center center!important;
 	position: absolute;
+	top: -50px;
 	right: 0;
-	left: 0;
-	top: 0;
 	bottom: 0;
+	left: 0;
 	z-index: 1;
 }
 .cta-module-cntlr{
@@ -182,16 +183,17 @@
 	position: relative;
 }
 .hiwp-cta-module-sec .cta-module-cntlr-bg{
-	background-position: left 66px center!important;
+	background-position: left center!important;
 }
+
 .cta-module-cntlr-bg{
 	background-repeat: no-repeat!important;
-	background-position: left 66px top!important;
+	background-position: left top!important;
 	position: absolute;
-	top: 0;
+	top: -127px;
 	right: 0;
 	bottom: 0;
-	left: 0;
+	left: -30px;
 	z-index: 1;
 }
 body.home .cta-module-cntlr{

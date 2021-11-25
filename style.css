@@ -13,28 +13,3 @@ Text Domain: clipfresh
 
 @import url('assets/css/main.css');
 
-
-li a:after{
-
-}
-li a:after:hover{
-	color: #f00;
-}
-
-.facebook a:after{
-	content: "\f099"!important;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 600;
-    text-decoration: inherit;
-    color: #1E1E1E;
-    font-size: 22px;
-    padding-right: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    right: 15px;
-    line-height: 15px;
-	
-}

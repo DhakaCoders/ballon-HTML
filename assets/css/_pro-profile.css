@@ -286,7 +286,6 @@
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
-/*pp-about-sec ------------------------------------------------------------------*/
 .pp-about-sec{
     padding-bottom: 80px;
 }
@@ -390,7 +389,6 @@
 .pp-about-fancy-more-items:hover .pp-about-fancy-more-inln-img-item:after{
     opacity: .7;
 }
-/*pp-location-expert-sec--------------------------------------------------------------*/
 .pp-location-expert-sec{
     padding-bottom: 45px;
 }

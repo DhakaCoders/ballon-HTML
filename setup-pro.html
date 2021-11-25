@@ -37,7 +37,7 @@
 <div class="page-body-cntlr">
 
   <div class="bdoverlay"></div>
-  <header class="header">
+  <header class="header header-no-login">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -189,9 +189,10 @@
                       </div>
                     </div>
                     <div class="input-field-row">
-                      <div class="input-field-col">
+                      <div class="input-field-col input-field-label-col">
                         <span class="in-icon"><i class="fas fa-map-marker"></i></span>
-                        <input type="text" name="text" placeholder="County" required="">
+                        <input type="text" name="text" id="County" required="">
+                        <label for="County">County <span> (If Applicable)</span></label>
                       </div>
                     </div>
                     <div class="input-field-row">
@@ -219,9 +220,10 @@
                       </div>
                     </div>
                     <div class="input-field-row">
-                      <div class="input-field-col">
+                      <div class="input-field-col input-field-label-col">
                         <span class="in-icon"><i class="fas fa-phone"></i></span>
-                        <input type="text" name="text" placeholder="Alt Telephone" required="">
+                        <input type="text" id="alt-telephone" name="text" placeholder="" required="">
+                        <label for="alt-telephone">Alt Telephone <span>(If Applicable)</span></label>
                       </div>
                     </div>
                     <div class="input-field-row">
