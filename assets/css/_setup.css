@@ -1,11 +1,6 @@
 .setup-form .input-field-col{
 	margin-bottom: 13px;
 }
-/*.setup-contant-sec .input-field-wrapper{
-	padding-bottom: 23px;
-	margin-bottom: 30px;
-	border-bottom: 2px solid #e1e1e1;
-}*/
 .setup-contant-sec .input-fields-cntlr{
 	padding-bottom: 23px;
 	margin-bottom: 30px;
@@ -81,6 +76,29 @@
     padding-bottom: 71px;
 }
 
+.input-field-Postcode-col{
+	position: relative;
+}
+.input-field-Postcode-col label{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	left: 57px;
+	font-weight: 500;
+	font-size: 19px;
+	color: #2b2b2b;
+	display: inline-block;
+}
+.input-field-Postcode-col input[type="text"]:focus + label{
+    display: none;
+}
+.input-field-Postcode-col label span{
+	color: #c8c8c8;
+	font-weight: 400;
+}
 
 @media (max-width: 991px){
 	.join-contant-sec.setup-contant-sec {
