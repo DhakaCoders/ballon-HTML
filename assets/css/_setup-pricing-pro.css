@@ -146,14 +146,6 @@
 	}
 
 }
-@media(max-width: 400px){
-
-}
-/*@media(max-width: 479px){
-	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr{
-		padding: 30px 25px 40px;
-	}
-}*/
 @media(max-width: 359px){
 	.setup-pricing-account-sec .bln-pkg-grid-item-cntlr {
    		 padding: 30px 22px 40px;
