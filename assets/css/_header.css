@@ -53,6 +53,11 @@ nav.main-nav > ul > li.menu-btn > a{
     padding: 7px 35px;
     position: relative;
 }
+.header-new-job nav.main-nav > ul > li.menu-btn > a{
+    padding-left: 33px;
+    padding-right: 12px;
+    
+}
 nav.main-nav > ul > li.menu-btn > a i{
     position: absolute;
     top: 50%;
