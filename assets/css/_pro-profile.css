@@ -694,38 +694,54 @@
     color: #2b2b2b;
     margin-bottom: 20px;
     font-weight: 600;
-    line-height: 1.7;
 }
-.pp-revw-item-cont-cntlr > ul{
+.pp-revw-item-cont-cntlr p:last-of-type{
+    margin-bottom: 0;
+}
+.pp-revw-item-cont-cntlr > ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -17px;
+    padding-top: 20px;
 }
-.pp-revw-item-cont-cntlr >ul >li {
-    position: relative;
+.pp-revw-item-cont-cntlr >ul >li{
     margin-bottom: 5px;
     padding-bottom: 0;
-    padding: 0 17px;
+    padding-right: 30px;
+    padding-left: 0;
 }
-.pp-revw-item-cont-cntlr >ul >li> i {
-    position: absolute;
-    left: 18px;
-    top: 0px;
-    color: #fa5252;
+.toolbox-icon span{
+    
 }
-.map-marker-icon i {
+.map-marker-icon span {
+    padding-left: 15px!important;
+}
+.calender-icon span {
+    padding-left: 19px!important;
+}
+.toolbox-icon span i{
+
+}
+.map-marker-icon span i {
     top: 1px!important;
-    left: 22px!important;
 }
-.calender-icon i {
+.calender-icon span i {
     top: -1px!important;
-    left: 18px!important;
+}
+.calender-icon span i img{
+
+}
+.pp-revw-item-cont-cntlr >ul >li > span >i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fa5252;
 }
 .pp-revw-item-cont-cntlr> ul> li> span{
     color: #2b2b2b;
     font-weight: 500;
     display: inline-block;
     padding-left: 20px;
+    position: relative;
 }
 .pp-revw-item-rating{
     margin-left: auto;
@@ -789,6 +805,24 @@
     padding-left: 25px;
     padding-right: 30px;
 }
+.calender-icon span i img {
+    height: 15px;
+    width: 14px;
+}
+.pp-revw-item-cont-cntlr >ul >li {
+    padding-right: 25px;
+}
+.calender-icon span i {
+    top: -2px!important;
+}
+.calender-icon span i {
+    top: -2px!important;
+    left: 2px!important;
+}
+.map-marker-icon span i {
+    top: 1px!important;
+    font-size: 16px;
+}
 .pp-review-title i {
     font-size: 23px;
     top: -1px;
@@ -819,7 +853,7 @@
     font-size: 22px;
 }
 .pp-vfqf-verified-item-list {
-    padding: 20px 10px 5px;
+    padding: 20px 15px 5px;
 }
 .pp-vfqf-verified-title i {
     font-size: 22px;
@@ -960,6 +994,14 @@
 .pp-vfqf-verified-item-list ul li span {
     font-size: 17px;
 }
+.revw-rate {
+    font-size: 26px;
+}
+
+
+
+
+
 
 }
 
@@ -968,6 +1010,22 @@
 @media(max-width: 991px){
     .pp-about-fancy-gallery{
     height: 250px;
+}
+.pp-revw-item-cont-cntlr > ul{
+    padding-top: 15px;
+}
+.pp-revw-item-rating> ul> li> a >i {
+    font-size: 22px;
+}
+.pp-revw-item-cont-cntlr >ul >li {
+    padding-right: 20px;
+}
+.pp-review-title i {
+    font-size: 22px;
+}
+.pp-review-title {
+    padding-left: 32px;
+    margin-bottom: 15px;
 }
 .pp-vfqf-verified-item-list {
     padding: 20px 15px 5px;
@@ -1140,6 +1198,9 @@
 .pp-loc-exprt-expert-sectors ul li span {
     padding: 5px 6px;
     font-size: 14px;
+}
+.pp-revw-item-rating> ul> li> a >i {
+    font-size: 22px;
 }
 .pp-vfqf-verified-title i {
     font-size: 20px;
@@ -1364,6 +1425,9 @@
 @media(max-width: 575px){
     .pp-loc-exprt-locations ul li a {
     font-size: 15px;
+}
+.pp-about-fancy-title {
+    padding-left: 33px;
 }
 .pp-vfqf-verified-item-list {
     padding: 10px 16px 5px;
