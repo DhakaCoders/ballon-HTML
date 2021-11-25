@@ -1,7 +1,12 @@
-
+.View-job-mdul-hdr .job-cntnt-mdul-title > a,
 .View-job-mdul-hdr .job-cntnt-mdul-title > span{
 	color: #7a92d0;
 	font-weight: 500;
+	display: inline-block;
+	text-decoration: none;
+}
+.View-job-mdul-hdr .job-cntnt-mdul-title > a:hover{
+	color: #fa5252;
 }
 .review-job-mdul{
 	margin-bottom: 48px;

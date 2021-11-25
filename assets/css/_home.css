@@ -235,17 +235,17 @@ body.home .cta-module-cntlr{
 	display: inline-block;
 	font-size: 18px;
 }
-.cta-module-rating span.cta-module-rating-plus a{
+.cta-module-rating span.cta-module-rating-plus {
 	color: #8b8b8b;
 	font-style: italic;
 }
-.cta-module-rating span.cta-module-rating-plus a i{
+.cta-module-rating span.cta-module-rating-plus i{
 	font-style: inherit;
 }
-.cta-module-rating span.cta-module-rating-plus a:hover i,
-.cta-module-rating span a:hover i{
+/*.cta-module-rating span.cta-module-rating-plus:hover i,
+.cta-module-rating span:hover i{
 	color: #fa5252;
-}
+}*/
 .cta-module-btns{
 	max-width: 305px;
 	width: 100%;
