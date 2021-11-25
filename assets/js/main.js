@@ -322,17 +322,19 @@ if($('.input-tol-tip').length){
 
 if($('.input-field-col #file').length){
   $('.input-field-col #file').change( function(){
-    var fileValue = $(this).val();
+    var fileValue = $(this.files[0];
     $('.file-upload-here').append("<span>" +  fileValue + "</span> ");
   });
 }
 
-if($('.myaccount-profile-image').length){
+
+
+/*if($('.myaccount-profile-image').length){
   $('add-profile-img #profile').change( function(){
     var profile = $(this).val();
     $('.myaccount-profile-image').append("<span>" +  profile + "</span> ");
   });
-}
+}*/
 /*if($('.input-field-col #file').length){
   $('.input-field-col #file').change( function(){
     var fileValue = $(this).val();
