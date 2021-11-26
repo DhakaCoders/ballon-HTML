@@ -342,6 +342,14 @@ if($('#profile').length){
     image.src = URL.createObjectURL(event.target.files[0]);
   });
 }
-    new WOW().init();
+
+$(document).ready(function() {
+  $('body').addClass('jsLoaded');
+});
+
+
+$(window).load(function() {
+ 
+});
 
 })(jQuery);

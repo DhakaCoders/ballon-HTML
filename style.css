@@ -12,4 +12,43 @@ Text Domain: clipfresh
 */
 
 @import url('assets/css/main.css');
+.hm-page-bnr-input-field-row.input-col-1 label span.main-text{
+	float: left;
+	color: #2b2b2b;
+}
+.hm-text-slider{
+	display: inline-block;
+	height: 30px;
+	animation: 7s normal infinite running scroll3;
+}
+.hm-text-slider span{
+	line-height: 30px;
+	display: block;
+}
+@keyframes scroll3 {
+   0%   {margin-top: 0px;}
+   30%  {margin-top: 0px;}
 
+   40%  {margin-top: -30px;}
+   60%  {margin-top: -30px;}
+   
+   70%  {margin-top: -60px;}
+   90%  {margin-top: -60px;}
+
+   100% {margin-top: 0px;}
+}
+@keyframes scroll {
+   0%   {margin-top: 0px;}
+   15%  {margin-top: 0px;}
+
+   25%  {margin-top: -30px;}
+   40%  {margin-top: -30px;}
+   
+   50%  {margin-top: -60px;}
+   65%  {margin-top: -60px;}
+
+   75%  {margin-top: -90px;}
+   90%  {margin-top: -90px;}
+
+   100% {margin-top: 0px;}
+}

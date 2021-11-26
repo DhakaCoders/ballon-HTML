@@ -203,3 +203,11 @@ body.home .footer-wrp{
 		text-align: center;
 	}
 }
+@media(max-width: 575px){
+	.ftr-col{
+		text-align: left;
+	}
+	.ftr-socials ul{
+		justify-content: initial;
+	}	
+}
