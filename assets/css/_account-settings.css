@@ -42,8 +42,8 @@
 }
 .myaccount-profile-image img{
     display: inline-block;
-    max-height: 90px;
-    width: auto;
+    max-width: 77px;
+    height: auto;
 }
 .add-profile-img:hover{
     background: #a9a8a8;

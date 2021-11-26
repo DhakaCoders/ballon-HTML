@@ -86,15 +86,16 @@
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
-	left: 57px;
+	left: 60px;
 	font-weight: 500;
 	font-size: 19px;
 	color: #2b2b2b;
 	display: inline-block;
+	cursor: text;
 }
-.input-field-label-col input[type="text"]:focus + label{
+/*.input-field-label-col input[type="text"]:focus + label{
     display: none;
-}
+}*/
 .input-field-label-col label > span{
 	color: #c8c8c8;
 	font-weight: 400;

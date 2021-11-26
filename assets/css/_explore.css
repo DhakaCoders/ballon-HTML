@@ -147,6 +147,22 @@
 	font-style: italic;
 	display: none;
 }
+
+.explore-filter-less{
+	padding-top: 5px;
+	line-height: 1;
+	font-size: 18px;
+	color: #bcbcbc;
+	cursor: pointer;
+	font-style: italic;
+	display: block;
+}
+.explr-fltr-expertise-mdul-extra-hide .explore-filter-less{
+	display: none;
+}
+.expertise-filters-module-fheight.expertise-filters-module .explore-filter-less{
+	display: block;
+}
 .expertise-filters-module{
 	height: 121px;
     overflow: hidden;
@@ -156,6 +172,7 @@
 }
 .expertise-filters-module-fheight.expertise-filters-module{
 	height: initial;
+	overflow: initial;
 }
 .explore-filter-more span{
 	padding-left: 5px;
@@ -407,6 +424,9 @@
 	color: #fa5252;
 	font-size: 15px;
 }
+.explore-sec .company-item-top-dtls-col span.company-item-top-dtls-info-title i{
+	margin-top: -1px;
+}
 .company-item-top-dtls-col-rating{
 	display: flex;
 	align-items: center;
@@ -482,7 +502,7 @@
 	width: auto;
 }
 .company-item-cntct-col a:hover{
-	background: #2b2b2b;
+	background: #dce3f7;
 }
 
 .company-item-tag{

@@ -158,12 +158,17 @@
 	display: inline-block;
 	line-height: 1;
 }
+.job-cntnt-item-ofr-cunt a,
 .job-cntnt-item-ofr-cunt span{
 	color: #7a92d0;
 	font-weight: 500;
 	display: inline-block;
 	line-height: 1;
 	padding-left: 5px;
+	text-decoration: none;
+}
+.job-cntnt-item-ofr-cunt a:hover{
+	color: #fa5252;
 }
 .job-cntnt-item-cntcted{
 	padding: 0 14px;
@@ -213,7 +218,7 @@
     text-align: left;
 }
 .job-cntnt-pro-msg-item a:hover{
-	background: #2b2b2b;
+	background: #dce3f7;
 }
 .job-cntnt-msg-item.job-cntnt-pro-msg-item a{
 	padding-left: 33px;
