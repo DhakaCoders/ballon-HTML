@@ -370,6 +370,16 @@ if($('#profile').length){
   });
 }
 
+
+$(document).ready(function() {
+  $('body').addClass('jsLoaded');
+});
+
+
+$(window).load(function() {
+ 
+});
+
 /*jobs */
 if($('.job-cntnt-item-copy a').length){
   $('.job-cntnt-item-copy a').click( function(e){ 
@@ -392,9 +402,5 @@ if($('.input-field-label-col').length){
     }
   });
 }
-
-
-
-    new WOW().init();
 
 })(jQuery);

@@ -341,7 +341,7 @@ body.allWork {
     }
     .xs-menu nav.main-nav > ul > li {
         padding: 0 0;
-        border-bottom: 1px solid #fa5252;
+        border-bottom: none;
     }
     .xs-menu nav.main-nav > ul > li:last-child{
         border-bottom: none;
@@ -386,6 +386,7 @@ body.allWork {
         width: 100%;
         overflow-y: auto;
         padding-bottom: 5px;
+        padding-top: 20px;
     }
     .xs-menu nav.main-nav > ul > li.menu-item-has-children{
         position: relative;
@@ -427,20 +428,16 @@ body.allWork {
         background: transparent!important;
     }
     nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
-        border-color: #fa5252;
+        border-color: none;
     }
     nav.main-nav > ul > li.menu-item-has-children > a:before{
         content: none;
     }
-    .xs-menu nav.main-nav > ul > li.current-menu-item{
-        background: #fa5252;
-        border-bottom: none;
-    }
-    .xs-menu nav.main-nav > ul > li.current-menu-item a{
-        color: #fff;
-    }
     nav.main-nav > ul > li.menu-btn{
         padding-top: 20px;
+    }
+    .xs-pop-up-menu-top{
+        border-bottom: 1px solid #4f4f4f;
     }
 }
 
