@@ -39,7 +39,9 @@
 .myaccount-menu{
     margin-bottom: 25px;
 }
-
+.myaccount-menu ul li{
+    padding-bottom: 2px;
+}
 .myaccount-menu ul li a,
 .logout-link a{
     display: inline-block;
@@ -78,11 +80,11 @@
     font-family: 'Font Awesome 5 Free';
     right: 3px;
     font-size: 18px;
-    top: -1px;
     color: #fa5252;
     transition: all .5s;
     -webkit-transition: all .5s;
     -ms-transition: all .5s;
+    top: 1px;
 }
 .input-field-col span.in-icon-file {
     left: 19px!important;

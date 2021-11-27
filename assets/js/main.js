@@ -309,7 +309,9 @@ if($('.fancybox').length){
   });
 }
 
-$('.create-a-job-form select').select2();
+$('.create-a-job-form .select-2-cntlr-multi').select2({
+  placeholder: 'Select tags',
+});
 $('.select-2-cntlr').select2();
 
 if($('.input-tol-tip').length){
@@ -322,47 +324,55 @@ if($('.input-tol-tip').length){
 };
 
 
-
-
-  /* account settings ui elements */
+/* 
+* account settings ui elements
+*/
 if($('#file').length){
   $('#file').change( function(e){
     var fileValue = e.target.files[0].name;
-    $('.file-upload-here').append("<span>" +  fileValue + "</span> ");
+    $('.file-upload-here.file1').html("<span>" +  fileValue + "</span> ");
   });
 }
 if($('#file2').length){
   $('#file2').change( function(e){
     var fileValue2 = e.target.files[0].name;
-    $('.file-upload-here').append("<span>" +  fileValue2 + "</span> ");
+    $('.file-upload-here.file2').html("<span>" +  fileValue2 + "</span> ");
   });
 }
-/*create-a-job */
+
+/* 
+* create-a-job
+*/
 if($('#file3').length){
   $('#file3').change( function(e){
     var fileValue3 = e.target.files[0].name;
-    $('.file-upload-here').append("<span style='padding-top: 8px;'>" +  fileValue3 + "</span> ");
+    $('.file-upload-here').html("<span style='padding-top: 8px;'>" +  fileValue3 + "</span> ");
   });
 }
 
-/*edit-job-posting */
+/* 
+* edit-job-posting
+*/
 if($('#file4').length){
   $('#file4').change( function(e){
     var fileValue4 = e.target.files[0].name;
-    $('.file-upload-here').append("<span style='padding-top: 8px;'>" +  fileValue4 + "</span> ");
+    $('.file-upload-here').html("<span style='padding-top: 8px;'>" +  fileValue4 + "</span> ");
   });
 }
 
-/*messege */
+/* 
+* Messege
+*/
 if($('#file5').length){
   $('#file5').change( function(e){
     var fileValue5 = e.target.files[0].name;
-    $('.file-upload-here').append("<span style='padding-top: 8px;'>" +  fileValue5 + "</span> ");
+    $('.file-upload-here').html("<span style='padding-top: 8px;'>" +  fileValue5 + "</span> ");
   });
 }
 
-  /* account-settings */
-
+/* 
+* Profile image 
+*/
 if($('#profile').length){
   $('#profile').change( function(e){ 
     var image = document.getElementById('pro_image');

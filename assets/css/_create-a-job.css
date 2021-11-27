@@ -118,6 +118,65 @@
 .create-a-job-form .input-field-inner .back-btn+.submint-btn button{
     margin-bottom:0;
 }
+body .select2-selection--multiple textarea {
+    height: auto!important;
+    display: inline-block;
+    margin-top: 16px!important;
+    margin-left: 3px!important;
+    font-family: 'Inter', sans-serif!important;
+    transition: initial;
+}
+body .select2-selection--multiple ul li:before{
+    display: none;
+}
+body .select2-selection--multiple ul li span{
+
+}
+body .create-a-job-form .input-field-col .select2-selection--multiple ul li span{
+    background: transparent;
+    font-size: 16px;
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 5px;
+    display: inline-block;
+    border-radius: initial;
+    color: #616368;
+    font-weight: 600;
+    transition: initial;
+}
+body .create-a-job-form .input-field-col .select2-selection--multiple .select2-selection__choice__remove span{
+    padding: 0!important;
+    transition: initial;
+}
+body .create-a-job-form .input-field-col span.select2-selection.select2-selection--multiple {
+    border: 2px solid #cecece;
+    min-height: 60px;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: initial;
+}
+body .create-a-job-form .input-field-col ul.select2-selection__rendered{
+    margin: 0;
+    vertical-align: top;
+    transition: initial;
+}
+
+body .select2-selection--multiple textarea::placeholder{
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+    opacity: 1!important;    
+    transition: initial;
+}
+#tags .create-a-job-form .select2-container{
+    min-height: 60px!important;
+    height: auto!important;
+    transition: initial;
+}
 @media(max-width:1199px){
     .create-a-job-form .input-field-col label, 
     .pro-review-job .input-field-col > span{
@@ -129,6 +188,12 @@
     .create-a-job-form .form-block {
         padding-left: 35px;
         padding-right: 35px;
+    }
+    body .create-a-job-form .input-field-col span.select2-selection.select2-selection--multiple{
+        min-height: 55px;
+    }
+    body .select2-selection--multiple textarea{
+        margin-top: 14px!important;
     }
 }
 @media(max-width:991px){
@@ -163,6 +228,20 @@
     .create-a-job-form .form-block {
         padding-left: 25px;
         padding-right: 25px;
+    }
+    body .create-a-job-form .input-field-col span.select2-selection.select2-selection--multiple,
+    #tags .create-a-job-form .select2-container{
+        min-height: 50px;
+    }
+    body .select2-selection--multiple textarea{
+        margin-top: 13px!important;
+    }
+    body .create-a-job-form .input-field-col span.select2-selection.select2-selection--multiple{
+        padding-bottom: 0;
+    }
+    .select2-container--default .select2-selection--multiple .select2-selection__choice{
+        margin-top: 0!important;
+        margin-bottom: 3px!important;
     }
 }
 @media(max-width:639px){
