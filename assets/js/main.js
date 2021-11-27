@@ -204,6 +204,10 @@ if (expertiseC > 6) {
     $('.expertise-filters-module').addClass('expertise-filters-module-fheight');
     $('.explr-fltr-expertise-mdul-cntlr').removeClass('explr-fltr-expertise-mdul-extra-hide');
   });
+  $('.explore-filter-less').click(function(){
+    $('.expertise-filters-module').removeClass('expertise-filters-module-fheight');
+    $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide');
+  });
 }
 
 var containerWidth = $('.container').width();
@@ -333,6 +337,29 @@ if($('#file2').length){
     $('.file-upload-here').append("<span>" +  fileValue2 + "</span> ");
   });
 }
+/*create-a-job */
+if($('#file3').length){
+  $('#file3').change( function(e){
+    var fileValue3 = e.target.files[0].name;
+    $('.file-upload-here').append("<span style='padding-top: 8px;'>" +  fileValue3 + "</span> ");
+  });
+}
+
+/*edit-job-posting */
+if($('#file4').length){
+  $('#file4').change( function(e){
+    var fileValue4 = e.target.files[0].name;
+    $('.file-upload-here').append("<span style='padding-top: 8px;'>" +  fileValue4 + "</span> ");
+  });
+}
+
+/*messege */
+if($('#file5').length){
+  $('#file5').change( function(e){
+    var fileValue5 = e.target.files[0].name;
+    $('.file-upload-here').append("<span style='padding-top: 8px;'>" +  fileValue5 + "</span> ");
+  });
+}
 
   /* account-settings */
 
@@ -343,6 +370,7 @@ if($('#profile').length){
   });
 }
 
+
 $(document).ready(function() {
   $('body').addClass('jsLoaded');
 });
@@ -351,5 +379,28 @@ $(document).ready(function() {
 $(window).load(function() {
  
 });
+
+/*jobs */
+if($('.job-cntnt-item-copy a').length){
+  $('.job-cntnt-item-copy a').click( function(e){ 
+   e.preventDefault();
+    var CopyLink = $(this).parents('.job-cntnt-item').find('.job-cntnt-item-title a').attr('href');
+    alert(CopyLink);
+  });
+}
+
+
+if($('.input-field-label-col').length){
+  $('.input-field-label-col input').on("keyup", function(e){
+    var labelVal = $('.input-field-label-col input').val();
+    if (labelVal != '') {
+      $(this).parent('.input-field-label-col').find('label').hide();
+      /*$('.input-field-label-col label').hide();*/
+    }else{
+      /*$('.input-field-label-col label').show();*/
+      $(this).parent('.input-field-label-col').find('label').show();
+    }
+  });
+}
 
 })(jQuery);
