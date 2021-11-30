@@ -392,11 +392,26 @@ $(window).load(function() {
 });
 
 /*jobs */
-if($('.job-cntnt-item-copy a').length){
+/*if($('.job-cntnt-item-copy a').length){
   $('.job-cntnt-item-copy a').click( function(e){ 
    e.preventDefault();
     var CopyLink = $(this).parents('.job-cntnt-item').find('.job-cntnt-item-title a').attr('href');
     alert(CopyLink);
+  });
+}*/
+
+if($('.job-cntnt-item-copy a').length){
+  $('.job-cntnt-item-copy a').click( function(e){ 
+    e.preventDefault();
+    $(this).closest('.job-cntnt-item').toggleClass('expended');
+    $(this).parents('.job-cntnt-item').find('.job-cntnt-item-lft .expend-module').slideToggle();
+  });
+}
+if($('.mgs-s-switch').length){
+  $('.mgs-s-switch').click( function(e){ 
+    e.preventDefault();
+    $(this).closest('.job-cntnt-item').toggleClass('expended');
+    $(this).next('.mgs-settings').slideToggle();
   });
 }
 

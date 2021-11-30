@@ -256,6 +256,13 @@
 	font-weight: 500;
 	text-transform: capitalize;
 }
+.service-grd-item-des ul li a{
+	color: #616368;
+	text-decoration: none;
+}
+.service-grd-item-des ul li a:hover{
+	color: #fa5252;
+}
 .service-grd-item-des-btn{
 	padding-top: 15px;
 	text-align: right;

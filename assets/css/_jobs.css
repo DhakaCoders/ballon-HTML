@@ -256,6 +256,12 @@
 .job-cntnt-item-dtls-col-pl22 span{
 	padding-left: 22px!important;
 }
+.expend-module{
+	display: none;
+}
+.job-cntnt-item.expended .job-cntnt-item-copy a{
+	color: #fa5252;
+}
 @media (max-width: 1199px){
 	.job-content-sec {
 	    padding-bottom: 100px;
