@@ -414,7 +414,7 @@
     opacity: .7;
 }
 .bln-location-expert-sec{
-    padding-bottom: 45px;
+    padding-bottom: 60px;
 }
 .bln-location-expert-cntnts-cntlr{
     display: flex;
@@ -1263,7 +1263,7 @@
     left: -240px!important;
 }
 .bln-company-intro-socials ul li {
-    padding: 0 2px;
+    padding: 0 4px;
 }
 .bln-company-intro-socials ul{
     margin: 0 -2px;
@@ -1516,7 +1516,7 @@
     margin-bottom: 45px;
 }
 .bln-about-sec{
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 }
 .bln-verified-qualification-sec{
     padding-bottom: 45px;
@@ -1524,7 +1524,9 @@
 .bln-review-sec{
     padding-bottom: 60px;
 }
-
+.bln-location-expert-sec {
+    padding-bottom: 50px;
+}
 }
 @media(max-width: 639px){
 
@@ -1603,16 +1605,13 @@
     .bln-loc-exprt-cntnt-lft{
         width: 100%;
         padding-right: 0;
-        margin-bottom: 25px;
+        margin-bottom: 45px;
     }
     .bln-loc-exprt-google-map-cntlr{
         padding-left: 0;
     }
     .bln-loc-exprt-cont-rgt{
         width: 100%;
-    }
-    .bln-about-sec{
-        padding-bottom: 30px;
     }
     .bln-vfqf-cntns-lft{
         width: 100%;
@@ -1622,7 +1621,7 @@
         padding-left: 0;
     }
     .bln-verified-qualification-sec{
-        padding-bottom: 30px;
+        padding-bottom: 45px;
     }
     .bln-vfqf-toltip-des{
         left: initial!important;
@@ -1631,8 +1630,8 @@
     .bln-revw-item-cont-cntlr p{
         font-size: 15px;
     }
-    .bln-vfqf-cntns-lft{
-        margin-bottom: 30px;
+    .bln-vfqf-cntns-lft {
+        margin-bottom: 50px;
     }
 }
 
@@ -1641,7 +1640,6 @@
 .bln-loc-exprt-cntnt-lft {
     padding-right: 0;
     width: 100%;
-    margin-bottom: 20px;
 }
 .revw-rate {
     font-size: 19px!important;
@@ -1699,22 +1697,20 @@
 }
 .bln-company-intro-contact-methods ul li a i {
     margin-left: 5px;
-    margin-top: 8px;
+    margin-top: 7px;
     font-size: 15px;
 }
 .bln-company-intro-cntnts-btm-lft {
     padding-right: 0!important;
 }
 .bln-company-intro-contact-methods ul li a {
-    font-size: 15px;
-    padding: 7px 12px;
-    padding-left: 18px;
+    text-align: left;
 }
 .bln-company-intro-contact-methods ul li a span {
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
-    padding-left: 4px!important;
+    padding-left: 0px!important;
 }
 .bln-company-intro-contact-methods ul li {
     margin-bottom: 0;
@@ -1738,7 +1734,6 @@
     margin-top: 5px;
 }
 .bln-company-intro-contact-methods ul li{
-    width: 100%;
     margin-bottom: 5px;
 }
 .bln-vfqf-verified-item-list ul li{

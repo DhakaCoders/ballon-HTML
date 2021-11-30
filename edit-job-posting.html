@@ -171,8 +171,8 @@
                           </label>
                           <div id="select" class="create-a-job-form contact-select-down-icon">
                              <select class="create-a-job-form select-2-cntlr">
-                                <option selected>Select a category</option>
-                                <option value="1">category 1</option>
+                                <option>Select a category</option>
+                                <option value="1" selected>category 1</option>
                                 <option value="2">category 2</option>
                                 <option value="3">category 3</option>
                                 <option value="4">category 4</option>
@@ -200,7 +200,7 @@
                             </div>
                           </label>
                           <div class="input-field-col-inner">
-                            <textarea name="" id="textarea" placeholder="I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint." value="I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint."></textarea>
+                            <textarea name="" id="textarea" placeholder="">I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint." value="I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint.</textarea>
                             <div class="upload-file">
                               <label for="file4"><span><i class="fas fa-paperclip"></i></span></label>
                               <input type="file" id="file4">
@@ -215,7 +215,7 @@
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
                         <div class="input-field-col">
-                          <label for="select">tags
+                          <label for="select">Tags
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
                             </span>
@@ -227,17 +227,17 @@
                             </div>
                           </label>
                           <div class="create-a-job-form contact-select-down-icon padding-btm-20">
-                             <select class="create-a-job-form select-2-cntlr">
-                                <option selected>Select tags</option>
-                                <option value="1">tag 1</option>
-                                <option value="2">tag 2</option>
-                                <option value="3">tag 3</option>
-                                <option value="4">tag 4</option>
-                                <option value="5">tag 5</option>
-                                <option value="5">tag 6</option>
+                             <select class="create-a-job-form select-2-cntlr-multi" multiple="multiple">
+                                <option value="1">Plumbing 1</option>
+                                <option value="7" selected>Painting 2</option>
+                                <option value="2" selected>Plumbing 3</option>
+                                <option value="3">Painting 4</option>
+                                <option value="4">Plumbing 5</option>
+                                <option value="5">Painting 6</option>
+                                <option value="6" selected>Plumbing 7</option>
                              </select>
                           </div>
-                          <ul class="reset-list">
+                          <ul class="reset-list" style="display: none;">
                             <li><span>Plumbing</span></li>
                             <li><span>Painting</span></li>
                           </ul>
@@ -282,10 +282,10 @@
                           </label>
                           <div class="create-a-job-form contact-select-down-icon">
                              <select class="create-a-job-form select-2-cntlr">
-                                <option selected>05/11/2021</option>
+                                <option value="6">05/11/2021</option>
                                 <option value="1">06/11/2021</option>
                                 <option value="2">07/11/2021</option>
-                                <option value="3">08/11/2021</option>
+                                <option value="3" selected>08/11/2021</option>
                                 <option value="4">09/11/2021</option>
                                 <option value="5">10/11/2021</option>
                                 <option value="5">11/11/2021</option>
@@ -312,10 +312,10 @@
                             </label>
                             <div class="create-a-job-form contact-select-down-icon">
                                <select class="create-a-job-form select-2-cntlr">
-                                  <option selected>Small</option>
+                                  <option value="01">Small</option>
                                   <option value="1">Small 1</option>
                                   <option value="1">Small 2</option>
-                                  <option value="2">Small 3</option>
+                                  <option value="2" selected>Small 3</option>
                                   <option value="3">Small 4</option>
                                   <option value="4">Small 5</option>
                                   <option value="5">Small 6</option>
@@ -326,9 +326,9 @@
                            <div class="input-field-col">
                           <div class="create-a-job-form contact-select-down-icon">
                              <select class="create-a-job-form select-2-cntlr">
-                                <option selected>1 Day</option>
+                                <option value="01">1 Day</option>
                                 <option value="1">2 Day</option>
-                                <option value="2">3 Day</option>
+                                <option value="2" selected>3 Day</option>
                                 <option value="3">4 Day</option>
                                 <option value="4">5 Day</option>
                                 <option value="5">6 Day</option>

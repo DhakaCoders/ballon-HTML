@@ -89,21 +89,30 @@
 .explore-filters-module ul li .explr-fltr-mdul-item label,
 .explore-filters-module ul li,
 .explore-filters-module ul li a{
-	padding: 1px 0;
+	padding: 2px 0;
 	line-height: 1;
 	font-size: 18px;
 	text-transform: capitalize;
 	color: #2b2b2b;
 	cursor: pointer;
+	text-decoration: none;
+	transition: all 0.4s;
 }
 .explore-filters-module ul li.active a,
 .explore-filters-module ul li.active .explr-fltr-mdul-item label a,
 .explore-filters-module ul li.active .explr-fltr-mdul-item label,
-.explore-filters-module ul li.active{
+.explore-filters-module ul li.active,
+.explore-filters-module ul li input[type="radio"]:checked + label,
+.explore-filters-module ul li input[type="checkbox"]:checked + label{
 	color: #fa5252;
 	font-weight: 500;
 }
-.explr-fltr-mdul-item{
+.explore-filters-module ul li .explr-fltr-mdul-item label:hover,
+.explore-filters-module ul li .explr-fltr-mdul-item a:hover{
+	color: #fa5252;
+}
+.explr-fltr-mdul-item,
+.explr-fltr-mdul-item label{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -133,10 +142,11 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: -1;
+	z-index: -9;
 	border: none;
 	outline: none;
 	background: transparent;
+	opacity: 0;
 }
 .explore-filter-more{
 	padding-top: 5px;
@@ -155,6 +165,9 @@
 	color: #bcbcbc;
 	cursor: pointer;
 	font-style: italic;
+	display: none;
+}
+.item-expended .explore-filter-less{
 	display: block;
 }
 .explr-fltr-expertise-mdul-extra-hide .explore-filter-less{
@@ -164,7 +177,7 @@
 	display: block;
 }
 .expertise-filters-module{
-	height: 121px;
+	height: 132px;
     overflow: hidden;
     transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -559,7 +572,7 @@
 	.explore-filters{
 		padding-left: 0;
 		width: 100%;
-		margin-bottom: 30px;
+		margin-bottom: 60px;
 	}
 	.explore-content-cntlr{
 		padding-left: 0;
@@ -569,23 +582,23 @@
 	.explore-reset-filters,
 	.explore-filters-title,
 	.explore-filters-module-cntlr{
-		text-align: center;
+		text-align: left;
 	}
-	.explr-fltr-mdul-hedding{
-		display: inline-block;
-		text-align: center;
-	}
+.explr-fltr-mdul-hedding {
+    display: block;
+    text-align: left;
+}
 	.explore-filters-module ul li .explr-fltr-mdul-item label a,
 	.explore-filters-module ul li .explr-fltr-mdul-item label,
 	.explore-filters-module ul li,
 	.explore-filters-module ul li a{
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
 	.explr-fltr-reviews-mdul-cntlr .explr-fltr-mdul-item{
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-start;
 	}
 	.explr-fltr-reviews-mdul-cntlr .explore-filters-module ul li .explr-fltr-mdul-item label{
 		width: initial;
@@ -594,7 +607,7 @@
 		left: 0;
 	}
 	.expertise-filters-module{
-		height: 113px;
+		height: 128px;
 	}
 	.company-item-desc-title{
 		line-height: 1.15;

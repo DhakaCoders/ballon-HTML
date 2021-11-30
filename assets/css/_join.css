@@ -82,8 +82,9 @@
     -webkit-transition: all 0.5s;
 }
 .input-field-col textarea{
-	height: 189px!important;
+	min-height: 189px!important;
 	resize: none;
+    line-height: 1.2;
 }
 .input-field-col textarea:focus,
 .input-field-col input:focus{

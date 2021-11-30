@@ -197,16 +197,17 @@ $('.bln-accordion-hdr').on('click', function(){
 }
 
 var expertiseC = $('.expertise-filters-module ul li').length;
+var expertiseC1 = expertiseC - 6;
 if (expertiseC > 6) {
   $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide');
-  $('.explore-filter-more').append("+" + expertiseC + "<span>more</span>");
+  $('.explore-filter-more').append("+" + expertiseC1 + "<span>more</span>");
   $('.explore-filter-more').click(function(){
     $('.expertise-filters-module').addClass('expertise-filters-module-fheight');
-    $('.explr-fltr-expertise-mdul-cntlr').removeClass('explr-fltr-expertise-mdul-extra-hide');
+    $('.explr-fltr-expertise-mdul-cntlr').removeClass('explr-fltr-expertise-mdul-extra-hide').addClass('item-expended');
   });
   $('.explore-filter-less').click(function(){
     $('.expertise-filters-module').removeClass('expertise-filters-module-fheight');
-    $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide');
+    $('.explr-fltr-expertise-mdul-cntlr').addClass('explr-fltr-expertise-mdul-extra-hide').removeClass('item-expended');
   });
 }
 

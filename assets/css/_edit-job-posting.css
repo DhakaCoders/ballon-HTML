@@ -26,8 +26,7 @@
     transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
-
-    cursor: pointer;
+    cursor: text;
     width:395px;
     transition: all 0.3s;
     -ms-transition: all 0.3s;

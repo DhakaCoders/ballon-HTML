@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
-
+  <link href="assets/emoji-picker/css/emoji.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
@@ -300,12 +300,12 @@
                       </div>
                     </div>
                     <div class="bln-msg-input-field">
-                      <input type="text" name="">
+                      <input type="text" name="" data-emojiable="true">
                       <div class="bln-msg-icons">
                         <div class="bln-msg-icons-inr">
-                          <div class="bln-msg-icon-col">
+<!--                           <div class="bln-msg-icon-col">
                             <i class="fas fa-smile"></i>
-                          </div>
+                          </div> -->
                           <div class="bln-msg-icon-col">
                             <i class="fas fa-cog"></i>
                           </div>
@@ -416,7 +416,26 @@
 <script src="assets/flatpickr/flatpickr.js"></script>
 <script src="assets/js/jquery.nav.js"></script>
 <script src="assets/js/jquery.sticky-sidebar.js"></script>
-<script src="assets/js/main.js"></script>
+  
+<script src="assets/emoji-picker/js/config.js"></script>
+<script src="assets/emoji-picker/js/util.js"></script>
+<script src="assets/emoji-picker/js/jquery.emojiarea.js"></script>
+<script src="assets/emoji-picker/js/emoji-picker.js"></script>
 
+<script src="assets/js/main.js"></script>
+<script>
+      $(function() {
+        // Initializes and creates emoji set from sprite sheet
+        window.emojiPicker = new EmojiPicker({
+          emojiable_selector: '[data-emojiable=true]',
+          assetsPath: 'assets/emoji-picker/img/',
+          popupButtonClasses: 'fas fa-smile'
+        });
+        // Finds all elements with `emojiable_selector` and converts them to rich emoji input fields
+        // You may want to delay this step if you have dynamically created input fields that appear later in the loading process
+        // It can be called as many times as necessary; previously converted input fields will not be converted again
+        window.emojiPicker.discover();
+      });
+    </script>
 </body>
 </html>

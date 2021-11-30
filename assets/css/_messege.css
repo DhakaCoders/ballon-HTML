@@ -364,7 +364,9 @@
 	display: flex;
 	align-items: center;
 }
-
+.bln-msg-send .file-upload-here{
+	padding-left: 27px;
+}
 .bln-upload-file{
 	position: relative;
 	width: 5%;
@@ -401,7 +403,8 @@
 	width: 81%;
 }
 
-.bln-msg-input-field input[type=text]{
+.bln-msg-input-field input[type=text],
+.bln-msg-input-field textarea{
 	border: 2px solid #c6c6c6;
     border-radius: 5px;
     padding: 11px 70px 11px 15px;
@@ -410,24 +413,30 @@
     color: #2b2b2b;
     width: 100%;
     position: relative;
+    min-height: 50px;
 }
-.bln-msg-input-field input[type=text]::-webkit-input-placeholder {
+.bln-msg-input-field input[type=text]::-webkit-input-placeholder,
+.bln-msg-input-field textarea::-webkit-input-placeholder{
 	color: #2b2b2b;
 	opacity: 1;
 }
-.bln-msg-input-field input[type=text]::-moz-placeholder {
+.bln-msg-input-field input[type=text]::-moz-placeholder,
+.bln-msg-input-field textarea::-moz-placeholder{
 	color: #2b2b2b;
 	opacity: 1;
 }
-.bln-msg-input-field input[type=text]:-ms-input-placeholder { 
+.bln-msg-input-field input[type=text]:-ms-input-placeholder,
+.bln-msg-input-field textarea:-ms-input-placeholder{ 
 	color: #2b2b2b;
 	opacity: 1;
 }
-.bln-msg-input-field input[type=text]:-moz-placeholder {
+.bln-msg-input-field input[type=text]:-moz-placeholder,
+.bln-msg-input-field textarea:-moz-placeholder{
 	color: #2b2b2b;
 	opacity: 1;
 }
-.bln-msg-input-field input[type=text]:focus{
+.bln-msg-input-field input[type=text]:focus,
+.bln-msg-input-field textarea:focus{
 	border-color: #8b8888;
 }
 
@@ -479,6 +488,18 @@
 .bln-msg-send-btn button:hover{
 	background: transparent;
 	color: #fa5252;
+}
+.bln-msg-input-field .emoji-picker-icon{
+	color: #76787c;
+	right: 35px;
+    top: 13px;
+    opacity: 1;
+}
+.bln-msg-input-field .emoji-picker-icon:hover{
+	opacity: 0.7;
+}
+.emoji-wysiwyg-editor{
+	padding-right: 60px;
 }
 @media(max-width: 1199px){
 	.bln-messege-lft-sidebar {

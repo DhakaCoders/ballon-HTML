@@ -120,6 +120,7 @@
 }
 body .select2-selection--multiple textarea {
     height: auto!important;
+    min-height: auto!important;
     display: inline-block;
     margin-top: 16px!important;
     margin-left: 3px!important;
