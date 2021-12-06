@@ -129,8 +129,7 @@ input[type=number] {
     .my-account-setting-sec .myaccount-content-cntlr{
         padding-top:35px;
     }
-    .my-account-setting-sec .myaccount-content-cntlr .form-title,
-    .my-account-setting-sec .myaccount-content-cntlr .input-field-subtitle-center{
+    .my-account-setting-sec .myaccount-content-cntlr .form-title{
         text-align:center;
     }
     .my-account-setting-sec .myaccount-content-cntlr .input-field-subtitle-center{

@@ -67,11 +67,11 @@
 	padding-right:26px;
 }
 .logout-link a:hover {
-    color: #7B92D2;
+    color: #2b2b2b;
 }
 
 .logout-link a:hover:after {
-    color: #7a92d0;
+    color: #2b2b2b;
     right:0;
 }
 .logout-link a:after {

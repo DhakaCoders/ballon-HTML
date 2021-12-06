@@ -21,6 +21,7 @@
 	margin: 0 10px;
 	font-size: 18px;
 	padding: 12.5px 13px 13.5px;
+  text-transform: initial;
 }
 .join-contant-sec.login-contant-sec{
 	padding-bottom: 71px;
@@ -49,7 +50,7 @@
 }
 .login-check-cntlr span.checkmark{
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 8px;
   height: 15px;
   width: 15px;

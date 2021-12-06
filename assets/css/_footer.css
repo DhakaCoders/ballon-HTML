@@ -91,6 +91,7 @@ body.home .footer-wrp{
 .ftr-socials ul li a{
 	font-size: 20px;
 	display: inline-block;
+	vertical-align: middle;
 	color: #979797;
 }
 .ftr-socials ul li a i{
@@ -136,6 +137,9 @@ body.home .footer-wrp{
 	color: #fff;
 	font-size: 14px;
 
+}
+.cta-module-sec + .footer-wrp{
+	border: 0;
 }
 @media(max-width: 1199px){
 	.ftr-col-title{

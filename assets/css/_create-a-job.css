@@ -178,6 +178,36 @@ body .select2-selection--multiple textarea::placeholder{
     height: auto!important;
     transition: initial;
 }
+.bootstrap-tagsinput {
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bootstrap-tagsinput input{
+    order: 1;
+}
+.bootstrap-tagsinput .tag {
+    background: #e5e5e5;
+    font-size: 16px;
+    padding: 6px 8px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #616368;
+    font-weight: 600;
+    order: 2;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+.bootstrap-tagsinput input:focus{
+    border: 2px solid #2b2b2b;
+    border-color: #2b2b2b;
+}
+.input-field-col textarea.textbox{
+    min-height: 58px!important;
+    resize: vertical;
+}
 @media(max-width:1199px){
     .create-a-job-form .input-field-col label, 
     .pro-review-job .input-field-col > span{
@@ -192,6 +222,9 @@ body .select2-selection--multiple textarea::placeholder{
     }
     body .create-a-job-form .input-field-col span.select2-selection.select2-selection--multiple{
         min-height: 55px;
+    }
+    .input-field-col textarea.textbox{
+        min-height: 55px!important;
     }
     body .select2-selection--multiple textarea{
         margin-top: 14px!important;
@@ -221,7 +254,7 @@ body .select2-selection--multiple textarea::placeholder{
     }
 
     .form-block.form-block-bdrnone .input-field-inner .back-btn {
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
     .form-block.form-block-bdrnone{
         padding-top:26px;
@@ -233,6 +266,9 @@ body .select2-selection--multiple textarea::placeholder{
     body .create-a-job-form .input-field-col span.select2-selection.select2-selection--multiple,
     #tags .create-a-job-form .select2-container{
         min-height: 50px;
+    }
+    .input-field-col textarea.textbox{
+        min-height: 50px!important;
     }
     body .select2-selection--multiple textarea{
         margin-top: 13px!important;
@@ -249,6 +285,9 @@ body .select2-selection--multiple textarea::placeholder{
     .create-a-job-form .form-block {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .caj .myaccount-navigation .myaccount-menu{
+        display: none;
     }
 }
 @media(max-width:480px){

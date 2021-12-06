@@ -4,8 +4,8 @@
   <title>Create A Job</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme-color" content="#fa5252">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#fff">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
 
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -18,6 +18,7 @@
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
   <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap-tagsinput/bootstrap-tagsinput.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -52,7 +53,7 @@
                   <li>
                     <a href="#">jobs</a>
                   </li>
-                  <li><a href="#">messege</a></li>
+                  <li><a href="#">Messeges</a></li>
                   <li class="menu-btn">
                     <a href="#">
                       new job
@@ -116,7 +117,7 @@
 
   <!-- end of header -->
 
-  <section class="my-account-sec">
+  <section class="my-account-sec caj">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -143,7 +144,7 @@
             </div>
             <div class="myaccount-content create-a-job-content">
               <div class="myaccount-content-cntlr">
-                <form action="" class="myaccount-form create-a-job-form">
+                <form id="createAjob" action="#" class="myaccount-form create-a-job-form">
                   <div class="form-block" id="title">
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
@@ -189,7 +190,7 @@
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
                         <div class="input-field-col">
-                          <label for="textarea">Description
+                          <label for="job-desc">Description
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
                             </span>
@@ -201,7 +202,7 @@
                             </div>
                           </label>
                           <div class="input-field-col-inner">
-                            <textarea name="" id="textarea" placeholder="Describe your job"></textarea>
+                            <textarea name="" id="job-desc" placeholder="Describe your job"></textarea>
                             <div class="upload-file">
                               <label for="file3"><span><i class="fas fa-paperclip"></i></span></label>
                               <input type="file" id="file3">
@@ -227,16 +228,9 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <div id="select"class="create-a-job-form contact-select-down-icon padding-btm-20">
-                             <select class="create-a-job-form select-2-cntlr-multi" multiple="multiple">
-                                <option value="1">Plumbing 1</option>
-                                <option value="7">Painting 2</option>
-                                <option value="2">Plumbing 3</option>
-                                <option value="3">Painting 4</option>
-                                <option value="4">Plumbing 5</option>
-                                <option value="5">Painting 6</option>
-                                <option value="6">Plumbing 7</option>
-                             </select>
+                          <div class="bs-tags-input">
+                            <input id="tags" type="text" placeholder="Select tags" 
+                            value="" data-role="tagsinput">
                           </div>
                           <ul class="reset-list" style="display: none;">
                             <li><span>Plumbing</span></li>
@@ -270,7 +264,7 @@
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
                         <div class="input-field-col">
-                          <label for="email">Dates
+                          <label for="dates">Dates
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
                             </span>
@@ -281,17 +275,7 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                            <div class="create-a-job-form contact-select-down-icon">
-                             <select class="create-a-job-form select-2-cntlr">
-                                <option selected>Select dates</option>
-                                <option value="1">05/11/2021</option>
-                                <option value="2">06/11/2021</option>
-                                <option value="3">07/11/2021</option>
-                                <option value="4">08/11/2021</option>
-                                <option value="5">09/11/2021</option>
-                                <option value="5">10/11/2021</option>
-                             </select>
-                          </div>
+                          <input type="text" id="dates" placeholder="DD/MM/YYYY">
                       </div>
                       </div>
                     </div>
@@ -359,7 +343,7 @@
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
                         <div class="input-field-col">
-                          <label for="text">Screening Questions
+                          <label for="screening-questions">Screening Questions
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
                             </span>
@@ -370,7 +354,7 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <input type="text" id="text"placeholder="Write a screening question(s) for pros to answer">
+                          <textarea class="textbox" id="screening-questions" placeholder="Write a screening question(s) for pros to answer"></textarea>
                         </div>
                       </div>
                     </div>
@@ -500,6 +484,7 @@
 <script src="assets/flatpickr/flatpickr.js"></script>
 <script src="assets/js/jquery.nav.js"></script>
 <script src="assets/js/jquery.sticky-sidebar.js"></script>
+<script src="assets/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>

@@ -288,9 +288,11 @@
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	font-size: 18px;
+	transition: margin 0.5s;
 }
 .service-grd-item-des-btn a:hover{
 	background: #f6cece;
+	color: #2b2b2b;
 }
 .service-grd-item-des-btn a:hover i{
 	margin-right: -3px;

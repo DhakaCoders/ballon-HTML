@@ -22,7 +22,7 @@
 	text-decoration: none;
 }
 .login-check-cntlr label a:hover{
-	color: #7a92d0;
+	color: #2b2b2b;
 }
 .setup-btm-contant .login-checkmark-cntlr{
 	padding-bottom: 25px;
@@ -50,11 +50,11 @@
 	color: #fa5252;
 }
 .setup-mgs span a:hover{
-	color: #7a92d0;
+	color: #2b2b2b;
 }
 .setup-mgs span a:hover i{
-	right: -4px;
-	color: #7a92d0;
+	right: -2px;
+	color: #2b2b2b;
 }
 .setup-mgs span a i{
 	position: absolute;
