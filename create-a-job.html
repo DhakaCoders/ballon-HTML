@@ -148,9 +148,10 @@
                   <div class="form-block" id="title">
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
-                        <div class="input-field-col">
+                        <div class="input-field-col has-flexible-input">
                           <label for="text">Title</label>
-                          <input type="text" id="text"placeholder="Write a title for your job post">
+                          <div class="flexible-input" role="textbox" placeholder="Write a title for your job post" contenteditable="true"></div>
+                          <input class="flexible-input-val" type="text" id="text" placeholder="Write a title for your job post">
                         </div>
                       </div>
                     </div>
@@ -201,13 +202,16 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <div class="input-field-col-inner">
-                            <textarea name="" id="job-desc" placeholder="Describe your job"></textarea>
+                          <div class="input-field-col-inner has-flexible-textarea has-upload">
+                            <div class="flexible-textarea" role="textbox" placeholder="Describe your job" contenteditable="true"></div>
+                            <input class="flexible-textarea-val" type="text" id="description">
+
                             <div class="upload-file">
                               <label for="file3"><span><i class="fas fa-paperclip"></i></span></label>
                               <input type="file" id="file3">
                             </div>
                           </div>
+                          
                           <div class="file-upload-here"></div>
                         </div>
                       </div>
@@ -255,7 +259,8 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <input type="text" id="text"placeholder="Start typing a postcode or address">
+                          <div class="flexible-input" role="textbox" placeholder="Start typing a postcode or address" contenteditable="true"></div>
+                          <input class="flexible-input-val" type="text" id="location" placeholder="Start typing a postcode or address">
                         </div>
                       </div>
                     </div>
@@ -342,7 +347,7 @@
                    <div class="form-block" id="screening-questions">
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
-                        <div class="input-field-col">
+                        <div class="input-field-col has-flexible-input">
                           <label for="screening-questions">Screening Questions
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
@@ -354,7 +359,8 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <textarea class="textbox" id="screening-questions" placeholder="Write a screening question(s) for pros to answer"></textarea>
+                          <div class="flexible-input" role="textbox" placeholder="Write a screening question(s) for pros to answer" contenteditable="true"></div>
+                          <input class="flexible-input-val" type="text" id="screening-questions" placeholder="Write a screening question(s) for pros to answer">
                         </div>
                       </div>
                     </div>

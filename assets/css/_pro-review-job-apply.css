@@ -22,10 +22,11 @@
 .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{
     height: 60px!important;
 }
-#quote-price .input-field-col input{
+#quote-price .input-field-col input,
+.pro-rvw-job-aply-form input#dates{
     width: 522px;
 }
-#quote-price .input-field-col label{
+.pro-rvw-job-aply-form label{
     display: block;
 }
 .pro-rvw-job-aply-form-btn-cntlr {
@@ -145,7 +146,8 @@
     .pro-rvw-job-aply-form .create-a-job-form select.select-2-cntlr.select2-hidden-accessible.xontact-custom-select {
         width: 100%!important;
     }
-    #quote-price .input-field-col input{
+    #quote-price .input-field-col input,
+    .pro-rvw-job-aply-form input#dates{
         width: 100%;
     }
     .pro-rvw-job-aply-form .create-a-job-form .select2-container .select2-selection--single{

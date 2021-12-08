@@ -84,7 +84,7 @@
 .input-field-col textarea{
 	min-height: 189px!important;
 	resize: none;
-    line-height: 1.2;
+    line-height: 24px;
 }
 .input-field-col textarea:focus,
 .input-field-col input:focus{
@@ -168,13 +168,14 @@
     .input-field-col input{
         font-size:18px;
         padding: 15px 20px 15px 40px;
-        height:55px
+        min-height:55px
     }
     .input-field-col span.in-icon{
         font-size:18px;
     }
     .input-field-col textarea{
         min-height:169px!important;
+        line-height: 23px;
     }
     .input-field-col textarea.textbox{
         min-height: 55px!important;
@@ -212,7 +213,7 @@
         font-size:16px;
         margin-top:-1px;
         padding: 15px 15px 15px 35px;
-        height: 50px;
+        min-height: 50px;
     }
     .input-field-col textarea.textbox{
         min-height: 50px!important;
@@ -327,6 +328,9 @@
     .input-field-col textarea, 
     .input-field-col input{
         font-size: 15px;
+    }
+    .input-field-col textarea{
+        line-height: 22px;
     }
 }
 @media(max-width:400px){

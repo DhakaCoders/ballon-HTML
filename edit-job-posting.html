@@ -148,9 +148,10 @@
                   <div class="form-block" id="title">
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
-                        <div class="input-field-col">
-                          <label for="text">Title</label>
-                          <input type="text" id="text" placeholder="Painter for small bedroom" value="Painter for small bedroom">
+                        <div class="input-field-col has-flexible-input">
+                          <label for="title">Title</label>
+                          <div class="flexible-input" role="textbox" placeholder="Write a title for your job post" contenteditable="true">Painter for small bedroom</div>
+                          <input class="flexible-input-val" type="text" id="title" placeholder="Write a title for your job post" value="Painter for small bedroom">
                         </div>
                       </div>
                     </div>
@@ -200,8 +201,10 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <div class="input-field-col-inner">
-                            <textarea name="" id="textarea" placeholder="">I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint." value="I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint.</textarea>
+                          <div class="input-field-col-inner has-flexible-textarea has-upload">
+                            <div class="flexible-textarea" role="textbox" placeholder="Describe your job" contenteditable="true">I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint.</div>
+                            <input value="I am looking for a painter for a small job to paint my spare bedroom. The room is only four square metres, so should not be that long of a job and I have already bought the paint." class="flexible-textarea-val" type="text" id="description">
+
                             <div class="upload-file">
                               <label for="file4"><span><i class="fas fa-paperclip"></i></span></label>
                               <input type="file" id="file4">
@@ -242,8 +245,8 @@
                   <div class="form-block" id="location">
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
-                        <div class="input-field-col">
-                          <label for="text">Location
+                        <div class="input-field-col has-flexible-input">
+                          <label for="location">Location
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
                             </span>
@@ -254,7 +257,8 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <input type="text" id="text"placeholder="123 Edinburgh Street" value="123 Edinburgh Street">
+                          <div class="flexible-input" role="textbox" placeholder="123 Edinburgh Street" contenteditable="true">123 Edinburgh Street</div>
+                          <input class="flexible-input-val" type="location" id="title" placeholder="123 Edinburgh Street" value="123 Edinburgh Street">
                         </div>
                       </div>
                     </div>
@@ -340,7 +344,8 @@
                    <div class="form-block" id="screening-questions">
                     <div class="input-field-wrapper">
                       <div class="input-field-row">
-                        <div class="input-field-col">
+
+                        <div class="input-field-col has-flexible-input">
                           <label for="screening-questions">Screening Questions
                             <span class="tol-tip">
                               <i class="fas fa-info-circle"></i>
@@ -352,7 +357,8 @@
                                 <p>If you are looking for a logo, you should choose "Logo Design".</p>
                             </div>
                           </label>
-                          <textarea class="textbox" id="screening-questions" placeholder="Can you share some of your past work?" value="Can you share some of your past work?"></textarea>
+                          <div class="flexible-input" role="textbox" placeholder="Write a screening question(s) for pros to answer" contenteditable="true">Can you share some of your past work?</div>
+                          <input class="flexible-input-val" type="text" id="screening-questions" placeholder="Write a screening question(s) for pros to answer">
                         </div>
                       </div>
                     </div>

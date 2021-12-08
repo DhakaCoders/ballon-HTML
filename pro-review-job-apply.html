@@ -206,18 +206,8 @@
                       <div class="input-field-wrapper">
                         <div class="input-field-row">
                           <div class="input-field-col">
-                            <label for="">Dates</label>
-                            <div class="create-a-job-form contact-select-down-icon">
-                               <select class="create-a-job-form select-2-cntlr">
-                                  <option selected>05/11/2021 - 16/11/2021</option>
-                                  <option value="1">05/11/2021 - 16/11/2021</option>
-                                  <option value="2">05/11/2021 - 16/11/2021</option>
-                                  <option value="3">05/11/2021 - 16/11/2021</option>
-                                  <option value="4">05/11/2021 - 16/11/2021</option>
-                                  <option value="5">05/11/2021 - 16/11/2021</option>
-                                  <option value="5">05/11/2021 - 16/11/2021</option>
-                               </select>
-                            </div>
+                            <label for="dates">Dates</label>
+                            <input type="text" id="dates" placeholder="DD/MM/YYYY">
                           </div>
                         </div>
                       </div>
@@ -225,9 +215,10 @@
                     <div class="form-block">
                       <div class="input-field-wrapper">
                         <div class="input-field-row">
-                          <div class="input-field-col">
+                          <div class="input-field-col has-flexible-textarea">
                             <label for="text">Screening Questions</label>
-                            <textarea name="" id="" placeholder="Can you share some of your past work?"></textarea>
+                            <div class="flexible-textarea" role="textbox" placeholder="Can you share some of your past work?" contenteditable="true"></div>
+                            <input value="" class="flexible-textarea-val" type="text" id="screening-questions">
                           </div>
                         </div>
                       </div>
@@ -235,9 +226,10 @@
                     <div class="form-block">
                       <div class="input-field-wrapper">
                         <div class="input-field-row">
-                          <div class="input-field-col">
+                          <div class="input-field-col has-flexible-textarea">
                             <label for="text">Cover Letter</label>
-                            <textarea name="" id="" placeholder="Write a short covering letter explaining why you are the best fit for this job."></textarea>
+                            <div class="flexible-textarea" role="textbox" placeholder="Write a short covering letter explaining why you are the best fit for this job." contenteditable="true"></div>
+                            <input value="" class="flexible-textarea-val" type="text" id="cover-letter">
                           </div>
                         </div>
                       </div>

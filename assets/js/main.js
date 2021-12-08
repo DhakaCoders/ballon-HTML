@@ -1,6 +1,4 @@
 (function($) {
-
-
 var windowWidth = $(window).width();
 $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
@@ -393,15 +391,6 @@ $(window).load(function() {
  
 });
 
-/*jobs */
-/*if($('.job-cntnt-item-copy a').length){
-  $('.job-cntnt-item-copy a').click( function(e){ 
-   e.preventDefault();
-    var CopyLink = $(this).parents('.job-cntnt-item').find('.job-cntnt-item-title a').attr('href');
-    alert(CopyLink);
-  });
-}*/
-
 if($('.job-cntnt-item-copy a').length){
   $('.job-cntnt-item-copy a').click( function(e){ 
     e.preventDefault();
@@ -418,16 +407,49 @@ if($('.mgs-s-switch').length){
 }
 
 
+
 if($('.input-field-label-col').length){
-  $('.input-field-label-col input').on("keyup", function(e){
-    var labelVal = $('.input-field-label-col input').val();
-    if (labelVal != '') {
-      $(this).parent('.input-field-label-col').find('label').hide();
-      /*$('.input-field-label-col label').hide();*/
-    }else{
-      /*$('.input-field-label-col label').show();*/
-      $(this).parent('.input-field-label-col').find('label').show();
-    }
+  $('.input-field-label-col input').each(function(){
+    $(this).on("keyup", function(e){
+      var labelVal = $(this).val();
+      if (labelVal != '') {
+        $(this).parent('.input-field-label-col').find('label').hide();
+        /*$('.input-field-label-col label').hide();*/
+      }else{
+        /*$('.input-field-label-col label').show();*/
+        $(this).parent('.input-field-label-col').find('label').show();
+      }
+    });
+  });
+}
+
+if($('.flexible-input').length){
+  $('.flexible-input').each(function(){
+    $(this).on("keyup", function(e){
+      var labelVal = $(this).text();
+      if (labelVal != '') {
+        $(this).addClass('has-value');
+      }else{
+        $(this).removeClass('has-value');
+      }
+      $(this).next('input').val(labelVal);
+      console.log($(this).next('input').val());
+    });
+  });
+}
+
+if($('.flexible-textarea').length){
+  $('.flexible-textarea').each(function(){
+    $(this).on("keyup", function(e){
+      var labelVal = $(this).text();
+      if (labelVal != '') {
+        $(this).addClass('has-value');
+      }else{
+        $(this).removeClass('has-value');
+      }
+      $(this).next('input').val(labelVal);
+      console.log($(this).next('input').val());
+    });
   });
 }
 
@@ -450,6 +472,33 @@ $('.filter-menu').on('click', function(){
 });
 $('.close-filter').on('click', function(){
   $('body').removeClass('has-filter');
+});
+
+$('.bln-messege-company-list ul li a.chat-window').on('click', function(e){
+  e.preventDefault();
+  var wind = $(this).attr('href');
+  $('.bln-messege-company-list ul li').removeClass('active');
+  $(this).parents('li').addClass('active');
+});
+
+$('.jc-brief a.jc-e-full').on('click', function(e){
+  e.preventDefault();
+  $(this).parents('.job-cntnt-item-des').find('.jc-brief').hide();
+  $(this).parents('.job-cntnt-item-des').find('.jc-full').show();
+});
+
+$(window).scroll(function(){
+  var sticky = $('body'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 150) sticky.addClass('has-to-top');
+  else sticky.removeClass('has-to-top');
+});
+
+$('.to-top').on('click', function(e){
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
 });
 
 })(jQuery);

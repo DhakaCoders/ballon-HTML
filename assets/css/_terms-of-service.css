@@ -64,6 +64,33 @@
 	margin-bottom: 25px;
 	color: #000000;
 }
+.to-top {
+    position: fixed;
+    right: 80px;
+    bottom: 90px;
+    max-width: 70px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.has-to-top .to-top{
+	bottom: 100px;
+    opacity: 1;
+    visibility: visible;
+}
+@media(max-width: 1300px){
+	.to-top {
+	    right: 15px;
+	    max-width: 50px;
+	}
+}
+@media(max-width: 1199px){
+	.to-top {
+	    right: 15px;
+	    max-width: 40px;
+	}
+}
 @media(max-width: 991px){
 	.ts-sidebar-sec-inr {
 	    padding-left: 0;
@@ -140,5 +167,8 @@
 	.ts-sidebar-sec-inr{
 		padding-left: 0;
 		padding-right: 0;
+	}
+	.to-top {
+	    display: none;
 	}
 }

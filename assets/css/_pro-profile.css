@@ -11,7 +11,6 @@
     text-transform: capitalize;
     padding-left: 10px;
     font-size: 16px;
-    font-family: 'MyriadPro-Regular';
     font-weight: 600;
     font-style: normal;
     letter-spacing: 0.5px;
@@ -281,9 +280,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0s!important;
-    -webkit-transition: all 0s!important;
-    -moz-transition: all 0s!important;
 }
 .bln-company-intro-socials ul li a span{
     display: inline-block;
@@ -303,23 +299,26 @@
     background: #7a92d0;
     height: 26px;
     width: 27px;
-    /*transition: all 0.5s!important;*/
-    /*-webkit-transition: all 0.5s!important;*/
-    /*-moz-transition: all 0.5s!important;*/
 }
 .social-fb a i {
     font-size: 22px!important;
     margin-top: 4px;
     color: #fff;
-    transition: all 0.9s!important;
-    -webkit-transition: all 0.9s!important;
-    -moz-transition: all 0.9s!important;
+    transition: all 0.5s!important;
+    -webkit-transition: all 0.5s!important;
+    -moz-transition: all 0.5s!important;
 }
-.social-fb a:hover{
-    background-color: #fa5252;
+.bln-company-intro-socials .social-fb a:hover{
+    background-color: #566da7;
     transition: all .5s!important;
     -webkit-transition: all .5s!important;
     -moz-transition: all .5s!important;
+}
+.bln-company-intro-socials a:hover{
+    color: #566da7;
+}
+.bln-company-intro-socials i{
+    transition: initial;
 }
 .bln-about-sec{
     padding-bottom: 80px;
@@ -1651,113 +1650,114 @@
 
 
 @media(max-width: 479px){
-.bln-loc-exprt-cntnt-lft {
-    padding-right: 0;
-    width: 100%;
-}
-.revw-rate {
-    font-size: 19px!important;
-}
-.bln-vfqf-cntns-lft {
-    width: 100%;
-    padding-right: 0px;
+    .bln-loc-exprt-cntnt-lft {
+        padding-right: 0;
+        width: 100%;
+    }
+    .revw-rate {
+        font-size: 19px!important;
+    }
+    .bln-vfqf-cntns-lft {
+        width: 100%;
+        padding-right: 0px;
 
-}
-.bln-xs-revw-item-rating-inr>  ul> li> a >i {
-    font-size: 16px;
-}
-.bln-vfqf-qualfi-cntlr {
-    padding-top: 0;
-}
-.bln-vfqf-cntqualification-title {
-    margin-bottom: 10px;
-}
-.bln-vfqf-verified-item-list ul li {
-    max-width: 50%;
-}
-.bln-vfqf-cntnts-rgt {
-    padding-left: 0;
-    width: 100%;
-}
-.bln-loc-exprt-cont-rgt {
-    width: 100%;
-    padding-left: 0;
-}
-.bln-loc-exprt-google-map-cntlr{
-    padding-left: 0;
-}
-.bln-loc-exprt-expert-sectors ul li span {
-    padding: 4px 7px;
-    font-size: 16px;
-}
-.bln-about-fancy-more-items {
-    height: 90px;
-    width: 90px;
-    right: 15px;
-    bottom: -15px;
-}
+    }
+    .bln-xs-revw-item-rating-inr>  ul> li> a >i {
+        font-size: 16px;
+    }
+    .bln-vfqf-qualfi-cntlr {
+        padding-top: 0;
+    }
+    .bln-vfqf-cntqualification-title {
+        margin-bottom: 10px;
+    }
+    .bln-vfqf-verified-item-list ul li {
+        max-width: 50%;
+    }
+    .bln-vfqf-cntnts-rgt {
+        padding-left: 0;
+        width: 100%;
+    }
+    .bln-loc-exprt-cont-rgt {
+        width: 100%;
+        padding-left: 0;
+    }
+    .bln-loc-exprt-google-map-cntlr{
+        padding-left: 0;
+    }
+    .bln-loc-exprt-expert-sectors ul li span {
+        padding: 4px 7px;
+        font-size: 16px;
+    }
+    .bln-about-fancy-more-items {
+        height: 90px;
+        width: 90px;
+        right: 15px;
+        bottom: -15px;
+    }
+        .bln-company-intro-title {
+        font-size: 24px!important;
+    }
+    .bln-company-intro-top-lft {
+        padding-right: 20px;
+        padding-bottom: 5px;
+    }
+    .bln-company-intro-item {
+        padding: 20px 15px 20px 15px;
+    }
+    .bln-company-intro-locatn, .bln-company-intro-time {
+        font-size: 15px;
+    }
+    .bln-company-intro-contact-methods ul li a i {
+        margin-left: 5px;
+        margin-top: 7px;
+        font-size: 15px;
+    }
+    .bln-company-intro-cntnts-btm-lft {
+        padding-right: 0!important;
+    }
+    .bln-company-intro-contact-methods ul li a {
+        text-align: left;
+    }
+    .bln-company-intro-contact-methods ul li a span {
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        padding-left: 0px!important;
+    }
+    .bln-company-intro-contact-methods ul li {
+        margin-bottom: 0;
+    }
+    .bln-company-intro-contact-methods ul li {
+        margin-bottom: 0;
+    }
+    .bln-about-fancy-gallery {
+        height: 200px;
+    }
     .bln-company-intro-title {
-    font-size: 24px!important;
-}
-.bln-company-intro-top-lft {
-    padding-right: 20px;
-    padding-bottom: 5px;
-}
-.bln-company-intro-item {
-    padding: 20px 15px 20px 15px;
-}
-.bln-company-intro-locatn, .bln-company-intro-time {
-    font-size: 15px;
-}
-.bln-company-intro-contact-methods ul li a i {
-    margin-left: 5px;
-    margin-top: 7px;
-    font-size: 15px;
-}
-.bln-company-intro-cntnts-btm-lft {
-    padding-right: 0!important;
-}
-.bln-company-intro-contact-methods ul li a {
-    text-align: left;
-}
-.bln-company-intro-contact-methods ul li a span {
-    transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    padding-left: 0px!important;
-}
-.bln-company-intro-contact-methods ul li {
-    margin-bottom: 0;
-}
-.bln-company-intro-contact-methods ul li {
-    margin-bottom: 0;
-}
-.bln-about-fancy-gallery {
-    height: 200px;
-}
-.bln-company-intro-title {
-    font-size: 21px!important;
-}
-.social-fb a {
-    height: 21px!important;
-    width: 21px!important;
-    margin-top: 1px;
-}
-.social-fb a i {
-    font-size: 17px!important;
-    margin-top: 5px;
-}
-.bln-company-intro-contact-methods ul li{
-    margin-bottom: 5px;
-}
-.bln-vfqf-verified-item-list ul li{
-    width: 100%;
-    max-width: 100%;
-}
-.bln-vfqf-verified-item-list{
-    padding-bottom: 15px;
-}
+        font-size: 21px!important;
+    }
+    .social-fb a {
+        height: 21px!important;
+        width: 21px!important;
+        margin-top: 1px;
+    }
+    .social-fb a i {
+        font-size: 17px!important;
+        margin-top: 5px;
+    }
+    .bln-company-intro-contact-methods ul li{
+        margin-bottom: 5px;
+    }
+    .bln-vfqf-verified-item-list{
+        padding-bottom: 15px;
+    }
 
+}
+@media(max-width: 355px){
+    .bln-vfqf-verified-item-list ul li {
+        padding: 0 5px;
+    }
 }
 
 

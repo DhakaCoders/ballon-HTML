@@ -86,7 +86,8 @@
 	text-transform: capitalize;
 }
 .bln-messege-sortby span.select2.select2-container.select2-container--default {
-    width: 82px!important;
+    width: initial!important;
+    padding-right: 3px;
 }
 .bln-messege-sortby .select2-selection__arrow:after{
 	content: "\f0d7";
@@ -95,11 +96,11 @@
 }
 
 .messege .select2-dropdown .select2-results{
-	width: 120px!important;
+	min-width: 120px!important;
 }
 
 .bln-messege-sortby-ctlr .select2-container--default .select2-selection--single .select2-selection__rendered{
-	padding: 4px 16px 13px 8px;
+	padding: 5px 16px 13px 0;
 }
 .bln-messege-company-list{
 	padding: 0 7px 10px 0;
@@ -154,7 +155,7 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-	z-index: 0;
+	z-index: 5;
 }
 .bln-msg-cmpny-list-item-img-ctlr{
 	width: 20%;
@@ -185,12 +186,15 @@
 	font-size: 14px;
 	margin-bottom: 2px;
 }
-.bln-msg-title a{
+.bln-msg-title a,
+.bln-msg-title{
 	text-decoration: none;
 	color: #000000;
 }
 .active .bln-msg-title a,
-.bln-msg-title a:hover{
+.active .bln-msg-title,
+.bln-msg-title a:hover,
+.bln-msg-cmpny-list-item:hover .bln-msg-title a{
 	color: #fa5252;
 }
 .bln-msg-hdr{
@@ -311,9 +315,6 @@
 	margin-top: -2px;
 	font-size: 16px;
 }
-.bln-messege-des-hdr-rgt a:hover i{
-	margin-left: -3px;
-}
 .bln-messege-des-hdr-rgt a:hover{
 	background: #e3e8f7;
 }
@@ -362,29 +363,26 @@
 }
 .bln-msg-send-inr{
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 }
 .bln-msg-send .file-upload-here{
 	padding-left: 27px;
 }
 .bln-upload-file{
 	position: relative;
-	width: 5%;
-	padding-right: 20px;
+	width: 3%;
+	padding-right: 4px;
+	padding-bottom: 10px;
 }
 .bln-upload-file-inr{
 	height: 25px;
 	cursor: pointer;
+	font-size: 20px;
 }
 .bln-upload-file label{
-	position: absolute;
-	top: 50%;
-	left: 0;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
 	margin-bottom: 0;
 	cursor: pointer;
+	line-height: 20px;
 }
 .bln-upload-file input[type=file]{
 	position: relative;
@@ -400,7 +398,7 @@
 }
 .bln-msg-input-field{
 	position: relative;
-	width: 81%;
+	width: 83%;
 }
 
 .bln-msg-input-field input[type=text],
@@ -440,13 +438,26 @@
 	border-color: #8b8888;
 }
 
-.bln-msg-icons{
+.bln-msg-icons,
+label.mgs-file{
 	position: absolute;
-	top: 50%;
 	right: 10px;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	bottom: 12px;
+}
+label.mgs-file{
+	position: absolute;
+	right: 10px;
+	bottom: 12px;
+	font-size: 20px;
+	margin: 0;	
+}
+.bln-msg-input-field .emoji-picker-icon {
+    color: #76787c;
+    right: 35px;
+    opacity: 1;
+    bottom: 12px;
+    top: auto;
+    height: 24px;
 }
 .bln-msg-icons-inr{
 	display: flex;
@@ -470,7 +481,7 @@
 	width: 14%;
 }
 .bln-msg-send-btn button{
-	padding: 10px 20px;
+	padding: 11px 20px;
 	background: #fa5252;
 	border: 2px solid #fa5252;
 	border-radius: 5px;
@@ -489,17 +500,19 @@
 	background: transparent;
 	color: #fa5252;
 }
-.bln-msg-input-field .emoji-picker-icon{
-	color: #76787c;
-	right: 35px;
-    top: 13px;
-    opacity: 1;
-}
 .bln-msg-input-field .emoji-picker-icon:hover{
 	opacity: 0.7;
 }
 .emoji-wysiwyg-editor{
 	padding-right: 60px;
+	border-radius: 6px;
+	border: 2px solid #cecece;
+}
+body .emoji-wysiwyg-editor {
+    min-height: 50px!important;
+    height: auto!important;
+    padding: 14px 10px;
+    padding-right: 60px;
 }
 .mgs-settings {
     position: absolute;
@@ -520,18 +533,24 @@
     line-height: 1;
     padding: 6px;
 }
+label.mgs-file{
+	display: none;
+}
 @media(max-width: 1199px){
 	.bln-messege-lft-sidebar {
 	    width: 32%;
+	}
+	.bln-upload-file{
+		width: 4%;
 	}
 	.bln-messege-des {
 	    width: 68%;
 	}
 	.bln-msg-send-btn{
-		width: 19%;
+		width: 16%;
 	}
 	.bln-msg-input-field{
-		width: 76%;
+		width: 80%;
 	}
 	.bln-msg-grd-col{
 		width: 75%;
@@ -564,17 +583,17 @@
 		width: 80%;
 	}
 	.bln-msg-send-btn button{
-		padding: 10px 20px;
+		padding: 11px 20px;
 		max-width: 100px;
 	}
 	.bln-msg-send-btn {
-	    width: 24%;
+	    width: 20%;
 	}
 	.bln-msg-input-field {
-	    width: 68%;
+	    width: 75%;
 	}
 	.bln-upload-file{
-		width: 8%;
+		width: 5%;
 	}
 	.bln-msg-grd-col{
 		width: 85%;
@@ -590,8 +609,10 @@
 	}
 	.bln-messege-lft-sidebar {
 	    width: 100%;
-	    margin-bottom: 30px;
+	    margin-bottom: 25px;
 	    padding-top: 30px;
+	    border-bottom: 2px solid #e1e1e1;
+	    padding-bottom: 20px;
 	}
 	.bln-messege-des {
 	    width: 100%;
@@ -616,8 +637,28 @@
 	.bln-messege-company-list {
 	    padding: 0 10px 10px 10px;
 	}
-	.bln-msg-icon-col i{
+	.bln-msg-icon-col i,
+	.bln-msg-input-field .emoji-picker-icon,
+	label.mgs-file,
+	.bln-upload-file label{
 		font-size: 18px;
+	}
+	body .emoji-wysiwyg-editor{
+		min-height: 48px!important;
+	    padding: 13px 10px;
+	    padding-right: 60px;
+	}
+	.bln-msg-input-field .emoji-picker-icon{
+		bottom: 10px;
+	}
+	.bln-msg-icons{
+		bottom: 12px;
+	}
+	.bln-upload-file{
+		padding-bottom: 11px;
+	}
+	.bln-msg-send-btn button{
+		padding: 10px 20px;
 	}
 }
 
@@ -632,7 +673,7 @@
 	    width: 25%;
 	}
 	.bln-msg-input-field {
-	    width: 67%;
+	    width: 75%;
 	}
 	.bln-msg-grds{
 		padding-bottom: 30px;
@@ -640,6 +681,25 @@
 	.bln-messege-search input[type=text]{
 		padding-top: 8px;
 		padding-bottom: 8px;
+	}
+	.bln-upload-file{
+		display: none;
+	}
+	.bln-msg-input-field .emoji-picker-icon {
+	    right: 55px;
+	    bottom: 10px;
+	}
+	.bln-msg-icons {
+	    right: 31px;
+	    bottom: 12px;
+	} 
+	label.mgs-file {
+	    right: 10px;
+	    bottom: 13px;
+	    display: block;
+	}
+	body .emoji-wysiwyg-editor{
+		padding-right: 75px;
 	}
 }
 

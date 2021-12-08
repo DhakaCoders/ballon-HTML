@@ -69,7 +69,7 @@
 	color: #fa5252;
 }
 .job-cntnt-item-details{
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 .job-cntnt-item-details ul{
 	display: flex;
@@ -171,7 +171,7 @@
 	color: #fa5252;
 }
 .job-cntnt-item-cntcted{
-	padding: 0 14px;
+	padding: 0 0 0 14px;
 }
 .job-cntnt-item-cntcted-title{
 	display: inline-block;
@@ -258,6 +258,7 @@
 }
 .expend-module{
 	display: none;
+	padding-bottom: 15px;
 }
 .job-cntnt-item.expended .job-cntnt-item-copy a{
 	color: #fa5252;
@@ -334,7 +335,7 @@
 }
 @media (max-width: 575px){
 	.job-cntnt-item-details {
-	    margin-bottom: 0;
+	    margin-bottom: 5px;
 	    margin-top: 13px;
 	}
 	.job-content-cntlr{

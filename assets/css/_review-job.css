@@ -11,9 +11,6 @@
 .review-job-mdul{
 	margin-bottom: 48px;
 }
-.proposal-job-cntnt-mdul{
-
-}
 .proposal-job-cntnt-mdul .profile{
 	width: 80px;
 	height: 80px;
@@ -61,7 +58,15 @@
 .proposal-job-cntnt-mdul .job-cntnt-item-pro-msg ul li.job-cntnt-profile-item-cntlr{
 	margin-top: 10px;
 }
-
+.review-job-cntlr .proposal-job-cntnt-mdul .job-cntnt-item{
+	padding-bottom: 25px;
+}
+.jc-full{
+	display: none;
+}
+.review-job-sec .select2-container--default .select2-selection--single .select2-selection__rendered{
+	padding-top: 5px;
+}
 @media (max-width: 991px){
 	.proposal-job-cntnt-mdul .job-cntnt-item-rgt{
 		width: 68%;

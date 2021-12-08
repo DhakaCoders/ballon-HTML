@@ -208,6 +208,58 @@ body .select2-selection--multiple textarea::placeholder{
     min-height: 58px!important;
     resize: vertical;
 }
+.flexible-input,
+.flexible-textarea{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 58px;
+    background: #fff;
+    border: 2px solid #cecece;
+    box-sizing: border-box;
+    padding: 15px 20px 15px 16px;
+    padding-right: 20px;
+    color: #2b2b2b;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 6px!important;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-family: 'Inter', sans-serif;
+}
+.flexible-input span,
+.flexible-textarea span{
+    font-size: 19px!important;
+    line-height: 24px!important;
+    font-weight: 500!important; 
+    color: #2b2b2b!important;   
+    font-family: 'Inter', sans-serif;
+}
+.flexible-input:focus,
+.flexible-textarea:focus{
+    border-color: #2b2b2b;
+}
+.flexible-input:empty:before,
+.flexible-textarea:empty:before{
+    content: attr(placeholder);
+    cursor: text;
+}
+.flexible-input.has-value:before,
+.flexible-textarea.has-value:before{
+    display: none;
+}
+.flexible-input-val,
+.flexible-textarea-val{
+    display: none;
+}
+.has-flexible-textarea .flexible-textarea{
+    min-height: 189px;
+}
+.has-flexible-textarea.has-upload .flexible-textarea{
+    padding-right: 30px;
+}
 @media(max-width:1199px){
     .create-a-job-form .input-field-col label, 
     .pro-review-job .input-field-col > span{
@@ -228,6 +280,30 @@ body .select2-selection--multiple textarea::placeholder{
     }
     body .select2-selection--multiple textarea{
         margin-top: 14px!important;
+    }
+    .flexible-input,
+    .flexible-input span,
+    .flexible-textarea,
+    .flexible-textarea span{
+        font-size: 18px!important;
+        line-height: 23px!important;        
+    }
+    .flexible-input{
+        min-height: 55px;
+        padding: 13px 20px 12px 16px;
+    }
+    .create-a-job-form .input-field-col input, 
+    .create-a-job-form .input-field-col textarea {
+        padding: 12px 20px 12px 16px;
+    }
+    .flexible-textarea{
+        padding: 12px 20px 12px 16px;
+    }
+    .has-flexible-textarea.has-upload .flexible-textarea {
+        padding-right: 30px;
+    }
+    .has-flexible-textarea .flexible-textarea {
+        min-height: 170px;
     }
 }
 @media(max-width:991px){
@@ -280,6 +356,30 @@ body .select2-selection--multiple textarea::placeholder{
         margin-top: 0!important;
         margin-bottom: 3px!important;
     }
+    .flexible-input,
+    .flexible-input span,
+    .flexible-textarea,
+    .flexible-textarea span{
+        font-size: 16px!important;
+        line-height: 23px!important;        
+    }
+    .create-a-job-form .input-field-col input, .create-a-job-form .input-field-col textarea {
+        padding: 11px 20px 11px 16px;
+    }
+    .flexible-input{
+        min-height: 50px;
+        padding: 11px 20px 11px 16px;
+    }
+    .flexible-textarea{
+        padding: 11px 20px 11px 16px;
+    }
+    .has-flexible-textarea.has-upload .flexible-textarea {
+        padding-right: 30px;
+    }
+    .has-flexible-textarea .flexible-textarea {
+        min-height: 150px;
+    }
+
 }
 @media(max-width:639px){
     .create-a-job-form .form-block {
@@ -294,5 +394,12 @@ body .select2-selection--multiple textarea::placeholder{
     .form-block {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .flexible-input,
+    .flexible-input span,
+    .flexible-textarea,
+    .flexible-textarea span{
+        font-size: 15px!important;
+        line-height: 22px!important;        
     }
 }

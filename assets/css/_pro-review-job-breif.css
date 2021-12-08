@@ -71,6 +71,11 @@
 		padding-right: 20px;
 	}
 }
+@media(max-width:639px){
+	.pro-review-job-brf .myaccount-menu{
+		display: none;
+	}
+}
 @media(max-width: 575px){
 	.pro-review-job-brf .pro-review-job .input-field-col p{
 		font-size: 17px;
