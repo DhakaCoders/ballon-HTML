@@ -223,6 +223,7 @@ body .select2-selection--multiple textarea::placeholder{
     font-size: 19px;
     line-height: 24px;
     font-weight: 500;
+    word-wrap: break-word;
     border-radius: 6px!important;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -399,7 +400,7 @@ body .select2-selection--multiple textarea::placeholder{
     .flexible-input span,
     .flexible-textarea,
     .flexible-textarea span{
-        font-size: 15px!important;
+        font-size: 16px!important;
         line-height: 22px!important;        
     }
 }

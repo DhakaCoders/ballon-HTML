@@ -29,7 +29,7 @@
 
 .login-check-cntlr{
     position: relative;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 28px;
     font-size:  16px;
     display: inline-block;
 }
@@ -48,23 +48,23 @@
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
-.login-check-cntlr span.checkmark{
-  position: absolute;
-  top: 49%;
-  left: 8px;
-  height: 15px;
-  width: 15px;
-  background: transparent;
-  border: 1px solid #767875;
-  border-radius: 2px;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
+.login-check-cntlr span.checkmark {
+    position: absolute;
+    top: 48%;
+    left: 8px;
+    height: 13px;
+    width: 14px;
+    background: transparent;
+    border: 1px solid #767875;
+    border-radius: 2px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 .login-check-cntlr span.checkmark::after{
   left: 4px;
-  top: 1px;
-  width: 5px;
+  top: 0;
+  width: 4px;
   height: 9px;
   border: solid #ffffff;
   border-width: 0 2px 2px 0;

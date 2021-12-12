@@ -617,6 +617,12 @@ body.page-explore .select2-dropdown{
     flex-wrap: wrap;	
     align-items: center;
 }
+.explr-cntnt-sortby-cntlr span.select2.select2-container.select2-container--default .select2-selection__rendered{
+	padding-top: 7px;
+}
+.explr-cntnt-sortby.select-2-sortby .select2-selection__arrow:after{
+	top: 11px;
+}
 @media(max-width: 1199px){
 	.explore-content-cntlr{
 		padding-right: 30px;

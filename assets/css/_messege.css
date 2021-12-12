@@ -1,4 +1,3 @@
-
 .bln-messege-sec{
 	padding: 35px 0 30px;
 }
@@ -314,6 +313,9 @@
 	transform: translateY(-50%);
 	margin-top: -2px;
 	font-size: 16px;
+}
+.bln-messege-des-hdr-rgt a.view-profile i {
+    margin-top: -0.5px;
 }
 .bln-messege-des-hdr-rgt a:hover{
 	background: #e3e8f7;
